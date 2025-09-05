@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-import silver from '../assert/Packages/Silver.png'; // TODO: Replace with a relevant image
+import Silver from '../assert/Packages/Silver.png'; // TODO: Replace with a relevant image
 
 import Silver1 from '../assert/Packages/silver/Silver1.png'; // TODO: Replace with relevant images
 import Silver2 from '../assert/Packages/silver/Silver2.png';

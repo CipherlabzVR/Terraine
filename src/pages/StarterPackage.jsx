@@ -3,23 +3,21 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import packageImage from '../assert/Packages/coper.png'; // Replace with appropriate package image
 
+// ✅ Keep exact names/paths; resolve via module URL so Rollup/Vercel can find them
+const packageImage = new URL('../assert/Packages/coper.png', import.meta.url).href;
 
-import brownz1 from '../assert/Packages/brownz/brownz1.png';
-import brownz2 from '../assert/Packages/brownz/brownz2.png';
-import brownz3 from '../assert/Packages/brownz/brownz3.png';
-import brownz4 from '../assert/Packages/brownz/brownz4.png';
-import brownz5 from '../assert/Packages/brownz/brownz5.png';
-
-
-
-
+const brownz1 = new URL('../assert/Packages/brownz/brownz1.png', import.meta.url).href;
+const brownz2 = new URL('../assert/Packages/brownz/brownz2.png', import.meta.url).href;
+const brownz3 = new URL('../assert/Packages/brownz/brownz3.png', import.meta.url).href;
+const brownz4 = new URL('../assert/Packages/brownz/brownz4.png', import.meta.url).href;
+const brownz5 = new URL('../assert/Packages/brownz/brownz5.png', import.meta.url).href;
 
 const packageDetails = {
   name: 'Residential Project Package',
   subtitle: '“Building Homes that define Comfort and Elegance”',
-  description: 'Experience the ultimate in modern living with our Residential Project Package. We transform your vision into beautifully crafted, sustainable homes, blending innovative design, smart technology, and flawless execution.',
+  description:
+    'Experience the ultimate in modern living with our Residential Project Package. We transform your vision into beautifully crafted, sustainable homes, blending innovative design, smart technology, and flawless execution.',
   idealFor: 'Homeowners, Property Developers, Housing Societies, Apartments, Vila, Cabanas',
   includes: [
     'Engineering Consultancy',
@@ -44,16 +42,16 @@ const packageDetails = {
     'Digital Twin Integration for real-time monitoring & predictive maintenance',
     'Cost & Value Engineering Solutions',
     'Project Maintenance',
-    'Life time Warranty and Free Engineering Maintenance Consultation'
+    'Life time Warranty and Free Engineering Maintenance Consultation',
   ],
-  benefits: [ ]
+  benefits: [],
 };
 
 const StarterPackage = () => {
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
   const [currentImage, setCurrentImage] = useState(0);
-  const images = [brownz2, brownz3, brownz4, brownz5, brownz1]; // Replace with actual house images
+  const images = [brownz2, brownz3, brownz4, brownz5, brownz1];
 
   // Scroll to top on mount
   useEffect(() => {
@@ -63,11 +61,9 @@ const StarterPackage = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > lastScrollY.current) {
-        // Scrolling down
-        setShowHeader(false);
+        setShowHeader(false); // scrolling down
       } else {
-        // Scrolling up
-        setShowHeader(true);
+        setShowHeader(true); // scrolling up
       }
       lastScrollY.current = window.scrollY;
     };
@@ -76,34 +72,31 @@ const StarterPackage = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Update the useEffect that controls image transitions
+  // Image transition
   useEffect(() => {
     const interval = setInterval(() => {
-      // Trigger the animation before changing the currentImage state
       const nextImageEl = document.getElementById('nextImage');
       const currentImageEl = document.getElementById('currentImage');
-      
+
       if (nextImageEl && currentImageEl) {
-        // Start animation
         currentImageEl.style.opacity = '0';
         currentImageEl.style.transform = 'scale(0.95) translateZ(0)';
         nextImageEl.style.opacity = '1';
         nextImageEl.style.transform = 'scale(1.0) translateZ(0)';
-        
-        // Change the currentImage state after animation starts
+
         setTimeout(() => {
           setCurrentImage((prev) => (prev + 1) % images.length);
-        }, 1500); // Wait until animation is almost complete
+        }, 1500);
       } else {
         setCurrentImage((prev) => (prev + 1) % images.length);
       }
     }, 7000);
-    
+
     return () => clearInterval(interval);
   }, [images.length]);
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
+    <div className="min-h-screen" style={{ backgroundColor: '#0b2741' }}>
       {/* Header with hide/show animation */}
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${
@@ -121,6 +114,7 @@ const StarterPackage = () => {
             {/* Blue light accents */}
             <div className="absolute top-0 right-1/4 w-96 h-96 rounded-full bg-blue-500/10 blur-3xl"></div>
             <div className="absolute bottom-0 left-1/4 w-120 h-120 rounded-full bg-blue-600/10 blur-3xl"></div>
+
             {/* Animated image transition */}
             <div className="relative w-full h-full overflow-hidden">
               {/* Current image */}
@@ -132,13 +126,13 @@ const StarterPackage = () => {
                 style={{
                   opacity: 1,
                   zIndex: 10,
-                  objectPosition: "center",
-                  transform: "scale(1.0) translateZ(0)",
-                  transition: 'opacity 1.5s ease-in-out, transform 2s ease-out'
+                  objectPosition: 'center',
+                  transform: 'scale(1.0) translateZ(0)',
+                  transition: 'opacity 1.5s ease-in-out, transform 2s ease-out',
                 }}
                 key={currentImage}
               />
-              
+
               {/* Next image */}
               <img
                 id="nextImage"
@@ -148,29 +142,29 @@ const StarterPackage = () => {
                 style={{
                   opacity: 0,
                   zIndex: 9,
-                  objectPosition: "center",
-                  transform: "scale(1.05) translateY(10px) translateZ(0)", 
-                  transition: 'opacity 1.5s ease-in-out, transform 2s ease-out'
+                  objectPosition: 'center',
+                  transform: 'scale(1.05) translateY(10px) translateZ(0)',
+                  transition: 'opacity 1.5s ease-in-out, transform 2s ease-out',
                 }}
                 aria-hidden="true"
               />
             </div>
           </div>
         </div>
-        
+
         <main className="pt-0 md:pt-0 pb-0 md:pb-0">
           <div className="w-full max-w-[2400px] mx-auto px-4 md:px-12 lg:px-24 relative z-20">
             {/* Main Content Section */}
             <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-12 mb-0">
               <div className="hidden lg:block"></div>
-              <div className="flex flex-col justify-start p-0 pt-0 pb-1 lg:pb-1 xl:pb-4 bg-gradient-to-r from-cyan-600 to-[#0b2741] rounded-3xl  relative overflow-hidden shadow-2xl ml-0 lg:ml-0 lg:-mr-16 mt-0 lg:mt-0">
+              <div className="flex flex-col justify-start p-0 pt-0 pb-1 lg:pb-1 xl:pb-4 bg-gradient-to-r from-cyan-600 to-[#0b2741] rounded-3xl relative overflow-hidden shadow-2xl ml-0 lg:ml-0 lg:-mr-16 mt-0 lg:mt-0">
                 {/* Background effects */}
                 <div className="absolute -inset-1 bg-gradient-to-tr from-black/40 via-white/5 to-black/30 rounded-[inherit] blur-md opacity-70 z-0"></div>
                 <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-white/10 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-black/20 to-transparent"></div>
                 <div className="absolute -right-8 top-1/3 w-40 h-40 rounded-full bg-white/10 blur-2xl"></div>
                 <div className="absolute -left-8 bottom-1/3 w-40 h-40 rounded-full bg-black/20 blur-2xl"></div>
-                
+
                 {/* Light effects */}
                 <div className="absolute inset-0 opacity-10 pointer-events-none">
                   <div className="absolute top-0 right-0 w-64 h-64 bg-white/20 rounded-full blur-3xl"></div>
@@ -178,35 +172,29 @@ const StarterPackage = () => {
                   <div className="absolute bottom-1/3 right-1/4 w-32 h-32 bg-white/20 rounded-full blur-xl"></div>
                 </div>
 
-                {/* Background shading */}
-                <div className="hidden lg:block absolute -inset-12 z-0">
-                  <div className="absolute top-1/4 -right-20 w-80 h-80 rounded-full bg-blue-500/5 blur-[100px]"></div>
-                  <div className="absolute bottom-1/4 -left-24 w-96 h-96 rounded-full bg-cyan-400/5 blur-[120px]"></div>
-                  <div className="absolute top-0 right-1/3 bottom-0 left-0 bg-gradient-to-br from-white/3 via-transparent to-transparent rotate-12 opacity-30 blur-3xl"></div>
-                  <div className="absolute top-0 left-1/2 h-full w-40 bg-gradient-to-b from-white/5 via-white/2 to-transparent blur-2xl"></div>
-                </div>
-                
                 {/* Package image header */}
                 <div className="w-full overflow-hidden rounded-t-3xl">
                   <div className="relative">
-                    <img 
-                      src={packageImage} 
-                      alt={packageDetails.name} 
+                    <img
+                      src={packageImage}
+                      alt={packageDetails.name}
                       className="w-full h-[900px] md:h-[1300px] lg:h-[1600px] object-cover object-top"
                     />
                     <div className="absolute inset-0 bg-[#0E75A0]/"></div>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                    
+
                     {/* Title overlay */}
                     <div className="absolute bottom-0 left-0 w-full p-4 md:p-6">
                       <div className="max-w-[2400px] mx-auto">
-                        <h3 className="text-xl md:text-2xl font-bold text-white mb-2">{packageDetails.name}</h3>
+                        <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
+                          {packageDetails.name}
+                        </h3>
                         <div className="w-16 h-1 bg-white rounded-full"></div>
                       </div>
                     </div>
                   </div>
                 </div>
-                
+
                 {/* Content container */}
                 <div className="relative z-10 flex flex-col items-start h-full px-8 lg:px-11 xl:px-16 pt-8">
                   {/* Package Introduction */}
@@ -227,7 +215,9 @@ const StarterPackage = () => {
 
                   {/* Package Details Section */}
                   <div className="w-full mb-10">
-                    <h2 className="text-2xl lg:text-3xl font-bold text-white mb-6 text-left">Services Included</h2>
+                    <h2 className="text-2xl lg:text-3xl font-bold text-white mb-6 text-left">
+                      Services Included
+                    </h2>
                     <ul className="space-y-3 max-w-4xl">
                       {packageDetails.includes.map((item, index) => (
                         <li key={index} className="flex items-start">
@@ -237,10 +227,9 @@ const StarterPackage = () => {
                       ))}
                     </ul>
                   </div>
-                  
+
                   {/* Benefits Section */}
                   <div className="w-full mb-10">
-                   {/* <h2 className="text-2xl lg:text-3xl font-bold text-white mb-6 text-left">Package Benefits</h2>*/}
                     <ul className="space-y-2 max-w-4xl">
                       {packageDetails.benefits.map((benefit, index) => (
                         <li key={index} className="flex items-start">
@@ -253,7 +242,10 @@ const StarterPackage = () => {
 
                   {/* CTA Button */}
                   <div className="mt-2 flex justify-center w-full">
-                    <Button size="lg" className="bg-[#0050A0] text-white hover:bg-white/30 text-lg px-4 py-3 font-semibold">
+                    <Button
+                      size="lg"
+                      className="bg-[#0050A0] text-white hover:bg-white/30 text-lg px-4 py-3 font-semibold"
+                    >
                       REQUEST THIS PACKAGE
                     </Button>
                   </div>

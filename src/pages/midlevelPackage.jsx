@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-import silver from '../assert/Packages/Silver.png'; // TODO: Replace with a relevant image for the Commercial Package
+import Silver from '../assert/Packages/Silver.png';
 
 import Silver1 from '../assert/Packages/silver/Silver1.png'; // TODO: Replace with relevant images
 import Silver2 from '../assert/Packages/silver/Silver2.png';
@@ -183,7 +183,7 @@ const CommercialPackage = () => {
                 <div className="w-full overflow-hidden rounded-t-3xl">
                   <div className="relative">
                     <img
-                      src={silver} // TODO: Replace with a relevant image
+                      src={Silver} // TODO: Replace with a relevant image
                       alt={packageDetails.name}
                       className="w-full h-[900px] md:h-[1300px] lg:h-[1600px] object-cover object-center"
                     />

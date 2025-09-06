@@ -5,7 +5,10 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-import white from '@/assert/Packages/white.png'; // TODO: Replace with a relevant image
+// WITH this:
+const white = new URL('../assert/Packages/white.png', import.meta.url).href;
+// If your JSX uses `White`, keep a compat alias:
+const White = white;
 import silver from '@/assert/Packages/white.png'; // TODO: Replace with a relevant image
 
 import diamond1 from '@/assert/Packages/Diamond/Diamond1.png'; // TODO: Replace with relevant images

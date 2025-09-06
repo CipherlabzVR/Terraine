@@ -1,14 +1,14 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award, Users, Globe, ChevronDown } from 'lucide-react';
-import aboutImage from '../assert/about.jpg';
-import about1 from '../assert/about/about1.jpg';
-import about2 from '../assert/about/about2.jpg';
-import about3 from '../assert/about/about3.jpg';
-import about4 from '../assert/about/about4.jpg';
-import about5 from '../assert/about/about5.jpg';
+import aboutImage from '@/assert/about.jpg';
+import about1 from '@/assert/about/about1.jpg';
+import about2 from '@/assert/about/about2.jpg';
+import about3 from '@/assert/about/about3.jpg';
+import about4 from '@/assert/about/about4.jpg';
+import about5 from '@/assert/about/about5.jpg';
 import Mission from './Mission';
 
 

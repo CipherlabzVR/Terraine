@@ -1,7 +1,7 @@
 
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Target, Eye, Heart, Lightbulb } from 'lucide-react';
 
 const Mission = () => {

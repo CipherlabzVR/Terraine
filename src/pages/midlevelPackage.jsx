@@ -1,16 +1,16 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-import Silver from '../assert/Packages/Silver.png';
+import Silver from '@/assert/Packages/Silver.png';
 
-import Silver1 from '../assert/Packages/silver/Silver1.png'; // TODO: Replace with relevant images
-import Silver2 from '../assert/Packages/silver/Silver2.png';
-import Silver3 from '../assert/Packages/silver/Silver3.jpg';
-import Silver4 from '../assert/Packages/silver/Silver4.jpg';
-import Silver5 from '../assert/Packages/silver/Silver5.jpg';
+import Silver1 from '@/assert/Packages/silver/Silver1.png'; // TODO: Replace with relevant images
+import Silver2 from '@/assert/Packages/silver/Silver2.png';
+import Silver3 from '@/assert/Packages/silver/Silver3.jpg';
+import Silver4 from '@/assert/Packages/silver/Silver4.jpg';
+import Silver5 from '@/assert/Packages/silver/Silver5.jpg';
 
 
 

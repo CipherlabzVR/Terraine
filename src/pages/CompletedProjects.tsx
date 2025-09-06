@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ArrowDown, X, Building, DollarSign, Calendar, MapPin, Maximize, Clock, User, ChevronsDown } from 'lucide-react';
 
 // Assuming you have created this index file as previously instructed
-import { projectImages } from '../assert/projects'; 
+import { projectImages } from '@/assert/projects'; 
 
 
 // --- Expanded Project Data for Modal ---

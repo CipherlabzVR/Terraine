@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award, Users, Globe, ChevronDown } from 'lucide-react';
-import about2bg from '../assert/about2bg.jpg';
-import whyus from '../assert/whyterren/whyus.jpg';
-import whyterren from '../assert/whyterren/whyterren.jpg';
-import whyterren2 from '../assert/whyterren/whyterren2.jpg';
+import about2bg from '@/assert/about2bg.jpg';
+import whyus from '@/assert/whyterren/whyus.jpg';
+import whyterren from '@/assert/whyterren/whyterren.jpg';
+import whyterren2 from '@/assert/whyterren/whyterren2.jpg';
 
 const Whyterrene = () => {
   const [openSections, setOpenSections] = useState({

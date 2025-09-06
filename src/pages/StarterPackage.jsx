@@ -1,17 +1,17 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
 // ✅ Keep exact names/paths; resolve via module URL so Rollup/Vercel can find them
-const packageImage = new URL('../assert/Packages/coper.png', import.meta.url).href;
+const packageImage = new URL('@/assert/Packages/coper.png', import.meta.url).href;
 
-const brownz1 = new URL('../assert/Packages/brownz/brownz1.png', import.meta.url).href;
-const brownz2 = new URL('../assert/Packages/brownz/brownz2.png', import.meta.url).href;
-const brownz3 = new URL('../assert/Packages/brownz/brownz3.png', import.meta.url).href;
-const brownz4 = new URL('../assert/Packages/brownz/brownz4.png', import.meta.url).href;
-const brownz5 = new URL('../assert/Packages/brownz/brownz5.png', import.meta.url).href;
+const brownz1 = new URL('@/assert/Packages/brownz/brownz1.png', import.meta.url).href;
+const brownz2 = new URL('@/assert/Packages/brownz/brownz2.png', import.meta.url).href;
+const brownz3 = new URL('@/assert/Packages/brownz/brownz3.png', import.meta.url).href;
+const brownz4 = new URL('@/assert/Packages/brownz/brownz4.png', import.meta.url).href;
+const brownz5 = new URL('@/assert/Packages/brownz/brownz5.png', import.meta.url).href;
 
 const packageDetails = {
   name: 'Residential Project Package',

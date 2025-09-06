@@ -1,15 +1,15 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import gold from '../assert/Packages/gold.png'; // TODO: Replace with a relevant image for Infrastructure Package
+import gold from '@/assert/Packages/gold.png'; // TODO: Replace with a relevant image for Infrastructure Package
 
-import gold1 from '../assert/Packages/gold/gold1.png'; // TODO: Replace with relevant images
-import gold2 from '../assert/Packages/gold/gold2.png';
-import gold3 from '../assert/Packages/gold/gold3.png';
-import gold4 from '../assert/Packages/gold/gold4.png';
-import gold5 from '../assert/Packages/gold/gold5.jpg';
+import gold1 from '@/assert/Packages/gold/gold1.png'; // TODO: Replace with relevant images
+import gold2 from '@/assert/Packages/gold/gold2.png';
+import gold3 from '@/assert/Packages/gold/gold3.png';
+import gold4 from '@/assert/Packages/gold/gold4.png';
+import gold5 from '@/assert/Packages/gold/gold5.jpg';
 
 
 const packageDetails = {

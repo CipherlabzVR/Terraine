@@ -1,16 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Footer from '../components/Footer';
+import Footer from '@/components/Footer';
 
 // ✅ Keep your exact names/paths; use URL-based resolves (works on Vercel/Linux)
-const coper   = new URL('../assert/Packages/coper.png', import.meta.url).href;
-const silver  = new URL('../assert/Packages/Silver.png', import.meta.url).href;
-const gold    = new URL('../assert/Packages/gold.png', import.meta.url).href;
-const Crystal = new URL('../assert/Packages/itc.jpg', import.meta.url).href;
-const white   = new URL('../assert/Packages/white.png', import.meta.url).href;
-const Special = new URL('../assert/Packages/Special.png', import.meta.url).href;
+const coper   = new URL('@/assert/Packages/coper.png', import.meta.url).href;
+const silver  = new URL('@/assert/Packages/Silver.png', import.meta.url).href;
+const gold    = new URL('@/assert/Packages/gold.png', import.meta.url).href;
+const Crystal = new URL('@/assert/Packages/itc.jpg', import.meta.url).href;
+const white   = new URL('@/assert/Packages/white.png', import.meta.url).href;
+const Special = new URL('@/assert/Packages/Special.png', import.meta.url).href;
 
-import Header from '../components/Header.tsx';
+import Header from '@/components/Header.tsx';
 import { Button } from '@/components/ui/button';
 import { ArrowDownWideNarrow } from 'lucide-react';
 

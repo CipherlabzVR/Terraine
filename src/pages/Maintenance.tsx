@@ -1,15 +1,15 @@
 import React from 'react';
-import GenericPageLayout from '../pages/GenericPageLayout'; 
-import { maintenancePageData } from '../service-data/maintenanceData'; 
+import GenericPageLayout from '@/pages/GenericPageLayout'; 
+import { maintenancePageData } from '@/service-data/maintenanceData'; 
 
 // --- IMPORTANT ---
 // 1. You will need to add the actual image and video files to your 'src/assert' folder.
 // 2. Make sure the file paths below match the location of your new assets.
 
 // Import images from your 'src/assert' folder.
-import aboutMainImage from '../assert/about/maintenance1.png';
-import aboutSecondaryImage from '../assert/about/maintenance2.avif';
-import testimonialFeaturedImage from '../assert/about/maintenance3.webp';
+import aboutMainImage from '@/assert/about/maintenance1.png';
+import aboutSecondaryImage from '@/assert/about/maintenance2.avif';
+import testimonialFeaturedImage from '@/assert/about/maintenance3.webp';
 
 // Import videos from your 'src/assert' folder.
 import aboutVideo from '/about.mp4';

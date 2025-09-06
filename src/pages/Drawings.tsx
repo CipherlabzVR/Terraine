@@ -1,15 +1,15 @@
 import React from 'react';
-import GenericPageLayout from '../pages/GenericPageLayout';
-import { engineeringDrawingsPageData } from '../service-data/drawingData';
+import GenericPageLayout from '@/pages/GenericPageLayout';
+import { engineeringDrawingsPageData } from '@/service-data/drawingData';
 
 // --- IMPORTANT ---
 // 1. Import the specific images and videos for this page.
 // 2. Make sure the file paths below are correct for your project structure.
 
 // Import images from your 'src/assert' folder.
-import aboutMainImage from '../assert/about/about2.jpg';
-import aboutSecondaryImage from '../assert/about/draw.jpg';
-import testimonialFeaturedImage from '../assert/about/draw2.webp';
+import aboutMainImage from '@/assert/about/about2.jpg';
+import aboutSecondaryImage from '@/assert/about/draw.jpg';
+import testimonialFeaturedImage from '@/assert/about/draw2.webp';
 
 // Import videos from your 'src' folder.
 import aboutVideo from '/pro.mp4';

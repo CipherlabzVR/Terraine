@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SPACING_CLASSES } from '@/lib/spacing';
 // Import logo from assets folder
-import Logo2 from '../assert/Logo2.png';
+import Logo2 from '@/assert/Logo2.png';
 
 const Footer = () => {
   return (

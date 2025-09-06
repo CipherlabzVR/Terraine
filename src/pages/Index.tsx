@@ -1,15 +1,15 @@
 import React, { useRef } from 'react';
-import Hero from '../components/Hero';
-import Services from '../components/Services';
-import About from '../components/About';
-import Projects from '../components/Projects'; // Import the Projects component
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import CompletionStats from '../components/completion'; // Fix capitalization
-import GlobalPresence from '../components/GlobalPresence';
-import Testimonials from '../components/Testimonials'; // Import Testimonials component
-import TrustedByLogos from '../components/TrustedByLogos'; // <-- Add this import at the top
+import Hero from '@/components/Hero';
+import Services from '@/components/Services';
+import About from '@/components/About';
+import Projects from '@/components/Projects'; // Import the Projects component
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
+import CompletionStats from '@/components/completion'; // Fix capitalization
+import GlobalPresence from '@/components/GlobalPresence';
+import Testimonials from '@/components/Testimonials'; // Import Testimonials component
+import TrustedByLogos from '@/components/TrustedByLogos'; // <-- Add this import at the top
 import ServiceOfferings from '@/components/ServiceOfferings'; 
 
 const Index = () => {

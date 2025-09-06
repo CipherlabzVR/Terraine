@@ -1,34 +1,34 @@
 import React, { useEffect, useState } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ArrowDown, X, Building, DollarSign, Calendar, MapPin, User, ChevronsDown } from 'lucide-react';
 
 // --- Direct Image Imports for Ongoing Projects ---
-import project1Image from '../assert/projects/1.jpg';
-import project2Image from '../assert/projects/2.jpg';
-import project3Image from '../assert/projects/3.jpg';
-import project4Image from '../assert/projects/4.jpg';
-import project5Image from '../assert/projects/5.jpg';
-import project6Image from '../assert/projects/6.jpg';
-import project7Image from '../assert/projects/7.jpg';
-import project8Image from '../assert/projects/8.jpg';
-import project9Image from '../assert/projects/9.jpg';
-import project10Image from '../assert/projects/10.jpg';
-import project11Image from '../assert/projects/11.jpg';
-import project12Image from '../assert/projects/12.jpg';
-import project13Image from '../assert/projects/13.png';
-import project14Image from '../assert/projects/14.png';
-import project15Image from '../assert/projects/15.jpg';
-import project16Image from '../assert/projects/16.png';
-import project17Image from '../assert/projects/17.jpg';
-import project18Image from '../assert/projects/18.jpg';
-import project19Image from '../assert/projects/19.png';
-import project20Image from '../assert/projects/20.png';
-import project21Image from '../assert/projects/21.png';
-import project22Image from '../assert/projects/22.png';
-import project23Image from '../assert/projects/23.png';
+import project1Image from '@/assert/projects/1.jpg';
+import project2Image from '@/assert/projects/2.jpg';
+import project3Image from '@/assert/projects/3.jpg';
+import project4Image from '@/assert/projects/4.jpg';
+import project5Image from '@/assert/projects/5.jpg';
+import project6Image from '@/assert/projects/6.jpg';
+import project7Image from '@/assert/projects/7.jpg';
+import project8Image from '@/assert/projects/8.jpg';
+import project9Image from '@/assert/projects/9.jpg';
+import project10Image from '@/assert/projects/10.jpg';
+import project11Image from '@/assert/projects/11.jpg';
+import project12Image from '@/assert/projects/12.jpg';
+import project13Image from '@/assert/projects/13.png';
+import project14Image from '@/assert/projects/14.png';
+import project15Image from '@/assert/projects/15.jpg';
+import project16Image from '@/assert/projects/16.png';
+import project17Image from '@/assert/projects/17.jpg';
+import project18Image from '@/assert/projects/18.jpg';
+import project19Image from '@/assert/projects/19.png';
+import project20Image from '@/assert/projects/20.png';
+import project21Image from '@/assert/projects/21.png';
+import project22Image from '@/assert/projects/22.png';
+import project23Image from '@/assert/projects/23.png';
 
 
 // --- New Project Data ---

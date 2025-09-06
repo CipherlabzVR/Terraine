@@ -2,8 +2,8 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import * as Icons from 'lucide-react';
-import Header from '../components/Header'; // Assuming Header is in the same folder
-import Footer from '../components/Footer'; // Assuming Footer is in the same folder
+import Header from '@/components/Header'; // Assuming Header is in the same folder
+import Footer from '@/components/Footer'; // Assuming Footer is in the same folder
 
 // --- HELPER COMPONENT FOR DYNAMIC ICONS ---
 type IconName = keyof typeof Icons;

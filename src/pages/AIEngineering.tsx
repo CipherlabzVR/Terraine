@@ -1,15 +1,15 @@
 import React from 'react';
-import GenericPageLayout from '../pages/GenericPageLayout'; 
-import { aiEngineeringPageData } from '../service-data/aiEngineeringData'; 
+import GenericPageLayout from '@/pages/GenericPageLayout'; 
+import { aiEngineeringPageData } from '@/service-data/aiEngineeringData'; 
 
 // --- IMPORTANT ---
 // 1. You will need to add the actual image and video files to your 'src/assert' folder.
 // 2. Make sure the file paths below match the location of your new assets.
 
 // Import images from your 'src/assert' folder.
-import aboutMainImage from '../assert/about/ai1.jpg';
-import aboutSecondaryImage from '../assert/about/ai2.jpg';
-import testimonialFeaturedImage from '../assert/about/ai3.jpg';
+import aboutMainImage from '@/assert/about/ai1.jpg';
+import aboutSecondaryImage from '@/assert/about/ai2.jpg';
+import testimonialFeaturedImage from '@/assert/about/ai3.jpg';
 
 // Import videos from your 'src/assert' folder.
 import aboutVideo from '/pack.mp4';

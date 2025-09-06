@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link, useSearchParams } from "react-router-dom";
 import { ArrowDown, X, Folder, ArrowRight, CheckCircle } from 'lucide-react';
 
 // --- Single, consolidated import for all blog images ---
-import blogImages from "../assert/blog";
+import blogImages from "@/assert/blog";
 
 // --- Updated and Detailed Blog Data (12 Posts) ---
 const allBlogPosts = [

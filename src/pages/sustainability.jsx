@@ -1,13 +1,13 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { ChevronDown } from 'lucide-react';
-import engineeringTeam from '../assert/ProjectManagment.jpg';
-import sustainabilitmaine from '../assert/sustainability/sustainabilitmaine.png';
-import about2bg from '../assert/about2bg.jpg';
-import sustainability1 from '../assert/sustainability/sustainability1.png';
-import sustainability2 from '../assert/sustainability/sustainability2.png';
-import sustainability3 from '../assert/sustainability/sustainability3.png';
+import engineeringTeam from '@/assert/ProjectManagment.jpg';
+import sustainabilitmaine from '@/assert/sustainability/sustainabilitmaine.png';
+import about2bg from '@/assert/about2bg.jpg';
+import sustainability1 from '@/assert/sustainability/sustainability1.png';
+import sustainability2 from '@/assert/sustainability/sustainability2.png';
+import sustainability3 from '@/assert/sustainability/sustainability3.png';
 
 
 const Sustainability = () => {

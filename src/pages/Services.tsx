@@ -1,6 +1,6 @@
 import React, { useState, useEffect, ReactElement, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
@@ -13,9 +13,9 @@ import {
 } from 'lucide-react';
 
 // --- Blog Post Images (using paths from blog.jsx) ---
-import blogImage1 from "../assert/blog/blog1.jpg";
-import blogImage2 from "../assert/blog/blog2.jpg";
-import blogImage3 from "../assert/blog/blog3.jpg";
+import blogImage1 from "@/assert/blog/blog1.jpg";
+import blogImage2 from "@/assert/blog/blog2.jpg";
+import blogImage3 from "@/assert/blog/blog3.jpg";
 
 // --- New, Comprehensive Services Data ---
 const allServicesData = [

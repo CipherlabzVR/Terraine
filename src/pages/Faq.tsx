@@ -2,10 +2,10 @@ import React, { useEffect, useState, useRef } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ChevronDown, Mail } from 'lucide-react';
-import aboutImage from '../assert/Faq/faq2.png';
-import faq1 from '../assert/Faq/faq1.png';
-import faq4 from '../assert/Faq/faq4.png';
-import faq5 from '../assert/Faq/faq5.png';
+import aboutImage from '@/assert/Faq/faq2.png';
+import faq1 from '@/assert/Faq/faq1.png';
+import faq4 from '@/assert/Faq/faq4.png';
+import faq5 from '@/assert/Faq/faq5.png';
 
 const Faq = () => {
   const [openSections, setOpenSections] = useState<{ [key: string]: boolean }>({});

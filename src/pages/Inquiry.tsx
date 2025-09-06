@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from 'lucide-react';
-import contactus from '../assert/contactus.jpg';
+import contactus from '@/assert/contactus.jpg';
 // Import the phone input component and its CSS
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';

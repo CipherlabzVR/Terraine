@@ -1,18 +1,18 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award, Users, Globe, ChevronDown, X, Send } from 'lucide-react';
-import aboutImage from '../assert/testimonial/tetimonial10.png';
-import testimonial1 from '../assert/testimonial/testimonial1.png';
-import testimonial2 from '../assert/testimonial/testimonial2.png';
-import testimonial3 from '../assert/testimonial/testimonial3.jpg';
-import testimonial4 from '../assert/testimonial/testimonial4.jpg';
-import testimonial5 from '../assert/testimonial/testimonial5.png';
-import testimonial6 from '../assert/testimonial/testimonial6.png';
-import testimonial7 from '../assert/testimonial/testimonial7.webp';
-import testimonial8 from '../assert/testimonial/testimonial8.jpg';
-import testimonial9 from '../assert/testimonial/testimonial9.jpg';
+import aboutImage from '@/assert/testimonial/tetimonial10.png';
+import testimonial1 from '@/assert/testimonial/testimonial1.png';
+import testimonial2 from '@/assert/testimonial/testimonial2.png';
+import testimonial3 from '@/assert/testimonial/testimonial3.jpg';
+import testimonial4 from '@/assert/testimonial/testimonial4.jpg';
+import testimonial5 from '@/assert/testimonial/testimonial5.png';
+import testimonial6 from '@/assert/testimonial/testimonial6.png';
+import testimonial7 from '@/assert/testimonial/testimonial7.webp';
+import testimonial8 from '@/assert/testimonial/testimonial8.jpg';
+import testimonial9 from '@/assert/testimonial/testimonial9.jpg';
 
 // Updated Toast component to match the new design
 const Toast = ({ onClose }: { onClose: () => void }) => (

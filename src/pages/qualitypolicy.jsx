@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { ChevronDown } from 'lucide-react';
-import qualitypolicy1 from '../assert/qualitypolicy/qualitypolicy1.png';
-import qualitypolicy2 from '/quality (2).png';
-import qualitypolicy3 from '/quality (4).png';
-import aboutImage from '../assert/qualitypolicy/qulitypolicy4.jpg';
-import about2bg from '../assert/about2bg.jpg';
+import qualitypolicy1 from '@/assert/qualitypolicy/qualitypolicy1.png';
+import qualitypolicy2 from '@/assert/qualitypolicy/qualitypolicy2.png';
+import qualitypolicy3 from '@/assert/qualitypolicy/qualitypolicy3.png';
+import aboutImage from '@/assert/qualitypolicy/qulitypolicy4.jpg';
+import about2bg from '@/assert/about2bg.jpg';
 
 const QualityPolicy = () => {
   const [openSections, setOpenSections] = useState({

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import {
   Phone, Mail, MapPin, Clock, Send, ArrowDown,Briefcase, Quote, ArrowLeft, ArrowRight, X, Building, LucideNewspaper, HardHat, Layers, Code, Megaphone, Users, Banknote, Bookmark, Presentation, Laptop} from 'lucide-react';
@@ -12,8 +12,8 @@ import packVideo from '/pack.mp4';
 import { Link } from 'react-router-dom';
 
 // Image imports
-import whyWorkWithUsImage from '../assert/why-work-with-us.jpg';
-import imageComposition from '../assert/projects/pro1.png';
+import whyWorkWithUsImage from '@/assert/why-work-with-us.jpg';
+import imageComposition from '@/assert/projects/pro1.png';
 
 // --- Company Overview ---
 const companyOverview = "Terrene Engineering (Pvt) Ltd is a dynamic engineering consulting and contracting company with a growing global footprint We are seeking experienced professionals to lead strategy, implementation, and team coordination across multiple projects Our leadership roles require exceptional technical expertise and project management skills to drive digital transformation.";

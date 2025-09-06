@@ -1,11 +1,11 @@
 import React from 'react';
-import GenericPageLayout from '../pages/GenericPageLayout';
-import { consultancyServicesPageData } from '../service-data/consultancyData';
+import GenericPageLayout from '@/pages/GenericPageLayout';
+import { consultancyServicesPageData } from '@/service-data/consultancyData';
 
 // 1. Import images from your 'src/assert' folder.
-import aboutMainImage from '../assert/about/about1.jpg';
-import aboutSecondaryImage from '../assert/about/about2.jpg';
-import testimonialFeaturedImage from '../assert/about/about6.jpg';
+import aboutMainImage from '@/assert/about/about1.jpg';
+import aboutSecondaryImage from '@/assert/about/about2.jpg';
+import testimonialFeaturedImage from '@/assert/about/about6.jpg';
 
 // 2. Import videos from your 'src' folder (update path as needed).
 import aboutVideo from '/about.mp4';

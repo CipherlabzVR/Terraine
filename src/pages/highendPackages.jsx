@@ -3,13 +3,14 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import gold from '../assert/Packages/gold.png'; // TODO: Replace with a relevant image for Infrastructure Package
+// ✅ Keep exact file/folder names; resolve via module URL so Vite/Vercel can load them
+const gold  = new URL('../assert/Packages/gold.png', import.meta.url).href;
 
-import gold1 from '../assert/Packages/gold/gold1.png'; // TODO: Replace with relevant images
-import gold2 from '../assert/Packages/gold/gold2.png';
-import gold3 from '../assert/Packages/gold/gold3.png';
-import gold4 from '../assert/Packages/gold/gold4.png';
-import gold5 from '../assert/Packages/gold/gold5.jpg';
+const gold1 = new URL('../assert/Packages/gold/gold1.png', import.meta.url).href;
+const gold2 = new URL('../assert/Packages/gold/gold2.png', import.meta.url).href;
+const gold3 = new URL('../assert/Packages/gold/gold3.png', import.meta.url).href;
+const gold4 = new URL('../assert/Packages/gold/gold4.png', import.meta.url).href;
+const gold5 = new URL('../assert/Packages/gold/gold5.jpg', import.meta.url).href;
 
 
 const packageDetails = {

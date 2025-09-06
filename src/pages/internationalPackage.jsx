@@ -1,21 +1,20 @@
-import React from 'react';
-import { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-// WITH this:
-const white = new URL('../assert/Packages/white.png', import.meta.url).href;
-// If your JSX uses `White`, keep a compat alias:
-const White = white;
-import silver from '@/assert/Packages/white.png'; // TODO: Replace with a relevant image
+// ✅ Image resolves (no renames). Uses relative path from /src/pages → /src/assert/...
+// If your actual file is White.png (capital W), change 'white.png' to 'White.png' below.
+const white  = new URL('../assert/Packages/white.png', import.meta.url).href;
+//const White  = white;   // keep compat if JSX used `White`
+const silver = white;   // your JSX uses `src={silver}` → map it to the same image
 
-import diamond1 from '@/assert/Packages/Diamond/Diamond1.png'; // TODO: Replace with relevant images
-import diamond2 from '@/assert/Packages/Diamond/Diamond2.png';
-import diamond3 from '@/assert/Packages/Diamond/Diamond3.png';
-import diamond4 from '@/assert/Packages/Diamond/Diamond4.png';
-import diamond5 from '@/assert/Packages/Diamond/Diamond5.png';
+const diamond1 = new URL('../assert/Packages/Diamond/Diamond1.png', import.meta.url).href;
+const diamond2 = new URL('../assert/Packages/Diamond/Diamond2.png', import.meta.url).href;
+const diamond3 = new URL('../assert/Packages/Diamond/Diamond3.png', import.meta.url).href;
+const diamond4 = new URL('../assert/Packages/Diamond/Diamond4.png', import.meta.url).href;
+const diamond5 = new URL('../assert/Packages/Diamond/Diamond5.png', import.meta.url).href;
 
 const packageDetails = {
   name: 'Engineering Consulting Package',

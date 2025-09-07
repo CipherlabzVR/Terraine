@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import packageImage from '@/assert/Packages/coper.png'; // Replace with appropriate package image
+import packageImage from '@/assert/Packages/coperCopy.png'; // Replace with appropriate package image
 
 
 import brownz1 from '@/assert/Packages/brownz/brownz1.png';

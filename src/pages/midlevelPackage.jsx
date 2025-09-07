@@ -54,7 +54,7 @@ const CommercialPackage = () => {
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
   const [currentImage, setCurrentImage] = useState(0);
-  const images = [Silver1, Silver2, Silver3, Silver4, Silver5];
+  const images = [gold1, gold2, gold3, gold4, gold5];
 
   // Scroll to top on mount
   useEffect(() => {
@@ -183,7 +183,7 @@ const CommercialPackage = () => {
                 <div className="w-full overflow-hidden rounded-t-3xl">
                   <div className="relative">
                     <img
-                      src={silver}
+                      src={gold}
                       alt={packageDetails.name}
                       className="w-full h-[900px] md:h-[1300px] lg:h-[1600px] object-cover object-center"
                     />

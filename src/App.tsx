@@ -232,7 +232,7 @@ const App = () => (
           <Route path="/packages/commercial" element={<MidlevelPackage />} />
           <Route path="/packages/infrastructure" element={<HighendPackages />} />
           <Route path="/packages/consultant" element={<InternationalPackage />} />
-          <Route path="/packages/bim-a" element={<CorporatePackages />} />
+          <Route path="/packages/bim-ai" element={<CorporatePackages />} />
           <Route path="/packages/software" element={<TerreneSpecial />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/completed-projects" element={<CompletedProjects />} />

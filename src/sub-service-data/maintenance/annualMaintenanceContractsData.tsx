@@ -5,7 +5,7 @@ export const annualMaintenanceContractsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Annual Maintenance</span> Contracts (AMC)',
     tagline: 'Comprehensive annual maintenance for uninterrupted operations.',
     description: 'Our annual maintenance contracts provide scheduled inspections, preventive care, and timely repairs, ensuring consistent performance, reduced downtime, and long-lasting reliability for all building systems.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Maintenance-testimonials-1.jpeg', // Standardized background image
     uspItems: [
       { icon: 'FileCheck2', title: 'Comprehensive Coverage', description: 'Full maintenance services for all systems consistently.' },
       { icon: 'CircleDollarSign', title: 'Cost Savings', description: 'Reduces unexpected repair expenses effectively.' },

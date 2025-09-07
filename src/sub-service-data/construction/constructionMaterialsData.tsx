@@ -5,7 +5,7 @@ export const constructionMaterialsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Construction</span> Materials',
     tagline: 'High-quality materials for lasting project success',
     description: 'Our construction materials services supply durable, reliable, and cost-effective resources, ensuring optimal performance, quality, and longevity for every residential, commercial, and industrial construction project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/hero - construction (4).jpg', // Standardized background image
     uspItems: [
       { icon: 'Award', title: 'High-quality Supplies', description: 'Durable materials ensuring long-lasting construction consistently' },
       { icon: 'LayoutGrid', title: 'Wide Selection', description: 'Comprehensive range meeting diverse project requirements effectively' },

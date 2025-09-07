@@ -7,7 +7,7 @@ export const commercialInteriorsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Commercial</span> Interiors',
     tagline: 'Innovative interiors boosting productivity and brand image.',
     description: 'Our commercial interiors deliver functional, stylish, and engaging spaces, enhancing employee productivity, customer experience, and brand identity through thoughtful design and efficient space utilization.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Interior-testimonials-1.jpg', // Standardized background image
     uspItems: [
       { icon: 'Award', title: 'Brand Enhancement', description: 'Interiors reflecting and boosting business identity consistently.' },
       { icon: 'LayoutGrid', title: 'Functional Spaces', description: 'Optimized layouts improving workflow and operations effectively.' },

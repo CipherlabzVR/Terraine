@@ -5,7 +5,7 @@ export const remoteOperationsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Remote Operations</span> & Virtual Control Centers',
     tagline: 'Manage Operations Remotely Ensure Continuous Control.',
     description: 'Implement remote operations and virtual control centers to monitor, manage, and optimize systems efficiently while reducing on-site resource dependency.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Digitaltwin-testimonials-3', // Standardized background image
     uspItems: [
       { icon: 'Signal', title: 'Remote Monitoring', description: 'Track operations in real time from any location.' },
       { icon: 'Computer', title: 'Centralized Control', description: 'Manage multiple systems through a single interface.' },

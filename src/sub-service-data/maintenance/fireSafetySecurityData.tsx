@@ -5,7 +5,7 @@ export const fireSafetySecurityData: PageData = {
     serviceName: '<span class="text-cyan-400">Fire Safety & Security</span> Systems',
     tagline: 'Protecting buildings with reliable safety systems.',
     description: 'Our fire safety and security maintenance services ensure fully functional alarms, detectors, and security equipment, safeguarding people, property, and assets with timely inspections and preventive measures.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Maintenance-testimonials-6.jpg', // Standardized background image
     uspItems: [
       { icon: 'ShieldCheck', title: 'Reliable Protection', description: 'Ensures fire and security systems function consistently.' },
       { icon: 'Activity', title: 'Preventive Maintenance', description: 'Identifies risks before incidents occur effectively.' },

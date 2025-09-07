@@ -5,7 +5,7 @@ export const fourDBimPageData: PageData = {
     serviceName: '<span class="text-cyan-400">4D BIM</span> – Time (Scheduling)',
     tagline: 'Optimizing construction timelines with intelligent 4D modeling.',
     description: 'Our 4D BIM services integrate scheduling with design, enabling real time project visualization, efficient planning, and proactive management for on time project delivery and success.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/BIM-testimonials-3.jpg', // Standardized background image
     uspItems: [
       { icon: 'Eye', title: 'Project Visualization', description: 'Time based models enhancing schedule clarity consistently.' },
       { icon: 'Settings', title: 'Efficient Planning', description: 'Optimizing construction sequences effectively.' },

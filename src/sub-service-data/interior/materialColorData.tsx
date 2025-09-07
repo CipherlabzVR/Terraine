@@ -7,7 +7,7 @@ export const materialColorPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Material & Color</span> Consultation',
     tagline: 'Crafting cohesive palettes for stunning interior spaces.',
     description: 'Our material and color consultation services help you select the perfect finishes, textures, and hues to create a harmonious and visually appealing interior that reflects your personal style and functional needs.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Interior-testimonials-8.jpg', // Standardized background image
     uspItems: [
       { icon: 'UserCheck', title: 'Expert Guidance', description: 'Professional advice to navigate endless choices and find the perfect fit.' },
       { icon: 'Palette', title: 'Cohesive Designs', description: 'Ensuring a harmonious flow of colors and materials throughout your space.' },

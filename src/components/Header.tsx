@@ -459,7 +459,7 @@ const Header = ({ mode = 'transparent', className = '' }: HeaderProps) => {
             </div>
           </div>
 
-          <div className="hidden xl:flex">
+          <div className="hidden 2xl:flex">
             <Button className="bg-[#0050A0] w-40 h-14 text-white hover:bg-[#00A5E7]/90 px-6 py-3 font-semibold rounded-lg transition-all duration-300 shadow-lg text-base flex items-center justify-center mb-[6vh] ml-[1vh] mr-[1vh]" asChild>
               <Link to="/inquiry">INQUIRY</Link>
             </Button>

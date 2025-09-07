@@ -7,7 +7,7 @@ export const turnkeySolutionsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Turnkey</span> Interior Solutions',
     tagline: 'From concept to completion, all under one roof.',
     description: 'Our turnkey interior solutions offer a single, unified service for your entire project. We manage everything from initial design and procurement to final execution and handover, ensuring a seamless, hassle-free experience.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Interior-testimonials-13.jpg', // Standardized background image
     uspItems: [
       { icon: 'User', title: 'Single Point of Contact', description: 'One dedicated team managing your entire project for clear communication.' },
       { icon: 'ShieldCheck', title: 'Hassle-Free Process', description: 'We handle all coordination, logistics, and management for you effectively.' },

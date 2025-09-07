@@ -202,7 +202,8 @@ const positions = [
       "Conduct site inspections and resolve technical issues during construction.",
       "Coordinate with architects, structural engineers, contractors, and clients.",
       "Prepare technical reports, design calculations, and progress documentation.",
-      "Mentor junior engineers and technicians in MEP design and project management best practices."
+      "Mentor junior engineers and technicians in MEP design and project management best practices.",
+      "Support tendering, estimation, and procurement of MEP systems and equipment."
     ],
     requirements: [
       "Chartered Engineer status in Mechanical or Electrical Engineering.",
@@ -236,14 +237,16 @@ const positions = [
       "Conduct geotechnical analyses and interpret soil and rock testing results.",
       "Prepare technical reports and risk assessments.",
       "Supervise site works and ensure compliance with geotechnical design specifications.",
-      "Liaise with clients, contractors, and multidisciplinary teams."
+      "Liaise with clients, contractors, and multidisciplinary teams.",
+      "Contribute to the preparation of proposals and tenders for geotechnical services."
     ],
     requirements: [
       "Chartered Engineer status in Civil or Geotechnical Engineering.",
       "Bachelor Honours Degree or Master’s degree in Geotechnical or Civil Engineering.",
       "Minimum 5 years’ experience in geotechnical design and construction.",
       "Proficiency in geotechnical software (e.g., PLAXIS, GeoStudio).",
-      "Strong technical writing and project management skills."
+      "Strong technical writing and project management skills.",
+      "Excellent analytical and problem-solving capabilities."
     ],
     benefits: [
       "Attractive remuneration package.",
@@ -269,13 +272,16 @@ const positions = [
       "Conduct functional testing of systems and equipment.",
       "Prepare commissioning reports and as-built documentation.",
       "Troubleshoot and resolve system performance issues.",
-      "Train end users on operation and maintenance procedures."
+      "Train end users on operation and maintenance procedures.",
+      "Ensure compliance with safety regulations and project specifications."
     ],
     requirements: [
       "Bachelor Honours Degree in Mechanical, Electrical, or Building Services Engineering.",
       "3+ years’ experience in commissioning MEP systems.",
       "Familiarity with relevant codes and standards.",
-      "Strong technical and documentation skills."
+      "Strong technical and documentation skills.",
+      "Proficiency in MS Office and commissioning management tools.",
+	  "Willingness to travel to project sites as required."
     ],
     benefits: [
       "Competitive salary based on experience.",
@@ -301,7 +307,9 @@ const positions = [
       "Prepare detailed drawings, 3D visualizations, and material specifications.",
       "Manage project timelines and deliverables.",
       "Coordinate with clients, consultants, and contractors.",
-      "Supervise junior designers and provide design guidance."
+      "Supervise junior designers and provide design guidance.",
+      "Source materials, furnishings, and finishes.",
+	  "Oversee site implementation and quality control."
     ],
     requirements: [
       "Bachelor Honours Degree in Interior Design or Architecture.",
@@ -361,17 +369,23 @@ const positions = [
       "Supervise project teams, subcontractors, and site staff.",
       "Ensure adherence to construction schedules and budgets.",
       "Monitor quality control, HSE compliance, and risk management.",
-      "Conduct regular progress reviews and stakeholder reporting."
+      "Conduct regular progress reviews and stakeholder reporting.",
+      "Coordinate procurement, logistics, and resource allocation.",
+	  "Resolve on-site technical or contractual issues."
     ],
     requirements: [
       "Bachelor Honours Degree in Civil Engineering or Construction Management.",
       "Minimum 8 years’ experience in site/project management roles.",
       "Proven leadership and team coordination abilities.",
-      "Familiar with FIDIC and other contract administration frameworks."
+      "Familiar with FIDIC and other contract administration frameworks.",
+	  "Strong problem-solving and organizational skills.",
+	  "Excellent communication and reporting proficiency."
+
     ],
     benefits: [
       "Industry-competitive salary.",
       "Accommodation and transport for project assignments.",
+      "Health and accident insurance.",
       "Incentives for project performance and delivery milestones."
     ]
   },
@@ -390,18 +404,23 @@ const positions = [
       "Supervise daily site activities and subcontractor work.",
       "Enforce safety, quality, and productivity standards.",
       "Coordinate materials, tools, and labour on site.",
-      "Maintain site records and daily reports."
+      "Maintain site records and daily reports.",
+	  "Liaise with site engineers and project managers.",
+	  "Ensure work is executed as per drawings and specifications."
     ],
     requirements: [
       "Diploma or NVQ Level 5 in Civil Engineering or Construction Technology.",
       "3+ years' experience in site supervision.",
       "Sound understanding of construction methods and safety protocols.",
-      "Strong team management and timekeeping skills."
+      "Strong team management and timekeeping skills.",
+	  "Ability to interpret drawings and resolve minor site issues."
+      
     ],
     benefits: [
       "Competitive remuneration.",
       "Travel allowances.",
-      "Opportunities for long-term growth and training."
+      "Opportunities for long-term growth and training.",
+      "Overtime pays where applicable."
     ]
   },
   {
@@ -419,7 +438,9 @@ const positions = [
       "Develop and implement materials testing plans.",
       "Evaluate material properties for suitability and compliance.",
       "Supervise laboratory and field-testing procedures.",
-      "Review supplier documentation and approve materials."
+      "Review supplier documentation and approve materials.",
+      "Coordinate with QA/QC teams and site engineers.",
+	  "Prepare technical reports and material specifications."
     ],
     requirements: [
       "Bachelor Honours Degree in Material Science, Civil Engineering, or related field.",
@@ -448,17 +469,22 @@ const positions = [
       "Design custom furniture pieces for residential and commercial projects.",
       "Prepare detailed shop drawings and 3D visualizations.",
       "Coordinate with production teams and material suppliers.",
-      "Select suitable materials and finishes."
+      "Select suitable materials and finishes.",
+	  "Attend client briefings and contribute to design presentations.",
+	  "Oversee prototyping and quality control."
+
     ],
     requirements: [
       "Bachelor Honours Degree or Diploma in Furniture Design / Industrial Design / Interior Design.",
       "Minimum 2 years’ experience in furniture design.",
       "Proficiency in SketchUp, AutoCAD, and rendering tools.",
-      "Understanding of ergonomics, joinery, and fabrication methods."
+      "Understanding of ergonomics, joinery, and fabrication methods.",
+      "Portfolio showcasing custom furniture designs."
     ],
     benefits: [
       "Competitive salary based on skill and experience.",
       "Exposure to luxury design projects.",
+      "Factory and production coordination training.",
       "Incentives based on product delivery."
     ]
   },
@@ -477,18 +503,22 @@ const positions = [
       "Install and maintain air conditioning and ventilation systems.",
       "Conduct preventive and corrective maintenance.",
       "Diagnose and repair faults in HVAC systems.",
-      "Read and follow mechanical drawings and schematics."
+      "Read and follow mechanical drawings and schematics.",
+      "Coordinate with engineers and site supervisors.",
+	  "Maintain job records and safety compliance."
     ],
     requirements: [
       "NVQ or Diploma in HVAC / Refrigeration / Mechanical Services.",
       "Minimum 2 years’ hands-on HVAC experience.",
       "Knowledge of VRV/VRF systems and ductwork installations.",
-      "Ability to handle tools, gauges, and refrigerants safely."
+      "Ability to handle tools, gauges, and refrigerants safely.",
+      "Physically fit and adaptable to site conditions."
     ],
     benefits: [
       "Competitive trade-level salary.",
       "Overtime and site allowance.",
-      "PPE and tool support provided."
+      "PPE and tool support provided.",
+      "Skills development workshops."
     ]
   },
   {
@@ -506,17 +536,21 @@ const positions = [
       "Conduct laboratory and field tests (soil, concrete, aggregates, etc.).",
       "Record and report test data.",
       "Maintain testing equipment and lab safety standards.",
-      "Assist in sample collection and test preparation."
+      "Assist in sample collection and test preparation.",
+      "Ensure accurate calibration and test procedures.",
+	  "Support material engineers in preparing QA reports."
     ],
     requirements: [
       "NVQ Level 4/5 or Diploma in Civil Engineering / Laboratory Technology.",
       "1–2 years of lab experience preferred.",
       "Familiarity with ASTM and BS testing standards.",
-      "Attention to detail and quality-focused approach."
+      "Attention to detail and quality-focused approach.",
+      "Willingness to travel for site testing."
     ],
     benefits: [
       "Entry-level competitive salary.",
       "Hands-on training and lab certification.",
+      "Insurance and PPE support.",
       "Opportunities for QA/QC career growth."
     ]
   },
@@ -536,13 +570,17 @@ const positions = [
       "Develop and monitor project schedules using Primavera P6/MS Project.",
       "Coordinate with project teams to ensure timely task execution.",
       "Analyze progress, variances, and prepare recovery plans.",
-      "Generate regular project progress reports and dashboards."
+      "Generate regular project progress reports and dashboards.",
+      "Support tender planning, resource leveling, and budgeting.",
+	  "Liaise with clients and contractors for planning updates."
+	  
     ],
     requirements: [
       "Bachelor's Honours Degree in Engineering or Construction Management.",
       "PMP certification is mandatory.",
       "5+ years of planning experience in construction or infrastructure.",
-      "Proficient in Primavera P6, MS Project, and Excel."
+      "Proficient in Primavera P6, MS Project, and Excel.",
+	  "Excellent analytical and communication skills."
     ],
     benefits: [
       "Attractive salary package.",
@@ -566,7 +604,9 @@ const positions = [
       "Prepare baseline and detailed project schedules using Primavera P6 or MS Project.",
       "Monitor and update progress schedules and look-ahead programs.",
       "Assist in preparing resource histograms and cash flow forecasts.",
-      "Coordinate with project managers, site engineers, and stakeholders."
+      "Coordinate with project managers, site engineers, and stakeholders.",
+      "Support tender planning and post-award scheduling reviews.",
+	  "Generate progress reports, delay analysis, and mitigation plans."
     ],
     requirements: [
       "Bachelor's Degree or Diploma in Engineering, Project Management, or related field.",
@@ -627,13 +667,15 @@ const positions = [
       "Assist in the preparation of BOQs, cost estimates, and tender documentation.",
       "Track project costs and prepare payment applications.",
       "Support contract negotiations and sub-contractor evaluations.",
-      "Maintain records for variations and claims."
+      "Maintain records for variations and claims.",
+      "Work closely with site and commercial teams."
     ],
     requirements: [
       "Bachelor's Degree in Quantity Surveying or relevant field.",
       "3–6 years of experience in construction or engineering projects.",
       "Proficient in MS Excel and quantity surveying software.",
-      "Knowledge of FIDIC or other contract standards is an advantage."
+      "Knowledge of FIDIC or other contract standards is an advantage.",
+      "• Excellent numerical and documentation skills."
     ],
     benefits: [
       "Competitive salary.",
@@ -664,11 +706,13 @@ const positions = [
       "Bachelor’s Degree in Engineering or Quantity Surveying.",
       "5+ years’ experience in contracts and claims.",
       "Familiarity with FIDIC, SBD, and construction law.",
-      "Excellent writing and communication skills."
+      "Excellent writing and communication skills.",
+	  "Analytical mindset and attention to legal detail."
     ],
     benefits: [
       "Attractive salary and legal consultation allowances.",
       "Professional development in construction law.",
+      "Analytical mindset and attention to legal detail.",
       "Career advancement into contract management."
     ]
   },
@@ -687,17 +731,20 @@ const positions = [
       "Review contracts, agreements, and procurement documentation.",
       "Advise on legal implications of construction claims and disputes.",
       "Represent the company in legal proceedings if required.",
-      "Support project compliance with local and international law."
+      "Support project compliance with local and international law.",
+      "Draft and manage NDAs, MOUs, and subcontractor contracts."
     ],
     requirements: [
       "LLB or equivalent legal qualification.",
       "Licensed attorney in Sri Lanka.",
       "Minimum 4 years' experience in legal practice (construction preferred).",
-      "Familiarity with FIDIC, SBDs, and international law protocols."
+      "Familiarity with FIDIC, SBDs, and international law protocols.",
+      "Excellent legal drafting and advisory skills."
     ],
     benefits: [
       "Competitive legal retainer or salary.",
       "International exposure in contract law.",
+      "Legal research and litigation support tools.",
       "CPD and bar membership fee assistance."
     ]
   },
@@ -716,13 +763,15 @@ const positions = [
       "Prepare detailed cost estimates and rate build-ups.",
       "Analyze drawings, specifications, and scope documents.",
       "Liaise with suppliers and subcontractors for pricing.",
-      "Assist in bid preparation and tender submissions."
+      "Assist in bid preparation and tender submissions.",
+      "Maintain cost databases and estimation records."
     ],
     requirements: [
       "Diploma or Bachelor’s in Quantity Surveying, Engineering, or relevant field.",
       "3+ years of experience in estimation and tendering.",
       "Familiarity with pricing software and MS Excel.",
-      "Strong analytical and documentation skills."
+      "Strong analytical and documentation skills.",
+      "Understanding of local and international pricing standards."
     ],
     benefits: [
       "Competitive salary and tender success incentives.",
@@ -745,18 +794,21 @@ const positions = [
       "Manage daily operations of building systems and equipment.",
       "Coordinate repairs, maintenance, and vendor services.",
       "Ensure regulatory compliance and documentation.",
-      "Develop preventive maintenance schedules."
+      "Develop preventive maintenance schedules.",
+      "Oversee staff and resource allocation."
     ],
     requirements: [
       "Bachelor's Degree in Facilities Management, Engineering, or related field.",
       "5+ years in building operations or property management.",
       "Familiar with FM software and systems.",
-      "Excellent leadership and coordination skills."
+      "Excellent leadership and coordination skills.",
+      "Knowledge of safety regulations and energy efficiency."
     ],
     benefits: [
       "Competitive industry salary.",
       "Project site allowances.",
-      "Health, safety, and operational training."
+      "Health, safety, and operational training.",
+      "Long-term engagement potential on maintenance contracts."
     ]
   },
     // --- BATCH 4 ---
@@ -775,17 +827,20 @@ const positions = [
             "Integrate BIM with IoT and cloud platforms for real-time monitoring.",
             "Develop digital twin models for buildings and infrastructure.",
             "Analyze and visualize operational data through dashboards.",
-            "Collaborate with engineering, MEP, and IT teams."
+            "Collaborate with engineering, MEP, and IT teams.",
+            "Assist in setting up Digital Twin architecture for clients."
         ],
         requirements: [
             "Bachelor's/Master’s in Engineering, Computer Science, or Data Science.",
             "3+ years of experience with Digital Twin solutions.",
             "Proficient in tools such as Autodesk Tandem, Azure, or Siemens.",
-            "Strong understanding of IoT, BIM, and simulation."
+            "Strong understanding of IoT, BIM, and simulation.",
+            "Experience with Smart Cities or facilities projects is a plus."
         ],
         benefits: [
             "High-value project exposure.",
             "Competitive digital tech-based salary.",
+            "Access to simulation tools and twin platforms.",
             "R&D and innovation project involvement."
         ]
     },
@@ -804,18 +859,22 @@ const positions = [
             "Collect, clean, and interpret project and business data.",
             "Develop dashboards, KPIs, and reporting tools.",
             "Perform trend analysis and predictive modelling.",
-            "Automate reports and data visualizations."
+            "Automate reports and data visualizations.",
+            "Work with project and finance teams for insights."
         ],
         requirements: [
             "Bachelor’s Degree in Statistics, Data Science, or Engineering.",
             "Strong skills in Excel, Power BI, Python, or SQL.",
             "Minimum 2 years of experience in data analytics.",
-            "Knowledge of project or construction data is a plus."
+            "Knowledge of project or construction data is a plus.",
+            "Detail-oriented with a critical thinking mindset."
+            
         ],
         benefits: [
             "Competitive compensation.",
             "Access to BI tools and analytics platforms.",
-            "Opportunities in digital transformation projects."
+            "Opportunities in digital transformation projects.",
+			"Performance bonuses based on insights delivered."
         ]
     },
     {
@@ -833,18 +892,22 @@ const positions = [
             "Oversee development teams for internal tools and external client platforms.",
             "Set technical standards and ensure clean, scalable architecture.",
             "Manage DevOps, CI/CD pipelines, and version control.",
-            "Review code, mentor junior developers, and lead sprints."
+            "Review code, mentor junior developers, and lead sprints.",
+            "Collaborate across business units to deliver IT-enabled solutions."
         ],
         requirements: [
             "Bachelor’s Degree in Computer Science or Software Engineering.",
             "6+ years in software development, with 2+ in leadership roles.",
             "Proficiency in .NET, Node.js, React, or Python.",
-            "Strong understanding of cloud platforms (AWS/Azure)."
+            "Strong understanding of cloud platforms (AWS/Azure).",
+			"Experience in leading Agile development teams."
         ],
         benefits: [
             "Senior leadership pay scale.",
             "Remote/hybrid work model.",
-            "Technology budget and certification support."
+            "Technology budget and certification support.",
+			"Leadership development programs."
+            
         ]
     },
     {
@@ -862,19 +925,21 @@ const positions = [
             "Design and develop front-end and back-end web applications.",
             "Integrate third-party APIs and services.",
             "Maintain databases and cloud deployments.",
-            "Collaborate with designers, engineers, and analysts."
+            "Collaborate with designers, engineers, and analysts.",
+            "Test, debug, and optimize code for performance."
         ],
         requirements: [
             "Degree or Diploma in Software Engineering / IT.",
             "2+ years of experience in full-stack development.",
             "Proficient in JavaScript (React/Vue), Node.js, and PostgreSQL/MySQL.",
-            "Experience with REST APIs and Git workflows."
+            "Experience with REST APIs and Git workflows.",
+            "Portfolio of previous projects or GitHub profile preferred."
         ],
         benefits: [
             "Competitive developer salary.",
             "Remote-first team culture.",
-            "Technical mentorship and project bonuses."
-        ]
+            "Technical mentorship and project bonuses.",
+            "Access to learning platforms and tech licenses."]
     },
     {
         id: 29,
@@ -891,13 +956,15 @@ const positions = [
             "Coordinate project schedules, team assignments, and resource logistics.",
             "Maintain operational records and assist with reporting.",
             "Liaise with departments to ensure smooth workflow.",
-            "Monitor site readiness and materials tracking."
+            "Monitor site readiness and materials tracking.",
+            "Assist in documenting project milestones and task updates."
         ],
         requirements: [
             "Diploma or Degree in Business, Engineering, or Project Management.",
             "2–4 years’ experience in operations or project support.",
             "Excellent organizational and multitasking skills.",
-            "Strong proficiency in MS Office and Google Workspace."
+            "Strong proficiency in MS Office and Google Workspace.",
+			"Good interpersonal communication."
         ],
         benefits: [
             "Competitive salary.",
@@ -920,18 +987,21 @@ const positions = [
             "Oversee daily operations across engineering and support departments.",
             "Develop operational strategies and monitor KPI performance.",
             "Coordinate inter-departmental project delivery.",
-            "Support the implementation of project management systems."
+            "Support the implementation of project management systems.",
+			"Manage reporting, budgeting, and logistics."
         ],
         requirements: [
             "Bachelor’s Degree in Engineering or Business Management.",
             "7+ years of operations or project experience.",
             "Strong leadership and decision-making skills.",
-            "Proficient in ERP, CRM, or operations management tools."
+            "Proficient in ERP, CRM, or operations management tools.",
+			"Experience in construction/engineering sectors preferred."
         ],
         benefits: [
             "Competitive executive compensation.",
             "Company transport and allowances.",
-            "Performance-based bonuses."
+            "Performance-based bonuses.",
+			"Opportunities for strategic leadership roles."
         ]
     },
     {
@@ -949,18 +1019,21 @@ const positions = [
             "Prepare and monitor cost-loaded schedules.",
             "Analyze project performance against budgets and timelines.",
             "Support claims preparation and cost forecasting.",
-            "Integrate planning and financial data for reporting."
+            "Integrate planning and financial data for reporting.",
+			"Coordinate with QS and Finance teams on expenditure."
         ],
         requirements: [
             "Bachelor's in Civil Engineering, Quantity Surveying, or related field.",
             "4+ years’ experience in cost planning and project control.",
             "Knowledge of planning software and cost management tools.",
-            "Strong numerical and analytical skills."
+            "Strong numerical and analytical skills.",
+			"Experience in working with EPC or infrastructure projects."
         ],
         benefits: [
             "Attractive salary.",
             "Site travel allowances.",
-            "Access to planning/cost control software tools."
+            "Access to planning/cost control software tools.",
+			"Performance incentives."
         ]
     },
     {
@@ -978,13 +1051,15 @@ const positions = [
             "Develop and maintain baseline project schedules using Primavera P6.",
             "Monitor progress and update look-ahead schedules.",
             "Analyze delays and propose mitigation strategies.",
-            "Coordinate with project managers and site teams."
+            "Coordinate with project managers and site teams.",
+			"Generate dashboards, S-curves, and reporting formats."
         ],
         requirements: [
             "Bachelor's Honours Degree in Engineering or Project Management.",
             "3–6 years of planning/scheduling experience.",
             "Proficiency in Primavera P6, MS Project, and Excel.",
-            "Strong understanding of construction methodologies."
+            "Strong understanding of construction methodologies.",
+			"Effective communication and problem-solving skills."
         ],
         benefits: [
             "Competitive salary.",
@@ -1007,18 +1082,21 @@ const positions = [
             "Design and review HVAC, plumbing, and fire protection systems.",
             "Prepare technical specifications and material submittals.",
             "Conduct site supervision and inspection of installations.",
-            "Coordinate with MEP, architectural, and structural teams."
+            "Coordinate with MEP, architectural, and structural teams.",
+			"Ensure compliance with standards and client requirements."
         ],
         requirements: [
             "Bachelor's Honours Degree in Mechanical Engineering.",
             "3–6 years’ experience in MEP project execution.",
             "Familiar with ASHRAE, SMACNA, and relevant codes.",
-            "Proficiency in AutoCAD, Revit MEP, and simulation tools."
+            "Proficiency in AutoCAD, Revit MEP, and simulation tools.",
+			"Ensure compliance with standards and client requirements."
         ],
         benefits: [
             "Industry-aligned salary.",
             "Site allowances and accommodation (if applicable).",
-            "Training and CPD programs."
+            "Training and CPD programs.",
+			"Opportunity for leadership in MEP teams."
         ]
     },
     {
@@ -1036,18 +1114,21 @@ const positions = [
             "Lead planning, execution, and delivery of projects.",
             "Coordinate stakeholders, teams, consultants, and contractors.",
             "Ensure compliance with contract terms, budget, and timeline.",
-            "Oversee procurement, safety, and quality management."
+            "Oversee procurement, safety, and quality management.",
+			"Opportunity for leadership in MEP teams."
         ],
         requirements: [
             "Bachelor's Degree in Engineering or Construction Management.",
             "7+ years' project leadership experience.",
             "Strong knowledge of FIDIC contracts and project controls.",
-            "PMP or equivalent certification is an advantage."
+            "PMP or equivalent certification is an advantage.",
+			"Opportunity for leadership in MEP teams."
         ],
         benefits: [
             "Premium project-based salary.",
             "Project completion incentives.",
-            "Travel and accommodation."
+            "Travel and accommodation.",
+			"Opportunity for leadership in MEP teams."
         ]
     },
     {
@@ -1065,7 +1146,8 @@ const positions = [
             "Track actual vs. forecasted costs.",
             "Analyze budget variances and project profitability.",
             "Support procurement with cost benchmarking.",
-            "Provide input for financial reports and dashboards."
+            "Provide input for financial reports and dashboards.",
+			"Opportunity for leadership in MEP teams."
         ],
         requirements: [
             "Bachelor's Degree in Finance, Quantity Surveying, or Engineering.",
@@ -1076,7 +1158,8 @@ const positions = [
         benefits: [
             "Competitive compensation.",
             "Exposure to multi-currency and international cost systems.",
-            "Performance-linked bonuses."
+            "Performance-linked bonuses.",
+			"Opportunity for leadership in MEP teams."
         ]
     },
     {
@@ -1094,18 +1177,21 @@ const positions = [
             "Maintain client communication and handle inquiries.",
             "Support pre-sales documentation and presentations.",
             "Coordinate meetings, proposals, and follow-ups.",
-            "Maintain CRM records and client feedback."
+            "Maintain CRM records and client feedback.",
+			"Opportunity for leadership in MEP teams."
         ],
         requirements: [
             "Degree in Business, Marketing, or Communication.",
             "2–5 years' experience in client-facing roles.",
             "Strong interpersonal and communication skills.",
-            "Familiarity with CRM tools and proposal preparation."
+            "Familiarity with CRM tools and proposal preparation.",
+			"Positive attitude and customer-first mindset."
         ],
         benefits: [
             "Attractive base salary + incentives.",
             "Travel and communication allowances.",
-            "Training in technical services and business strategy."
+            "Training in technical services and business strategy.",
+			"Opportunities in business development and key account management."
         ]
     },
     {
@@ -1123,18 +1209,21 @@ const positions = [
             "Prepare electrical designs, layouts, and load calculations.",
             "Review and approve material submissions and shop drawings.",
             "Conduct site inspections and quality checks.",
-            "Ensure compliance with IEC, IEE, and local standards."
+            "Ensure compliance with IEC, IEE, and local standards.",
+			"Coordinate with MEP and project teams."
         ],
         requirements: [
             "Bachelor's Honours Degree in Electrical/Electronic Engineering.",
             "3–5 years of relevant experience.",
             "Proficient in AutoCAD, Dialux, and electrical simulation software.",
-            "Knowledge in ELV, BMS, and renewable energy systems is a plus."
+            "Knowledge in ELV, BMS, and renewable energy systems is a plus.",
+			"Detail-oriented and safety-conscious."
         ],
         benefits: [
             "Market-based salary and project perks.",
             "Access to software tools and certifications.",
-            "International project exposure."
+            "International project exposure.",
+			"Accommodation and travel (if applicable)."
         ]
     },
     {
@@ -1152,18 +1241,21 @@ const positions = [
             "Develop and implement social media strategies and content calendars.",
             "Manage company profiles across LinkedIn, Instagram, Facebook, and YouTube.",
             "Coordinate with marketing, design, and project teams.",
-            "Monitor analytics and campaign KPIs."
+            "Monitor analytics and campaign KPIs.",
+			"Respond to online queries, comments, and messages professionally."
         ],
         requirements: [
             "Bachelor's Degree in Marketing, Communications, or a related field.",
             "3+ years of social media management experience.",
             "Familiar with engineering, architecture, or construction content.",
-            "Proficient in Meta Suite, Canva, and analytics platforms."
+            "Proficient in Meta Suite, Canva, and analytics platforms.",
+			"Strong writing, creative, and organizational skills."
         ],
         benefits: [
             "Competitive salary.",
             "Remote work flexibility.",
-            "Incentives for performance and engagement."
+            "Incentives for performance and engagement.",
+			"Training in digital trends and tools."
         ]
     },
     {
@@ -1181,18 +1273,21 @@ const positions = [
             "Design and implement marketing strategies tailored to engineering markets.",
             "Lead content development, digital campaigns, and promotional events.",
             "Manage and mentor junior marketing staff.",
-            "Oversee CRM and client engagement tools."
+            "Oversee CRM and client engagement tools.",
+			"Analyze ROI, market trends, and competitor positioning."
         ],
         requirements: [
             "Degree in Marketing, Business, or Engineering with marketing experience.",
             "5+ years in marketing or business development (engineering preferred).",
             "Strong command of branding, advertising, and B2B strategy.",
-            "Familiarity with SEO, paid campaigns, and construction industry norms."
+            "Familiarity with SEO, paid campaigns, and construction industry norms.",
+			"Leadership, analytical, and creative thinking skills."
         ],
         benefits: [
             "Executive-level salary.",
             "Professional development in construction marketing.",
-            "Performance bonuses and travel support."
+            "Performance bonuses and travel support.",
+			"Leadership opportunities within the growth team."
         ]
     },
     {
@@ -1210,18 +1305,21 @@ const positions = [
             "Assist in planning and executing marketing campaigns.",
             "Coordinate social media and email marketing tasks.",
             "Attend events, exhibitions, and networking opportunities.",
-            "Support content creation, graphic design, and branding."
+            "Support content creation, graphic design, and branding.",
+			"Maintain and update CRM tools and client records."
         ],
         requirements: [
             "Diploma or Degree in Marketing, Business, or related fields.",
             "1–3 years of marketing experience (construction/engineering is a plus).",
             "Familiar with Canva, MS Office, and basic marketing platforms.",
-            "Strong communication and presentation skills."
+            "Strong communication and presentation skills.",
+			"Self-driven, creative, and organized."
         ],
         benefits: [
             "Attractive salary with commission-based incentives.",
             "Career progression into marketing strategy or business development.",
-            "Ongoing mentorship and training in industry-specific marketing."
+            "Ongoing mentorship and training in industry-specific marketing.",
+			"Travel and communication allowances."
         ]
     },
     {
@@ -1239,18 +1337,21 @@ const positions = [
             "Develop and deploy AI/ML models for construction analytics.",
             "Automate repetitive tasks, documentation, and scheduling functions.",
             "Integrate AI tools with BIM, ERP, and IoT platforms.",
-            "Analyze project data to optimize resource allocation and risk detection."
+            "Analyze project data to optimize resource allocation and risk detection.",
+			"Collaborate with tech, planning, and engineering teams."
         ],
         requirements: [
             "Bachelor’s or Master’s in Computer Science, AI, or related fields.",
             "Experience with Python, TensorFlow, PyTorch, or similar frameworks.",
             "Knowledge of construction or built environment AI applications is an asset.",
-            "Familiar with APIs, cloud computing, and data visualization tools."
+            "Familiar with APIs, cloud computing, and data visualization tools.",
+			"Strong research and problem-solving mindset."
         ],
         benefits: [
             "High-tier salary.",
             "Flexibility to work remotely.",
-            "Support for research, publication, and patenting."
+            "Support for research, publication, and patenting.",
+			"Cutting-edge project involvement in AI + Construction domains."
         ]
     },
     {
@@ -1268,18 +1369,21 @@ const positions = [
             "Design marketing materials, reports, and presentations.",
             "Create engaging visuals for social media and web.",
             "Collaborate with marketing, HR, and technical teams.",
-            "Maintain brand consistency across all media."
+            "Maintain brand consistency across all media.",
+			"Produce infographics, layouts, and short motion graphics."
         ],
         requirements: [
             "Degree/Diploma in Graphic Design or related field.",
             "Proficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign).",
             "Experience with Canva, Figma, or motion tools is a plus.",
-            "Strong creative portfolio and attention to detail."
+            "Strong creative portfolio and attention to detail.",
+			"Basic understanding of engineering/construction is a bonus."
         ],
         benefits: [
             "Project-based or monthly compensation.",
             "Flexibility in working hours and location.",
-            "Creative freedom and collaborative work culture."
+            "Creative freedom and collaborative work culture.",
+			"Bonuses for high-performing campaigns."
         ]
     },
     {
@@ -1297,7 +1401,8 @@ const positions = [
             "Lead recruitment, onboarding, and employee development programs.",
             "Ensure compliance with labour laws and HR policies.",
             "Manage performance appraisals, payroll coordination, and benefits.",
-            "Design and implement HR strategies aligned with business goals."
+            "Design and implement HR strategies aligned with business goals.",
+			"Resolve employee relations and workplace issues proactively."
         ],
         requirements: [
             "Bachelor’s Degree in Human Resources, Business Administration, or related field.",
@@ -1308,7 +1413,8 @@ const positions = [
         benefits: [
             "Competitive salary.",
             "Medical and leave benefits.",
-            "Career development and HR certification support."
+            "Career development and HR certification support.",
+			"Leadership role in a growing organization."
         ]
     },
     {
@@ -1326,7 +1432,8 @@ const positions = [
             "Assist with recruitment, interviews, and onboarding.",
             "Maintain employee records and HR databases.",
             "Support payroll processing and leave management.",
-            "Organize training sessions and employee engagement activities."
+            "Organize training sessions and employee engagement activities.",
+			"Ensure HR documentation compliance."
         ],
         requirements: [
             "Degree or Diploma in HRM, Business Administration, or equivalent.",
@@ -1355,7 +1462,8 @@ const positions = [
             "Oversee budgeting, forecasting, and cash flow management.",
             "Prepare financial statements, audits, and management reports.",
             "Monitor project-based financial performance.",
-            "Ensure tax compliance and regulatory filings."
+            "Ensure tax compliance and regulatory filings.",
+			"Lead finance team and coordinate with banks, auditors, and stakeholders."
         ],
         requirements: [
             "Bachelor’s Degree in Finance, Accounting, or related field (ACCA/CIMA preferred).",
@@ -1384,7 +1492,8 @@ const positions = [
             "Handle daily bookkeeping and ledger updates.",
             "Prepare invoices, receipts, and payment tracking.",
             "Assist with monthly closings and financial reporting.",
-            "Coordinate with vendors and procurement for payment processing."
+            "Coordinate with vendors and procurement for payment processing.",
+			"Maintain document control and assist auditors."
         ],
         requirements: [
             "Diploma or Degree in Accounting, Finance, or related field.",
@@ -1413,7 +1522,8 @@ const positions = [
             "Manage schedules, appointments, and correspondence.",
             "Prepare meeting agendas, minutes, and documentation.",
             "Maintain records, reports, and filing systems.",
-            "Handle phone and email communications with clients and partners."
+            "Handle phone and email communications with clients and partners.",
+			"Support HR and finance admin tasks when required."
         ],
         requirements: [
             "Diploma in Secretarial Practice or Business Administration.",
@@ -1424,7 +1534,8 @@ const positions = [
         benefits: [
             "Competitive salary.",
             "Professional working environment.",
-            "Leave and medical benefits."
+            "Leave and medical benefits.",
+			"Opportunities for skill development."
         ]
     },
     {
@@ -1442,18 +1553,22 @@ const positions = [
             "Identify and develop new business opportunities in local and international markets.",
             "Build and maintain strong relationships with clients, consultants, and industry stakeholders.",
             "Lead the preparation of proposals, bids, and presentations.",
-            "Collaborate with the technical and marketing teams to align solutions with client needs."
+            "Collaborate with the technical and marketing teams to align solutions with client needs.",
+			"Monitor market trends, competitor activities, and project pipelines.",
+			"Drive revenue growth through strategic partnerships and repeat business."
         ],
         requirements: [
             "Bachelor’s Degree in Engineering, Business, or Marketing (MBA preferred).",
             "5+ years of experience in business development, preferably in engineering or construction sectors.",
             "Proven track record in client acquisition and project win strategies.",
-            "Excellent communication, negotiation, and presentation skills."
+            "Excellent communication, negotiation, and presentation skills.",
+			"Knowledge of local and international bidding practices and networks."
         ],
         benefits: [
             "Attractive performance-based remuneration.",
             "Business travel and networking allowances.",
-            "Leadership opportunities in strategic expansion initiatives."
+            "Leadership opportunities in strategic expansion initiatives.",
+			"Professional development and international exposure."
         ]
     },
      {

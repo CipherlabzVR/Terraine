@@ -245,7 +245,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                                     <img src={imageAssets[project.imageKey]} alt={project.title} className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-105" />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-50 group-hover:opacity-0 transition-opacity duration-300"></div>
                                     <div className="absolute inset-0 bg-cyan-600/70 flex flex-col items-center justify-center p-6 text-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform scale-110 group-hover:scale-100">
-                                        <h3 className="text-2xl font-bold text-white mb-4">{project.title}</h3>
+                                        
                                         <Link to={`/completed-projects#project-${project.id}`}><Button variant="outline" className="text-white border-white hover:bg-white hover:text-cyan-600 rounded-full">Read More <Icons.ArrowRight className="w-4 h-4 ml-2" /></Button></Link>
                                     </div>
                                 </div>

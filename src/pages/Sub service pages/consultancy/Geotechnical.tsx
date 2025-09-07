@@ -9,13 +9,13 @@ import scopeImage from '../../../assert/Sub Services/consultancy/consultancy-tes
 import testimonialImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-4.jpg';
 
 // Importing the specific project images you requested.
-import projectImg1 from '../../../assert/projects/pro31.png';
-import projectImg2 from '../../../assert/projects/pro59.png';
-import projectImg3 from '../../../assert/projects/pro33.png';
-import projectImg4 from '../../../assert/projects/pro61.png';
-import projectImg5 from '../../../assert/projects/pro95.png';
-import projectImg6 from '../../../assert/projects/pro36.png';
-import projectImg7 from '../../../assert/projects/pro17.png';
+import projectImg1 from '../../../assert/projects/pro (62).png';
+import projectImg2 from '../../../assert/projects/pro (67).png';
+import projectImg3 from '../../../assert/projects/pro (72).png';
+import projectImg4 from '../../../assert/projects/pro (77).png';
+import projectImg5 from '../../../assert/projects/pro (82).png';
+import projectImg6 from '../../../assert/projects/pro (87).png';
+import projectImg7 from '../../../assert/projects/pro (92).png';
 
 const imageAssets = {
   scopeImage,

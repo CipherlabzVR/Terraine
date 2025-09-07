@@ -5,7 +5,7 @@ export const arVrTrainingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">AR/VR-based</span> Operations & Training',
     tagline: 'Train Smart Operate Better Experience Virtually.',
     description: 'Enhance operations with immersive AR/VR training, enabling safe practice, efficient workflows, reduced risks, improved learning, and real-time operational support across industries effectively.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Digitaltwin-testimonials-1.jpg', // Standardized background image
     uspItems: [
       { icon: 'GraduationCap', title: 'Immersive Learning', description: 'Hands-on training in safe virtual environments.' },
       { icon: 'Headset', title: 'Operational Support', description: 'Real-time AR overlays for complex tasks.' },

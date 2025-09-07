@@ -5,7 +5,7 @@ export const eightDBimPageData: PageData = {
     serviceName: '<span class="text-cyan-400">8D BIM</span> – Safety & Risk Management',
     tagline: 'Enhancing safety measures with proactive 8D modeling.',
     description: 'Our 8D BIM services identify risks, improve safety planning, and support proactive management, ensuring secure, efficient, and compliant construction processes across every project.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/BIM-testimonials-1.png', // Standardized background image
     uspItems: [
       { icon: 'ShieldCheck', title: 'Risk Mitigation', description: 'Identifies potential hazards consistently.' },
       { icon: 'ClipboardList', title: 'Safety Planning', description: 'Integrates safety measures effectively.' },

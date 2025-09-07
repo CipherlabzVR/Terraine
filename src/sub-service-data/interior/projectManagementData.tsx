@@ -7,7 +7,7 @@ export const projectManagementPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Project Management</span> & Procurement',
     tagline: 'Seamless project delivery through expert management solutions.',
     description: 'Our project management and procurement services ensure timely execution, efficient resource management, and high-quality outcomes, delivering interior projects on schedule, within budget, and to client satisfaction.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Interior-testimonials-9.jpg', // Standardized background image
     uspItems: [
       { icon: 'Workflow', title: 'Seamless Coordination', description: 'Efficient management of all project activities consistently.' },
       { icon: 'CircleDollarSign', title: 'Cost Control', description: 'Strategic procurement minimizing expenses effectively.' },

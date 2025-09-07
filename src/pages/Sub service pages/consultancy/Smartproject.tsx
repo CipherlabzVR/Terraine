@@ -11,12 +11,13 @@ import testimonialImage from '../../../assert/Sub Services/consultancy/consultan
 
 // Assuming you have an easy way to import project images. 
 // If not, you can import them individually like the others.
-import projectImg1 from '../../../assert/Sub Services/consultancy/5.jpg';
-import projectImg2 from '../../../assert/Sub Services/consultancy/6.jpg';
-import projectImg3 from '../../../assert/Sub Services/consultancy/9.jpg';
-import projectImg4 from '../../../assert/Sub Services/consultancy/19.png';
-import projectImg5 from '../../../assert/Sub Services/consultancy/22.png';
-import projectImg6 from '../../../assert/Sub Services/consultancy/23.png';
+import projectImg1 from '../../../assert/projects/pro (68).png';
+import projectImg2 from '../../../assert/projects/pro (73).png';
+import projectImg3 from '../../../assert/projects/pro (78).png';
+import projectImg4 from '../../../assert/projects/pro (83).png';
+import projectImg5 from '../../../assert/projects/pro (88).png';
+import projectImg6 from '../../../assert/projects/pro (93).png';
+import projectImg7 from '../../../assert/projects/pro (95).png';
 
 
 

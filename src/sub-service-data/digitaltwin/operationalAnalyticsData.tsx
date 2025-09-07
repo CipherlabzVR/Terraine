@@ -5,7 +5,7 @@ export const operationalAnalyticsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Operational Analytics</span> & Decision-Making',
     tagline: 'Data-Driven Insights Smart Operations Better Decisions.',
     description: 'Empower organizations with actionable analytics, transforming operational data into smart decisions, improved efficiency, reduced costs, and sustained business performance for long-term growth.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Digitaltwin-testimonials-6', // Standardized background image
     uspItems: [
       { icon: 'BrainCircuit', title: 'Data-Driven Clarity', description: 'Turn complex data into clear, actionable insights.' },
       { icon: 'Zap', title: 'Faster Decisions', description: 'Enable smart decision-making with predictive analytics.' },

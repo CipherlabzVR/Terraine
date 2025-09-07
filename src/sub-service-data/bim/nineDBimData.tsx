@@ -5,7 +5,7 @@ export const nineDBimPageData: PageData = {
     serviceName: '<span class="text-cyan-400">9D BIM</span> – Lean Construction & Productivity',
     tagline: 'Maximizing efficiency through 9D lean construction modeling.',
     description: 'Our 9D BIM services optimize workflows, enhance productivity, and reduce waste, delivering cost effective, timely, and highly efficient construction projects with streamlined operations.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/BIM-testimonials-4.jpg', // Standardized background image
     uspItems: [
       { icon: 'Settings', title: 'Process Optimization', description: 'Streamlines construction workflows consistently.' },
       { icon: 'Trash2', title: 'Waste Reduction', description: 'Minimizes material and time inefficiencies effectively.' },

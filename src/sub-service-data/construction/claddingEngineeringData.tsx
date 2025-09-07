@@ -5,7 +5,7 @@ export const claddingEngineeringPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Cladding</span> Engineering',
     tagline: 'Innovative cladding solutions for striking facades',
     description: 'Our cladding engineering services deliver visually appealing, durable, and weather resistant exterior solutions enhancing aesthetics, performance, and long-lasting protection for every building project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/hero - construction (2).jpg', // Standardized background image
     uspItems: [
       { icon: 'ShieldCheck', title: 'Durable Facades', description: 'High-quality cladding ensuring long-lasting protection consistently' },
       { icon: 'Eye', title: 'Visual Appeal', description: 'Modern designs enhancing building aesthetics effectively' },

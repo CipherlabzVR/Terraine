@@ -3,14 +3,14 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import packageImage from '../assert/Packages/coper.png'; // Replace with appropriate package image
+import packageImage from '@/assert/Packages/coper.png'; // Replace with appropriate package image
 
 
-import brownz1 from '../assert/Packages/brownz/brownz1.png';
-import brownz2 from '../assert/Packages/brownz/brownz2.png';
-import brownz3 from '../assert/Packages/brownz/brownz3.png';
-import brownz4 from '../assert/Packages/brownz/brownz4.png';
-import brownz5 from '../assert/Packages/brownz/brownz5.png';
+import brownz1 from '@/assert/Packages/brownz/brownz1.png';
+import brownz2 from '@/assert/Packages/brownz/brownz2.png';
+import brownz3 from '@/assert/Packages/brownz/brownz3.png';
+import brownz4 from '@/assert/Packages/brownz/brownz4.png';
+import brownz5 from '@/assert/Packages/brownz/brownz5.png';
 
 
 

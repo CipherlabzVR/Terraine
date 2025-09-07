@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
-import coper from '../assert/Packages/coper.png';
-import silver from '../assert/Packages/Silver.png';
-import gold from '../assert/Packages/gold.png';
-import Crystal from '../assert/Packages/itc.jpg';
-import white from '../assert/Packages/white.png';
-import Special from '../assert/Packages/Special.png';
+import coper from '@/assert/Packages/coper.png';
+import silver from '@/assert/Packages/Silver.png';
+import gold from '@/assert/Packages/gold.png';
+import Crystal from '@/assert/Packages/itc.jpg';
+import white from '@/assert/Packages/white.png';
+import Special from '@/assert/Packages/Special.png';
 import Header from '../components/Header.tsx';
 import { Button } from '@/components/ui/button';
 import { ArrowDownWideNarrow } from 'lucide-react';

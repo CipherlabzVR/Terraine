@@ -4,9 +4,9 @@ import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-import silver from '../assert/Packages/Silver.png'; // TODO: Replace with a relevant image for the Commercial Package
+import silver from '../assert/Packages/Silver.png'; // Commercial Package image
 
-import Silver1 from '../assert/Packages/silver/Silver1.png'; // TODO: Replace with relevant images
+import Silver1 from '../assert/Packages/silver/Silver1.png';
 import Silver2 from '../assert/Packages/silver/Silver2.png';
 import Silver3 from '../assert/Packages/silver/Silver3.jpg';
 import Silver4 from '../assert/Packages/silver/Silver4.jpg';
@@ -54,7 +54,7 @@ const CommercialPackage = () => {
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
   const [currentImage, setCurrentImage] = useState(0);
-  const images = [Silver1, Silver2, Silver3, Silver4, Silver5]; // TODO: Replace with relevant images
+  const images = [Silver1, Silver2, Silver3, Silver4, Silver5];
 
   // Scroll to top on mount
   useEffect(() => {
@@ -183,7 +183,7 @@ const CommercialPackage = () => {
                 <div className="w-full overflow-hidden rounded-t-3xl">
                   <div className="relative">
                     <img
-                      src={silver} // TODO: Replace with a relevant image
+                      src={silver}
                       alt={packageDetails.name}
                       className="w-full h-[900px] md:h-[1300px] lg:h-[1600px] object-cover object-center"
                     />

@@ -9,8 +9,8 @@ import { steelMetalConsultancyPageData } from '../../../sub-service-data/materia
 // MUST match the keys in your steelMetalConsultancyPageData file.
 
 // Standardized scope and testimonial images from the 'construction' folder
-import scopeImage from '../../../assert/Sub Services/construction/smart.webp';
-import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-9.jpg';
+import scopeImage from '../../../assert/Sub Services/material/Material-testimonials-13.jpg';
+import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-16.jpg';
 
 // Project images (reuse or swap with steel-specific images if you have them)
 import projectImg1 from '../../../assert/projects/pro1.png';

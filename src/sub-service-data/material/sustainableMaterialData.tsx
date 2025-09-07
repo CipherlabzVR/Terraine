@@ -1,13 +1,14 @@
 // Suggested Filename: sustainableMaterialData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-11.jpg';
 
 export const sustainableMaterialPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Sustainable & Green</span> Material Consultancy',
     tagline: 'Promoting eco-friendly materials for sustainable projects.',
     description: 'Our sustainable and green material consultancy guides selection of environmentally responsible materials, reducing carbon footprint, enhancing energy efficiency, and supporting long term sustainability in every construction project.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: bgImage, // Standardized background image
     uspItems: [
       { icon: 'Leaf', title: 'Eco-friendly Choices', description: 'Promotes environmentally responsible materials consistently.' },
       { icon: 'ShieldCheck', title: 'Regulatory Compliance', description: 'Meets green building standards effectively.' },

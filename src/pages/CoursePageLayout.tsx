@@ -296,16 +296,16 @@ const ContactFormSection = ({ subtitle }) => {
                               <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10"><Phone className="w-6 h-6 text-cyan-400" /></div>
                               <div>
                                   <h4 className="font-bold">Call Us</h4>
-                                  <p className="text-white/70">+94 77 948 7100</p>
-                                  <p className="text-white/70">+94 71 433 7100</p>
+                                  <p className="text-white/70">+94 77 523 5572</p>
+                                  <p className="text-white/70">+94 74 022 6660</p>
                               </div>
                           </div>
                           <div className="flex items-start gap-4">
                               <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10"><Mail className="w-6 h-6 text-cyan-400" /></div>
                               <div>
                                   <h4 className="font-bold">Email Us</h4>
-                                  <p className="text-white/70">info@terrene.lk</p>
-                                  <p className="text-white/70">contact@terrene.lk</p>
+                                  <p className="text-white/70">info@terreneengineering.com</p>
+                                  <p className="text-white/70">careers@terreneengineering.com</p>
                               </div>
                           </div>
                           <div className="flex items-start gap-4">

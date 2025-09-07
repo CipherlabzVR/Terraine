@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-7.jpg';
 
 export const rawMaterialSourcingPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Raw Material</span> Sourcing',
     tagline: 'Efficient sourcing of quality raw construction materials',
     description: 'Our raw material sourcing services ensure reliable, cost effective, and high-quality materials, supporting timely procurement, optimized budgets, and successful execution of construction and engineering projects.',
-    backgroundImage: '/raw-materials-hero.webp',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'ShieldCheck', title: 'Reliable Suppliers', description: 'Ensuring consistent high-quality materials.' },
       { icon: 'DollarSign', title: 'Cost-effective', description: 'Competitive pricing for optimal project budgets.' },
@@ -67,8 +68,8 @@ export const rawMaterialSourcingPageData: PageData = {
   contact: {
     title: 'SEND AN INQUIRY',
     description: 'Contact us for more information about our Raw Material Sourcing services.',
-    phoneNumbers: ['+94 77 948 7100', '+94 71 433 7100'],
-    emails: ['info@terrene.lk', 'contact@terrene.lk'],
+    phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
+    emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'
   }
 };

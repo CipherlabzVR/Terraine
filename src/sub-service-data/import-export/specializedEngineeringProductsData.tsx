@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-5.jpg';
 
 export const specializedEngineeringProductsPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Specialized Engineering</span> Products',
     tagline: 'Supplying advanced products for specialized engineering solutions',
     description: 'Our specialized engineering product services provide high quality, innovative materials and components, ensuring precision, reliability, and optimal performance for complex construction and engineering projects.',
-    backgroundImage: '/specialized-hero.webp',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'ShieldCheck', title: 'High-quality', description: 'Durable and reliable engineering products consistently.' },
       { icon: 'Zap', title: 'Innovative Solutions', description: 'Advanced products for modern construction effectively.' },
@@ -67,8 +68,8 @@ export const specializedEngineeringProductsPageData: PageData = {
   contact: {
     title: 'SEND AN INQUIRY',
     description: 'Contact us for more information about our Specialized Engineering Products services.',
-    phoneNumbers: ['+94 77 948 7100', '+94 71 433 7100'],
-    emails: ['info@terrene.lk', 'contact@terrene.lk'],
+    phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
+    emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'
   }
 };

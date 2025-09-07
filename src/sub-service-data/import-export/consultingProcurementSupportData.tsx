@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-9.jpg';
 
 export const consultingProcurementSupportPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Consulting & Procurement</span> Support',
     tagline: 'Expert guidance for efficient material sourcing globally',
     description: 'Our consulting and procurement support services provide strategic advice, market insights, and sourcing solutions, ensuring high quality, cost-effective materials and smooth procurement for every construction project.',
-    backgroundImage: '/consulting-hero.webp',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'Users', title: 'Expert Advice', description: 'Professional guidance for material and equipment selection consistently.' },
       { icon: 'Zap', title: 'Efficient Procurement', description: 'Streamlined sourcing for project timelines effectively.' },
@@ -67,8 +68,8 @@ export const consultingProcurementSupportPageData: PageData = {
   contact: {
     title: 'SEND AN INQUIRY',
     description: 'Contact us for more information about our Consulting & Procurement Support services.',
-    phoneNumbers: ['+94 77 948 7100', '+94 71 433 7100'],
-    emails: ['info@terrene.lk', 'contact@terrene.lk'],
+    phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
+    emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'
   }
 };

@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-8.jpg';
 
 export const engineeringMaterialsExportPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Export of Engineering</span> & Construction Materials',
     tagline: 'Reliable export solutions for global construction needs',
     description: 'Our export services ensure efficient, safe, and timely delivery of engineering and construction materials, meeting international standards and supporting successful projects across global markets.',
-    backgroundImage: '/export-hero.webp',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'Globe', title: 'Global Reach', description: 'Delivering materials to international clients consistently.' },
       { icon: 'ShieldCheck', title: 'Quality Assurance', description: 'Ensuring high standard products effectively.' },
@@ -67,8 +68,8 @@ export const engineeringMaterialsExportPageData: PageData = {
   contact: {
     title: 'SEND AN INQUIRY',
     description: 'Contact us for more information about our Engineering Materials Export services.',
-    phoneNumbers: ['+94 77 948 7100', '+94 71 433 7100'],
-    emails: ['info@terrene.lk', 'contact@terrene.lk'],
+    phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
+    emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'
   }
 };

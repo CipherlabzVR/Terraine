@@ -4,13 +4,13 @@ import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-import silver from '../assert/Packages/Silver.png'; // Commercial Package image
+import gold from '@/assert/Packages/gold.png';
 
-import Silver1 from '../assert/Packages/silver/Silver1.png';
-import Silver2 from '../assert/Packages/silver/Silver2.png';
-import Silver3 from '../assert/Packages/silver/Silver3.jpg';
-import Silver4 from '../assert/Packages/silver/Silver4.jpg';
-import Silver5 from '../assert/Packages/silver/Silver5.jpg';
+import gold1 from '@/assert/Packages/gold/gold1.png';
+import gold2 from '@/assert/Packages/gold/gold2.png';
+import gold3 from '@/assert/Packages/gold/gold3.png';
+import gold4 from '@/assert/Packages/gold/gold4.png';
+import gold5 from '@/assert/Packages/gold/gold5.jpg';
 
 
 

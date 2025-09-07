@@ -7,7 +7,7 @@ import { arVrTrainingPageData } from '../../../sub-service-data/digitaltwin/arVr
 
 // Standardized scope and testimonial images from the 'digitaltwin' folder
 import scopeImage from '../../../assert/Sub Services/digitaltwin/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/digitaltwin/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-1.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

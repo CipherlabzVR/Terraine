@@ -4,7 +4,7 @@ import { predictiveAnalyticsForecastingPageData } from '../../../sub-service-dat
 
 // Standardized scope image as requested
 import scopeImage from '../../../assert/Sub Services/ai-engineering/ai1.jpg';
-import testimonialImage from '../../../assert/Sub Services/ai-engineering/ai2.jpg';
+import testimonialImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-6.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

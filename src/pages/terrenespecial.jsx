@@ -1,17 +1,15 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
+import silver from '@/assert/Packages/Silver.png';
 
-const Silver  = new URL('../assert/Packages/Silver.png', import.meta.url).href;
-const silver  = Silver; // keep lowercase usages working
-
-const Silver1 = new URL('../assert/Packages/silver/Silver1.png', import.meta.url).href;
-const Silver2 = new URL('../assert/Packages/silver/Silver2.png', import.meta.url).href;
-const Silver3 = new URL('../assert/Packages/silver/Silver3.jpg', import.meta.url).href;
-const Silver4 = new URL('../assert/Packages/silver/Silver4.jpg', import.meta.url).href;
-const Silver5 = new URL('../assert/Packages/silver/Silver5.jpg', import.meta.url).href;
+import Silver1 from '@/assert/Packages/silver/Silver1.png';
+import Silver2 from '@/assert/Packages/silver/Silver2.png';
+import Silver3 from '@/assert/Packages/silver/Silver3.jpg';
+import Silver4 from '@/assert/Packages/silver/Silver4.jpg';
+import Silver5 from '@/assert/Packages/silver/Silver5.jpg';
 
 
 

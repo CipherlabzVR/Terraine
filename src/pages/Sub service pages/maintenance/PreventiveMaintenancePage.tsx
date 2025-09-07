@@ -7,7 +7,7 @@ import { preventiveMaintenancePageData } from '../../../sub-service-data/mainten
 
 // Standardized scope and testimonial images from the 'maintenance' folder
 import scopeImage from '../../../assert/Sub Services/maintenance/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/maintenance/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-11.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

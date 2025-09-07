@@ -1,17 +1,18 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-// Use URL-based resolves; keep your exact folder/file names
-const Silver  = new URL('../assert/Packages/Silver.png', import.meta.url).href;
+import gold from '@/assert/Packages/gold.png';
 
-const Silver1 = new URL('../assert/Packages/silver/Silver1.png', import.meta.url).href;
-const Silver2 = new URL('../assert/Packages/silver/Silver2.png', import.meta.url).href;
-const Silver3 = new URL('../assert/Packages/silver/Silver3.jpg', import.meta.url).href;
-const Silver4 = new URL('../assert/Packages/silver/Silver4.jpg', import.meta.url).href;
-const Silver5 = new URL('../assert/Packages/silver/Silver5.jpg', import.meta.url).href;
+import gold1 from '@/assert/Packages/gold/gold1.png';
+import gold2 from '@/assert/Packages/gold/gold2.png';
+import gold3 from '@/assert/Packages/gold/gold3.png';
+import gold4 from '@/assert/Packages/gold/gold4.png';
+import gold5 from '@/assert/Packages/gold/gold5.jpg';
+
+
 
 const packageDetails = {
   name: 'Commercial Project Package',
@@ -53,7 +54,7 @@ const CommercialPackage = () => {
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
   const [currentImage, setCurrentImage] = useState(0);
-  const images = [Silver1, Silver2, Silver3, Silver4, Silver5]; // TODO: Replace with relevant images
+  const images = [gold1, gold2, gold3, gold4, gold5];
 
   // Scroll to top on mount
   useEffect(() => {
@@ -182,7 +183,7 @@ const CommercialPackage = () => {
                 <div className="w-full overflow-hidden rounded-t-3xl">
                   <div className="relative">
                     <img
-                      src={Silver} // TODO: Replace with a relevant image
+                      src={gold}
                       alt={packageDetails.name}
                       className="w-full h-[900px] md:h-[1300px] lg:h-[1600px] object-cover object-center"
                     />

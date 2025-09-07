@@ -1,6 +1,6 @@
 import React from 'react';
-import GenericPageLayout from '@/pages/GenericPageLayout'; 
-import { maintenancePageData } from '@/service-data/maintenanceData'; 
+import GenericPageLayout from '../pages/GenericPageLayout'; 
+import { maintenancePageData } from '../service-data/maintenanceData'; 
 
 // --- IMPORTANT ---
 // 1. You will need to add the actual image and video files to your 'src/assert' folder.

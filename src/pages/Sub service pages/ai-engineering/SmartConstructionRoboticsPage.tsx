@@ -4,7 +4,7 @@ import { smartConstructionRoboticsPageData } from '../../../sub-service-data/ai-
 
 // Standardized scope image as requested
 import scopeImage from '../../../assert/Sub Services/ai-engineering/ai1.jpg';
-import testimonialImage from '../../../assert/Sub Services/ai-engineering/ai2.jpg';
+import testimonialImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-7.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

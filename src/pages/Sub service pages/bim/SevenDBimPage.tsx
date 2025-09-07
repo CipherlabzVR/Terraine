@@ -7,7 +7,7 @@ import { sevenDBimPageData } from '../../../sub-service-data/bim/sevenDBimData';
 
 // Standardized scope and testimonial images from the 'bim' folder
 import scopeImage from '../../../assert/Sub Services/bim/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/bim/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/bim/BIM-testimonials-5.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

@@ -4,7 +4,7 @@ import { turnkeyFurnitureFitOutsPageData } from '../../../sub-service-data/furni
 
 // Standardized scope image as requested
 import scopeImage from '../../../assert/Sub Services/furniture/furniture1.jpg'; 
-import testimonialImage from '../../../assert/Sub Services/furniture/furniture2.jpg';
+import testimonialImage from '../../../assert/Sub Services/furniture/Furniture-testimonials-1.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

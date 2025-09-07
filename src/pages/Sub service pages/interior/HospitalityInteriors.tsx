@@ -9,7 +9,7 @@ import { hospitalityInteriorsPageData } from '../../../sub-service-data/interior
 
 // Standardized scope and testimonial images from the 'interior' folder
 import scopeImage from '../../../assert/Sub Services/interior/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/interior/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/interior/Interior-testimonials-8.jpg';
 
 // Importing the specific project images for hospitality interiors.
 import projectImg1 from '../../../assert/projects/pro1.png';

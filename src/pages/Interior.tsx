@@ -1,6 +1,6 @@
 import React from 'react';
-import GenericPageLayout from '@/pages/GenericPageLayout'; 
-import { interiorDesignPageData } from '@/service-data/interiorData'; 
+import GenericPageLayout from '../pages/GenericPageLayout'; 
+import { interiorDesignPageData } from '../service-data/interiorData'; 
 
 // --- IMPORTANT ---
 // 1. You will need to add the actual image and video files to your 'src/assert' folder.

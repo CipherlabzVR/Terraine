@@ -9,7 +9,7 @@ import { furnitureSelectionPageData } from '../../../sub-service-data/interior/f
 
 // Standardized scope and testimonial images from the 'interior' folder
 import scopeImage from '../../../assert/Sub Services/interior/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/interior/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/interior/Interior-testimonials-9.jpg';
 
 // Importing the specific project images for furniture selection services.
 import projectImg1 from '../../../assert/projects/pro1.png';

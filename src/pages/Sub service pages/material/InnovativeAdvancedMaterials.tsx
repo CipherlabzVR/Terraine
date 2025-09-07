@@ -9,7 +9,7 @@ import { innovativeAdvancedMaterialsPageData } from '../../../sub-service-data/m
 
 // Reuse your shared visuals or swap in innovation-specific assets later
 import scopeImage from '../../../assert/Sub Services/construction/smart.webp';
-import testimonialImage from '../../../assert/Sub Services/construction/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-4.jpg';
 
 import projectImg1 from '../../../assert/projects/pro1.png';
 import projectImg2 from '../../../assert/projects/pro9.png';

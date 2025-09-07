@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import * as Icons from 'lucide-react';
@@ -145,22 +145,18 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
       {/* --- Hero Section --- */}
       <main className="relative min-h-screen flex items-center text-white" style={{ backgroundImage: `url('${pageData.hero.backgroundImage}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-black/80 z-10"></div>
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-8">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-8 pt-24 lg:pt-0">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div className="text-center lg:text-left">
-                    {/* RESPONSIVE UPDATE: Added xl:text-7xl for larger screens */}
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mt-[15vh]" dangerouslySetInnerHTML={{ __html: pageData.hero.serviceName }}></h1>
-                    {/* RESPONSIVE UPDATE: Removed max-w-xl to allow text to flow */}
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight mt-24 lg:mt-[15vh]" dangerouslySetInnerHTML={{ __html: pageData.hero.serviceName }}></h1>
                     <p className="mt-6 text-lg md:text-xl text-cyan-300 mx-auto lg:mx-0">{pageData.hero.tagline}</p>
-                    {/* RESPONSIVE UPDATE: Removed max-w-xl to allow text to flow */}
                     <p className="mt-4 text-lg md:text-xl text-white mx-auto lg:mx-0">{pageData.hero.description}</p>
                     <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                         <a href="#contact-section"><Button size="lg" className="bg-[#0050A0] w-full sm:w-auto text-white hover:bg-cyan-500 px-8 py-3 text-lg rounded-md transition-transform hover:scale-105">BOOK THIS SERVICE <Icons.ArrowRight className="w-5 h-5 ml-2" /></Button></a>
                         <a href="#project-scope"><Button size="lg" className="text-white bg-cyan-500 hover:bg-white/40 w-full sm:w-auto px-8 py-3 text-lg rounded-md">MORE DETAILS <Icons.ChevronsDown className="w-10 h-10 ml-1"/></Button></a>
                     </div>
                 </div>
-                {/* RESPONSIVE UPDATE: Corrected width class by removing w-[100vh] */}
-                <div className="p-8 md:p-10 rounded-lg border border-white/20 w-full w-[100vh] shadow-2xl bg-slate-900/50 backdrop-blur-md mt-[15vh]">
+                <div className="p-8 md:p-10 rounded-lg border border-white/20 w-full shadow-2xl bg-slate-900/50 backdrop-blur-md mt-8 lg:mt-[15vh]">
                     <h3 className="text-white font-bold text-2xl mb-8 text-center">Why Choose Us</h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center max-w-3xl mx-auto">
                         {pageData.hero.uspItems.map((item, index) => (

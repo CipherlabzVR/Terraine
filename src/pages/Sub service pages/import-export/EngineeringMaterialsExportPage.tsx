@@ -7,7 +7,7 @@ import { engineeringMaterialsExportPageData } from '../../../sub-service-data/im
 
 // Standardized scope and testimonial images from the 'import-export' folder
 import scopeImage from '../../../assert/Sub Services/import-export/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/import-export/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-7.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

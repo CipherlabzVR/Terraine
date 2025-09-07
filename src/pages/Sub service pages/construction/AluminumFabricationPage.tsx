@@ -7,7 +7,7 @@ import { aluminumFabricationPageData } from '../../../sub-service-data/construct
 
 // Standardized scope and testimonial images from the 'construction' folder
 import scopeImage from '../../../assert/Sub Services/construction/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/construction/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/construction/Construction-testimonials-11.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

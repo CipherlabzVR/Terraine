@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Link } from 'react-router-dom';
@@ -110,7 +110,9 @@ const AllCoursesCarousel = ({ courses }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const carouselRef = useRef(null);
     const [coursesToShow, setCoursesToShow] = useState(3);
-    const transitionTime = 700; // ms
+    const [touchStart, setTouchStart] = useState(null);
+    const transitionTime = 700;
+    const minSwipeDistance = 50;
 
     useEffect(() => {
         const handleResize = () => {
@@ -176,9 +178,32 @@ const AllCoursesCarousel = ({ courses }) => {
             setCurrentIndex((prevIndex) => prevIndex - 1);
         }
     };
+
+    const handleTouchStart = (e) => {
+        setTouchStart(e.targetTouches[0].clientX);
+    };
+
+    const handleTouchMove = (e) => {
+        if (touchStart === null) return;
+        const currentTouch = e.targetTouches[0].clientX;
+        const diff = touchStart - currentTouch;
+
+        if (Math.abs(diff) > minSwipeDistance) {
+            if (diff > 0) {
+                nextSlide();
+            } else {
+                prevSlide();
+            }
+            setTouchStart(null);
+        }
+    };
     
     return (
-      <div className="relative w-full">
+      <div 
+        className="relative w-full"
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+      >
         <div className="overflow-hidden">
           <div 
             ref={carouselRef}
@@ -230,19 +255,11 @@ const AllCoursesCarousel = ({ courses }) => {
           </div>
         </div>
         
-        <button
-            onClick={prevSlide}
-            className="absolute top-1/2 -translate-y-1/2 left-3 sm:left-8 z-10 transition-transform duration-200 hover:scale-110"
-            style={{ pointerEvents: 'auto' }}
-        >
-            <CircleChevronLeft className="w-16 h-16 text-white/40 hover:text-cyan-500 mb-12"/>
+        <button onClick={prevSlide} className="hidden md:block absolute top-1/2 -translate-y-1/2 left-3 sm:left-8 z-10 transition-transform duration-200 hover:scale-110">
+            <CircleChevronLeft className="w-16 h-16 text-white/40 hover:text-cyan-500"/>
         </button>
-        <button
-            onClick={nextSlide}
-            className="absolute top-1/2 -translate-y-1/2 right-3 sm:right-8 z-10 transition-transform duration-200 hover:scale-110"
-            style={{ pointerEvents: 'auto' }}
-        >
-            <CircleChevronRight className="w-16 h-16 text-white/40 hover:text-cyan-500 mb-12"/>
+        <button onClick={nextSlide} className="hidden md:block absolute top-1/2 -translate-y-1/2 right-3 sm:right-8 z-10 transition-transform duration-200 hover:scale-110">
+            <CircleChevronRight className="w-16 h-16 text-white/40 hover:text-cyan-500"/>
         </button>
       </div>
     );
@@ -325,7 +342,6 @@ const ContactFormSection = ({ subtitle }) => {
                                 </div>
                                 <div className="sm:col-span-2">
                                     <label className="block text-sm font-medium text-white/80 mb-1">Phone Number</label>
-                                    {/* --- MODIFIED PhoneInput --- */}
                                     <PhoneInput
                                         country={'lk'}
                                         value={phone}
@@ -362,39 +378,38 @@ const CoursePageLayout = ({ courseData }) => {
     const [isHeroLoaded, setIsHeroLoaded] = useState(false);
     const lastScrollY = useRef(0);
 
-    // --- NEW: Custom styles for the PhoneInput component ---
     const phoneInputCustomStyles = `
         .custom-phone-input.react-tel-input .form-control {
-          background-color: #1e293b !important; /* bg-slate-800 */
-          border: 1px solid rgba(255, 255, 255, 0.2) !important; /* border-white/20 */
+          background-color: #1e293b !important;
+          border: 1px solid rgba(255, 255, 255, 0.2) !important;
           color: white !important;
           width: 100% !important;
-          padding-top: 1.25rem !important; /* Match py-5 from original */
+          padding-top: 1.25rem !important;
           padding-bottom: 1.25rem !important;
         }
         .custom-phone-input.react-tel-input .flag-dropdown {
-          background-color: #1e293b !important; /* bg-slate-800 */
-          border: 1px solid rgba(255, 255, 255, 0.2) !important; /* border-white/20 */
+          background-color: #1e293b !important;
+          border: 1px solid rgba(255, 255, 255, 0.2) !important;
           border-right: none !important;
         }
         .custom-phone-input.react-tel-input .flag-dropdown:hover,
         .custom-phone-input.react-tel-input .flag-dropdown.open {
-          background-color: #0e7490 !important; /* cyan-700 */
+          background-color: #0e7490 !important;
         }
         .custom-phone-input.react-tel-input .selected-flag {
           background-color: transparent !important;
         }
         .custom-phone-input.react-tel-input .country-list {
-          background-color: #0f172a !important; /* bg-slate-900 */
+          background-color: #0f172a !important;
           border: 1px solid rgba(255, 255, 255, 0.2) !important;
         }
         .custom-phone-input.react-tel-input .country-list .country:hover,
         .custom-phone-input.react-tel-input .country-list .country.highlight {
-          background-color: #0e7490 !important; /* cyan-700 */
+          background-color: #0e7490 !important;
           color: white !important;
         }
         .custom-phone-input.react-tel-input .country-list .search-box {
-          background-color: #1e293b !important; /* bg-slate-800 */
+          background-color: #1e293b !important;
           color: white !important;
           border-color: rgba(255, 255, 255, 0.2) !important;
         }
@@ -442,7 +457,6 @@ const CoursePageLayout = ({ courseData }) => {
         if (lowerTitle.includes('online') || lowerTitle.includes('flexible')) {
             return <Laptop className={iconClass} />;
         }
-        // Return a default icon if no keywords match
         return <Shapes className={iconClass} />;
     };
 
@@ -457,10 +471,10 @@ const CoursePageLayout = ({ courseData }) => {
                     <img src={courseData.heroImage} alt={`${courseData.heroTitle} Visualization`} className={`w-full h-full object-cover transition-transform duration-[8000ms] ease-out ${isHeroLoaded ? 'scale-110' : 'scale-100'}`} />
                     <div className="absolute inset-0 bg-black/70"></div>
                 </div>
-                <div className="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-8">
+                <div className="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-8 pt-24 lg:pt-0">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="text-center lg:text-left">
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mt-[15vh]">
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mt-24 lg:mt-[15vh]">
                                 <span className="text-cyan-400">{courseData.heroTitle.split(' in ')[0]} in</span>
                                 <br />
                                 {courseData.heroTitle.split(' in ')[1]}

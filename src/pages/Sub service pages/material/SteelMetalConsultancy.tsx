@@ -10,7 +10,7 @@ import { steelMetalConsultancyPageData } from '../../../sub-service-data/materia
 
 // Standardized scope and testimonial images from the 'construction' folder
 import scopeImage from '../../../assert/Sub Services/construction/smart.webp';
-import testimonialImage from '../../../assert/Sub Services/construction/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-9.jpg';
 
 // Project images (reuse or swap with steel-specific images if you have them)
 import projectImg1 from '../../../assert/projects/pro1.png';

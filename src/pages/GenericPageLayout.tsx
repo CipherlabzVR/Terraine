@@ -2,8 +2,8 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import * as Icons from 'lucide-react';
-import Header from '@/components/Header'; // Assuming Header is in the same folder
-import Footer from '@/components/Footer'; // Assuming Footer is in the same folder
+import Header from '../components/Header'; // Assuming Header is in the same folder
+import Footer from '../components/Footer'; // Assuming Footer is in the same folder
 
 // --- HELPER COMPONENT FOR DYNAMIC ICONS ---
 type IconName = keyof typeof Icons;
@@ -16,7 +16,6 @@ const Icon = ({ name, ...props }: { name: IconName } & Icons.LucideProps) => {
 };
 
 // --- TYPE DEFINITIONS for the pageData prop ---
-// Added 'country' to the testimonial list item type.
 export interface PageData {
   hero: { title: string; subtitle: string; description: string; backgroundImage: string; buttons: { text: string; link: string; variant: 'primary' | 'secondary' }[]; };
   about: { title: string; description: string; button: { text: string; link: string }; images: { main: string; secondary: string }; stat: { value: string; label: string; }; videoBackground: string; };
@@ -109,7 +108,6 @@ const TestimonialsSection = ({ data, featuredImage, videoUrl }: { data: PageData
                                         <div>
                                             <p className="font-bold text-white">{testimonial.name}</p>
                                             <p className="text-sm text-white/60">{testimonial.role}</p>
-                                            {/* --- COUNTRY ADDED HERE --- */}
                                             <p className="text-xs text-cyan-400/80 mt-1">{testimonial.country}</p>
                                         </div>
                                     </div>
@@ -118,7 +116,6 @@ const TestimonialsSection = ({ data, featuredImage, videoUrl }: { data: PageData
                         </div>
                         <div className="mt-8 flex items-center gap-4">
                             <div className="flex -space-x-4">
-                              
                             </div>
                             <div>
                                 <p className="font-bold text-xl text-white">{data.summary.count}</p>
@@ -139,7 +136,9 @@ const ProjectsCarouselSection = ({ data, videoUrl }: { data: PageData['projects'
     const [currentIndex, setCurrentIndex] = useState(0);
     const [itemsToShow, setItemsToShow] = useState(4);
     const [isHovering, setIsHovering] = useState(false);
+    const [touchStart, setTouchStart] = useState<number | null>(null);
     const timerRef = useRef<NodeJS.Timeout | null>(null);
+    const minSwipeDistance = 50;
 
     useEffect(() => {
         const handleResize = () => {
@@ -166,6 +165,25 @@ const ProjectsCarouselSection = ({ data, videoUrl }: { data: PageData['projects'
         };
     }, [isHovering, currentIndex, maxIndex]);
 
+    const handleTouchStart = (e: React.TouchEvent) => {
+        setTouchStart(e.targetTouches[0].clientX);
+    };
+    
+    const handleTouchMove = (e: React.TouchEvent) => {
+        if (touchStart === null) return;
+        const currentTouch = e.targetTouches[0].clientX;
+        const diff = touchStart - currentTouch;
+    
+        if (Math.abs(diff) > minSwipeDistance) {
+            if (diff > 0) { // Swiped left
+                handleNext();
+            } else { // Swiped right
+                handlePrev();
+            }
+            setTouchStart(null); // Reset after swipe to prevent multiple triggers
+        }
+    };
+
     return (
         <section className="relative py-16 md:py-19 text-white">
             <div className="absolute inset-0 z-0">
@@ -183,7 +201,13 @@ const ProjectsCarouselSection = ({ data, videoUrl }: { data: PageData['projects'
                     </div>
                 </div>
 
-                <div className="relative" onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
+                <div 
+                    className="relative" 
+                    onMouseEnter={() => setIsHovering(true)} 
+                    onMouseLeave={() => setIsHovering(false)}
+                    onTouchStart={handleTouchStart}
+                    onTouchMove={handleTouchMove}
+                >
                     <div className="overflow-hidden">
                         <div className="flex transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${currentIndex * (100 / itemsToShow)}%)` }}>
                             {data.list.map((project, index) => (
@@ -204,10 +228,11 @@ const ProjectsCarouselSection = ({ data, videoUrl }: { data: PageData['projects'
                             ))}
                         </div>
                     </div>
-                    <button onClick={handlePrev} className="absolute top-1/2 -translate-y-1/2 left-3 sm:left-8 z-10 transition-transform duration-200 hover:scale-110">
+                    {/* --- BUTTONS NOW HIDDEN ON MOBILE --- */}
+                    <button onClick={handlePrev} className="hidden md:block absolute top-1/2 -translate-y-1/2 left-3 sm:left-8 z-10 transition-transform duration-200 hover:scale-110">
                         <Icons.CircleChevronLeft className="w-16 h-16 text-white/40 hover:text-cyan-500"/>
                     </button>
-                    <button onClick={handleNext} className="absolute top-1/2 -translate-y-1/2 right-3 sm:right-8 z-10 transition-transform duration-200 hover:scale-110">
+                    <button onClick={handleNext} className="hidden md:block absolute top-1/2 -translate-y-1/2 right-3 sm:right-8 z-10 transition-transform duration-200 hover:scale-110">
                         <Icons.CircleChevronRight className="w-16 h-16 text-white/40 hover:text-cyan-500"/>
                     </button>
                 </div>
@@ -260,7 +285,7 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
           <div className="absolute inset-0 bg-black/70"></div>
         </div>
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 md:px-8 text-center flex flex-col items-center">
-            <h1 className="text-5xl md:text-8xl font-bold leading-tight mt-[10vh]">{hero.title}</h1>
+            <h1 className="text-5xl md:text-8xl font-bold leading-tight mt-56 md:mt-[10vh]">{hero.title}</h1>
             <p className="mt-6 text-xl text-cyan-300 max-w-5xl">{hero.subtitle}</p>
             <p className="mt-6 text-xl text-white max-w-4xl">{hero.description}</p>
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">

@@ -7,7 +7,7 @@ import { constructionMaterialsPageData } from '../../../sub-service-data/constru
 
 // Standardized scope and testimonial images from the 'construction' folder
 import scopeImage from '../../../assert/Sub Services/construction/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/construction/about6.jpg';
+import testimonialImage from '../../../assert/Sub Services/construction/Construction-testimonials-12.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

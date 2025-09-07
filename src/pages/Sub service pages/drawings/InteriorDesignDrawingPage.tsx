@@ -6,8 +6,8 @@ import { interiorDesignDrawingPageData } from '../../../sub-service-data/drawing
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'drawings' folder
-import scopeImage from '../../../assert/Sub Services/drawings/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/drawings/about6.jpg';
+import scopeImage from '../../../assert/Sub Services/drawings/public - hero/Drawings-testimonials-5.jpg'; 
+import testimonialImage from '../../../assert/Sub Services/drawings/interior-design-drawing-testimonial.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

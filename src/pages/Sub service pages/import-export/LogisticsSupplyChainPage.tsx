@@ -7,7 +7,7 @@ import { logisticsSupplyChainPageData } from '../../../sub-service-data/import-e
 
 // Standardized scope and testimonial images from the 'import-export' folder
 import scopeImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-10.jpg'; 
-import testimonialImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-3.jpg';
+import testimonialImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-7.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro6.png';

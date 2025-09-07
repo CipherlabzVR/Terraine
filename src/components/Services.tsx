@@ -61,10 +61,10 @@ const serviceCategories = [
 		backgroundImage: '/project-management.webp',
 		subServices: [
 			{ title: '3D BIM - Digital Design & Modeling', description: 'Supervision and execution of construction projects' },
-			{ title: 'Architectural', description: 'Comprehensive oversight from planning to delivery' },
-			{ title: 'Structural', description: 'Accurate cost estimation and quantity analysis' },
-			{ title: 'MEP', description: 'Expert resolution of construction-related claims' },
-			{ title: '4D BIM - Time (Consultancy)', description: 'Strategic sourcing and contractor selection' },
+			{ title: '4D BIM - Time', description: 'Strategic sourcing and contractor selection' },
+			{ title: '5D BIM – Cost', description: 'Estimation and budget management' },
+			{ title: '6D BIM – Sustainability & Energy', description: 'Energy efficiency and sustainability' },
+			{ title: '7D BIM – Facility Management', description: 'Lifecycle and asset management' },
 			{ title: 'More Services' },
 		],
 	},
@@ -195,12 +195,12 @@ const Services = () => {
 							</div>
 							<div className="relative z-10">
 								<div className="mb-10">
-									
+
 								</div>
 								<h2 className="text-4xl lg:text-6xl font-bold text-white mb-10 leading-tight">
 									<span className="bg-gradient-to-r from-white via-white to-white/80 bg-clip-text text-transparent">Sustainable Engineering, Lifetime Assurance
-</span>
-									<br /><span className="text-white font-light">for Every Project</span>
+									</span>
+									{/* <br /><span className="text-white font-light">for Every Project</span> */}
 								</h2>
 								<div className="flex items-center gap-4 mb-10">
 									<div className="w-16 h-1 bg-gradient-to-r from-primary to-primary/60 rounded-full"></div>
@@ -211,7 +211,7 @@ const Services = () => {
 									From concept to completion, we deliver integrated engineering, construction, digital, and support services tailored to meet the demands of modern development. Our multidisciplinary expertise enables us to handle complex projects with precision, innovation, and sustainability at the core. Whether it's building environments, managing assets, or empowering professionals through training, we provide end-to-end solutions that drive results locally and worldwide 								</p>
 								<div className="flex flex-wrap gap-4 mb-8">
 								</div>
-								<Button asChild  className="group bg-[#0050A0] backdrop-blur-sm  text-white hover:bg-[#00A5E7]/90 hover:border-white/50 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
+								<Button asChild className="group bg-[#0050A0] backdrop-blur-sm  text-white hover:bg-[#00A5E7]/90 hover:border-white/50 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">
 									<Link to="/inquiry">
 										<span className="flex items-center gap-3">
 											CONTACT OUR TEAM
@@ -227,20 +227,18 @@ const Services = () => {
 
 				<div
 					ref={categoriesRef}
-					className={`mt-16 transform transition-all duration-700 ${
-						animated.serviceCategories ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
-					}`}
+					className={`mt-16 transform transition-all duration-700 ${animated.serviceCategories ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
+						}`}
 				>
 					<div className="flex flex-col gap-y-8">
 						<div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 ${SPACING_CLASSES.GRID}`}>
 							{serviceCategories.map((category, index) => (
 								<div
 									key={index}
-									className={`relative px-4 py-6 rounded-lg cursor-pointer transition-all duration-300 text-center flex flex-col items-center overflow-hidden bg-cover bg-center ${
-										activeService === index
+									className={`relative px-4 py-6 rounded-lg cursor-pointer transition-all duration-300 text-center flex flex-col items-center overflow-hidden bg-cover bg-center ${activeService === index
 											? ''
 											: ''
-									}`}
+										}`}
 									style={{
 										backgroundImage: `url(${category.backgroundImage})`,
 										transitionDelay: `${index * 100}ms`,
@@ -251,24 +249,21 @@ const Services = () => {
 									<div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-transparent z-0"></div>
 									<div className="relative z-10 flex flex-col items-center text-center">
 										<div
-											className={`w-16 h-16 rounded-full flex items-center justify-center transition-all duration-300 mb-4 ${
-												activeService === index
+											className={`w-16 h-16 rounded-full flex items-center justify-center transition-all duration-300 mb-4 ${activeService === index
 													? 'bg-primary text-background'
 													: 'bg-white/10 text-white'
-											}`}
+												}`}
 										>
 											{category.icon}
 										</div>
 										<h3 className="text-lg font-semibold text-white mb-auto">{category.title}</h3>
 										<div
-											className={`h-1 w-0 bg-primary mx-auto rounded-full transition-all duration-300 mt-3 ${
-												activeService === index ? 'w-3/4' : ''
-											}`}
+											className={`h-1 w-0 bg-primary mx-auto rounded-full transition-all duration-300 mt-3 ${activeService === index ? 'w-3/4' : ''
+												}`}
 										></div>
 										<ChevronDown
-											className={`w-5 h-5 mx-auto mt-2 transition-transform duration-300 text-white/50 ${
-												activeService === index ? 'rotate-180 text-primary' : ''
-											}`}
+											className={`w-5 h-5 mx-auto mt-2 transition-transform duration-300 text-white/50 ${activeService === index ? 'rotate-180 text-primary' : ''
+												}`}
 										/>
 									</div>
 								</div>
@@ -277,11 +272,10 @@ const Services = () => {
 
 						{/* --- SUB-SERVICES PANEL MODIFIED --- */}
 						<div
-							className={`hidden md:block relative overflow-hidden rounded-lg p-6  bg-black/20 backdrop-blur-sm transition-all duration-500 ${
-								activeService !== null
+							className={`hidden md:block relative overflow-hidden rounded-lg p-6  bg-black/20 backdrop-blur-sm transition-all duration-500 ${activeService !== null
 									? 'opacity-100 translate-y-0 max-h-[800px]'
 									: 'opacity-0 -translate-y-10 max-h-0 overflow-hidden'
-							}`}
+								}`}
 						>
 							<div className="relative z-10">
 								<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

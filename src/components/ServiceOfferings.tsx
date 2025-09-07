@@ -91,7 +91,8 @@ const ServiceOfferings = () => {
                 </h2>
                 <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-4"></div>
                 <p className="text-white max-w-2xl mx-auto">
-                  When you plan to outsource engineering services, we deliver excellence irrespective of geographical boundaries and international codes
+                  {/* When you plan to outsource engineering services, we deliver excellence irrespective of geographical boundaries and international codes */}
+                No matter where you're based, our engineering expertise transcends borders and meets international codes with precision and reliability.
                 </p>
               </motion.div>
             </div>

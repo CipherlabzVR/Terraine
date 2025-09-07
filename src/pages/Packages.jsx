@@ -18,7 +18,7 @@ const packageData = [
   {
     name: 'Residential Project Package',
     image: coper,
-    path: '/packages/starterPackage',
+    path: '/packages/residental',
     tagline: 'Building Homes that define Comfort and Elegance',
     description:
       'Experience the ultimate in modern living with our Residential Project Package. We transform your vision into beautifully crafted, sustainable homes, blending innovative design, smart technology, and flawless execution.',
@@ -28,7 +28,7 @@ const packageData = [
   {
     name: 'Commercial Project Package',
     image: silver,
-    path: '/packages/mid-level',
+    path: '/packages/commercial',
     tagline: 'Smart spaces for Thriving Businesses',
     description:
       'Maximize investment and operational efficiency with our Commercial Project Package. From concept to completion, we deliver intelligent, sustainable, and high-performing commercial spaces tailored for long-term success.',
@@ -38,7 +38,7 @@ const packageData = [
   {
     name: 'Infrastructure Project Package',
     image: gold,
-    path: '/packages/high-end',
+    path: '/packages/infrastructure',
     tagline: 'Strong foundations for Sustainable future growth.',
     description:
       'Our Infrastructure Project Package builds robust, reliable, and future-ready Sustainable public and private assets. Advanced engineering, precise planning, and cutting-edge technology ensure every project exceeds expectations.',
@@ -48,7 +48,7 @@ const packageData = [
   {
     name: 'Engineering Consulting Package',
     image: white,
-    path: '/packages/international',
+    path: '/packages/consultant',
     tagline: 'Expert insights for Engineering Excellence',
     description:
       'Drive projects forward with expert guidance across design, management, implementation and maintenance. Our package ensures smart planning, innovative solutions, regulatory compliance, and sustainable results at every stage',
@@ -58,7 +58,7 @@ const packageData = [
   {
     name: 'BIM & Digital Twin Integrated with AI Engineering Package',
     image: Crystal,
-    path: '/packages/corporate',
+    path: '/packages/bim-ai',
     tagline: 'Engineering smarter with AI, BIM & Digital Twins',
     description:
       'Leverage the power of AI, digital twins, and BIM to optimize project performance. We integrate design, monitoring, and predictive insights for smarter, faster, and more efficient and sustainable construction outcomes.',

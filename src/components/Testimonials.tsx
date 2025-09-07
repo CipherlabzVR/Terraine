@@ -109,7 +109,7 @@ const Testimonials = () => {
                         <div className="text-center mb-12">
                             <h2 className="text-5xl md:text-6xl font-bold mb-2 text-white">Voices of Trust</h2>
                             <p className="text-white/80 max-w-2xl mx-auto text-lg md:text-lg">
-                                Our reputation is built on results and reinforced by those who’ve experienced them Hear directly from our valued clients as they share their experiences with Terrene Engineering’s commitment to quality, innovation, and dependable service across the globe
+                               <strong> Our reputation is built on results and reinforced by those who’ve experienced them</strong> Hear directly from our valued clients as they share their experiences with Terrene Engineering’s commitment to quality, innovation, and dependable service across the globe
                             </p>
                         </div>
 

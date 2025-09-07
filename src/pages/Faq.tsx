@@ -21,7 +21,7 @@ const Faq = () => {
   const faqItems = [
     {
       question: "What types of consultancy services does Terrene Engineering offer?",
-      answer: "We offer end-to-end consultancy including architectural, structural, interior design, construction documentation, and smart project management."
+      answer: "We offer end-to-end consultancy including architectural, structural, interior design, and construction documentation."
     },
     {
       question: "Can you assist with project approvals and drawings?",
@@ -34,7 +34,7 @@ const Faq = () => {
    
     {
       question: "How do you support cost and value engineering?",
-      answer: "We optimize project costs through material efficiency, design improvements, and lifecycle-based decision-making to ensure you get the best value without compromising on quality."
+      answer: "We optimize project costs through material efficiency, design improvements, and lifecycle-based decision-making."
     },
     {
       question: "What BIM services do you offer?",
@@ -279,7 +279,7 @@ const handleToggle = (index: number) => {
                   </div>
 
                   <div className="w-full">
-                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6 text-left">Common Questions</h2>
+                    {/* <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-6 text-left">Common Questions</h2> */}
                     <ul className="space-y-4 max-w-4xl">
                       {faqItems.slice(0, visibleCount).map((item, index) => (
                         <li key={index}>

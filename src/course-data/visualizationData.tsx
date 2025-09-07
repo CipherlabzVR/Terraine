@@ -68,27 +68,27 @@ export const visualizationData = {
   faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This AI in Engineering course is suitable for civil engineers, architects, MEP engineers, quantity surveyors, draughtsman, construction professionals, under graduates and students who required to apply artificial intelligence in design, planning and project execution."
+      answer: "This 3D Architectural Visualization course is suitable for architects, interior designers, civil engineers, draughtsman, construction professionals, under graduates and students who required to master realistic design presentation and visualization techniques."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth AI based applications."
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth 3D visualization performance."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest software enhanced with AI tools for automation, prediction and decision making."
+      answer: "You will learn latest 3D modeling and rendering software designed for architectural visualization, design presentation and walkthrough creation."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which highlights your expertise in AI applications for engineering."
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which strengthens your design and visualization portfolio."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning resources so you can review them anytime."
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and course materials so you can continue learning without interruption."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career support, project portfolio guidance and job placement assistance to help you move into AI driven engineering roles."
+      answer: "Yes, we provide career guidance, portfolio development support and job placement assistance to help you establish a successful path in architectural visualization."
     }
   ],
   

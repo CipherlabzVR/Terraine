@@ -7,7 +7,7 @@ import { environmentalSustainabilityPageData } from '../../../sub-service-data/c
 
 // Standardized scope image as requested
 import scopeImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-5.jpg'; 
-import testimonialImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-long-19.jpg';
+import testimonialImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-19.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

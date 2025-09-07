@@ -4,7 +4,7 @@ import { costValueEngineeringPageData } from '../../../sub-service-data/consulta
 
 // Import the other specific images for this page.
 import scopeImage from '../../../assert/Sub Services/consultancy/cost.jpg';
-import testimonialImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-long-20.jpg';
+import testimonialImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-20.jpg';
 
 // Manually import the specific project photos you want to display.
 import projectImg1 from '../../../assert/projects/pro1.png';

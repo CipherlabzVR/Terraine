@@ -7,9 +7,9 @@ import { materialConsultancyPageData } from '../service-data/materialConsultancy
 // 2. Make sure the file paths below match the location of your new assets.
 
 // Import images from your 'src/assert' folder.
-import aboutMainImage from '../assert/about/material1.jpg';
-import aboutSecondaryImage from '../assert/about/material2.jpg';
-import testimonialFeaturedImage from '../assert/about/material3.jpg';
+import aboutMainImage from '@/assert/about/material1.jpg';
+import aboutSecondaryImage from '@/assert/about/material2.jpg';
+import testimonialFeaturedImage from '@/assert/about/material3.jpg';
 
 // Import videos from your 'src/assert' folder.
 import aboutVideo from '/about.mp4';

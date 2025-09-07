@@ -7,9 +7,9 @@ import { furnitureDesignPageData } from '../service-data/furnitureDesignData';
 // 2. Make sure the file paths below match the location of your new assets.
 
 // Import images from your 'src/assert' folder.
-import aboutMainImage from '../assert/about/furniture1.webp';
-import aboutSecondaryImage from '../assert/about/furniture2.jpg';
-import testimonialFeaturedImage from '../assert/about/furniture3.jpg';
+import aboutMainImage from '@/assert/about/furniture1.webp';
+import aboutSecondaryImage from '@/assert/about/furniture2.jpg';
+import testimonialFeaturedImage from '@/assert/about/furniture3.jpg';
 
 // Import videos from your 'src/assert' folder.
 import aboutVideo from '/soft.mp4';

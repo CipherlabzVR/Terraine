@@ -6,8 +6,8 @@ import { specializedEngineeringProductsPageData } from '../../../sub-service-dat
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'import-export' folder
-import scopeImage from '../../../assert/Sub Services/import-export/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-10.jpg';
+import scopeImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-14.jpg'; 
+import testimonialImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-15.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';

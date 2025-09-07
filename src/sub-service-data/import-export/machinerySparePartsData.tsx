@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-10.jpg';
 
 export const machinerySparePartsPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Machinery & Spare</span> Parts Supply',
     tagline: 'Providing reliable machinery and parts for projects',
     description: 'Our machinery and spare parts supply services ensure high quality, durable, and compatible equipment, supporting smooth operations, maintenance, and uninterrupted performance for construction and engineering projects.',
-    backgroundImage: '/machinery-hero.webp',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'ShieldCheck', title: 'High-quality Parts', description: 'Durable machinery components supplied consistently.' },
       { icon: 'Search', title: 'Reliable Sourcing', description: 'Trusted suppliers ensuring performance effectively.' },

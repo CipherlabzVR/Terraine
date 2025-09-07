@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-6.jpg';
 
 export const turnkeySupplySolutionsPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Turnkey Supply</span> Solutions',
     tagline: 'Complete supply solutions from sourcing to delivery',
     description: 'Our turnkey supply solutions handle every step of material procurement, ensuring timely delivery, quality assurance, and seamless integration of resources for efficient and successful project execution.',
-    backgroundImage: '/turnkey-hero.webp',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'CheckCircle', title: 'Complete Services', description: 'Handling sourcing, delivery, and setup consistently.' },
       { icon: 'Zap', title: 'Seamless Execution', description: 'Ensuring smooth project material supply effectively.' },

@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-5.jpg';
 
 export const specializedEngineeringProductsPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Specialized Engineering</span> Products',
     tagline: 'Supplying advanced products for specialized engineering solutions',
     description: 'Our specialized engineering product services provide high quality, innovative materials and components, ensuring precision, reliability, and optimal performance for complex construction and engineering projects.',
-    backgroundImage: '/specialized-hero.webp',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'ShieldCheck', title: 'High-quality', description: 'Durable and reliable engineering products consistently.' },
       { icon: 'Zap', title: 'Innovative Solutions', description: 'Advanced products for modern construction effectively.' },

@@ -6,17 +6,17 @@ import { conceptDesignPageData } from '../../../sub-service-data/interior/concep
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'interior' folder
-import scopeImage from '../../../assert/Sub Services/interior/smart.webp'; 
+import scopeImage from '../../../assert/Sub Services/interior/Interior-testimonials-6.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/interior/Interior-testimonials-1.jpg';
 
 // Importing the specific project images for concept design.
-import projectImg1 from '../../../assert/projects/pro1.png';
-import projectImg2 from '../../../assert/projects/pro9.png';
-import projectImg3 from '../../../assert/projects/pro13.png';
-import projectImg4 from '../../../assert/projects/pro41.png';
-import projectImg5 from '../../../assert/projects/pro25.png';
-import projectImg6 from '../../../assert/projects/pro36.png';
-import projectImg7 from '../../../assert/projects/pro17.png';
+import projectImg1 from '../../../assert/projects/pro (53).png';
+import projectImg2 from '../../../assert/projects/pro (68).png';
+import projectImg3 from '../../../assert/projects/pro (34).png';
+import projectImg4 from '../../../assert/projects/pro (24).png';
+import projectImg5 from '../../../assert/projects/pro (15).png';
+import projectImg6 from '../../../assert/projects/pro (10).png';
+import projectImg7 from '../../../assert/projects/pro (109).png';
 
 const imageAssets = {
   scopeImage,

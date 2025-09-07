@@ -5,7 +5,7 @@ export const energyResourceOptimizationPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Energy & Resource</span> Optimization',
     tagline: 'Maximize Efficiency Reduce Waste Through Smart Solutions.',
     description: 'Optimize energy and resources across operations to lower costs, boost sustainability, and enhance efficiency, helping projects run smart and more environmentally responsible.',
-    backgroundImage: '/con-hero.jpg', // Corrected background image path
+    backgroundImage: '/Digitaltwin-testimonials-3.jpg', // Corrected background image path
     uspItems: [
       { icon: 'FileSearch', title: 'Energy Audits', description: 'Identify areas for energy and resource savings effectively.' },
       { icon: 'Leaf', title: 'Sustainable Solutions', description: 'Implement eco-friendly strategies for resource optimization.' },

@@ -5,7 +5,7 @@ export const precastConstructionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Precast</span> Construction',
     tagline: 'Efficient, durable building solutions crafted with precision',
     description: 'Our precast construction service delivers speed, strength, and sustainability by manufacturing components off-site, ensuring quality control, faster installation, and long-lasting performance for residential, commercial, and infrastructure projects seamlessly',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/hero - construction (7).jpg', // Standardized background image
     uspItems: [
       { icon: 'Zap', title: 'Faster Project Delivery', description: 'Precast elements minimize on-site delays, ensuring efficient and timely project completion' },
       { icon: 'Award', title: 'Superior Quality Control', description: 'Off-site fabrication ensures consistent quality, durability, and reduced material wastage' },

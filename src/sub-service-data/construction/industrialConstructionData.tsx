@@ -5,7 +5,7 @@ export const industrialConstructionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Industrial</span> Construction',
     tagline: 'Building robust efficient facilities for industries',
     description: 'Our industrial construction services provide durable, functional, and safe facilities, designed and executed with precision to optimize operations, productivity, and long-term performance for industrial clients',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/hero - construction (5).jpg', // Standardized background image
     uspItems: [
       { icon: 'Building', title: 'Robust Structures', description: 'Strong buildings designed for heavy industrial use consistently' },
       { icon: 'GaugeCircle', title: 'Operational Efficiency', description: 'Optimized layouts supporting smooth industrial processes effectively' },

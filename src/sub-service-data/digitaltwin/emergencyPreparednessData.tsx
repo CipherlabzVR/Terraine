@@ -5,7 +5,7 @@ export const emergencyPreparednessPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Emergency Preparedness</span> & Disaster Simulation',
     tagline: 'Prepare Smart Simulate Disasters Respond Better.',
     description: 'Deliver advanced digital twin disaster simulation tools to enhance preparedness, test emergency strategies, reduce risks, improve safety, and ensure resilience in unpredictable crisis scenarios effectively.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Digitaltwin-testimonials-2.jpg', // Standardized background image
     uspItems: [
       { icon: 'ShieldAlert', title: 'Risk Anticipation', description: 'Identify and mitigate disaster vulnerabilities effectively.' },
       { icon: 'Box', title: 'Simulation Accuracy', description: 'Realistic disaster models for proactive training.' },

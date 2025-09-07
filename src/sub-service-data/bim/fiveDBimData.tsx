@@ -5,7 +5,7 @@ export const fiveDBimPageData: PageData = {
     serviceName: '<span class="text-cyan-400">5D BIM</span> – Cost (Estimation)',
     tagline: 'Accurate cost estimation through advanced 5D modeling.',
     description: 'Our 5D BIM services link cost data with project models, delivering precise budgeting, real time updates, and efficient resource management for cost-effective construction outcomes.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/BIM-testimonials-2.jpg', // Standardized background image
     uspItems: [
       { icon: 'CircleDollarSign', title: 'Accurate Budgeting', description: 'Cost models ensuring precise project estimates consistently.' },
       { icon: 'TrendingUp', title: 'Expense Optimization', description: 'Identifies cost saving opportunities effectively.' },

@@ -5,7 +5,7 @@ export const aluminumFabricationPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Aluminum</span> Fabrication',
     tagline: 'Custom aluminum solutions for modern constructions.',
     description: 'Our aluminum fabrication services provide precise, durable, and visually appealing components, enhancing building aesthetics, functionality, and structural efficiency with expert craftsmanship and innovative designs.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/hero - construction (1).jpg', // Standardized background image
     uspItems: [
       { icon: 'Scaling', title: 'Precision Fabrication', description: 'Accurately crafted aluminum components for seamless integration consistently' },
       { icon: 'ShieldCheck', title: 'Durable Materials', description: 'High-quality aluminum ensuring long-lasting performance effectively' },

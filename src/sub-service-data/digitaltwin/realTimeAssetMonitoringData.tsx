@@ -5,7 +5,7 @@ export const realTimeAssetMonitoringPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Real-Time Asset Monitoring</span> & Performance Tracking',
     tagline: 'Monitor Assets Continuously Ensure Peak Performance.',
     description: 'Track, analyze, and optimize assets in real time to improve efficiency, reduce downtime, and maximize operational performance effectively.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Digitaltwin-testimonials-2', // Standardized background image
     uspItems: [
       { icon: 'Activity', title: 'Continuous Monitoring', description: 'Ensure your assets operate at peak efficiency.' },
       { icon: 'LineChart', title: 'Real Time Analytics', description: 'Immediate insights for proactive operational decisions.' },

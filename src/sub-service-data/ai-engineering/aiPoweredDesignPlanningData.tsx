@@ -5,7 +5,7 @@ export const aiPoweredDesignPlanningPageData: PageData = {
     serviceName: '<span class="text-cyan-400">AI-Powered Design</span> & Planning',
     tagline: 'Intelligent design solutions transforming project planning processes',
     description: 'Our AI powered design and planning services use advanced algorithms to optimize layouts, enhance efficiency, and deliver innovative, data driven solutions for every construction project.',
-    backgroundImage: '/ai-engineering.jpg',
+    backgroundImage: '/Hero -ai (1).jpg',
     uspItems: [
       { icon: 'Brain', title: 'Intelligent Designs', description: 'AI driven plans optimize project outcomes consistently' },
       { icon: 'TrendingUp', title: 'Predictive Insights', description: 'Anticipates challenges for better decision making effectively' },

@@ -10,8 +10,8 @@ import scopeImage from '../../../assert/Sub Services/import-export/Import-export
 import testimonialImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-15.jpg';
 
 // Importing the specific project images you requested.
-import projectImg1 from '../../../assert/projects/pro1.png';
-import projectImg2 from '../../../assert/projects/pro9.png';
+import projectImg1 from '../../../assert/projects/pro13.png';
+import projectImg2 from '../../../assert/projects/pro95.png';
 import projectImg3 from '../../../assert/projects/pro13.png';
 import projectImg4 from '../../../assert/projects/pro41.png';
 import projectImg5 from '../../../assert/projects/pro25.png';

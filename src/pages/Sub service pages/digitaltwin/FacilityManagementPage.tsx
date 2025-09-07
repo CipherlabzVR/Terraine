@@ -6,17 +6,17 @@ import { facilityManagementPageData } from '../../../sub-service-data/digitaltwi
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'digitaltwin' folder
-import scopeImage from '../../../assert/Sub Services/digitaltwin/smart.webp'; 
-import testimonialImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-4.jpg';
+import scopeImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-5.jpg'; 
+import testimonialImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-7.jpg';
 
 // Importing the specific project images you requested.
-import projectImg1 from '../../../assert/projects/pro1.png';
-import projectImg2 from '../../../assert/projects/pro9.png';
-import projectImg3 from '../../../assert/projects/pro13.png';
-import projectImg4 from '../../../assert/projects/pro41.png';
-import projectImg5 from '../../../assert/projects/pro25.png';
-import projectImg6 from '../../../assert/projects/pro36.png';
-import projectImg7 from '../../../assert/projects/pro17.png';
+import projectImg1 from '../../../assert/projects/pro (74).png';
+import projectImg2 from '../../../assert/projects/pro (79).png';
+import projectImg3 from '../../../assert/projects/pro (84).png';
+import projectImg4 from '../../../assert/projects/pro (89).png';
+import projectImg5 from '../../../assert/projects/pro (94).png';
+import projectImg6 from '../../../assert/projects/pro (99).png';
+import projectImg7 from '../../../assert/projects/pro (104).png';
 
 const imageAssets = {
   scopeImage,

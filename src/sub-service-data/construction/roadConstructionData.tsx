@@ -5,7 +5,7 @@ export const roadConstructionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Road</span> Construction',
     tagline: 'Building safe durable and efficient roadways',
     description: 'Our road construction services provide high quality, long lasting, and safe road networks, ensuring smooth traffic flow, durability, and optimized performance for every project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/hero - construction (9).jpg', // Standardized background image
     uspItems: [
       { icon: 'Award', title: 'Smooth Pavements', description: 'Durable roads designed for long-lasting performance consistently' },
       { icon: 'ShieldCheck', title: 'Safety Focused', description: 'Ensuring safe and compliant road construction effectively' },

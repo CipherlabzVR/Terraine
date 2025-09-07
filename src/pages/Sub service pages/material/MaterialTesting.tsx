@@ -12,12 +12,12 @@ import scopeImage from '../../../assert/Sub Services/construction/smart.webp';
 import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-11.jpg';
 
 // Importing the specific project images for material testing.
-import projectImg1 from '../../../assert/projects/pro1.png';
-import projectImg2 from '../../../assert/projects/pro9.png';
-import projectImg3 from '../../../assert/projects/pro13.png';
+import projectImg1 from '../../../assert/projects/pro15.png';
+import projectImg2 from '../../../assert/projects/pro94.png';
+import projectImg3 from '../../../assert/projects/pro73.png';
 import projectImg4 from '../../../assert/projects/pro41.png';
-import projectImg5 from '../../../assert/projects/pro25.png';
-import projectImg6 from '../../../assert/projects/pro36.png';
+import projectImg5 from '../../../assert/projects/pro23.png';
+import projectImg6 from '../../../assert/projects/pro96.png';
 import projectImg7 from '../../../assert/projects/pro17.png';
 
 const imageAssets = {

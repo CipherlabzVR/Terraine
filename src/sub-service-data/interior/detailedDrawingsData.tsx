@@ -7,7 +7,7 @@ export const detailedDrawingsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Detailed</span> Interior Drawings',
     tagline: 'Accurate interior drawings for flawless project execution.',
     description: 'Our detailed interior drawings provide precise layouts, measurements, and specifications, ensuring smooth implementation, effective coordination, and perfect realization of design intent for every interior project.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Interior-testimonials-3.jpg', // Standardized background image
     uspItems: [
       { icon: 'LayoutGrid', title: 'Precise Layouts', description: 'Accurate drawings supporting flawless interior execution consistently.' },
       { icon: 'Eye', title: 'Enhanced Visualization', description: 'Clear plans aiding better design understanding effectively.' },

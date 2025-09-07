@@ -3,17 +3,17 @@ import SubServicePageLayout from '../../SubServicePageLayout';
 import { aiPoweredDesignPlanningPageData } from '../../../sub-service-data/ai-engineering/aiPoweredDesignPlanningData';
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/ai-engineering/ai1.jpg';
-import testimonialImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-2.jpg';
+import scopeImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-2.jpg';
+import testimonialImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-3.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro1.png';
-import projectImg2 from '../../../assert/projects/pro9.png';
-import projectImg3 from '../../../assert/projects/pro13.png';
-import projectImg4 from '../../../assert/projects/pro41.png';
-import projectImg5 from '../../../assert/projects/pro25.png';
-import projectImg6 from '../../../assert/projects/pro36.png';
-import projectImg7 from '../../../assert/projects/pro17.png';
+import projectImg2 from '../../../assert/projects/pro19.png';
+import projectImg3 from '../../../assert/projects/pro15.png';
+import projectImg4 from '../../../assert/projects/pro31.png';
+import projectImg5 from '../../../assert/projects/pro65.png';
+import projectImg6 from '../../../assert/projects/pro76.png';
+import projectImg7 from '../../../assert/projects/pro87.png';
 
 const imageAssets = {
   scopeImage,

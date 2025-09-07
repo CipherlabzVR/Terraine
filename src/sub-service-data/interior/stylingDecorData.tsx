@@ -7,7 +7,7 @@ export const stylingDecorPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Styling</span> & Decor',
     tagline: 'Elevating interiors with unique style and Decor.',
     description: 'Our styling and Decor services add personality, elegance, and charm to interiors, creating visually appealing, cohesive, and memorable spaces that reflect client taste and lifestyle.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Interior-testimonials-12.jpg', // Standardized background image
     uspItems: [
       { icon: 'Sparkles', title: 'Creative Touch', description: 'Unique styling enhancing interior appeal consistently.' },
       { icon: 'Palette', title: 'Harmonious Designs', description: 'Decor complementing overall interior theme effectively.' },

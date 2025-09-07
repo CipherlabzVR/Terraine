@@ -240,11 +240,11 @@ const App = () => (
           
           <Route path="/services/consultancy-services" element={<ConsultancyServices />} />
           <Route path="/services/drawings" element={<Drawing />} />
-          <Route path="/services/construction" element={<Construction />} />
+          <Route path="/services/constructions" element={<Construction />} />
           <Route path="/services/ai-engineering" element={<AiEngineeringPage />} />
           <Route path="/services/bim" element={<BimPage />} />
           <Route path="/services/digital-twin" element={<DigitalTwinPage />} />
-          <Route path="/services/furniture-design" element={<FurnitureDesignPage />} />
+          <Route path="/services/furniture-design-supply" element={<FurnitureDesignPage />} />
           <Route path="/services/import-export" element={<ImportExportPage />} />
           <Route path="/services/interior-design" element={<InteriorDesignPage />} />
           <Route path="/services/material-consultancy" element={<MaterialConsultancyPage />} />
@@ -330,7 +330,7 @@ const App = () => (
           <Route path="/services/digital-twin/remote-operations" element={<RemoteOperationsPage />} />
           <Route path="/services/digital-twin/predictive-maintenance" element={<PredictiveMaintenancePage />} />
           <Route path="/services/digital-twin/smart-city" element={<SmartCityDigitalTwinPage />} />
-          <Route path="/services/digital-twin/emergency-preparedness" element={<EmergencyPreparednessPage />} />
+          <Route path="/services/digital-twin/disaster-simulation" element={<EmergencyPreparednessPage />} />
           <Route path="/services/digital-twin/ar-vr-training" element={<ArVrTrainingPage />} />
           <Route path="/services/digital-twin/operational-analytics" element={<OperationalAnalyticsPage />} />
 

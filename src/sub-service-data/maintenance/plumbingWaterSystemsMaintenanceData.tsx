@@ -5,7 +5,7 @@ export const plumbingWaterSystemsMaintenancePageData: PageData = {
     serviceName: '<span class="text-cyan-400">Plumbing & Water Systems</span> Maintenance',
     tagline: 'Reliable plumbing solutions for uninterrupted water systems.',
     description: 'Our plumbing and water systems maintenance services ensure leak free operation, timely repairs, and efficient water management, maintaining safe and fully functional systems in every building.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Maintenance-testimonials-8.jpg', // Standardized background image
     uspItems: [
       { icon: 'Droplets', title: 'Leak Free Systems', description: 'Ensures reliable plumbing performance consistently.' },
       { icon: 'ScanSearch', title: 'Preventive Inspections', description: 'Detects potential issues early effectively.' },

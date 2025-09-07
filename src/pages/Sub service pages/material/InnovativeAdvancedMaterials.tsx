@@ -11,13 +11,13 @@ import { innovativeAdvancedMaterialsPageData } from '../../../sub-service-data/m
 import scopeImage from '../../../assert/Sub Services/construction/smart.webp';
 import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-4.jpg';
 
-import projectImg1 from '../../../assert/projects/pro1.png';
-import projectImg2 from '../../../assert/projects/pro9.png';
-import projectImg3 from '../../../assert/projects/pro13.png';
-import projectImg4 from '../../../assert/projects/pro41.png';
-import projectImg5 from '../../../assert/projects/pro25.png';
-import projectImg6 from '../../../assert/projects/pro36.png';
-import projectImg7 from '../../../assert/projects/pro17.png';
+import projectImg1 from '../../../assert/projects/pro (99).png';
+import projectImg2 from '../../../assert/projects/pro (45).png';
+import projectImg3 from '../../../assert/projects/pro (55).png';
+import projectImg4 from '../../../assert/projects/pro (11).png';
+import projectImg5 from '../../../assert/projects/pro (14).png';
+import projectImg6 from '../../../assert/projects/pro (33).png';
+import projectImg7 from '../../../assert/projects/pro (29).png';
 
 const imageAssets = {
   scopeImage,

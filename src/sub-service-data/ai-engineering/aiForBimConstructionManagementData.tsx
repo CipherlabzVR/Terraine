@@ -5,7 +5,7 @@ export const aiForBimConstructionManagementPageData: PageData = {
     serviceName: '<span class="text-cyan-400">AI for BIM</span> & Construction Management',
     tagline: 'Intelligent BIM integration for efficient project management',
     description: 'Our AI for BIM and construction management services optimize workflows, enhance coordination, and provide data driven insights, improving efficiency, reducing risks, and ensuring successful project delivery.',
-    backgroundImage: '/ai-engineering.jpg',
+    backgroundImage: '/Hero -ai (1).jpg',
     uspItems: [
       { icon: 'Box', title: 'Integrated Systems', description: 'AI enhances BIM workflows consistently' },
       { icon: 'CheckCircle', title: 'Error Minimization', description: 'Reduces design and construction mistakes effectively' },

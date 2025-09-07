@@ -5,7 +5,7 @@ export const correctiveMaintenancePageData: PageData = {
     serviceName: '<span class="text-cyan-400">Corrective & Breakdown</span> Maintenance',
     tagline: 'Rapid response for efficient problem resolution.',
     description: 'Our corrective and breakdown maintenance services quickly identify and resolve system failures, minimizing disruptions, restoring functionality, and ensuring uninterrupted operations for all building facilities.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Maintenance-testimonials-3.jpg', // Standardized background image
     uspItems: [
       { icon: 'Siren', title: 'Rapid Response', description: 'Quick resolution of system failures consistently.' },
       { icon: 'TrendingDown', title: 'Minimized Downtime', description: 'Ensures operational continuity effectively.' },

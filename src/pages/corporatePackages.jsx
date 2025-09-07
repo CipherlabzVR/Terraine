@@ -3,13 +3,13 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import itc from '../assert/Packages/itc.jpg'; // TODO: Replace with a relevant image
+import itc from '@/assert/Packages/itc.jpg'; // TODO: Replace with a relevant image
 
-import corporate1 from '../assert/Packages/corporate/corporate1.png'; // TODO: Replace with relevant images
-import corporate2 from '../assert/Packages/corporate/corporate2.png';
-import corporate3 from '../assert/Packages/corporate/corporate3.png';
-import corporate4 from '../assert/Packages/corporate/corporate4.jpg';
-import corporate5 from '../assert/Packages/corporate/corporate5.jpg';
+import corporate1 from '@/assert/Packages/corporate/corporate1.png'; // TODO: Replace with relevant images
+import corporate2 from '@/assert/Packages/corporate/corporate2.png';
+import corporate3 from '@/assert/Packages/corporate/corporate3.png';
+import corporate4 from '@/assert/Packages/corporate/corporate4.jpg';
+import corporate5 from '@/assert/Packages/corporate/corporate5.jpg';
 
 const packageDetails = {
   name: 'BIM & Digital Twin Integrated with AI Engineering Package',

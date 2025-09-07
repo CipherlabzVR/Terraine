@@ -6,7 +6,7 @@ import { constructionMaterialsImportPageData } from '../../../sub-service-data/i
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'import-export' folder
-import scopeImage from '../../../assert/Sub Services/import-export/smart.webp'; 
+import scopeImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-13.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-2.jpg';
 
 // Importing the specific project images you requested.

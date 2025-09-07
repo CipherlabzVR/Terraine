@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/furniture/Furniture-testimonials-10.jpg';
 
 export const restorationMaintenancePageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Restoration & Maintenance</span> Services',
     tagline: 'Reviving furniture to restore beauty and functionality',
     description: 'Our restoration and maintenance services bring worn, damaged, or outdated furniture back to life, combining expert craftsmanship, modern techniques, and high-quality materials to preserve durability, aesthetics, and usability.',
-    backgroundImage: '/furniture-hero.jpg',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'Search', title: 'Expert Restoration', description: 'Skilled artisans carefully restore furniture to its original or improved condition' },
       { icon: 'Shield', title: 'Durable Solutions', description: 'Repairs ensure long-lasting performance and continued structural integrity' },

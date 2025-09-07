@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/furniture/Furniture-testimonials-3.jpg';
 
 export const furnitureSupplySourcingPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Furniture Supply</span> & Sourcing',
     tagline: 'Reliable sourcing for quality furniture solutions worldwide',
     description: 'Our furniture supply and sourcing service ensures access to premium, high-quality furniture and materials globally, delivering timely, cost-effective, and tailored solutions for residential, commercial, and institutional projects.',
-    backgroundImage: '/furniture-hero.jpg',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'Globe', title: 'Global Sourcing Network', description: 'Access to premium suppliers ensures diverse, high-quality options' },
       { icon: 'DollarSign', title: 'Cost-Effective Solutions', description: 'Efficient procurement reduces expenses without compromising quality or style' },

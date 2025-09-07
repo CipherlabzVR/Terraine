@@ -1,11 +1,12 @@
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/furniture/Furniture-testimonials-1.jpg';
 
 export const commercialInstitutionalFurniturePageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Commercial & Institutional</span> Furniture',
     tagline: 'Durable furniture designed for business and beyond',
     description: 'Our commercial and institutional furniture solutions focus on durability, functionality, and design excellence, offering tailored furniture for offices, schools, hospitals, and public spaces with long-lasting quality and comfort.',
-    backgroundImage: '/furniture-hero.jpg',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'Shield', title: 'High Durability', description: 'Sturdy materials ensure reliability under heavy daily use' },
       { icon: 'Heart', title: 'Ergonomic Design', description: 'Comfort-focused furniture enhances productivity and well-being' },

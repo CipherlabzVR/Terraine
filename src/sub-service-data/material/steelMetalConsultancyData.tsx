@@ -1,13 +1,14 @@
 // Suggested Filename: steelMetalConsultancyData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-10.jpg';
 
 export const steelMetalConsultancyPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Steel & Metal</span> Material Consultancy',
     tagline: 'Optimizing steel and metal materials for strength',
     description: 'Our steel and metal material consultancy provides expert selection, quality assessment, and cost-effective solutions, ensuring durable, safe, and high performing structures for every construction project.',
-    backgroundImage: '/con-hero.jpg',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'Shield', title: 'High Strength', description: 'Ensures durable steel and metal performance consistently.' },
       { icon: 'Settings2', title: 'Optimized Selection', description: 'Choosing best materials for project requirements effectively.' },

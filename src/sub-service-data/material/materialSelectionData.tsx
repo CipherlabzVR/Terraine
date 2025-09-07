@@ -1,13 +1,14 @@
 // Suggested Filename: materialSelectionData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-4.jpg';
 
 export const materialSelectionPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Material Selection</span> & Specification',
     tagline: 'Choosing quality materials for optimized project performance.',
     description: 'Our material selection and specification services ensure the right choice of durable, high quality, and cost-effective materials, enhancing project efficiency, longevity, and overall construction success.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: bgImage, // Standardized background image
     uspItems: [
       { icon: 'CheckSquare', title: 'Optimal Choices', description: 'Selecting best materials for each project consistently.' },
       { icon: 'ShieldCheck', title: 'Quality Assurance', description: 'Ensuring reliable and durable materials effectively.' },

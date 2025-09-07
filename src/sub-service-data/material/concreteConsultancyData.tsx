@@ -1,13 +1,14 @@
 // Suggested Filename: concreteConsultancyData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-2.jpg';
 
 export const concreteConsultancyPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Concrete & Cementitious</span> Material Consultancy',
     tagline: 'Expert guidance on concrete and cement materials.',
     description: 'Our concrete and cementitious material consultancy ensures optimal mix design, quality, and durability, delivering strong, reliable, and long-lasting structures for all types of construction projects.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: bgImage, // Standardized background image
     uspItems: [
       { icon: 'Layers', title: 'Durable Mixes', description: 'Ensures long-lasting concrete performance consistently.' },
       { icon: 'Settings2', title: 'Optimized Solutions', description: 'Tailored mix designs for project needs effectively.' },

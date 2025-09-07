@@ -3,14 +3,13 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
+import silver from '@/assets/packages/Silver.png';
 
-import silver from '../assert/Packages/Silver.png'; // TODO: Replace with a relevant image
-
-import Silver1 from '../assert/Packages/silver/Silver1.png'; // TODO: Replace with relevant images
-import Silver2 from '../assert/Packages/silver/Silver2.png';
-import Silver3 from '../assert/Packages/silver/Silver3.jpg';
-import Silver4 from '../assert/Packages/silver/Silver4.jpg';
-import Silver5 from '../assert/Packages/silver/Silver5.jpg';
+import Silver1 from '@/assets/packages/silver/Silver1.png';
+import Silver2 from '@/assets/packages/silver/Silver2.png';
+import Silver3 from '@/assets/packages/silver/Silver3.jpg';
+import Silver4 from '@/assets/packages/silver/Silver4.jpg';
+import Silver5 from '@/assets/packages/silver/Silver5.jpg';
 
 
 

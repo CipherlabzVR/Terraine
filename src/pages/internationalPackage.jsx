@@ -5,14 +5,14 @@ import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-import white from '../assert/Packages/white.png'; // TODO: Replace with a relevant image
-import silver from '../assert/Packages/white.png'; // TODO: Replace with a relevant image
+import white from '@/assert/Packages/white.png'; // TODO: Replace with a relevant image
+import silver from '@/assert/Packages/Silver.png'; // TODO: Replace with a relevant image
 
-import diamond1 from '../assert/Packages/Diamond/Diamond1.png'; // TODO: Replace with relevant images
-import diamond2 from '../assert/Packages/Diamond/Diamond2.png';
-import diamond3 from '../assert/Packages/Diamond/Diamond3.png';
-import diamond4 from '../assert/Packages/Diamond/Diamond4.png';
-import diamond5 from '../assert/Packages/Diamond/Diamond5.png';
+import diamond1 from '@/assert/Packages/Diamond/Diamond1.png'; // TODO: Replace with relevant images
+import diamond2 from '@/assert/Packages/Diamond/Diamond2.png';
+import diamond3 from '@/assert/Packages/Diamond/Diamond3.png';
+import diamond4 from '@/assert/Packages/Diamond/Diamond4.png';
+import diamond5 from '@/assert/Packages/Diamond/Diamond5.png';
 
 const packageDetails = {
   name: 'Engineering Consulting Package',

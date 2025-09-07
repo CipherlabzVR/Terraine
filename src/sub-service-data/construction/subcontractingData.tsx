@@ -67,8 +67,8 @@ export const subcontractingPageData: PageData = {
   contact: {
     title: 'SEND AN INQUIRY',
     description: 'Contact us for more information about our Subcontracting services',
-    phoneNumbers: ['+94 77 948 7100', '+94 71 433 7100'],
-    emails: ['info@terrene.lk', 'contact@terrene.lk'],
+    phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
+    emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'
   }
 };

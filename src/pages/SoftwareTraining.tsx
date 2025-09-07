@@ -54,7 +54,7 @@ const coursesData = [
   },
   {
     title: 'Structural Design and Modelling',
-    slug: 'structural',
+    slug: 'strcutural',
     image: '/showcase-1.jpg',
     duration: '15 Weeks',
     description: 'Learn the principles of structural engineering and advanced 3D modeling techniques.',

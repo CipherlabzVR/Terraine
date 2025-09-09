@@ -165,7 +165,7 @@ const Sustainability = () => {
                       Sustainability at <span className="text-primary-300">Terrene</span>
                     </h2>
                     <p className="text-white text-lg sm:text-xl mb-4 text-left max-w-4xl leading-relaxed">
-                     Terrene Engineering, sustainability is not an option; it’s a responsibility woven into every stage of our work. From material selection to energy-efficient design and lifecycle-focused construction, we integrate sustainable practices that reduce environmental impact while maximizing long-term value. By leveraging digital technologies like BIM and Digital Twins, we optimize resource use, minimize waste, and enable smarter decision-making throughout the project lifecycle. Our commitment extends beyond compliance; we strive to build infrastructure that supports communities, respects ecosystems, and stands resilient for generations to come
+                     Terrene Engineering, sustainability is not an option, it’s a responsibility woven into every stage of our work. From material selection to energy-efficient design and lifecycle-focused construction, we integrate sustainable practices that reduce environmental impact while maximizing long-term value. By leveraging digital technologies like BIM and Digital Twins, we optimize resource use, minimize waste, and enable smarter decision-making throughout the project lifecycle. Our commitment extends beyond compliance; we strive to build infrastructure that supports communities, respects ecosystems, and stands resilient for generations to come
                     </p>
                   </div>
                   <div className="w-full">

@@ -8,7 +8,7 @@ export const maintenancePageData: PageData = {
     backgroundImage: "/maintenance-hero.webp", // TODO: Update with your actual image path.
     buttons: [
       { text: "GET A QUOTE", link: "/inquiry", variant: "primary" },
-      { text: "OUR SERVICES", link: "#about-us-section", variant: "secondary" }
+      { text: "OUR SERVICES", link: "#services", variant: "secondary" }
     ]
   },
   about: {
@@ -72,7 +72,7 @@ export const maintenancePageData: PageData = {
     title: "Protect Your Investment?",
     description: "Ensure the longevity and efficiency of your assets with our expert maintenance solutions. Contact us for a comprehensive assessment",
     buttons: [
-      { text: "SCHEDULE AN ASSESSMENT", link: "/contact", variant: "primary" },
+      { text: "SCHEDULE AN ASSESSMENT", link: "/inquiry", variant: "primary" },
       { text: "VIEW OUR AMCS", link: "/completed-projects", variant: "secondary" }
     ]
   },

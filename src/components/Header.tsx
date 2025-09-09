@@ -59,7 +59,7 @@ const servicesWithSubServices = [
     },
     {
       service: "Construction",
-      path: "/services/construction",
+      path: "/services/constructions",
       subServices: [
         { label: "Residential Construction", to: "/services/construction/residential" },
         { label: "Commercial Construction", to: "/services/construction/commercial" },
@@ -155,7 +155,7 @@ const servicesWithSubServices = [
     },
     {
       service: "Furniture Design & Supply",
-      path: "/services/furniture-design",
+      path: "/services/furniture-design-supply",
       subServices: [
         { label: "Custom Furniture Design", to: "/services/furniture/custom-design" },
         { label: "Modular Furniture Solutions", to: "/services/furniture/modular" },

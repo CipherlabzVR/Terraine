@@ -73,7 +73,7 @@ export const interiorDesignPageData: PageData = {
     title: "Ready to Redefine Your Space?",
     description: "Let our design experts transform your environment into a place of inspiration, comfort, and style. Schedule your consultation today",
     buttons: [
-      { text: "SCHEDULE A CONSULTATION", link: "/contact", variant: "primary" },
+      { text: "SCHEDULE A CONSULTATION", link: "/inquiry", variant: "primary" },
       { text: "VIEW OUR PORTFOLIO", link: "/completed-projects", variant: "secondary" }
     ]
   },

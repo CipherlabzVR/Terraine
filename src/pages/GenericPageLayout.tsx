@@ -216,7 +216,7 @@ const ProjectsCarouselSection = ({ data, videoUrl }: { data: PageData['projects'
                                         <img src={project.image} alt={project.name} className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-105" />
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-50 group-hover:opacity-0 transition-opacity duration-300"></div>
                                         <div className="absolute inset-0 bg-cyan-600/70 flex flex-col items-center justify-center p-6 text-center opacity-0 group-hover:opacity-100 transition-all duration-500 transform scale-110 group-hover:scale-100">
-                                            <h3 className="text-2xl font-bold text-white mb-4">{project.name}</h3>
+                                            
                                             <Link to="/completed-projects">
                                                 <Button variant="outline" className="text-white border-white hover:bg-white hover:text-cyan-600 rounded-full">
                                                     Read More <Icons.ArrowRight className="w-4 h-4 ml-2" />
@@ -289,13 +289,26 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
             <p className="mt-6 text-xl text-cyan-300 max-w-5xl">{hero.subtitle}</p>
             <p className="mt-6 text-xl text-white max-w-4xl">{hero.description}</p>
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
-                {hero.buttons.map((button, index) => (
-                    <Link to={button.link} key={index}>
-                        <Button className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-400' : 'text-white bg-cyan-500 hover:bg-white/30'} font-semibold px-8 py-3 rounded-md`}>
-                            {button.text} {button.variant === 'secondary' && <Icons.ChevronsDown size={16} className="ml-2" />}
-                        </Button>
+                {hero.buttons.map((button, index) => {
+        // Use a standard <a> tag for same-page anchor links
+        if (button.link.startsWith('#')) {
+            return (
+                <a href={button.link} key={index}>
+                    <Button className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-400' : 'text-white bg-cyan-500 hover:bg-white/30'} font-semibold px-8 py-3 rounded-md`}>
+                        {button.text} {button.variant === 'secondary' && <Icons.ChevronsDown size={16} className="ml-2" />}
+                    </Button>
+                </a>
+            );
+        }
+        // Use React Router's <Link> for navigating to other pages
+        return (
+            <Link to={button.link} key={index}>
+                <Button className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-400' : 'text-white bg-cyan-500 hover:bg-white/30'} font-semibold px-8 py-3 rounded-md`}>
+                    {button.text} {button.variant === 'secondary' && <Icons.ChevronsDown size={16} className="ml-2" />}
+                </Button>
                     </Link>
-                ))}
+                );
+                })}
             </div>
         </div>
       </section>
@@ -340,7 +353,7 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
       </section>
       
        {/* Services Section */}
-      <section className="relative py-16 md:py-19">
+      <section id="services" className="relative py-16 md:py-19">
         <div className="absolute inset-0 z-0">
           <video autoPlay loop muted playsInline className="w-full h-full object-cover" src={servicesVideoUrl}/>
           <div className="absolute inset-0 bg-[#0b2741]/90"></div>

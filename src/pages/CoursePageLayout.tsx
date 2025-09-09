@@ -15,7 +15,7 @@ import 'react-phone-input-2/lib/style.css';
 
 const allCoursesData = [
   {
-    title: 'Diploma in BIM',
+    title: 'Master Diploma in BIM (3D - 9D)',
     slug: 'bim',
     image: '/bim.jpg',
     duration: '16-20 Weeks',
@@ -24,7 +24,7 @@ const allCoursesData = [
     gradient: 'from-blue-500/70 to-purple-600/70'
   },
   {
-    title: 'Digital Twin Technology',
+    title: 'Master Diploma in Digital Twin',
     slug: 'digital-twin',
     image: '/digital-twin.jpg',
     duration: '12 Weeks',
@@ -33,7 +33,7 @@ const allCoursesData = [
     gradient: 'from-teal-500/70 to-cyan-600/70'
   },
   {
-    title: 'AI in Engineering',
+    title: 'Master Diploma in Artificial Intelligence (AI) in Engineering',
     slug: 'AIEngineerng',
     image: '/ai-engineering.jpg',
     duration: '14 Weeks',
@@ -42,7 +42,7 @@ const allCoursesData = [
     gradient: 'from-amber-500/70 to-orange-600/70'
   },
   {
-    title: '3D Architectural Visualization',
+    title: 'Master Diploma in 3D Visualization with VR',
     slug: '3d-visualization',
     image: '/3d-visualization.jpeg',
     duration: '12 Weeks',
@@ -51,7 +51,7 @@ const allCoursesData = [
     gradient: 'from-sky-500/70 to-blue-600/70'
   },
   {
-    title: 'Construction Project Management',
+    title: 'Master Diploma in Construction Project Management',
     slug: 'construction-pm',
     image: '/construction-management.jpg',
     duration: '18 Weeks',
@@ -60,7 +60,7 @@ const allCoursesData = [
     gradient: 'from-amber-500/70 to-orange-600/70'
   },
   {
-    title: 'Structural Design and Modelling',
+    title: 'Master Diploma in Structural Design and Modelling',
     slug: 'structural',
     image: '/showcase-1.jpg',
     duration: '15 Weeks',
@@ -69,7 +69,7 @@ const allCoursesData = [
     gradient: 'from-red-500/70 to-orange-600/70'
   },
   {
-    title: 'MEP & HVAC Systems',
+    title: 'Master Diploma in MEP and HVAC Systems',
     slug: 'mep-hvac',
     image: '/mep.jpeg',
     duration: '14 Weeks',
@@ -78,7 +78,7 @@ const allCoursesData = [
     gradient: 'from-indigo-500/70 to-purple-600/70'
   },
   {
-    title: 'Interior Design',
+    title: 'Master Diploma in Interior Design',
     slug: 'interior',
     image: '/showcase-4.jpeg',
     duration: '10 Weeks',
@@ -87,7 +87,7 @@ const allCoursesData = [
     gradient: 'from-pink-500/70 to-rose-600/70'
   },
   {
-    title: 'Landscape Architecture',
+    title: 'Master Diploma in Landscape Architecture',
     slug: 'landscape',
     image: '/land.jpeg',
     duration: '12 Weeks',
@@ -96,7 +96,7 @@ const allCoursesData = [
     gradient: 'from-green-500/70 to-emerald-600/70'
   },
   {
-    title: 'Customized Corporate Training',
+    title: 'Customized Professional Training',
     slug: 'customize-course',
     image: '/learn.jpg',
     duration: 'Custom',
@@ -333,15 +333,15 @@ const ContactFormSection = ({ subtitle }) => {
                          <form onSubmit={handleFormSubmit}>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <div>
-                                    <label htmlFor="name" className="block text-sm font-medium text-white/80 mb-1">Your Name</label>
+                                    <label htmlFor="name" className="block text-sm font-medium text-white/80 mb-1">Your Name*</label>
                                     <input type="text" id="name" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
                                 </div>
                                 <div>
-                                    <label htmlFor="email" className="block text-sm font-medium text-white/80 mb-1">Email Address</label>
+                                    <label htmlFor="email" className="block text-sm font-medium text-white/80 mb-1">Email Address*</label>
                                     <input type="email" id="email" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
                                 </div>
                                 <div className="sm:col-span-2">
-                                    <label className="block text-sm font-medium text-white/80 mb-1">Phone Number</label>
+                                    <label className="block text-sm font-medium text-white/80 mb-1">Phone Number*</label>
                                     <PhoneInput
                                         country={'lk'}
                                         value={phone}
@@ -483,9 +483,11 @@ const CoursePageLayout = ({ courseData }) => {
                                 {courseData.heroSubtitle}
                             </p>
                             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                                <Button size="lg" className="bg-[#0050A0] text-white font-bold hover:bg-cyan-500 px-6 py-3 text-base rounded-md transition-transform hover:scale-105">
-                                    REGISTER NOW <Plus className="w-5 h-5 ml-2" />
-                                </Button>
+                                <Link to="/inquiry">
+                                    <Button size="lg" className="bg-[#0050A0] text-white font-bold hover:bg-cyan-500 px-6 py-3 text-base rounded-md transition-transform hover:scale-105">
+                                        REGISTER NOW <Plus className="w-5 h-5 ml-2" />
+                                    </Button>
+                                </Link>
                                 <a href="#course-details">
                                     <Button size="lg" className="bg-cyan-500 text-white hover:bg-[#0050A0] px-6 py-3 text-base rounded-md">
                                         COURSE DETAILS <ChevronsDown className="w-5 h-5 ml-2" />
@@ -493,7 +495,7 @@ const CoursePageLayout = ({ courseData }) => {
                                 </a>
                             </div>
                         </div>
-                        <div className="p-8 md:p-10 rounded-lg w-full lg:w-[101vh] lg:h-[55vh] border border-white/20 shadow-2xl bg-slate-900/50 backdrop-blur-md mt-8 lg:mt-[15vh]">
+                        <div className="p-8 md:p-10 rounded-lg w-full lg:w-[95vh] lg:h-[55vh] border border-white/20 shadow-2xl bg-slate-900/50 backdrop-blur-md mt-8 lg:mt-[15vh]">
                             <h3 className="text-white font-bold text-4xl mb-10 text-center">Key Course Features</h3>
                             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
                                 {courseData.keyCourseFeatures.map((feature, index) => (
@@ -629,8 +631,8 @@ const CoursePageLayout = ({ courseData }) => {
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Career?</h2>
                     <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">Enroll today and Master Future-ready AEC skills with Terrene Engineering Skills Training division </p>
                     <div className="flex justify-center items-center gap-4 flex-wrap">
-                        <Link to="/contact"><Button size="lg" className="bg-[#0050A0] text-white text-md font-bold w-[35vh] hover:bg-cyan-500 transition-colors px-6">ENROLL NOW <Plus className="w-5 h-5 ml-2" /></Button></Link>
-                        <Link to="/contact"><Button size="lg"  className="bg-cyan-500 text-md text-white hover:bg-white/10 transition-colors px-6 w-[35vh]">SPEAK TO AN ADVISOR <Phone className="w-5 h-5 ml-2" /></Button></Link>
+                        <Link to="/inquiry"><Button size="lg" className="bg-[#0050A0] text-white text-md font-bold w-[35vh] hover:bg-cyan-500 transition-colors px-6">ENROLL NOW <Plus className="w-5 h-5 ml-2" /></Button></Link>
+                        <a href="/tel:+94775235572"><Button size="lg"  className="bg-cyan-500 text-md text-white hover:bg-white/10 transition-colors px-6 w-[35vh]">SPEAK TO AN ADVISOR <Phone className="w-5 h-5 ml-2" /></Button></a>
                     </div>
                 </div>
             </section>

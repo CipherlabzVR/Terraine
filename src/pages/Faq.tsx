@@ -38,7 +38,7 @@ const Faq = () => {
     },
     {
       question: "What BIM services do you offer?",
-      answer: "We provide 3D BIM modeling for architectural, structural, and MEP systems—enhancing coordination and reducing errors."
+      answer: "We provide 3D BIM modeling for architectural, structural, and MEP systems-enhancing coordination and reducing errors."
     },
     {
       question: "What is a Digital Twin and how do you use it?",

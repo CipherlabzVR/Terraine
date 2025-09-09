@@ -584,18 +584,13 @@ const SoftwareTraining: React.FC = () => {
             <ReviewsCarousel reviews={reviewsData} />
 
             <div className="text-center mt-16">
-              <Link to="/success-stories">
-                <Button className="bg-[#0050A0] hover:bg-cyan-600 text-white px-8 py-3 font-semibold rounded-full text-lg transition-all hover:scale-105 shadow-lg">
-                  READ MORE SUCCESS STORIES
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Button>
-              </Link>
+            
             </div>
           </div>
         </section>
 
         {/* --- Student Showcase Section (unchanged) --- */}
-        <section className="py-16 md:py-12 relative overflow-hidden">
+        <section id="student" className="py-16 md:py-12 relative overflow-hidden">
           <div className="absolute inset-0 z-0">
             <video
               autoPlay
@@ -620,13 +615,14 @@ const SoftwareTraining: React.FC = () => {
             <ShowcaseCarousel items={showcaseData} />
 
             <div className="text-center mt-16 flex justify-center items-center space-x-4">
-              <Link to="/portfolio">
+              <a href="#student">
                 <Button className="bg-[#0050A0] hover:bg-cyan-500 text-white px-8 py-3 font-semibold rounded-full text-lg transition-all hover:scale-105 shadow-lg inline-flex items-center">
                   VIEW PORTFOLIO
                   <Briefcase className="w-5 h-5 ml-2" />
                 </Button>
-              </Link>
-              <Link to="/register">
+                </a>
+             
+              <Link to="/inquiry">
                 <Button variant="outline" className="text-white bg-cyan-500 border-white/50 hover:bg-white/10 hover:text-white px-8 py-3 font-semibold rounded-full text-lg transition-all hover:scale-105 shadow-lg inline-flex items-center">
                   JOIN NEXT BATCH
                   <Plus className="w-5 h-5 ml-2" />
@@ -645,18 +641,18 @@ const SoftwareTraining: React.FC = () => {
             <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">
               Enroll today and gain future-ready skills with Terrene Engineering’s expert-led training programs </p>
             <div className="flex justify-center items-center gap-4 flex-wrap">
-              <Link to="/contact">
+              <Link to="/inquiry">
                 <Button size="lg" className="bg-[#0050A0] text-white text-md font-bold w-[35vh] hover:bg-cyan-500 transition-colors px-6">
                   ENROLL NOW
                   <Plus className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
-              <Link to="/completed-projects">
+              <a href="/tel:+94775235572">
                 <Button size="lg" className="bg-cyan-500 text-md text-white hover:bg-white/10 transition-colors px-6 w-[35vh]">
                   SPEAK TO AN ADVISOR
                   <Phone className="w-5 h-5 ml-2" />
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
         </section>

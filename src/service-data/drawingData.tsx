@@ -56,11 +56,11 @@ export const engineeringDrawingsPageData: PageData = {
     superTitle: "OUR PROJECTS",
     title: "Our Outstanding Drawing Works",
     list: [
-      { image: "/project-1.png", name: "Structural Plan" },
-      { image: "/project-2.jpeg", name: "MEP Schematics" },
-      { image: "/project-3.jpg", name: "Architectural Blueprint" },
-      { image: "/showcase-4.jpeg", name: "Interior Layout" },
-      { image: "/project-1.png", name: "HVAC System Design" },
+      { image: "/pro37.png", name: "Structural Plan" },
+      { image: "/pro41.png", name: "MEP Schematics" },
+      { image: "/pro45.png", name: "Architectural Blueprint" },
+      { image: "/pro49.png", name: "Interior Layout" },
+      { image: "/pro53.png", name: "HVAC System Design" },
     ],
     videoBackground: "aboutVideo"
   },

@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
-import { Phone, Mail, Clock, Send, CheckCircle } from 'lucide-react';
+import { Phone, Mail, Clock, Send, CheckCircle } from 'lucide-react'; // Re-added Phone, Mail, Clock
 import contactus from '../assert/contactus.jpg';
 // Import the phone input component and its CSS
 import PhoneInput from 'react-phone-input-2';
@@ -30,6 +30,17 @@ const Inquiry = () => {
       border: 1px solid rgba(255, 255, 255, 0.3) !important;
       color: white !important;
       width: 100% !important;
+      height: 42px !important; /* Match other fields' height */
+      box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important; /* shadow-sm */
+    }
+    .custom-phone-input.react-tel-input .form-control::placeholder {
+      color: #d1d5db !important; /* placeholder-gray-300 */
+      opacity: 1;
+    }
+    .custom-phone-input.react-tel-input .form-control:focus {
+      outline: none !important;
+      /* The ring overrides the default shadow on focus */
+      box-shadow: 0 0 0 1px white !important; /* ring-1 ring-white */
     }
     .custom-phone-input.react-tel-input .flag-dropdown {
       background-color: rgba(255, 255, 255, 0.1) !important;
@@ -110,7 +121,7 @@ const Inquiry = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-[#0b2741] via-[#0b2741]/80 to-transparent z-10"></div>
         </div>
         <div className="container mx-auto px-4 md:px-8 relative z-20">
-            <div className="max-w-3xl text-center mx-auto">
+            <div className="max-w-4xl text-center mx-auto">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-lg">
                     Get In Touch
                 </h1>
@@ -121,7 +132,7 @@ const Inquiry = () => {
       </section>
       
       <main className="pb-16 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-9xl mx-auto">
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Contact Information Section */}
             <div className="lg:order-2">
@@ -129,7 +140,9 @@ const Inquiry = () => {
                 <h2 className="text-xl font-semibold mb-6 text-white border-b border-white/20 pb-2">Contact Details</h2>
                 <div className="space-y-6">
                   <div className="flex items-start space-x-3">
-                    <Phone className="w-5 h-5 text-white flex-shrink-0 mt-1" />
+                    <div className="bg-cyan-800/80 p-2 rounded-full flex-shrink-0"> {/* Rounded background */}
+                      <Phone className="w-5 h-5 text-white" />
+                    </div>
                     <div>
                       <h3 className="font-semibold text-white">Phone</h3>
                       <p className="text-gray-200">+94 77 523 5572</p>
@@ -137,7 +150,9 @@ const Inquiry = () => {
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Mail className="w-5 h-5 text-white flex-shrink-0 mt-1" />
+                    <div className="bg-cyan-800/80 p-2 rounded-full flex-shrink-0"> {/* Rounded background */}
+                      <Mail className="w-5 h-5 text-white" />
+                    </div>
                     <div>
                       <h3 className="font-semibold text-white">Email</h3>
                       <p className="text-gray-200">info@terreneengineering.com</p>
@@ -145,7 +160,9 @@ const Inquiry = () => {
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <Clock className="w-5 h-5 text-white flex-shrink-0 mt-1" />
+                    <div className="bg-cyan-800/80 p-2 rounded-full flex-shrink-0"> {/* Rounded background */}
+                      <Clock className="w-5 h-5 text-white" />
+                    </div>
                     <div>
                       <h3 className="font-semibold text-white text-justify">Business Hours</h3>
                       <div className="text-gray-200 text-justify leading-[1.8rem]">
@@ -179,14 +196,17 @@ const Inquiry = () => {
                       </div>
                     </div>
                     
-                    <div className="grid md:grid-cols-2 gap-4 mb-4">
+                    <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
-                        <label className="block text-sm font-medium mb-1 text-white">Phone Number</label>
+                        <label className="block text-sm font-medium mb-1 text-white ">Phone Number</label>
                         <PhoneInput
-                          containerClass="custom-phone-input"
+                          containerClass="custom-phone-input "
                           country={'lk'}
                           value={formData.phone}
                           onChange={handlePhoneChange}
+                          inputProps={{
+                            placeholder: 'Phone Number'
+                          }}
                         />
                       </div>
                       <div>
@@ -197,14 +217,14 @@ const Inquiry = () => {
     
                     <div className="mb-4">
                       <label className="block text-sm font-medium mb-1 text-white">Service Required</label>
-                      <select name="service" value={formData.service} onChange={handleChange} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm">
-                        <option value="" className="bg-[#0b2741]">Select a service</option>
-                        <option value="structural-design" className="bg-[#0b2741]">Structural Design</option>
-                        <option value="civil-engineering" className="bg-[#0b2741]">Civil Engineering</option>
-                        <option value="architectural-consulting" className="bg-[#0b2741]">Architectural Consulting</option>
-                        <option value="project-management" className="bg-[#0b2741]">Project Management</option>
-                        <option value="other" className="bg-[#0b2741]">Other</option>
-                      </select>
+                      <input 
+                        type="text" 
+                        name="service" 
+                        value={formData.service} 
+                        onChange={handleChange} 
+                        className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300"
+                        placeholder="e.g., Structural Design"
+                      />
                     </div>
 
                     <div className="mb-4">

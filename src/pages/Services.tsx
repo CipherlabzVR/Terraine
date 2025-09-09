@@ -735,7 +735,7 @@ const Services: React.FC = () => {
                                     <div className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110 blur-[1px]" style={{ backgroundImage: `url(${service.image})` }}></div>
                                     <div className="absolute inset-0 bg-gradient-to-t from-[#0b2741] via-[#0b2741]/85 to-transparent"></div>
                                     <div className="relative z-10 p-6 flex flex-col h-full min-h-[350px]">
-                                        <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 border border-cyan-500/30">{service.icon}</div>
+                                        <div className="w-16 h-16 bg-[#0b2741]/80 rounded-full flex items-center justify-center mx-auto mb-4 border border-cyan-500/30">{service.icon}</div>
                                         <h3 className="text-3xl font-bold text-white mb-3 mt-[5vh]">{service.title}</h3>
                                       
                                         <Link to={`/services/${service.slug}`} className="mt-auto">
@@ -757,7 +757,7 @@ const Services: React.FC = () => {
                         <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">
                             Let our architectural consultants help bring your vision to life with innovative design solutions that exceed expectations                         </p>
                         <div className="flex justify-center items-center gap-4 flex-wrap">
-                            <Link to="/contact">
+                            <Link to="/inquiry">
                                 <Button size="lg" className="bg-[#0050A0] text-white font-bold hover:bg-cyan-500 transition-colors px-6">
                                     SCHEDULE A CONSULTATION
                                 </Button>

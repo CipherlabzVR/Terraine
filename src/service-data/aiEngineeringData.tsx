@@ -7,7 +7,7 @@ export const aiEngineeringPageData: PageData = {
     description: "AI for design, predictive analytics, smart construction, BIM, digital twins, and custom solutions to deliver faster, smarter, and highly efficient projects",
     backgroundImage: "/ai-hero.jpg", // TODO: Update with your actual image path.
     buttons: [
-      { text: "EXPLORE SOLUTIONS", link: "/inquiry", variant: "primary" },
+      { text: "REQUEST A DEMO", link: "/inquiry", variant: "primary" },
       { text: "LEARN MORE", link: "#about-us-section", variant: "secondary" }
     ]
   },
@@ -68,7 +68,7 @@ export const aiEngineeringPageData: PageData = {
     title: "Ready to Engineer the Future?",
     description: "Integrate the power of Artificial Intelligence into your projects for unparalleled efficiency and innovation. Contact our experts to learn how",
     buttons: [
-      { text: "GET STARTED WITH AI", link: "/contact", variant: "primary" },
+      { text: "GET STARTED WITH AI", link: "/inquiry", variant: "primary" },
       { text: "VIEW CASE STUDIES", link: "/completed-projects", variant: "secondary" }
     ]
   },

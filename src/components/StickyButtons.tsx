@@ -18,13 +18,12 @@ const StickyButtons = () => {
     }, []);
 
     // --- Configuration ---
-    // IMPORTANT: Replace with your actual WhatsApp number in international format (without '+').
-    const phoneNumber = "YOUR_WHATSAPP_NUMBER"; 
+    const phoneNumber = "94740226660"; 
     const whatsappMessage = "Hello! I'm interested in your engineering services.";
-    const emailAddress = "eshop@wurth.lk"; // This can be updated if needed
+    const emailAddress = "info@terreneengineering.com";
     const emailSubject = "Inquiry from Website";
 
-    // --- Social Links (Updated with your URLs) ---
+    // --- Social Links ---
     const socialLinks = {
         whatsapp: `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`,
         facebook: "https://www.facebook.com/share/1GRAMJHEas/",
@@ -37,7 +36,6 @@ const StickyButtons = () => {
     };
 
     // --- Button Definitions ---
-    // The component now points to image sources in your /public folder.
     const socialButtons = [
         { name: 'facebook', href: socialLinks.facebook, iconSrc: '/facebook.png', label: 'Message on Facebook' },
         { name: 'whatsapp', href: socialLinks.whatsapp, iconSrc: '/whatsapp.png', label: 'Chat on WhatsApp' },
@@ -46,12 +44,14 @@ const StickyButtons = () => {
         { name: 'email', href: socialLinks.email, iconSrc: '/email.png', label: 'Email Us' },
     ];
     
-    // Classes for the main toggle button
     const mainButtonClasses = `flex items-center justify-center w-16 h-16 rounded-full text-white shadow-lg hover:scale-110 transition-all duration-300 ease-in-out`;
 
     return (
         <div 
-            className="fixed bottom-6 right-6 z-[9999] flex flex-col items-center gap-6"
+            // --- CHANGE: Added padding (p-4) to enlarge the hover area and prevent accidental closing ---
+            // --- onMouseLeave remains here to close the menu ---
+            className="fixed bottom-4 right-4 z-[9999] flex flex-col items-center gap-6 p-4"
+            onMouseLeave={isMobile ? undefined : () => setIsOpen(false)}
         >
             {/* Expanded Social Buttons */}
             <div className={`flex flex-col items-center gap-6 transition-all duration-500 ease-in-out ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8 pointer-events-none'}`}>
@@ -69,10 +69,11 @@ const StickyButtons = () => {
                 ))}
             </div>
 
-            {/* Main Toggle Button with responsive event handlers */}
+            {/* Main Toggle Button */}
             <button
+                // --- CHANGE: onMouseEnter is now on the button to trigger the menu ---
                 onMouseEnter={isMobile ? undefined : () => setIsOpen(true)}
-                onClick={isMobile ? () => setIsOpen(!isOpen) : () => setIsOpen(false)}
+                onClick={isMobile ? () => setIsOpen(!isOpen) : undefined}
                 className={`${mainButtonClasses} text-white transition-transform duration-300 ease-in-out ${!isOpen ? 'animate-throb' : ''}`}
                 style={{ 
                     backgroundColor: '#0b2741',

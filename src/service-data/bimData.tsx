@@ -70,7 +70,7 @@ export const bimPageData: PageData = {
     title: "Ready to Build Smarter?",
     description: "Leverage our BIM expertise to enhance efficiency, reduce costs, and ensure the success of your next project. Contact us for a consultation",
     buttons: [
-      { text: "SCHEDULE A CONSULTATION", link: "/contact", variant: "primary" },
+      { text: "SCHEDULE A CONSULTATION", link: "/inquiry", variant: "primary" },
       { text: "VIEW CASE STUDIES", link: "/completed-projects", variant: "secondary" }
     ]
   },

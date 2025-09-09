@@ -7,7 +7,7 @@ export const furnitureDesignPageData: PageData = {
     description: "Crafting and delivering custom, modular, smart, and commercial furniture solutions that blend style, functionality, and innovation for every space and environment",
     backgroundImage: "/furniture-hero.jpg", // TODO: Update with your actual image path.
     buttons: [
-      { text: "VIEW COLLECTIONS", link: "/inquiry", variant: "primary" },
+      { text: "CONTACT US", link: "/inquiry", variant: "primary" },
       { text: "GET A QUOTE", link: "#about-us-section", variant: "secondary" }
     ]
   },
@@ -71,7 +71,7 @@ export const furnitureDesignPageData: PageData = {
     title: "Ready to Furnish Your Space?",
     description: "Discover the perfect blend of style, comfort, and functionality. Contact us today for a personalized furniture consultation",
     buttons: [
-      { text: "GET A CONSULTATION", link: "/contact", variant: "primary" },
+      { text: "GET A CONSULTATION", link: "/inquiry", variant: "primary" },
       { text: "VIEW OUR CATALOG", link: "/completed-projects", variant: "secondary" }
     ]
   },

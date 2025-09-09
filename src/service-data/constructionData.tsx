@@ -77,7 +77,7 @@ export const constructionPageData: PageData = {
     title: "Ready to Build Your Future?",
     description: "Let's lay the foundation for your next project. Our team is ready to build your vision with quality, integrity, and a lifetime warranty",
     buttons: [
-      { text: "START YOUR PROJECT", link: "/contact", variant: "primary" },
+      { text: "START YOUR PROJECT", link: "/inquiry", variant: "primary" },
       { text: "VIEW OUR PORTFOLIO", link: "/completed-projects", variant: "secondary" }
     ]
   },

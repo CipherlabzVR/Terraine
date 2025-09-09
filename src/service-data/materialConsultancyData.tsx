@@ -72,7 +72,7 @@ export const materialConsultancyPageData: PageData = {
     title: "Ready to Build with the Best?",
     description: "Ensure the success of your project with the right materials. Contact our consultants for expert advice and sourcing support",
     buttons: [
-      { text: "GET EXPERT ADVICE", link: "/contact", variant: "primary" },
+      { text: "GET EXPERT ADVICE", link: "/inquiry", variant: "primary" },
       { text: "VIEW CASE STUDIES", link: "/completed-projects", variant: "secondary" }
     ]
   },

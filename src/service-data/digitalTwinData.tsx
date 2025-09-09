@@ -60,7 +60,7 @@ export const digitalTwinPageData: PageData = {
     list: [
       { image: "/22.png", name: "Smart Factory Twin" },
       { image: "/15.jpg", name: "City Infrastructure Replica" },
-      { image: "/project-1.png", name: "Energy Grid Optimization" },
+      { image: "/pro5.png", name: "Energy Grid Optimization" },
       { image: "/9.jpg", name: "Hospital Management unit" },
       { image: "/5.jpg", name: "Modern Villa" },
     ],
@@ -70,7 +70,7 @@ export const digitalTwinPageData: PageData = {
     title: "Ready for a Smarter Future?",
     description: "Unlock the full potential of your assets with a real-time digital twin. Contact us to see how we can enhance your operational intelligence",
     buttons: [
-      { text: "GET STARTED", link: "/contact", variant: "primary" },
+      { text: "GET STARTED", link: "/inquiry", variant: "primary" },
       { text: "VIEW CASE STUDIES", link: "/completed-projects", variant: "secondary" }
     ]
   },

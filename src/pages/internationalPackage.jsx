@@ -242,9 +242,11 @@ const EngineeringConsultingPackage = () => {
 
                   {/* CTA Button */}
                   <div className="mt-4 flex justify-center w-full">
-                    <Button size="lg" className="bg-[#0050A0] text-white hover:bg-white/90 text-lg px-8 py-6 font-semibold">
-                      REQUEST THIS PACKAGE
-                    </Button>
+                    <a href="/inquiry">
+                                        <Button size="lg" className="bg-[#0050A0] text-white hover:bg-white/90 text-lg px-8 py-6 font-semibold">
+                                          REQUEST THIS PACKAGE
+                                        </Button>
+                                        </a>
                   </div>
                 </div>
               </div>

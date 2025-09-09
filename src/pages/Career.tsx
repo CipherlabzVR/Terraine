@@ -1741,9 +1741,11 @@ const JobDetailModal = ({ position, onClose }: { position: typeof positions[0], 
 
         {/* Modal Footer */}
         <div className="p-6 mt-auto border-t border-white/20 flex-shrink-0">
+        <a href="https://forms.gle/ZPcdmBef2HJ4ShXW7" target="_blank" rel="noopener noreferrer">
           <Button className="w-full bg-[#0050A0] hover:bg-cyan-500/80 text-white font-bold text-lg py-3 transition-all">
             APPLY NOW
           </Button>
+          </a>
         </div>
       </div>
     </div>
@@ -1974,7 +1976,7 @@ const Career = () => {
             <div className="w-full px-4 md:px-10 mb-[3vh]">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold">Browse by category</h2>
-                    <p className="mt-2 text-white/70">Find the job that’s perfect for you. about 800+ new jobs everyday</p>
+                    <p className="mt-2 text-white/70">Find the job that’s perfect for you. about 50+ new jobs</p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {jobCategories.map((category, index) => {

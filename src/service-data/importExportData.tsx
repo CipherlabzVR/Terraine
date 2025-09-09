@@ -8,7 +8,7 @@ export const importExportPageData: PageData = {
     backgroundImage: "/import-hero.webp", // TODO: Update with your actual image path.
     buttons: [
       { text: "GET A QUOTE", link: "/inquiry", variant: "primary" },
-      { text: "OUR SERVICES", link: "#about-us-section", variant: "secondary" }
+      { text: "OUR SERVICES", link: "#services", variant: "secondary" }
     ]
   },
   about: {
@@ -71,7 +71,7 @@ export const importExportPageData: PageData = {
     title: "Ready to Go Global?",
     description: "Expand your reach with our reliable and efficient import and export services. Contact us to discuss your supply chain needs.",
     buttons: [
-      { text: "CONTACT LOGISTICS", link: "/contact", variant: "primary" },
+      { text: "CONTACT LOGISTICS", link: "/inquiry", variant: "primary" },
       { text: "SEE OUR REACH", link: "/completed-projects", variant: "secondary" }
     ]
   },

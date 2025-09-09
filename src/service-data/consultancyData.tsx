@@ -11,7 +11,7 @@ export const consultancyServicesPageData: PageData = {
     backgroundImage: "/consultancy.jpg", 
     buttons: [
       { text: "CONTACT US", link: "/inquiry", variant: "primary" },
-      { text: "EXPLORE SERVICES", link: "#about-us-section", variant: "secondary" }
+      { text: "EXPLORE SERVICES", link: "#services", variant: "secondary" }
     ]
   },
   about: {
@@ -66,14 +66,14 @@ export const consultancyServicesPageData: PageData = {
     superTitle: "OUR PROJECTS",
     title: "Our Outstanding Consultancy Works",
     list: [
-      { image: "/project-1.png", name: "Modern Residence" },
-      { image: "/project-2.jpeg", name: "Commercial Hub" },
-      { image: "/project-3.jpg", name: "Urban Apartment" },
-      { image: "/showcase-4.jpeg", name: "Luxury Villa" },
-      { image: "/project-1.png", name: "Corporate Headquarters" },
-      { image: "/project-2.jpeg", name: "Retail Center" },
-      { image: "/project-3.jpg", name: "Loft Conversion" },
-      { image: "/showcase-4.jpeg", name: "Seaside Estate" }
+      { image: "/pro1.png", name: "Modern Residence" },
+      { image: "/pro5.png", name: "Commercial Hub" },
+      { image: "/pro9.png", name: "Urban Apartment" },
+      { image: "/pro13.png", name: "Luxury Villa" },
+      { image: "/pro17.png", name: "Corporate Headquarters" },
+      { image: "/pro21.png", name: "Retail Center" },
+      { image: "/pro25.png", name: "Loft Conversion" },
+      { image: "/pro29.png", name: "Seaside Estate" }
     ],
     videoBackground: "aboutVideo" // Key for the video
   },
@@ -81,7 +81,7 @@ export const consultancyServicesPageData: PageData = {
     title: "Ready to Transform Your Vision?",
     description: "Let our architectural consultants help bring your vision to life with innovative design solutions that exceed expectations",
     buttons: [
-      { text: "SCHEDULE A CONSULTATION", link: "/contact", variant: "primary" },
+      { text: "SCHEDULE A CONSULTATION", link: "/inquiry", variant: "primary" },
       { text: "VIEW PORTFOLIO", link: "/completed-projects", variant: "secondary" }
     ]
   },

@@ -24,25 +24,30 @@ const companyLinks = [
 const allServices = [
     { name: "Consultancy Services", path: "/services/consultancy-services" },
     { name: "Drawings", path: "/services/drawings" },
-    { name: "Construction", path: "/services/construction" },
+    { name: "Construction", path: "/services/constructions" },
     { name: "Interior Design", path: "/services/interior-design" },
     { name: "BIM", path: "/services/bim" },
     { name: "Digital Twin", path: "/services/digital-twin" },
     { name: "Maintenance", path: "/services/maintenance" },
     { name: "AI Engineering", path: "/services/ai-engineering" },
-    { name: "Furniture Design & Supply", path: "/services/furniture-design" },
+    { name: "Furniture Design & Supply", path: "/services/furniture-design-supply" },
     { name: "Material Consultancy", path: "/services/material-consultancy" },
     { name: "Import & Export", path: "/services/import-export" },
     { name: "Software Training", path: "/software-training" },
-    { name: "Machinery and Equipment", path: "/services/machinery-equipment" },
+    
 ];
 
 const softwareTrainingLinks = [
-    { name: "BIM", path: "/software-training/bim" },
-    { name: "Digital Twin", path: "/software-training/digital-twin" },
-    { name: "AI in Engineering", path: "/software-training/ai-engineering" },
-    { name: "3D Visualization", path: "/software-training/3d-visualization" },
-    { name: "Construction Project Management", path: "/software-training/cpm" },
+    { name: "Master Diploma in BIM (3D - 9D)", path: "/software-training/bim" },
+    { name: "Master Diploma in Digital Twin", path: "/software-training/digital-twin" },
+    { name: "Master Diploma in Artificial Intelligence (AI) in Engineering", path: "/software-training/AIEngineerng" },
+    { name: "Master Diploma in 3D Visualization with VR", path: "/software-training/3d-visualization" },
+    { name: "Master Diploma in Construction Project Management", path: "/software-training/construction-pm" },
+    { name: "Master Diploma in Structural Design and Modelling", path: "/software-training/strcutural" },
+    { name: "Master Diploma in MEP and HVAC Systems", path: "/software-training/mep-hvac" },
+    { name: "Master Diploma in Interior Design", path: "/software-training/interior" },
+    { name: "Master Diploma in Landscape Architecture", path: "/software-training/landscape" },
+    { name: "Customized Professional Training", path: "/software-training/customize-course" }
 ];
 
 const packageLinks = [
@@ -66,10 +71,7 @@ const sitemapData = {
   softwareTraining: softwareTrainingLinks,
   packages: packageLinks,
   projects: projectLinks,
-  legal: [
-    { name: 'Privacy Policy', path: '/privacy-policy' },
-    { name: 'Terms of Service', path: '/terms-of-service' },
-  ],
+  
 };
 
 const Sitemap = () => {
@@ -157,11 +159,8 @@ const Sitemap = () => {
                             <h2 className="text-xl font-bold mb-6 text-cyan-400 border-b-2 border-cyan-500/30 pb-3">Projects</h2>
                             {renderLinks(sitemapData.projects)}
                             
-                            {/* Legal Sub-section */}
-                            <div className="mt-8">
-                                <h3 className="text-xl font-bold mb-6 border-b-2 border-cyan-500/30 text-cyan-500 pb-3">Legal</h3>
-                                {renderLinks(sitemapData.legal)}
-                            </div>
+                           
+                           
                         </div>
                     </div>
                 </div>

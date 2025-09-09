@@ -264,7 +264,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                 <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">{pageData.cta.description}</p>
                 <div className="flex justify-center items-center gap-4 flex-wrap">
                     <a href="#contact-section"><Button size="lg" className="bg-[#0050A0] text-white font-bold hover:bg-cyan-500 transition-colors px-6">SCHEDULE A CONSULTATION</Button></a>
-                    <Link to="/completed-projects"><Button size="lg"  className="bg-cyan-500 text-white hover:bg-white/10 transition-colors px-6 w-full sm:w-auto">VIEW PORTFOLIO</Button></Link>
+                    <Link to="/completed-projects"><Button size="lg"  className="bg-cyan-500 text-white hover:bg-white/10 transition-colors px-6 w-[35vh]">VIEW PORTFOLIO</Button></Link>
                 </div>
             </div>
         </section>
@@ -321,15 +321,33 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                             <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10"><Icons.Mail className="w-6 h-6 text-cyan-400" /></div>
                             <div><h4 className="font-bold">Email Us</h4>{pageData.contact.emails.map(e => <p key={e} className="text-white/70">{e}</p>)}</div>
                         </div>
+                        <div className="flex items-start gap-4">
+                                                      <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10"><Icons.Clock className="w-6 h-6 text-cyan-400" /></div>
+                                                      <div>
+                                                          <h4 className="font-bold">Opening Hours</h4>
+                                                          <p className="text-white/70">Monday - Friday: 7:00 AM - 10:00 PM</p>
+                                                          <p className="text-white/70">Saturday - Sunday: 7:00 AM - 10:00 PM</p>
+                                                      </div>
+                                                  </div>
+                                                  <div>
+                                                      <h4 className="font-bold mb-4">Follow Us</h4>
+                                                      <div className="flex items-center gap-4">
+                                                          <a href="https://www.facebook.com/share/1GRAMJHEas/" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/facebook.png" alt="Facebook"/></a>
+                                                          <a href="https://www.instagram.com/terreneengineering?igsh=amE5a2QwdjlmdDU1" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/instagram.png" alt="Instagram"/></a>
+                                                          <a href="https://www.linkedin.com/company/terrene-engineering-private-limited/" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/linkedin.png" alt="LinkedIn"/></a>
+                                                          <a href="https://youtube.com/@terreneengineering?si=3ifwOLd3PaIDIoly" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/youtube.png" alt="YouTube"/></a>
+                                                          <a href="https://www.tiktok.com/@terreneengineering?_t=ZS-8yEqPlsthkl&_r=1" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/tiktok.png" alt="TikTok"/></a>
+                                                      </div>
+                                                  </div>
                       </div>
                   </div>
                   <div className="lg:col-span-3 bg-slate-900 p-8 rounded-lg border border-white/10 shadow-2xl shadow-cyan-500/20">
                        <h3 className="text-3xl font-bold text-white mb-8">Send Us a Message</h3>
                        <form onSubmit={(e) => e.preventDefault()}>
                           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                              <div><label htmlFor="name" className="block text-sm font-medium text-white/80 mb-1">Your Name</label><input type="text" id="name" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" /></div>
-                              <div><label htmlFor="email" className="block text-sm font-medium text-white/80 mb-1">Email Address</label><input type="email" id="email" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" /></div>
-                               <div className="sm:col-span-2"><label htmlFor="phone" className="block text-sm font-medium text-white/80 mb-1">Phone Number</label><PhoneInput country={'lk'} value={phone} onChange={setPhone} containerClass="w-full custom-phone-input" /></div>
+                              <div><label htmlFor="name" className="block text-sm font-medium text-white/80 mb-1">Your Name*</label><input type="text" id="name" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" /></div>
+                              <div><label htmlFor="email" className="block text-sm font-medium text-white/80 mb-1">Email Address*</label><input type="email" id="email" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" /></div>
+                               <div className="sm:col-span-2"><label htmlFor="phone" className="block text-sm font-medium text-white/80 mb-1">Phone Number*</label><PhoneInput country={'lk'} value={phone} onChange={setPhone} containerClass="w-full custom-phone-input" /></div>
                                <div className="sm:col-span-2"><label htmlFor="service" className="block text-sm font-medium text-white/80 mb-1">Service of Interest</label><input type="text" id="service" value={pageData.hero.serviceName.replace(/<[^>]*>?/gm, '')} readOnly className="w-full p-3 bg-slate-700 border border-white/20 rounded-md cursor-not-allowed text-white/80" /></div>
                               <div className="sm:col-span-2"><label htmlFor="message" className="block text-sm font-medium text-white/80 mb-1">Your Message</label><textarea id="message" rows={5} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400"></textarea></div>
                           </div>

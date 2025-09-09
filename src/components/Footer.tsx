@@ -3,42 +3,34 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SPACING_CLASSES } from '@/lib/spacing';
 // Import logo from assets folder
-import Logo2 from '/newlogo.jpg';
+import Logo2 from '../assert/Logo2.png';
 
 const Footer = () => {
   return (
     <section className=" pb-0  md:pb-0 w-full relative overflow-hidden">
       <footer className="bg-slate-900 text-white w-full">
-        {/* Reduced horizontal padding from px-8 md:px-10 lg:px-16 to px-4 md:px-6 lg:px-8 to increase content width */}
-        <div className="w-full max-w-[2400px] mx-auto px-4 md:px-6 lg:px-8 py-10 relative z-20">
-          {/* Increased gap between columns from gap-8 lg:gap-12 to gap-12 lg:gap-16 */}
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-16 items-start">
-            {/* Increased vertical spacing from space-y-4 to space-y-6 */}
-            <div className="space-y-6 min-h-[1px] text-left">
+        <div className="w-full max-w-[2400px] mx-auto px-8 md:px-10 lg:px-16 py-8 pb-4 relative z-20">
+          {/* Responsive grid: always 1 column on mobile, 4 columns on md+ */}
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-12 items-start">
+            <div className="space-y-4 min-h-[1px] text-left">
               {/* Logo and company name */}
               <div className="flex flex-col justify-between h-full">
                 <div className="flex items-center space-x-4 h-full">
                   <div className="flex items-center">
-                    {/* New container for the image with white background and increased height */}
-                    <div className="bg-white rounded-md p-6 mt-[1vh] ml-[-1vh] flex items-center justify-center"
-                         style={{
-                           width: "28vh", // Same width as the image was set to
-                           height: "calc(21vh * 1.5)", // Increased height (e.g., 1.5 times the width)
-                           maxWidth: "160%" // Maintain max-width
-                         }}>
+                    <div className="bg-white rounded-lg p-4 mt-[3vh] flex items-center justify-center">
                       <img
                         src={Logo2}
                         alt="Terrene Engineering Logo"
                         className="object-contain"
                         style={{
-                          width: "160vh", // Make image fill the width of its new container
+                          width: "470px",
                           height: "auto",
-                          maxHeight: "110%" // Ensure image doesn't overflow container height
+                          maxWidth: "90%"
                         }}
                       />
                     </div>
                   </div>
-                  <div className="flex flex-col mt-[7vh] mr-[1vh]">
+                  <div className="flex flex-col mt-[7vh]">
                     <h1 className="font-bold text-2xl mb-1">Terrene Engineering</h1>
                     <p className="text-base text-gray-400 mb-8">(Private) Limited</p>
                     <p className="text-xs text-gray-400">
@@ -52,8 +44,7 @@ const Footer = () => {
             {/* Services section */}
             <div className="min-h-[1px] text-left">
               <h4 className="font-semibold text-lg mb-4">Services</h4>
-              {/* Increased gap from gap-8 to gap-12 */}
-              <div className="flex flex-col sm:flex-row gap-12">
+              <div className="flex flex-col sm:flex-row gap-8">
                 <ul className="space-y-2 text-sm">
                   <li><Link to="/services/consultancy-services" className="text-gray-300 hover:text-white transition-colors">Consultancy Services</Link></li>
                   <li><Link to="/services/drawings" className="text-gray-300 hover:text-white transition-colors"> Engineering Drawings</Link></li>
@@ -78,8 +69,7 @@ const Footer = () => {
             {/* Quick Links section */}
             <div className="min-h-[1px] text-left">
               <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
-              {/* Increased gap from gap-8 to gap-12 */}
-              <div className="flex flex-col sm:flex-row gap-12">
+              <div className="flex flex-col sm:flex-row gap-8">
                 <ul className="space-y-2 text-sm">
                   <li><Link to="/" className="text-gray-300 hover:text-white transition-colors">Home</Link></li>
                   <li><Link to="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link></li>
@@ -106,8 +96,7 @@ const Footer = () => {
             {/* Contact Info section */}
             <div className="min-h-[1px] text-left">
               <h4 className="font-semibold text-lg mb-4">Contact Info</h4>
-              {/* Increased vertical spacing from space-y-3 to space-y-5 */}
-              <div className="space-y-5 text-sm">
+              <div className="space-y-3 text-sm">
                
                 <div className="flex items-start space-x-3">
                   <Phone className="w-5 h-5 text-primary flex-shrink-0 mt-1" />

@@ -1,12 +1,11 @@
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-3.jpg';
 
 export const advancedTechnologyImportPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Import of Advanced</span> Technology & Tools',
     tagline: 'Bringing innovative tools and technology worldwide efficiently',
     description: 'Our import services deliver cutting edge construction technology and tools, ensuring advanced capabilities, enhanced project efficiency, and seamless integration into modern engineering and construction processes.',
-    backgroundImage: bgImage,
+    backgroundImage: '/tech-hero.webp',
     uspItems: [
       { icon: 'Zap', title: 'Cutting Edge Equipment', description: 'Access to latest construction tools consistently.' },
       { icon: 'ShieldCheck', title: 'Reliable Suppliers', description: 'Trusted sources ensuring quality effectively.' },

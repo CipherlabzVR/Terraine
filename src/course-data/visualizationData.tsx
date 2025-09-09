@@ -5,7 +5,7 @@ export const visualizationData = {
   // --- Hero Section ---
   heroTitle: "Master Diploma in 3D Visualization with VR",
   heroSubtitle: "Master the creation of realistic 3D models, immersive VR experiences, and visual presentations to enhance architectural and engineering projects.",
-  heroImage: "/3d-visualization.jpeg", // Suggested image path, please replace if different
+  heroImage: "/3dnew.png", // Suggested image path, please replace if different
 
   // --- Key Course Features in Hero ---
   keyCourseFeatures: [

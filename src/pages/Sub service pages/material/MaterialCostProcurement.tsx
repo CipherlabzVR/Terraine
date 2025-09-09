@@ -8,8 +8,8 @@ import { materialCostProcurementPageData } from '../../../sub-service-data/mater
 // (scopeImage, testimonialImage, projectImg1..projectImg7)
 
 // Reuse shared visuals or replace with procurement-specific images later
-import scopeImage from '../../../assert/Sub Services/material/Material-testimonials-21.jpg';
-import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-23.jpg';
+import scopeImage from '../../../assert/Sub Services/construction/smart.webp';
+import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-3.jpg';
 
 import projectImg1 from '../../../assert/projects/pro (34).png';
 import projectImg2 from '../../../assert/projects/pro (64).png';

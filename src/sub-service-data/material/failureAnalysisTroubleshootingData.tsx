@@ -1,7 +1,6 @@
 // Suggested Filename: failureAnalysisTroubleshootingData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-3.jpg';
 
 export const failureAnalysisTroubleshootingPageData: PageData = {
   hero: {
@@ -9,7 +8,7 @@ export const failureAnalysisTroubleshootingPageData: PageData = {
     tagline: 'Identifying and resolving material performance issues effectively',
     description:
       'Our failure analysis and material troubleshooting services diagnose defects, provide expert solutions, and ensure reliable, high quality, and long-lasting material performance for every construction project.',
-    backgroundImage: bgImage,
+    backgroundImage: '/con-hero.jpg',
     uspItems: [
       { icon: 'Search',           title: 'Root Cause Detection', description: 'Identifies material failures accurately consistently.' },
       { icon: 'Wrench',           title: 'Effective Solutions',  description: 'Provides corrective measures reliably.' },

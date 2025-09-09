@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import gold from '@/assert/Packages/gold.png'; // TODO: Replace with a relevant image for Infrastructure Package
+import gold from '@/assert/Packages/pack (4).png'; // TODO: Replace with a relevant image for Infrastructure Package
 
 import gold1 from '@/assert/Packages/gold/gold1.png'; // TODO: Replace with relevant images
 import gold2 from '@/assert/Packages/gold/gold2.png';

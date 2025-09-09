@@ -68,7 +68,7 @@ export const engineeringDrawingsPageData: PageData = {
     title: "Ready to Draft Your Vision?",
     description: "Let our experts bring your vision to life with precise, clear, and professional drawings that set the foundation for success",
     buttons: [
-      { text: "GET A QUOTE", link: "/contact", variant: "primary" },
+      { text: "GET A QUOTE", link: "/inquiry", variant: "primary" },
       { text: "VIEW OUR WORK", link: "/completed-projects", variant: "secondary" }
     ]
   },

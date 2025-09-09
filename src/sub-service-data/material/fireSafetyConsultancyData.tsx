@@ -1,7 +1,6 @@
 // Suggested Filename: fireSafetyConsultancyData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-6.jpg';
 
 export const fireSafetyConsultancyPageData: PageData = {
   hero: {
@@ -9,7 +8,7 @@ export const fireSafetyConsultancyPageData: PageData = {
     tagline: 'Ensuring fire safe and compliant material selection',
     description:
       'Our fire and safety material consultancy guides selection of compliant, durable, and reliable materials, enhancing building safety, minimizing risks, and ensuring long-lasting protection for every project.',
-    backgroundImage: bgImage,
+    backgroundImage: '/con-hero.jpg',
     uspItems: [
       { icon: 'BadgeCheck',      title: 'Regulatory Compliance', description: 'Materials meet safety standards consistently.' },
       { icon: 'ShieldCheck',     title: 'Durable Solutions',     description: 'Reliable fire-resistant materials effectively.' },

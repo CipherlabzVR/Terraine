@@ -1,7 +1,6 @@
 // Suggested Filename: innovativeAdvancedMaterialsData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-7.jpg';
 
 export const innovativeAdvancedMaterialsPageData: PageData = {
   hero: {
@@ -9,7 +8,7 @@ export const innovativeAdvancedMaterialsPageData: PageData = {
     tagline: 'Implementing cutting edge materials for superior projects',
     description:
       'Our innovative and advanced material services introduce modern, high-performance solutions, enhancing durability, efficiency, and aesthetics while supporting sustainable and technically optimized construction outcomes.',
-    backgroundImage: bgImage,
+    backgroundImage: '/con-hero.jpg',
     uspItems: [
       { icon: 'Cpu',              title: 'Cutting Edge Solutions', description: 'Modern materials enhancing project performance consistently.' },
       { icon: 'Lightbulb',        title: 'Expert Recommendations', description: 'Professional guidance for material selection effectively.' },

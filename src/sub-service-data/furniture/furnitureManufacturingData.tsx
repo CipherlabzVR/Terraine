@@ -1,12 +1,11 @@
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/furniture/Furniture-testimonials-4.jpg';
 
 export const furnitureManufacturingPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Furniture Manufacturing</span> & Fabrication',
     tagline: 'Precision-built furniture crafted for strength and style',
     description: 'Our furniture manufacturing and fabrication services deliver high-quality, durable, and beautifully finished pieces, blending advanced technology with skilled craftsmanship to meet diverse client needs across residential, commercial, and institutional spaces.',
-    backgroundImage: bgImage,
+    backgroundImage: '/furniture-hero.jpg',
     uspItems: [
       { icon: 'Zap', title: 'Advanced Technology', description: 'Modern machinery ensures flawless precision and superior-quality finishes' },
       { icon: 'Hammer', title: 'Skilled Craftsmanship', description: 'Expert artisans combine innovation with traditional techniques for lasting excellence' },

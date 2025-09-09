@@ -8,8 +8,8 @@ import { concreteConsultancyPageData } from '../../../sub-service-data/material/
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'construction' folder
-import scopeImage from '../../../assert/Sub Services/material/Material-testimonials-3.jpg'; 
-import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-6.jpg';
+import scopeImage from '../../../assert/Sub Services/construction/smart.webp'; 
+import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-1.jpg';
 
 // Importing the specific project images for concrete consultancy.
 import projectImg1 from '../../../assert/projects/pro (8).png';

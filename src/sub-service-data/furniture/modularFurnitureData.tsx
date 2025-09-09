@@ -1,12 +1,11 @@
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/furniture/Furniture-testimonials-6.jpg';
 
 export const modularFurniturePageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Modular Furniture</span> Solutions',
     tagline: 'Flexible furniture designed to adapt and transform',
     description: 'Our modular furniture solutions bring versatility, functionality, and style together, offering customizable layouts that seamlessly adapt to evolving spaces, modern lifestyles, and diverse design requirements with enduring quality.',
-    backgroundImage: bgImage,
+    backgroundImage: '/furniture-hero.jpg',
     uspItems: [
       { icon: 'Puzzle', title: 'Adaptable Designs', description: 'Flexible layouts easily adjust to different spaces and functional needs' },
       { icon: 'DollarSign', title: 'Cost Efficiency', description: 'Modular solutions reduce waste, optimize space, and minimize long-term costs' },

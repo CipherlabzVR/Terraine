@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
 import white from '@/assert/Packages/white.png'; // TODO: Replace with a relevant image
-import silver from '@/assert/Packages/white.png'; // TODO: Replace with a relevant image
+import silver from '@/assert/Packages/pack (3).png'; // TODO: Replace with a relevant image
 
 import diamond1 from '@/assert/Packages/Diamond/Diamond1.png'; // TODO: Replace with relevant images
 import diamond2 from '@/assert/Packages/Diamond/Diamond2.png';

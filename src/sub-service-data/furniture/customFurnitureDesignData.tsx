@@ -1,12 +1,11 @@
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/furniture/Furniture-testimonials-2.jpg';
 
 export const customFurnitureDesignPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Custom Furniture</span> Design',
     tagline: 'Crafting unique furniture tailored to your vision',
     description: 'Our custom furniture design service blends artistry, innovation, and precision, creating bespoke pieces that elevate interiors, enhance functionality, and reflect personal lifestyles with lasting beauty and timeless craftsmanship.',
-    backgroundImage: bgImage,
+    backgroundImage: '/furniture-hero.jpg',
     uspItems: [
       { icon: 'Palette', title: 'Tailored Creations', description: 'Personalized designs reflect your taste, lifestyle, and vision with complete accuracy' },
       { icon: 'Shield', title: 'Quality Assurance', description: 'Premium craftsmanship and durable materials ensure unmatched longevity and reliability' },

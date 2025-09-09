@@ -1,12 +1,11 @@
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/furniture/Furniture-testimonials-5.jpg';
 
 export const outdoorSpecialtyFurniturePageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Outdoor & Specialty</span> Furniture',
     tagline: 'Stylish, durable furniture for unique outdoor spaces',
     description: 'Our outdoor and specialty furniture solutions combine durability, weather resistance, and innovative design, delivering stylish, functional, and long-lasting pieces ideal for gardens, terraces, resorts, and custom environments.',
-    backgroundImage: bgImage,
+    backgroundImage: '/furniture-hero.jpg',
     uspItems: [
       { icon: 'Sun', title: 'Weather-Resistant Materials', description: 'Furniture designed to withstand outdoor conditions and environmental challenges' },
       { icon: 'Settings', title: 'Custom Designs', description: 'Tailored solutions cater to specific outdoor layouts and functional needs' },

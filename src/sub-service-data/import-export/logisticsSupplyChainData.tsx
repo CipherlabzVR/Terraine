@@ -1,12 +1,11 @@
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-1.jpg';
 
 export const logisticsSupplyChainPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Logistics & Supply</span> Chain Services',
     tagline: 'Streamlined logistics for timely material delivery worldwide',
     description: 'Our logistics and supply chain services ensure efficient transportation, inventory management, and timely delivery of materials, optimizing project schedules and minimizing operational disruptions for every construction project.',
-    backgroundImage: bgImage,
+    backgroundImage: '/logistics-hero.webp',
     uspItems: [
       { icon: 'Truck', title: 'Efficient Operations', description: 'Smooth movement of materials consistently.' },
       { icon: 'Clock', title: 'Timely Delivery', description: 'On schedule shipments for projects effectively.' },

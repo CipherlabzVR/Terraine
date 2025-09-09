@@ -265,19 +265,14 @@ const Inquiry = () => {
     
                     <div className="mb-4">
                       <label className="block text-sm font-medium mb-1 text-white">Service Required</label>
-                      <select
+                      <input
+                        type="text"
                         name="service"
                         value={formData.service}
                         onChange={handleChange}
-                        className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm"
-                      >
-                        <option value="" className="bg-[#0b2741]">Select a service</option>
-                        <option value="structural-design" className="bg-[#0b2741]">Structural Design</option>
-                        <option value="civil-engineering" className="bg-[#0b2741]">Civil Engineering</option>
-                        <option value="architectural-consulting" className="bg-[#0b2741]">Architectural Consulting</option>
-                        <option value="project-management" className="bg-[#0b2741]">Project Management</option>
-                        <option value="other" className="bg-[#0b2741]">Other</option>
-                      </select>
+                        className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300"
+                        placeholder="e.g., Structural Design, Project Management"
+                      />
                     </div>
 
                     <div className="mb-4">

@@ -1,7 +1,6 @@
 // Suggested Filename: materialCostProcurementData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-8.jpg';
 
 export const materialCostProcurementPageData: PageData = {
   hero: {
@@ -9,7 +8,7 @@ export const materialCostProcurementPageData: PageData = {
     tagline: 'Optimizing costs with strategic material procurement solutions',
     description:
       'Our material cost analysis and procurement support services ensure efficient sourcing, budget optimization, and high-quality material selection, delivering cost-effective and successful project execution.',
-    backgroundImage: bgImage,
+    backgroundImage: '/con-hero.jpg',
     uspItems: [
       { icon: 'CircleDollarSign', title: 'Budget Optimization', description: 'Reduces material expenses consistently.' },
       { icon: 'ShoppingCart',     title: 'Strategic Procurement', description: 'Ensures timely material sourcing effectively.' },

@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 
-import gold from '@/assert/Packages/gold.png';
+import gold from '@/assert/Packages/pack (2).png';
 
 import gold1 from '@/assert/Packages/gold/gold1.png';
 import gold2 from '@/assert/Packages/gold/gold2.png';

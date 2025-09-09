@@ -8,7 +8,7 @@ import { Award, Users, Laptop, Library, Clock, ArrowRight, Star, Briefcase, Plus
 // --- Mock Data for Courses (unchanged) ---
 const coursesData = [
   {
-    title: 'Diploma in BIM',
+    title: 'Master Diploma in BIM (3D - 9D)',
     slug: 'bim',
     image: '/bim.jpg',
     duration: '16-20 Weeks',
@@ -17,7 +17,7 @@ const coursesData = [
     gradient: 'from-blue-500/70 to-purple-600/70'
   },
   {
-    title: 'Digital Twin Technology',
+    title: 'Master Diploma in Digital Twin',
     slug: 'digital-twin',
     image: '/digital-twin.jpg',
     duration: '12 Weeks',
@@ -26,7 +26,7 @@ const coursesData = [
     gradient: 'from-teal-500/70 to-cyan-600/70'
   },
   {
-    title: 'AI in Engineering',
+    title: 'Master Diploma in Artificial Intelligence (AI) in Engineering',
     slug: 'AIEngineerng',
     image: '/ai-engineering.jpg',
     duration: '14 Weeks',
@@ -35,16 +35,16 @@ const coursesData = [
     gradient: 'from-amber-500/70 to-orange-600/70'
   },
   {
-    title: '3D Architectural Visualization',
+    title: 'Master Diploma in 3D Visualization with VR',
     slug: '3d-visualization',
-    image: '/3d-visualization.jpeg',
+    image: '/3dnew.png',
     duration: '12 Weeks',
     description: 'Create stunning, photorealistic architectural renders with industry-standard software.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-sky-500/70 to-blue-600/70'
   },
   {
-    title: 'Construction Project Management',
+    title: 'Master Diploma in Construction Project Management',
     slug: 'construction-pm',
     image: '/construction-management.jpg',
     duration: '18 Weeks',
@@ -53,7 +53,7 @@ const coursesData = [
     gradient: 'from-amber-500/70 to-orange-600/70'
   },
   {
-    title: 'Structural Design and Modelling',
+    title: 'Master Diploma in Structural Design and Modelling',
     slug: 'strcutural',
     image: '/showcase-1.jpg',
     duration: '15 Weeks',
@@ -62,7 +62,7 @@ const coursesData = [
     gradient: 'from-red-500/70 to-orange-600/70'
   },
   {
-    title: 'MEP & HVAC Systems',
+    title: 'Master Diploma in MEP and HVAC Systems',
     slug: 'mep-hvac',
     image: '/mep.jpeg',
     duration: '14 Weeks',
@@ -71,7 +71,7 @@ const coursesData = [
     gradient: 'from-indigo-500/70 to-purple-600/70'
   },
   {
-    title: 'Interior Design',
+    title: 'Master Diploma in Interior Design',
     slug: 'interior',
     image: '/showcase-4.jpeg',
     duration: '10 Weeks',
@@ -80,7 +80,7 @@ const coursesData = [
     gradient: 'from-pink-500/70 to-rose-600/70'
   },
   {
-    title: 'Landscape Architecture',
+    title: 'Master Diploma in Landscape Architecture',
     slug: 'landscape',
     image: '/land.jpeg',
     duration: '12 Weeks',
@@ -89,7 +89,7 @@ const coursesData = [
     gradient: 'from-green-500/70 to-emerald-600/70'
   },
   {
-    title: 'Customized Corporate Training',
+    title: 'Customized Professional Training',
     slug: 'customize-course',
     image: '/learn.jpg',
     duration: 'Custom',
@@ -641,13 +641,13 @@ const SoftwareTraining: React.FC = () => {
             <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">
               Enroll today and gain future-ready skills with Terrene Engineering’s expert-led training programs </p>
             <div className="flex justify-center items-center gap-4 flex-wrap">
-              <Link to="/inquiry">
+              <a href="https://forms.gle/3tJHnGGSKuzfTft47" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-[#0050A0] text-white text-md font-bold w-[35vh] hover:bg-cyan-500 transition-colors px-6">
                   ENROLL NOW
                   <Plus className="w-5 h-5 ml-2" />
                 </Button>
-              </Link>
-              <a href="/tel:+94775235572">
+              </a>
+              <a href="https://wa.me/94740226660?text=Hello! I want to speak to an advisor." target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-cyan-500 text-md text-white hover:bg-white/10 transition-colors px-6 w-[35vh]">
                   SPEAK TO AN ADVISOR
                   <Phone className="w-5 h-5 ml-2" />

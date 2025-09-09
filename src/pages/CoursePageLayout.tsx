@@ -44,7 +44,7 @@ const allCoursesData = [
   {
     title: 'Master Diploma in 3D Visualization with VR',
     slug: '3d-visualization',
-    image: '/3d-visualization.jpeg',
+    image: '/3dnew.png',
     duration: '12 Weeks',
     description: 'Create stunning, photorealistic architectural renders with industry-standard software.',
     feeDescription: 'Includes all learning materials and certification.',
@@ -483,11 +483,11 @@ const CoursePageLayout = ({ courseData }) => {
                                 {courseData.heroSubtitle}
                             </p>
                             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                                <Link to="/inquiry">
+                                <a href="https://forms.gle/3tJHnGGSKuzfTft47" target="_blank" rel="noopener noreferrer">
                                     <Button size="lg" className="bg-[#0050A0] text-white font-bold hover:bg-cyan-500 px-6 py-3 text-base rounded-md transition-transform hover:scale-105">
                                         REGISTER NOW <Plus className="w-5 h-5 ml-2" />
                                     </Button>
-                                </Link>
+                                </a>
                                 <a href="#course-details">
                                     <Button size="lg" className="bg-cyan-500 text-white hover:bg-[#0050A0] px-6 py-3 text-base rounded-md">
                                         COURSE DETAILS <ChevronsDown className="w-5 h-5 ml-2" />
@@ -631,8 +631,8 @@ const CoursePageLayout = ({ courseData }) => {
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Transform Your Career?</h2>
                     <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">Enroll today and Master Future-ready AEC skills with Terrene Engineering Skills Training division </p>
                     <div className="flex justify-center items-center gap-4 flex-wrap">
-                        <Link to="/inquiry"><Button size="lg" className="bg-[#0050A0] text-white text-md font-bold w-[35vh] hover:bg-cyan-500 transition-colors px-6">ENROLL NOW <Plus className="w-5 h-5 ml-2" /></Button></Link>
-                        <a href="/tel:+94775235572"><Button size="lg"  className="bg-cyan-500 text-md text-white hover:bg-white/10 transition-colors px-6 w-[35vh]">SPEAK TO AN ADVISOR <Phone className="w-5 h-5 ml-2" /></Button></a>
+                        <a href="https://forms.gle/3tJHnGGSKuzfTft47" target="_blank"><Button size="lg" className="bg-[#0050A0] text-white text-md font-bold w-[35vh] hover:bg-cyan-500 transition-colors px-6">ENROLL NOW <Plus className="w-5 h-5 ml-2" /></Button></a>
+                        <a href="https://wa.me/94740226660?text=Hello! I want to speak to an advisor." target="_blank" rel="noopener noreferrer"><Button size="lg"  className="bg-cyan-500 text-md text-white hover:bg-white/10 transition-colors px-6 w-[35vh]">SPEAK TO AN ADVISOR <Phone className="w-5 h-5 ml-2" /></Button></a>
                     </div>
                 </div>
             </section>

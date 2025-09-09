@@ -117,15 +117,15 @@ const newTestimonialsData = [
 
 // --- Data for the Latest Projects Section (EXPANDED TO 9 MOCK PROJECTS) ---
 const projectsData = [
-  { title: 'Construction Factory Industry', category: 'Electrical, Building', image: '/project-1.png', link: '/completed-projects' },
-  { title: 'High-Rise Residential Tower', category: 'Structural, BIM', image: '/project-2.jpeg', link: '/completed-projects' },
-  { title: 'Modern Infrastructure Bridge', category: 'Civil, Infrastructure', image: '/project-3.jpg', link: '/completed-projects' },
-  { title: 'Commercial Office Complex', category: 'BIM, Interior Design', image: '/project-1.png', link: '/completed-projects' },
-  { title: 'Luxury Villa Construction', category: 'Structural, Building', image: '/project-2.jpeg', link: '/completed-projects' },
-  { title: 'Urban Metro System', category: 'Civil, Infrastructure', image: '/project-3.jpg', link: '/completed-projects' },
-  { title: 'Renewable Energy Plant', category: 'Electrical, Industrial', image: '/project-1.png', link: '/completed-projects' },
-  { title: 'Coastal Resort Development', category: 'Architectural, Building', image: '/project-2.jpeg', link: '/completed-projects' },
-  { title: 'Suspension Bridge Engineering', category: 'Civil, Structural', image: '/project-3.jpg', link: '/completed-projects' },
+  { title: 'Construction Factory Industry', category: 'Electrical, Building', image: '/pro1.png', link: '/completed-projects' },
+  { title: 'High-Rise Residential Tower', category: 'Structural, BIM', image: '/pro5.png', link: '/completed-projects' },
+  { title: 'Modern Infrastructure Bridge', category: 'Civil, Infrastructure', image: '/pro.png', link: '/completed-projects' },
+  { title: 'Commercial Office Complex', category: 'BIM, Interior Design', image: '/pro13.png', link: '/completed-projects' },
+  { title: 'Luxury Villa Construction', category: 'Structural, Building', image: '/pro17.png', link: '/completed-projects' },
+  { title: 'Urban Metro System', category: 'Civil, Infrastructure', image: '/pro21.png', link: '/completed-projects' },
+  { title: 'Renewable Energy Plant', category: 'Electrical, Industrial', image: '/pro25.png', link: '/completed-projects' },
+  { title: 'Coastal Resort Development', category: 'Architectural, Building', image: '/pro29.png', link: '/completed-projects' },
+  { title: 'Suspension Bridge Engineering', category: 'Civil, Structural', image: '/pro33.png', link: '/completed-projects' },
 ];
 
 // --- Data for the Completion Stats Section ---

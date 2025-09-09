@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import silver from '@/assert/Packages/Silver.png';
+import silver from '@/assert/Packages/3d-visualization.jpeg';
 
 import Silver1 from '@/assert/Packages/silver/Silver1.png';
 import Silver2 from '@/assert/Packages/silver/Silver2.png';

@@ -1,12 +1,11 @@
 import { PageData } from '../../pages/SubServicePageLayout';
-import bgImage from '@/assert/Sub Services/import-export/public - hero/Import-export-testimonials-2.jpg';
 
 export const interiorFurnitureImportPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Interior & Furniture</span> Imports',
     tagline: 'Premium imported furniture enhancing interiors and spaces',
     description: 'Our interior and furniture import services provide high quality, stylish, and durable pieces, transforming residential and commercial spaces with elegance, functionality, and modern design aesthetics.',
-    backgroundImage: bgImage,
+    backgroundImage: '/furniture-hero.webp',
     uspItems: [
       { icon: 'Star', title: 'Premium Selection', description: 'High-quality furniture and interiors consistently.' },
       { icon: 'Globe', title: 'Global Sourcing', description: 'Access to international products effectively.' },

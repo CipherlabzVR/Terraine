@@ -294,7 +294,7 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
         if (button.link.startsWith('#')) {
             return (
                 <a href={button.link} key={index}>
-                    <Button className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-400' : 'text-white bg-cyan-500 hover:bg-white/30'} font-semibold px-8 py-3 rounded-md`}>
+                    <Button className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-400 w-[35vh]' : 'text-white bg-cyan-500 hover:bg-white/30 w-[30vh]'} font-semibold px-8 py-3 rounded-md`}>
                         {button.text} {button.variant === 'secondary' && <Icons.ChevronsDown size={16} className="ml-2" />}
                     </Button>
                 </a>
@@ -394,7 +394,7 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
              <div className="flex justify-center items-center gap-4 flex-wrap">
                 {cta.buttons.map((button, index) => (
                     <Link to={button.link} key={index}>
-                        <Button size="lg" className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-500' : 'bg-cyan-500 text-white hover:bg-white/10'} font-bold transition-colors px-6`}>
+                        <Button size="lg" className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-500' : 'bg-cyan-500 text-white hover:bg-white/10 w-[35vh]'} font-bold transition-colors px-6`}>
                             {button.text}
                         </Button>
                     </Link>

@@ -9,7 +9,7 @@ import { ChevronRight } from 'lucide-react';
 const companyLinks = [
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
-    { name: 'All Services', path: '/services' },
+    { name: 'All Services', path: '/services-main' },
     { name: 'Why Terrene', path: '/Whyterrene' },
     { name: 'Sustainability', path: '/sustainability' },
     { name: 'Testimonial', path: '/testimonial' },

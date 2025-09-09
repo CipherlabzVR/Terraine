@@ -3,8 +3,8 @@ import SubServicePageLayout from '../../SubServicePageLayout';
 import { restorationMaintenancePageData } from '../../../sub-service-data/furniture/restorationMaintenanceData';
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/furniture/furniture1.jpg'; 
-import testimonialImage from '../../../assert/Sub Services/furniture/Furniture-testimonials-9.jpg';
+import scopeImage from '../../../assert/Sub Services/furniture/Furniture-testimonials-19.jpg'; 
+import testimonialImage from '../../../assert/Sub Services/furniture/Furniture-testimonials-18.jpg';
 
 // Importing the specific project images you requested.
 import projectImg1 from '../../../assert/projects/pro (11).png';

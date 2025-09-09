@@ -1,13 +1,14 @@
 // Suggested Filename: bestMaterialPriceData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-1.jpg';
 
 export const bestMaterialPricePageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Best Material</span> Price',
     tagline: 'Securing high-quality materials at competitive rates.',
     description: 'Our best material price services identify cost-effective sourcing options, ensuring high quality, reliable materials while optimizing budget, reducing expenses, and maximizing project value for every construction requirement.',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: bgImage, // Standardized background image
     uspItems: [
       { icon: 'CircleDollarSign', title: 'Competitive Pricing', description: 'Sourcing materials at optimal cost consistently.' },
       { icon: 'BadgeCheck', title: 'Value Optimization', description: 'Ensures best quality for budget effectively.' },

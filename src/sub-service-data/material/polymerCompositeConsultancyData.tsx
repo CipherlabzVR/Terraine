@@ -1,6 +1,7 @@
 // Suggested Filename: polymerCompositeConsultancyData.ts
 
 import { PageData } from '../../pages/SubServicePageLayout';
+import bgImage from '@/assert/Sub Services/material/public - hero/Material-testimonials-5.jpg';
 
 export const polymerCompositeConsultancyPageData: PageData = {
   hero: {
@@ -8,7 +9,7 @@ export const polymerCompositeConsultancyPageData: PageData = {
     tagline: 'Advanced polymer and composite solutions for construction',
     description:
       'Our polymer, plastic, and composite material services offer innovative, durable, and efficient solutions, enhancing structural performance, reducing costs, and supporting modern construction needs with reliable materials.',
-    backgroundImage: '/con-hero.jpg',
+    backgroundImage: bgImage,
     uspItems: [
       { icon: 'FlaskConical', title: 'Innovative Materials', description: 'Advanced polymers and composites for modern construction consistently.' },
       { icon: 'ShieldCheck',  title: 'Durable Performance', description: 'Ensures long-lasting material reliability effectively.' },

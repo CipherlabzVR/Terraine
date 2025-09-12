@@ -77,21 +77,35 @@ const Inquiry = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    setFormSubmitted(true);
-    setTimeout(() => {
-      setFormSubmitted(false);
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        company: '',
-        service: '',
-        message: ''
+    try {
+      const payload = {
+        fullName: formData.name.trim(),
+        email: formData.email.trim(),
+        phone: (formData.phone || '').trim(),
+        company: (formData.company || '').trim(),
+        serviceRequired: (formData.service || '').trim(),
+        projectDetails: formData.message.trim(),
+      };
+
+      const res = await fetch('/api/inquiry', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
       });
-    }, 3000);
+
+      const json = await res.json().catch(() => ({ ok: false, error: 'Invalid server response' }));
+      if (json?.ok) {
+        setFormSubmitted(true);
+        setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' });
+        setTimeout(() => setFormSubmitted(false), 3000);
+      } else {
+        alert('Failed: ' + (json?.error || 'Unknown error'));
+      }
+    } catch (err: any) {
+      alert('Failed: ' + (err?.message || 'Network error'));
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {

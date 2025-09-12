@@ -56,9 +56,24 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       body: JSON.stringify(payload),
     });
 
-    const data = await r.json().catch(() => ({ ok: false, error: 'Invalid JSON from Apps Script' }));
+    // Try JSON first, then fall back to text to capture HTML error pages like "Unauthorized"
+    let data: any = null;
+    try {
+      data = await r.json();
+    } catch {
+      const txt = await r.text();
+      if (!r.ok) {
+        return res.status(r.status).json({ ok: false, error: txt?.slice(0, 500) || 'Apps Script error' });
+      }
+      // If ok but not JSON, still attempt to treat as success if includes ok:true
+      if (txt?.toLowerCase().includes('ok')) {
+        return res.status(200).json({ ok: true });
+      }
+      return res.status(500).json({ ok: false, error: 'Invalid response from Apps Script' });
+    }
+
     if (!r.ok || !data?.ok) {
-      return res.status(500).json({ ok: false, error: data?.error || 'Apps Script error' });
+      return res.status(r.status || 500).json({ ok: false, error: data?.error || 'Apps Script error' });
     }
 
     return res.status(200).json({ ok: true });

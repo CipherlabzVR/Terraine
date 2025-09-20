@@ -10,6 +10,7 @@ import about3 from '../assert/about/about3.jpg';
 import about4 from '../assert/about/about4.jpg';
 import about5 from '../assert/about/about5.jpg';
 import Mission from './Mission';
+import { Helmet } from 'react-helmet-async';
 
 
 const About = () => {
@@ -85,6 +86,14 @@ const About = () => {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
       {/* Header with hide/show animation */}
+      
+      <Helmet>
+        <title>About Us Terrene Engineering.</title> 
+        <meta 
+        name="description"
+        content="With 20+ years of expertise. Terrene Engineering provides global consultancy & contracting, merging innovation, precision & sustainability" />
+      </Helmet>
+      {/*seo meta tag */}
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${
           showHeader ? 'translate-y-0' : '-translate-y-full'

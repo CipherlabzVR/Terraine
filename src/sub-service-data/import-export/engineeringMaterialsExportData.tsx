@@ -5,25 +5,25 @@ export const engineeringMaterialsExportPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Export of Engineering</span> & Construction Materials',
     tagline: 'Reliable export solutions for global construction needs',
-    description: 'Our export services ensure efficient, safe, and timely delivery of engineering and construction materials, meeting international standards and supporting successful projects across global markets.',
+    description: 'Our export services ensure efficient, safe, and timely delivery of engineering and construction materials, meeting international standards and supporting successful projects across global markets',
     backgroundImage: bgImage,
     uspItems: [
-      { icon: 'Globe', title: 'Global Reach', description: 'Delivering materials to international clients consistently.' },
-      { icon: 'ShieldCheck', title: 'Quality Assurance', description: 'Ensuring high standard products effectively.' },
-      { icon: 'Truck', title: 'Efficient Logistics', description: 'Smooth handling and shipping reliably.' },
-      { icon: 'Clock', title: 'Timely Execution', description: 'Meeting deadlines for overseas projects consistently.' }
+      { icon: 'Globe', title: 'Global Reach', description: 'Delivering materials to international clients consistently' },
+      { icon: 'ShieldCheck', title: 'Quality Assurance', description: 'Ensuring high standard products effectively' },
+      { icon: 'Truck', title: 'Efficient Logistics', description: 'Smooth handling and shipping reliably' },
+      { icon: 'Clock', title: 'Timely Execution', description: 'Meeting deadlines for overseas projects consistently' }
     ]
   },
   scope: {
     title: 'Comprehensive Project Scope',
-    description: 'Our export services manage safe and timely delivery of construction materials to international clients with compliance and efficiency effectively.',
+    description: 'Our export services manage safe and timely delivery of construction materials to international clients with compliance and efficiency effectively',
     scopeItems: [
-      { icon: 'ClipboardList', title: 'Requirement Assessment', description: 'Analyze client specifications to ensure materials meet quality and performance standards accurately.' },
-      { icon: 'Users', title: 'Supplier Coordination', description: 'Collaborate with manufacturers to source materials suitable for export consistently.' },
-      { icon: 'Package', title: 'Packaging and Handling', description: 'Ensure safe and compliant packaging of materials to prevent damage during transit effectively.' },
-      { icon: 'FileText', title: 'Customs Compliance', description: 'Prepare necessary export documentation and adhere to international trade regulations reliably.' },
-      { icon: 'Truck', title: 'Logistics Management', description: 'Plan and execute shipping routes and schedules for timely delivery efficiently.' },
-      { icon: 'FileText', title: 'Reporting and Documentation', description: 'Maintain export records, shipping documents, and client confirmations for reference and compliance accurately.' }
+      { icon: 'ClipboardList', title: 'Requirement Assessment', description: 'Analyze client specifications to ensure materials meet quality and performance standards accurately' },
+      { icon: 'Users', title: 'Supplier Coordination', description: 'Collaborate with manufacturers to source materials suitable for export consistently' },
+      { icon: 'Package', title: 'Packaging and Handling', description: 'Ensure safe and compliant packaging of materials to prevent damage during transit effectively' },
+      { icon: 'FileText', title: 'Customs Compliance', description: 'Prepare necessary export documentation and adhere to international trade regulations reliably' },
+      { icon: 'Truck', title: 'Logistics Management', description: 'Plan and execute shipping routes and schedules for timely delivery efficiently' },
+      { icon: 'FileText', title: 'Reporting and Documentation', description: 'Maintain export records, shipping documents, and client confirmations for reference and compliance accurately' }
     ],
     imageKey: 'scopeImage'
   },
@@ -31,10 +31,10 @@ export const engineeringMaterialsExportPageData: PageData = {
     superTitle: 'HOW IT WORKS',
     title: 'Our Easy Working Steps',
     steps: [
-      { icon: 'ClipboardList', title: 'Requirement Assessment & Product Selection', description: 'Identify materials suitable for export, considering client specifications, standards, and market demand.' },
-      { icon: 'Package', title: 'Packaging & Compliance Preparation', description: 'Prepare materials for safe transport and ensure adherence to international shipping and regulatory requirements.' },
-      { icon: 'Truck', title: 'Logistics & Shipping Coordination', description: 'Arrange transportation, handle customs clearance, and manage international shipping schedules efficiently.' },
-      { icon: 'Eye', title: 'Tracking & Client Reporting', description: 'Monitor shipments, provide updates, and deliver documentation to clients ensuring transparency and timely delivery.' }
+      { icon: 'ClipboardList', title: 'Requirement Assessment & Product Selection', description: 'Identify materials suitable for export, considering client specifications, standards, and market demand' },
+      { icon: 'Package', title: 'Packaging & Compliance Preparation', description: 'Prepare materials for safe transport and ensure adherence to international shipping and regulatory requirements' },
+      { icon: 'Truck', title: 'Logistics & Shipping Coordination', description: 'Arrange transportation, handle customs clearance, and manage international shipping schedules efficiently' },
+      { icon: 'Eye', title: 'Tracking & Client Reporting', description: 'Monitor shipments, provide updates, and deliver documentation to clients ensuring transparency and timely delivery' }
     ],
     backgroundImage: '/blueprint-bg.png'
   },
@@ -53,13 +53,13 @@ export const engineeringMaterialsExportPageData: PageData = {
   },
   cta: {
     title: 'Ready to Export Globally?',
-    description: 'Expand your market reach with our reliable export services. Contact us to discuss your international shipping needs.'
+    description: 'Expand your market reach with our reliable export services Contact us to discuss your international shipping needs'
   },
   testimonials: {
     title: 'What Our Clients Say',
     testimonialList: [
-      { quote: "Their export services helped us reach new markets efficiently. The documentation and logistics support were exceptional.", name: "Mohammed Al-Khalifa", role: "Senior Consultant", rating: 5, image: "https://randomuser.me/api/portraits/men/2.jpg" },
-      { quote: "The quality of exported materials and timely delivery exceeded our expectations. Professional service throughout.", name: "Omar Saeed", role: "Project Manager", rating: 5, image: "https://randomuser.me/api/portraits/men/3.jpg" }
+      { quote: "Their export services helped us reach new markets efficiently The documentation and logistics support were exceptional", name: "Mohammed Al-Khalifa", role: "Senior Consultant", rating: 5, image: "https://randomuser.me/api/portraits/men/2.jpg" },
+      { quote: "The quality of exported materials and timely delivery exceeded our expectations Professional service throughout", name: "Omar Saeed", role: "Project Manager", rating: 5, image: "https://randomuser.me/api/portraits/men/3.jpg" }
     ],
     summary: { count: '300+', label: 'Export Projects' },
     featuredImageKey: 'testimonialImage',
@@ -67,7 +67,7 @@ export const engineeringMaterialsExportPageData: PageData = {
   },
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for more information about our Engineering Materials Export services.',
+    description: 'Contact us for more information about our Engineering Materials Export services',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

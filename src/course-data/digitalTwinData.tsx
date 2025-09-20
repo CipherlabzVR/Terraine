@@ -2,9 +2,13 @@ import React from 'react';
 import { Award, Users, Briefcase } from 'lucide-react';
 
 export const digitalTwinData = {
+  meta: {
+    title: "Master Diploma in Digital Twin | Terrene Engineering ", // [cite: 1]
+    description: "Unlock future-ready skills with our Master Diploma in Digital Twin. Create and manage virtual replicas to drive innovation across industries" // [cite: 1]
+  },
   // --- Hero Section ---
   heroTitle: "Master Diploma in Digital Twin",
-  heroSubtitle: "Unlock the future of engineering with our Master Diploma in Digital Twin. This program equips you with the skills to create, manage, and leverage dynamic virtual replicas, driving innovation and efficiency in any industry.",
+  heroSubtitle: "Unlock the future of engineering with our Master Diploma in Digital Twin. This program equips you with the skills to create, manage, and leverage dynamic virtual replicas, driving innovation and efficiency in any industry",
   heroImage: "/twin.jpg",
 
   // --- Key Course Features in Hero ---
@@ -16,7 +20,7 @@ export const digitalTwinData = {
 
   // --- "Why This Course Stands Out" Section ---
   whyStandOutTitle: "WHY THIS COURSE STANDS OUT",
-  whyStandOutSubtitle: "Our Master Diploma offers a unique blend of theoretical knowledge and practical application, ensuring you graduate as a proficient and confident Digital Twin specialist.",
+  whyStandOutSubtitle: "Our Master Diploma offers a unique blend of theoretical knowledge and practical application, ensuring you graduate as a proficient and confident Digital Twin specialist",
   courseFeatures: [
     {
       icon: <Award className="w-10 h-10 text-cyan-400" />,
@@ -39,16 +43,16 @@ export const digitalTwinData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "This comprehensive Master Diploma in Digital Twin provides in-depth training in the creation and deployment of dynamic virtual models. Designed for aspiring engineers and tech professionals, the curriculum covers everything from fundamental concepts to advanced applications in IoT, AI, and predictive analytics, preparing you for leadership roles in the smart industry revolution.",
+  programOverview: "This comprehensive Master Diploma in Digital Twin provides in-depth training in the creation and deployment of dynamic virtual models. Designed for aspiring engineers and tech professionals, the curriculum covers everything from fundamental concepts to advanced applications in IoT, AI, and predictive analytics, preparing you for leadership roles in the smart industry revolution",
   whatYouWillLearn: [
-    { title: "Digital Twin Fundamentals", description: "Understand concepts, architecture, and applications in engineering and infrastructure." },
-    { title: "IoT Integration", description: "Connect sensors and devices to capture real-time operational data." },
-    { title: "Data Analytics & Visualization", description: "Analyze and visualize asset performance for informed decision-making." },
-    { title: "Predictive & Preventive Maintenance", description: "Use digital twins to forecast issues and plan maintenance effectively." },
-    { title: "Simulation & Scenario Planning", description: "Test operational scenarios virtually to optimize processes and performance." },
-    { title: "Software Mastery", description: "Gain hands-on experience with leading digital twin platforms and modeling tools." },
-    { title: "Performance Monitoring", description: "Track assets and systems in real time for efficiency and reliability." },
-    { title: "Operational Optimization", description: "Implement insights from digital twin models to improve productivity and sustainability." }
+    { title: "Digital Twin Fundamentals", description: "Understand concepts, architecture, and applications in engineering and infrastructure" },
+    { title: "IoT Integration", description: "Connect sensors and devices to capture real-time operational data" },
+    { title: "Data Analytics & Visualization", description: "Analyze and visualize asset performance for informed decision-making" },
+    { title: "Predictive & Preventive Maintenance", description: "Use digital twins to forecast issues and plan maintenance effectively" },
+    { title: "Simulation & Scenario Planning", description: "Test operational scenarios virtually to optimize processes and performance" },
+    { title: "Software Mastery", description: "Gain hands-on experience with leading digital twin platforms and modeling tools" },
+    { title: "Performance Monitoring", description: "Track assets and systems in real time for efficiency and reliability" },
+    { title: "Operational Optimization", description: "Implement insights from digital twin models to improve productivity and sustainability" }
   ],
   courseInfo: {
     duration: "3 Months (Fast Track) <br /> 5 Months (Weekday Batch)<br /> 6 Months (Weekend Batch)",
@@ -67,27 +71,27 @@ export const digitalTwinData = {
   faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This Digital Twin course is suitable for civil engineers, architects, MEP engineers, quantity surveyors, draughtsman, construction professionals, under graduates and students who is willing enhance digital and latest construction industry skills."
+      answer: "This Digital Twin course is suitable for civil engineers, architects, MEP engineers, quantity surveyors, draughtsman, construction professionals, under graduates and students who is willing enhance digital and latest construction industry skills"
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth digital twin applications."
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth digital twin applications"
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest software designed for digital twin modeling, data integration and performance monitoring."
+      answer: "You will learn latest software designed for digital twin modeling, data integration and performance monitoring"
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which can add strong value to your professional profile."
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which can add strong value to your professional profile"
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning resources so you can catch up at your convenience."
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning resources so you can catch up at your convenience"
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career development guidance, project portfolio support and job placement assistance to help you explore new opportunities in the digital engineering field."
+      answer: "Yes, we provide career development guidance, project portfolio support and job placement assistance to help you explore new opportunities in the digital engineering field"
     }
   ],
   

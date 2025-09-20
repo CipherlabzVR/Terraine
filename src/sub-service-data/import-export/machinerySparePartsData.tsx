@@ -5,25 +5,25 @@ export const machinerySparePartsPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Machinery & Spare</span> Parts Supply',
     tagline: 'Providing reliable machinery and parts for projects',
-    description: 'Our machinery and spare parts supply services ensure high quality, durable, and compatible equipment, supporting smooth operations, maintenance, and uninterrupted performance for construction and engineering projects.',
+    description: 'Our machinery and spare parts supply services ensure high quality, durable, and compatible equipment, supporting smooth operations, maintenance, and uninterrupted performance for construction and engineering projects',
     backgroundImage: bgImage,
     uspItems: [
-      { icon: 'ShieldCheck', title: 'High-quality Parts', description: 'Durable machinery components supplied consistently.' },
-      { icon: 'Search', title: 'Reliable Sourcing', description: 'Trusted suppliers ensuring performance effectively.' },
-      { icon: 'Clock', title: 'Timely Delivery', description: 'Quick and efficient logistics reliably.' },
-      { icon: 'Users', title: 'Expert Consultation', description: 'Guidance for optimal machinery selection consistently.' }
+      { icon: 'ShieldCheck', title: 'High-quality Parts', description: 'Durable machinery components supplied consistently' },
+      { icon: 'Search', title: 'Reliable Sourcing', description: 'Trusted suppliers ensuring performance effectively' },
+      { icon: 'Clock', title: 'Timely Delivery', description: 'Quick and efficient logistics reliably' },
+      { icon: 'Users', title: 'Expert Consultation', description: 'Guidance for optimal machinery selection consistently' }
     ]
   },
   scope: {
     title: 'Comprehensive Project Scope',
-    description: 'Our machinery and spare parts supply ensures availability of reliable equipment and components to maintain uninterrupted project operations effectively.',
+    description: 'Our machinery and spare parts supply ensures availability of reliable equipment and components to maintain uninterrupted project operations effectively',
     scopeItems: [
-      { icon: 'ClipboardList', title: 'Requirement Assessment', description: 'Identify machinery and spare parts needed for project continuity and performance accurately.' },
-      { icon: 'Search', title: 'Supplier Sourcing', description: 'Locate trusted suppliers providing high-quality machinery and genuine spare parts consistently.' },
-      { icon: 'Truck', title: 'Logistics Coordination', description: 'Plan transportation and delivery schedules for timely supply to project sites efficiently.' },
-      { icon: 'CheckCircle', title: 'Quality Verification', description: 'Inspect machinery and parts to ensure compliance with specifications and operational standards reliably.' },
-      { icon: 'Settings', title: 'Installation and Support', description: 'Provide guidance for proper setup, maintenance, and integration of machinery accurately.' },
-      { icon: 'FileText', title: 'Documentation and Reporting', description: 'Maintain detailed records of supplied machinery, spare parts, and delivery reports efficiently.' }
+      { icon: 'ClipboardList', title: 'Requirement Assessment', description: 'Identify machinery and spare parts needed for project continuity and performance accurately' },
+      { icon: 'Search', title: 'Supplier Sourcing', description: 'Locate trusted suppliers providing high-quality machinery and genuine spare parts consistently' },
+      { icon: 'Truck', title: 'Logistics Coordination', description: 'Plan transportation and delivery schedules for timely supply to project sites efficiently' },
+      { icon: 'CheckCircle', title: 'Quality Verification', description: 'Inspect machinery and parts to ensure compliance with specifications and operational standards reliably' },
+      { icon: 'Settings', title: 'Installation and Support', description: 'Provide guidance for proper setup, maintenance, and integration of machinery accurately' },
+      { icon: 'FileText', title: 'Documentation and Reporting', description: 'Maintain detailed records of supplied machinery, spare parts, and delivery reports efficiently' }
     ],
     imageKey: 'scopeImage'
   },
@@ -31,10 +31,10 @@ export const machinerySparePartsPageData: PageData = {
     superTitle: 'HOW IT WORKS',
     title: 'Our Easy Working Steps',
     steps: [
-      { icon: 'ClipboardList', title: 'Requirement Assessment & Specification', description: 'Determine machinery and spare part needs based on project, operational, and maintenance requirements.' },
-      { icon: 'Search', title: 'Supplier Sourcing & Evaluation', description: 'Identify reliable vendors, compare quality, pricing, and delivery timelines for optimal procurement.' },
-      { icon: 'FileText', title: 'Order Placement & Documentation', description: 'Manage purchase orders, contracts, and ensure compliance with import/export regulations.' },
-      { icon: 'Settings', title: 'Delivery & Implementation Support', description: 'Coordinate shipment, customs clearance, and provide installation or integration guidance for seamless operation.' }
+      { icon: 'ClipboardList', title: 'Requirement Assessment & Specification', description: 'Determine machinery and spare part needs based on project, operational, and maintenance requirements' },
+      { icon: 'Search', title: 'Supplier Sourcing & Evaluation', description: 'Identify reliable vendors, compare quality, pricing, and delivery timelines for optimal procurement' },
+      { icon: 'FileText', title: 'Order Placement & Documentation', description: 'Manage purchase orders, contracts, and ensure compliance with import/export regulations' },
+      { icon: 'Settings', title: 'Delivery & Implementation Support', description: 'Coordinate shipment, customs clearance, and provide installation or integration guidance for seamless operation' }
     ],
     backgroundImage: '/blueprint-bg.png'
   },
@@ -53,13 +53,13 @@ export const machinerySparePartsPageData: PageData = {
   },
   cta: {
     title: 'Need Reliable Machinery?',
-    description: 'Access high-quality machinery and spare parts from trusted suppliers. Contact us for reliable equipment solutions.'
+    description: 'Access high-quality machinery and spare parts from trusted suppliers Contact us for reliable equipment solutions'
   },
   testimonials: {
     title: 'What Our Clients Say',
     testimonialList: [
-      { quote: "The quality of machinery and spare parts we received was exceptional. Their quick delivery helped us avoid costly downtime.", name: "Aisha Al Mazrouei", role: "Project Manager", rating: 5, image: "https://randomuser.me/api/portraits/women/2.jpg" },
-      { quote: "Their expertise in machinery selection and spare parts sourcing has been invaluable for our construction projects.", name: "Omar Bin Saeed", role: "Operations Director", rating: 5, image: "https://randomuser.me/api/portraits/men/6.jpg" }
+      { quote: "The quality of machinery and spare parts we received was exceptional Their quick delivery helped us avoid costly downtime", name: "Aisha Al Mazrouei", role: "Project Manager", rating: 5, image: "https://randomuser.me/api/portraits/women/2.jpg" },
+      { quote: "Their expertise in machinery selection and spare parts sourcing has been invaluable for our construction projects", name: "Omar Bin Saeed", role: "Operations Director", rating: 5, image: "https://randomuser.me/api/portraits/men/6.jpg" }
     ],
     summary: { count: '400+', label: 'Machinery Projects' },
     featuredImageKey: 'testimonialImage',
@@ -67,7 +67,7 @@ export const machinerySparePartsPageData: PageData = {
   },
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for more information about our Machinery & Spare Parts Supply services.',
+    description: 'Contact us for more information about our Machinery & Spare Parts Supply services',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

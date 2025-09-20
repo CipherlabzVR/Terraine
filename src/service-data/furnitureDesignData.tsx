@@ -1,6 +1,10 @@
 import { PageData } from '../pages/GenericPageLayout'; 
 
 export const furnitureDesignPageData: PageData = {
+  meta: {
+    title: "Furniture Designing | Terrene Engineering ", // [cite: 1]
+    description: "Get custom furniture design with Terrene Engineering precise, functional, and stylish solutions that enhance residential and commercial spaces." // [cite: 1]
+  },
   hero: {
     title: "Furniture Design & Supply",
     subtitle: "“Crafting and delivering modern furniture that blends style, comfort, and functionality for every space”",

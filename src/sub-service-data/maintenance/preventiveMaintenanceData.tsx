@@ -3,26 +3,26 @@ import { PageData } from '../../pages/SubServicePageLayout';
 export const preventiveMaintenancePageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Preventive & Scheduled</span> Maintenance',
-    tagline: 'Proactive maintenance for reliable long-lasting performance.',
-    description: 'Our preventive and scheduled maintenance services ensure timely inspections, repairs, and upkeep, minimizing downtime, extending equipment life, and maintaining optimal performance across all building systems.',
+    tagline: 'Proactive maintenance for reliable long-lasting performance',
+    description: 'Our preventive and scheduled maintenance services ensure timely inspections, repairs, and upkeep, minimizing downtime, extending equipment life, and maintaining optimal performance across all building systems',
     backgroundImage: '/Maintenance-testimonials-10.jpg', // Standardized background image
     uspItems: [
-      { icon: 'ShieldCheck', title: 'Proactive Care', description: 'Prevents equipment failures before they occur consistently.' },
-      { icon: 'CalendarClock', title: 'Optimized Scheduling', description: 'Timely maintenance without disrupting operations effectively.' },
-      { icon: 'TrendingUp', title: 'Extended Lifespan', description: 'Increases durability of building systems reliably.' },
-      { icon: 'CircleDollarSign', title: 'Cost Savings', description: 'Reduces expensive emergency repairs consistently.' }
+      { icon: 'ShieldCheck', title: 'Proactive Care', description: 'Prevents equipment failures before they occur consistently' },
+      { icon: 'CalendarClock', title: 'Optimized Scheduling', description: 'Timely maintenance without disrupting operations effectively' },
+      { icon: 'TrendingUp', title: 'Extended Lifespan', description: 'Increases durability of building systems reliably' },
+      { icon: 'CircleDollarSign', title: 'Cost Savings', description: 'Reduces expensive emergency repairs consistently' }
     ]
   },
   scope: {
     title: 'Comprehensive Project Scope',
-    description: 'Our preventive and scheduled maintenance services ensure timely inspections and upkeep to prevent equipment failures and prolong asset life.',
+    description: 'Our preventive and scheduled maintenance services ensure timely inspections and upkeep to prevent equipment failures and prolong asset life',
     scopeItems: [
-      { icon: 'ClipboardList', title: 'Maintenance Planning', description: 'Develop schedules for routine checks and servicing ensuring all systems function reliably and efficiently consistently.' },
-      { icon: 'ScanSearch', title: 'Equipment Inspection', description: 'Conduct regular inspections to identify wear and tear and prevent unexpected breakdowns accurately.' },
-      { icon: 'Wrench', title: 'Servicing and Adjustments', description: 'Perform maintenance tasks including lubrication, calibration, and minor repairs to maintain optimal performance effectively.' },
-      { icon: 'FileText', title: 'Documentation and Records', description: 'Maintain detailed logs of maintenance activities for compliance, tracking, and future reference reliably.' },
-      { icon: 'FileCheck2', title: 'Compliance Assurance', description: 'Ensure maintenance activities meet manufacturer recommendations and regulatory standards consistently.' },
-      { icon: 'GaugeCircle', title: 'Performance Monitoring', description: 'Track system efficiency and operational health to schedule timely interventions and optimize functionality effectively.' }
+      { icon: 'ClipboardList', title: 'Maintenance Planning', description: 'Develop schedules for routine checks and servicing ensuring all systems function reliably and efficiently consistently' },
+      { icon: 'ScanSearch', title: 'Equipment Inspection', description: 'Conduct regular inspections to identify wear and tear and prevent unexpected breakdowns accurately' },
+      { icon: 'Wrench', title: 'Servicing and Adjustments', description: 'Perform maintenance tasks including lubrication, calibration, and minor repairs to maintain optimal performance effectively' },
+      { icon: 'FileText', title: 'Documentation and Records', description: 'Maintain detailed logs of maintenance activities for compliance, tracking, and future reference reliably' },
+      { icon: 'FileCheck2', title: 'Compliance Assurance', description: 'Ensure maintenance activities meet manufacturer recommendations and regulatory standards consistently' },
+      { icon: 'GaugeCircle', title: 'Performance Monitoring', description: 'Track system efficiency and operational health to schedule timely interventions and optimize functionality effectively' }
     ],
     imageKey: 'scopeImage'
   },
@@ -30,10 +30,10 @@ export const preventiveMaintenancePageData: PageData = {
     superTitle: 'HOW IT WORKS',
     title: 'Our Easy Working Steps',
     steps: [
-      { icon: 'Clipboard', title: 'System Assessment & Planning', description: 'Evaluate equipment and facility components to create a comprehensive preventive maintenance schedule.' },
-      { icon: 'CalendarDays', title: 'Scheduling & Resource Allocation', description: 'Assign maintenance tasks, allocate tools and personnel, and plan timelines for routine inspections and services.' },
-      { icon: 'HardHat', title: 'Execution & Monitoring', description: 'Conduct preventive maintenance activities, monitor equipment performance, and address minor issues proactively.' },
-      { icon: 'FilePieChart', title: 'Reporting & Optimization', description: 'Document maintenance activities, analyze trends, and optimize schedules to minimize downtime and extend asset lifespan.' }
+      { icon: 'Clipboard', title: 'System Assessment & Planning', description: 'Evaluate equipment and facility components to create a comprehensive preventive maintenance schedule' },
+      { icon: 'CalendarDays', title: 'Scheduling & Resource Allocation', description: 'Assign maintenance tasks, allocate tools and personnel, and plan timelines for routine inspections and services' },
+      { icon: 'HardHat', title: 'Execution & Monitoring', description: 'Conduct preventive maintenance activities, monitor equipment performance, and address minor issues proactively' },
+      { icon: 'FilePieChart', title: 'Reporting & Optimization', description: 'Document maintenance activities, analyze trends, and optimize schedules to minimize downtime and extend asset lifespan' }
     ],
     backgroundImage: '/blueprint-bg.png'
   },
@@ -52,13 +52,13 @@ export const preventiveMaintenancePageData: PageData = {
   },
   cta: {
     title: 'Ready for Uninterrupted Operations?',
-    description: 'Keep your systems running smoothly and prevent costly breakdowns with our proactive maintenance plans. Contact us to get started.'
+    description: 'Keep your systems running smoothly and prevent costly breakdowns with our proactive maintenance plans Contact us to get started'
   },
   testimonials: {
     title: 'What Our Clients Say',
     testimonialList: [
-        { quote: "Their preventive maintenance plan has saved us from several potential breakdowns. The peace of mind it provides is invaluable for our operations.", name: "Hans Müller", role: "Facility Manager", rating: 5, image: "https://randomuser.me/api/portraits/men/11.jpg" },
-        { quote: "The team is professional, thorough, and always on schedule. Our equipment has never been more reliable, and its lifespan has clearly been extended.", name: "Claudia Schneider", role: "Operations Director", rating: 5, image: "https://randomuser.me/api/portraits/women/7.jpg" }
+        { quote: "Their preventive maintenance plan has saved us from several potential breakdowns The peace of mind it provides is invaluable for our operations", name: "Hans Müller", role: "Facility Manager", rating: 5, image: "https://randomuser.me/api/portraits/men/11.jpg" },
+        { quote: "The team is professional, thorough, and always on schedule Our equipment has never been more reliable, and its lifespan has clearly been extended", name: "Claudia Schneider", role: "Operations Director", rating: 5, image: "https://randomuser.me/api/portraits/women/7.jpg" }
     ],
     summary: { count: '99%', label: 'Uptime Rate' },
     featuredImageKey: 'testimonialImage',
@@ -66,7 +66,7 @@ export const preventiveMaintenancePageData: PageData = {
   },
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for more information about our Preventive & Scheduled Maintenance services.',
+    description: 'Contact us for more information about our Preventive & Scheduled Maintenance services',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

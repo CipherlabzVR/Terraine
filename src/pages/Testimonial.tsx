@@ -13,6 +13,7 @@ import testimonial6 from '@/assert/testimonial/testimonial6.png';
 import testimonial7 from '@/assert/testimonial/testimonial7.webp';
 import testimonial8 from '@/assert/testimonial/testimonial8.jpg';
 import testimonial9 from '@/assert/testimonial/testimonial9.jpg';
+import { Helmet } from 'react-helmet-async';
 
 // Updated Toast component to match the new design
 const Toast = ({ onClose }: { onClose: () => void }) => (
@@ -220,6 +221,12 @@ const Testimonial = () => {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
+      <Helmet>
+        <title> Testimonial | Terrene Engineering </title> 
+        <meta 
+        name="description"
+        content="Discover why clients trust Terrene Engineering. Testimonials highlighting our expertise, innovation & commitment to sustainable engineering excellence" />
+      </Helmet>
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${
           showHeader ? 'translate-y-0' : '-translate-y-full'

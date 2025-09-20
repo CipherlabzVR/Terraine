@@ -3,6 +3,11 @@ import { PageData } from '../pages/GenericPageLayout'; // Updated import path fo
 // NOTE: Please update the placeholder data for 'projects' and 'testimonials' with relevant content.
 
 export const constructionPageData: PageData = {
+  meta: {
+    title: "Construction Services | Terrene Engineering", // [cite: 1]
+    description: "Building excellence from foundation to completion.Terrene Engineering ensures durable, high-quality construction across all project types" // [cite: 1]
+  },
+  
   hero: {
     title: "Construction",
     subtitle: "“Building excellence from foundation to Completion, delivering quality, durable, and innovative structures in every project with lifetime warranty”",

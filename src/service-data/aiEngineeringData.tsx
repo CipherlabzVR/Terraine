@@ -1,6 +1,10 @@
 import { PageData } from '../pages/GenericPageLayout'; 
 
 export const aiEngineeringPageData: PageData = {
+  meta: {
+    title: "Ai Enginnering | Terrene Engineering ", // [cite: 1]
+    description: "Leverage Terrene Engineering’s AI Engineering services for smart, data-driven, and innovative solutions that optimize project performance and sustainability" // [cite: 1]
+  },
   hero: {
     title: "AI Engineering",
     subtitle: "“Integrating artificial intelligence to design smarter, faster, and more efficient engineering solutions worldwide”",

@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { Award, Users, Laptop, Library, Clock, ArrowRight, Star, Briefcase, Plus, Phone, ArrowDownWideNarrow, ChevronLeft, ChevronRight, UserCircle2 } from 'lucide-react';
 
 // --- Mock Data for Courses (unchanged) ---
@@ -11,7 +12,7 @@ const coursesData = [
     title: 'Master Diploma in BIM (3D - 9D)',
     slug: 'bim',
     image: '/bim.jpg',
-    duration: '16-20 Weeks',
+    duration: 'Flexible Schedule',
     description: 'Master Building Information Modeling from fundamentals to advanced project coordination.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-blue-500/70 to-purple-600/70'
@@ -20,7 +21,7 @@ const coursesData = [
     title: 'Master Diploma in Digital Twin',
     slug: 'digital-twin',
     image: '/digital-twin.jpg',
-    duration: '12 Weeks',
+    duration: 'Flexible Schedule',
     description: 'Explore the creation and application of digital replicas for real-world assets and systems.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-teal-500/70 to-cyan-600/70'
@@ -29,7 +30,7 @@ const coursesData = [
     title: 'Master Diploma in Artificial Intelligence (AI) in Engineering',
     slug: 'AIEngineerng',
     image: '/ai-engineering.jpg',
-    duration: '14 Weeks',
+    duration: 'Flexible Schedule',
     description: 'Leverage artificial intelligence and machine learning to solve complex engineering challenges.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-amber-500/70 to-orange-600/70'
@@ -38,7 +39,7 @@ const coursesData = [
     title: 'Master Diploma in 3D Visualization with VR',
     slug: '3d-visualization',
     image: '/3dnew.png',
-    duration: '12 Weeks',
+    duration: 'Flexible Schedule',
     description: 'Create stunning, photorealistic architectural renders with industry-standard software.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-sky-500/70 to-blue-600/70'
@@ -47,7 +48,7 @@ const coursesData = [
     title: 'Master Diploma in Construction Project Management',
     slug: 'construction-pm',
     image: '/construction-management.jpg',
-    duration: '18 Weeks',
+    duration: 'Flexible Schedule',
     description: 'Gain essential skills in planning, executing, and overseeing construction projects.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-amber-500/70 to-orange-600/70'
@@ -56,7 +57,7 @@ const coursesData = [
     title: 'Master Diploma in Structural Design and Modelling',
     slug: 'strcutural',
     image: '/showcase-1.jpg',
-    duration: '15 Weeks',
+    duration: 'Flexible Schedule',
     description: 'Learn the principles of structural engineering and advanced 3D modeling techniques.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-red-500/70 to-orange-600/70'
@@ -65,7 +66,7 @@ const coursesData = [
     title: 'Master Diploma in MEP and HVAC Systems',
     slug: 'mep-hvac',
     image: '/mep.jpeg',
-    duration: '14 Weeks',
+    duration: 'Flexible Schedule',
     description: 'Understand the design and implementation of Mechanical, Electrical, and Plumbing systems.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-indigo-500/70 to-purple-600/70'
@@ -74,7 +75,7 @@ const coursesData = [
     title: 'Master Diploma in Interior Design',
     slug: 'interior',
     image: '/showcase-4.jpeg',
-    duration: '10 Weeks',
+    duration: 'Flexible Schedule',
     description: 'Master the art of creating functional and aesthetic interior spaces from concept to completion.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-pink-500/70 to-rose-600/70'
@@ -83,7 +84,7 @@ const coursesData = [
     title: 'Master Diploma in Landscape Architecture',
     slug: 'landscape',
     image: '/land.jpeg',
-    duration: '12 Weeks',
+    duration: 'Flexible Schedule',
     description: 'Learn to design and manage outdoor spaces, blending nature with modern environments.',
     feeDescription: 'Includes all learning materials and certification.',
     gradient: 'from-green-500/70 to-emerald-600/70'
@@ -92,7 +93,7 @@ const coursesData = [
     title: 'Customized Professional Training',
     slug: 'customize-course',
     image: '/learn.jpg',
-    duration: 'Custom',
+    duration: 'Flexible Schedule',
     description: 'Tailored training programs designed to meet the specific needs of your organization.',
     feeDescription: 'Contact us for a custom quote and curriculum.',
     gradient: 'from-gray-500/70 to-slate-600/70'
@@ -357,7 +358,7 @@ const ShowcaseCarousel = ({ items }: { items: typeof showcaseData }) => {
               <div className="relative rounded-lg overflow-hidden group shadow-lg">
                 <img src={item.image} alt={item.title} className="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                <div className="absolute top-4 right-4 bg-cyan-500/80 text-white text-xs font-bold px-3 py-1 rounded-full">
+                <div className="absolute top-4 right-4 bg-cyan-700 text-white text-xs font-bold px-3 py-1 rounded-full">
                   {item.category}
                 </div>
                 <div className="absolute bottom-0 left-0 p-6 text-white">
@@ -393,6 +394,13 @@ const SoftwareTraining: React.FC = () => {
 
   return (
     <>
+    <Helmet>
+        <title>Construction Softwear Training | Terrene Engineering</title> 
+        <meta 
+          name="description" 
+          content="Upskill with Terrene Engineering’s construction software training. Learn BIM, AI, Digital Twin & advanced tools from certified industry experts" 
+        />
+    </Helmet>
       <Header mode="transparent" className="fixed top-0 left-0 w-full z-40" />
 
       <div className="bg-[#0b2741]">
@@ -622,12 +630,12 @@ const SoftwareTraining: React.FC = () => {
                 </Button>
                 </a>
              
-              <Link to="/inquiry">
+              <a href="https://forms.gle/3tJHnGGSKuzfTft47" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="text-white bg-cyan-500 border-white/50 hover:bg-white/10 hover:text-white px-8 py-3 font-semibold rounded-full text-lg transition-all hover:scale-105 shadow-lg inline-flex items-center">
                   JOIN NEXT BATCH
                   <Plus className="w-5 h-5 ml-2" />
                 </Button>
-              </Link>
+              </a>
             </div>
           </div>
         </section>

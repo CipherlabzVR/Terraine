@@ -12,98 +12,100 @@ import {
 } from 'lucide-react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import { Helmet } from 'react-helmet-async';
 
 const allCoursesData = [
   {
     title: 'Master Diploma in BIM (3D - 9D)',
     slug: 'bim',
     image: '/bim.jpg',
-    duration: '16-20 Weeks',
-    description: 'Master Building Information Modeling from fundamentals to advanced project coordination.',
-    feeDescription: 'Includes all learning materials and certification.',
+    duration: 'Flexible Schedule',
+    description: 'Master Building Information Modeling from fundamentals to advanced project coordination',
+    feeDescription: 'Includes all learning materials and certification',
     gradient: 'from-blue-500/70 to-purple-600/70'
   },
   {
     title: 'Master Diploma in Digital Twin',
     slug: 'digital-twin',
     image: '/digital-twin.jpg',
-    duration: '12 Weeks',
-    description: 'Explore the creation and application of digital replicas for real-world assets and systems.',
-    feeDescription: 'Includes all learning materials and certification.',
+    duration: 'Flexible Schedule',
+    description: 'Explore the creation and application of digital replicas for real-world assets and systems',
+    feeDescription: 'Includes all learning materials and certification',
     gradient: 'from-teal-500/70 to-cyan-600/70'
   },
   {
     title: 'Master Diploma in Artificial Intelligence (AI) in Engineering',
     slug: 'AIEngineerng',
     image: '/ai-engineering.jpg',
-    duration: '14 Weeks',
-    description: 'Leverage artificial intelligence and machine learning to solve complex engineering challenges.',
-    feeDescription: 'Includes all learning materials and certification.',
+    duration: 'Flexible Schedule',
+    description: 'Leverage artificial intelligence and machine learning to solve complex engineering challenges',
+    feeDescription: 'Includes all learning materials and certification',
     gradient: 'from-amber-500/70 to-orange-600/70'
   },
   {
     title: 'Master Diploma in 3D Visualization with VR',
     slug: '3d-visualization',
     image: '/3dnew.png',
-    duration: '12 Weeks',
-    description: 'Create stunning, photorealistic architectural renders with industry-standard software.',
-    feeDescription: 'Includes all learning materials and certification.',
+    duration: 'Flexible Schedule',
+    description: 'Create stunning, photorealistic architectural renders with industry-standard software',
+    feeDescription: 'Includes all learning materials and certification',
     gradient: 'from-sky-500/70 to-blue-600/70'
   },
   {
     title: 'Master Diploma in Construction Project Management',
     slug: 'construction-pm',
     image: '/construction-management.jpg',
-    duration: '18 Weeks',
-    description: 'Gain essential skills in planning, executing, and overseeing construction projects.',
-    feeDescription: 'Includes all learning materials and certification.',
+    duration: 'Flexible Schedule',
+    description: 'Gain essential skills in planning, executing, and overseeing construction projects',
+    feeDescription: 'Includes all learning materials and certification',
     gradient: 'from-amber-500/70 to-orange-600/70'
   },
   {
     title: 'Master Diploma in Structural Design and Modelling',
     slug: 'structural',
     image: '/showcase-1.jpg',
-    duration: '15 Weeks',
-    description: 'Learn the principles of structural engineering and advanced 3D modeling techniques.',
-    feeDescription: 'Includes all learning materials and certification.',
+    duration: 'Flexible Schedule',
+    description: 'Learn the principles of structural engineering and advanced 3D modeling techniques',
+    feeDescription: 'Includes all learning materials and certification',
     gradient: 'from-red-500/70 to-orange-600/70'
   },
   {
     title: 'Master Diploma in MEP and HVAC Systems',
     slug: 'mep-hvac',
     image: '/mep.jpeg',
-    duration: '14 Weeks',
-    description: 'Understand the design and implementation of Mechanical, Electrical, and Plumbing systems.',
-    feeDescription: 'Includes all learning materials and certification.',
+    duration: 'Flexible Schedule',
+    description: 'Understand the design and implementation of Mechanical, Electrical, and Plumbing systems',
+    feeDescription: 'Includes all learning materials and certification',
     gradient: 'from-indigo-500/70 to-purple-600/70'
   },
   {
     title: 'Master Diploma in Interior Design',
     slug: 'interior',
     image: '/showcase-4.jpeg',
-    duration: '10 Weeks',
-    description: 'Master the art of creating functional and aesthetic interior spaces from concept to completion.',
-    feeDescription: 'Includes all learning materials and certification.',
+    duration: 'Flexible Schedule',
+    description: 'Master the art of creating functional and aesthetic interior spaces from concept to completion',
+    feeDescription: 'Includes all learning materials and certification',
     gradient: 'from-pink-500/70 to-rose-600/70'
   },
   {
     title: 'Master Diploma in Landscape Architecture',
     slug: 'landscape',
     image: '/land.jpeg',
-    duration: '12 Weeks',
-    description: 'Learn to design and manage outdoor spaces, blending nature with modern environments.',
-    feeDescription: 'Includes all learning materials and certification.',
+    duration: 'Flexible Schedule',
+    description: 'Learn to design and manage outdoor spaces, blending nature with modern environments',
+    feeDescription: 'Includes all learning materials and certification',
     gradient: 'from-green-500/70 to-emerald-600/70'
   },
   {
     title: 'Customized Professional Training',
     slug: 'customize-course',
     image: '/learn.jpg',
-    duration: 'Custom',
-    description: 'Tailored training programs designed to meet the specific needs of your organization.',
-    feeDescription: 'Contact us for a custom quote and curriculum.',
+    duration: 'Flexible Schedule',
+    description: 'Tailored training programs designed to meet the specific needs of your organization',
+    feeDescription: 'Contact us for a custom quote and curriculum',
     gradient: 'from-gray-500/70 to-slate-600/70'
   },
+  
 ];
 
 const AllCoursesCarousel = ({ courses }) => {
@@ -305,7 +307,7 @@ const ContactFormSection = ({ subtitle }) => {
                               <div>
                                   <h4 className="font-bold">Email Us</h4>
                                   <p className="text-white/70">info@terreneengineering.com</p>
-                                  <p className="text-white/70">careers@terreneengineering.com</p>
+                                  <p className="text-white/70">courses@terreneengineering.com </p>
                               </div>
                           </div>
                           <div className="flex items-start gap-4">
@@ -462,6 +464,10 @@ const CoursePageLayout = ({ courseData }) => {
 
     return (
         <div className="bg-[#0b2741]">
+            <Helmet>
+        <title>{courseData.meta.title}</title>
+        <meta name="description" content={courseData.meta.description} />
+      </Helmet>
             <div className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${showHeader ? 'translate-y-0' : '-translate-y-full'}`}>
                 <Header />
             </div>

@@ -4,9 +4,10 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 import white from '@/assert/Packages/white.png'; // TODO: Replace with a relevant image
-import silver from '@/assert/Packages/pack (3).png'; // TODO: Replace with a relevant image
+import silver from '@/assert/Packages/pack (1).png'; // TODO: Replace with a relevant image
 
 import diamond1 from '@/assert/Packages/Diamond/Diamond1.png'; // TODO: Replace with relevant images
 import diamond2 from '@/assert/Packages/Diamond/Diamond2.png';
@@ -92,6 +93,13 @@ const EngineeringConsultingPackage = () => {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
+      <Helmet>
+        <title> Construction Consulting Services | Terrene Engineering </title> 
+        <meta 
+          name="description" 
+          content="We delivers expert construction consulting, ensuring smart planning, regulatory compliance, innovative solutions & sustainable results" 
+        />
+    </Helmet>
       {/* Header with hide/show animation */}
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${

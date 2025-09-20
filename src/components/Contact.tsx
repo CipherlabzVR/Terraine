@@ -88,35 +88,14 @@ const Inquiry = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    try {
-      const payload = {
-        fullName: formData.name.trim(),
-        email: formData.email.trim(),
-        phone: (formData.phone || '').trim(),
-        company: (formData.company || '').trim(),
-        serviceRequired: (formData.service || '').trim(),
-        projectDetails: formData.message.trim(),
-      };
-
-      const res = await fetch('/api/inquiry', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      });
-
-      const json = await res.json().catch(() => ({ ok: false, error: 'Invalid server response' }));
-      if (json?.ok) {
-        setFormSubmitted(true);
-        setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' });
-        setTimeout(() => setFormSubmitted(false), 3000);
-      } else {
-        alert('Failed: ' + (json?.error || 'Unknown error'));
-      }
-    } catch (err: any) {
-      alert('Failed: ' + (err?.message || 'Network error'));
-    }
+    console.log('Form submitted:', formData);
+    setFormSubmitted(true);
+    setTimeout(() => {
+      setFormSubmitted(false);
+      setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' });
+    }, 3000);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -177,7 +156,7 @@ const Inquiry = () => {
                     <div>
                       <h3 className="font-semibold text-white">Email</h3>
                       <p className="text-gray-200">info@terreneengineering.com</p>
-                      <p className="text-gray-200">projects@terreneengineering.com</p>
+                      <p className="text-gray-200">payments@terreneengineering.com</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -208,18 +187,18 @@ const Inquiry = () => {
                     <h2 className="text-3xl font-bold mb-6 text-white">Send Us a Message</h2>
                     <div className="grid md:grid-cols-2 gap-4 mb-4">
                       <div>
-                        <label className="block text-sm font-medium mb-1 text-white">Full Name *</label>
+                        <label className="block text-sm font-medium mb-1 text-white">Full Name*</label>
                         <input type="text" name="name" value={formData.name} onChange={handleChange} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300" required />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium mb-1 text-white">Email Address *</label>
+                        <label className="block text-sm font-medium mb-1 text-white">Email Address*</label>
                         <input type="email" name="email" value={formData.email} onChange={handleChange} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300" required />
                       </div>
                     </div>
                     
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
-                        <label className="block text-sm font-medium mb-1 text-white ">Phone Number</label>
+                        <label className="block text-sm font-medium mb-1 text-white ">Phone Number*</label>
                         <PhoneInput
                           containerClass="custom-phone-input "
                           country={'lk'}
@@ -237,7 +216,7 @@ const Inquiry = () => {
                     </div>
     
                     <div className="mb-4">
-                      <label className="block text-sm font-medium mb-1 text-white">Service Required</label>
+                      <label className="block text-sm font-medium mb-1 text-white">Service or Package</label>
                       <input 
                         type="text" 
                         name="service" 
@@ -249,7 +228,7 @@ const Inquiry = () => {
                     </div>
 
                     <div className="mb-4">
-                      <label className="block text-sm font-medium mb-1 text-white">Project Details *</label>
+                      <label className="block text-sm font-medium mb-1 text-white">Project Details</label>
                       <textarea name="message" value={formData.message} onChange={handleChange} rows={5} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300" placeholder="Please describe your project requirements..." required />
                     </div>
                 </div>

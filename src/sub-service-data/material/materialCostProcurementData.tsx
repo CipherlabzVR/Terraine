@@ -7,50 +7,50 @@ export const materialCostProcurementPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Material Cost Analysis</span> & Procurement Support',
     tagline: 'Optimizing costs with strategic material procurement solutions',
     description:
-      'Our material cost analysis and procurement support services ensure efficient sourcing, budget optimization, and high-quality material selection, delivering cost-effective and successful project execution.',
+      'Our material cost analysis and procurement support services ensure efficient sourcing, budget optimization, and high-quality material selection, delivering cost-effective and successful project execution',
     backgroundImage: '/con-hero.jpg',
     uspItems: [
-      { icon: 'CircleDollarSign', title: 'Budget Optimization', description: 'Reduces material expenses consistently.' },
-      { icon: 'ShoppingCart',     title: 'Strategic Procurement', description: 'Ensures timely material sourcing effectively.' },
-      { icon: 'ClipboardList',    title: 'Transparent Analysis', description: 'Clear cost insights for informed decisions reliably.' },
-      { icon: 'Gauge',            title: 'Efficiency Boost', description: 'Streamlines procurement processes consistently.' }
+      { icon: 'CircleDollarSign', title: 'Budget Optimization', description: 'Reduces material expenses consistently' },
+      { icon: 'ShoppingCart',     title: 'Strategic Procurement', description: 'Ensures timely material sourcing effectively' },
+      { icon: 'ClipboardList',    title: 'Transparent Analysis', description: 'Clear cost insights for informed decisions reliably' },
+      { icon: 'Gauge',            title: 'Efficiency Boost', description: 'Streamlines procurement processes consistently' }
     ]
   },
 
   scope: {
     title: 'Comprehensive Project Scope',
     description:
-      'Our material cost analysis and procurement support ensure budget optimization, timely sourcing, and quality materials for construction projects efficiently.',
+      'Our material cost analysis and procurement support ensure budget optimization, timely sourcing, and quality materials for construction projects efficiently',
     scopeItems: [
       {
         icon: 'Calculator',
         title: 'Cost Evaluation',
-        description: 'Analyze material prices to identify cost-effective solutions while maintaining quality and performance accurately.'
+        description: 'Analyze material prices to identify cost-effective solutions while maintaining quality and performance accurately'
       },
       {
         icon: 'Users',
         title: 'Supplier Assessment',
-        description: 'Evaluate potential suppliers for reliability, pricing, and delivery timelines consistently.'
+        description: 'Evaluate potential suppliers for reliability, pricing, and delivery timelines consistently'
       },
       {
         icon: 'CalendarClock',
         title: 'Procurement Planning',
-        description: 'Develop strategic procurement schedules to ensure timely material availability efficiently.'
+        description: 'Develop strategic procurement schedules to ensure timely material availability efficiently'
       },
       {
         icon: 'Handshake',
         title: 'Negotiation Support',
-        description: 'Assist in supplier negotiations to achieve optimal pricing and contract terms reliably.'
+        description: 'Assist in supplier negotiations to achieve optimal pricing and contract terms reliably'
       },
       {
         icon: 'Wallet',
         title: 'Budget Integration',
-        description: 'Align material procurement costs with project budgets for effective financial management accurately.'
+        description: 'Align material procurement costs with project budgets for effective financial management accurately'
       },
       {
         icon: 'FileText',
         title: 'Documentation and Reporting',
-        description: 'Maintain comprehensive records of cost analysis, supplier evaluations, and procurement decisions efficiently.'
+        description: 'Maintain comprehensive records of cost analysis, supplier evaluations, and procurement decisions efficiently'
       }
     ],
     imageKey: 'scopeImage'
@@ -63,22 +63,22 @@ export const materialCostProcurementPageData: PageData = {
       {
         icon: 'ClipboardList',
         title: 'Requirement Assessment & Quantity Calculation',
-        description: 'Analyze project material needs, specifications, and quantities to plan procurement efficiently.'
+        description: 'Analyze project material needs, specifications, and quantities to plan procurement efficiently'
       },
       {
         icon: 'BarChart',
         title: 'Cost Analysis & Vendor Evaluation',
-        description: 'Compare supplier prices, delivery schedules, and quality to identify cost-effective options.'
+        description: 'Compare supplier prices, delivery schedules, and quality to identify cost-effective options'
       },
       {
         icon: 'CalendarCheck2',
         title: 'Procurement Planning & Negotiation',
-        description: 'Develop purchase strategies, negotiate terms, and ensure timely material acquisition within budget.'
+        description: 'Develop purchase strategies, negotiate terms, and ensure timely material acquisition within budget'
       },
       {
         icon: 'CheckCircle',
         title: 'Reporting & Documentation',
-        description: 'Provide detailed cost reports, procurement records, and recommendations for transparency and planning.'
+        description: 'Provide detailed cost reports, procurement records, and recommendations for transparency and planning'
       }
     ],
     backgroundImage: '/blueprint-bg.png'
@@ -100,7 +100,7 @@ export const materialCostProcurementPageData: PageData = {
 
   cta: {
     title: 'Ready to Cut Costs & De-Risk Procurement?',
-    description: 'Get strategic cost analysis and end-to-end procurement support for on-time, on-budget projects.'
+    description: 'Get strategic cost analysis and end-to-end procurement support for on-time, on-budget projects'
   },
 
   testimonials: {
@@ -108,7 +108,7 @@ export const materialCostProcurementPageData: PageData = {
     testimonialList: [
       {
         quote:
-          'Their supplier benchmarking and negotiation support reduced our material bill by 12% without affecting quality.',
+          'Their supplier benchmarking and negotiation support reduced our material bill by 12% without affecting quality',
         name: 'Dilshan Abeysinghe',
         role: 'Procurement Lead',
         rating: 5,
@@ -116,7 +116,7 @@ export const materialCostProcurementPageData: PageData = {
       },
       {
         quote:
-          'The cost evaluation reports were clear and actionable. Our deliveries became more predictable with their planning.',
+          'The cost evaluation reports were clear and actionable Our deliveries became more predictable with their planning',
         name: 'Rashmi Jayasuriya',
         role: 'Project Manager',
         rating: 5,
@@ -130,7 +130,7 @@ export const materialCostProcurementPageData: PageData = {
 
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for Material Cost Analysis & Procurement Support.',
+    description: 'Contact us for Material Cost Analysis & Procurement Support',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

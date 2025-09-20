@@ -3,14 +3,15 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 import gold from '@/assert/Packages/pack (2).png';
 
-import gold1 from '@/assert/Packages/gold/gold1.png';
-import gold2 from '@/assert/Packages/gold/gold2.png';
-import gold3 from '@/assert/Packages/gold/gold3.png';
-import gold4 from '@/assert/Packages/gold/gold4.png';
-import gold5 from '@/assert/Packages/gold/gold5.jpg';
+import gold1 from '@/assert/Packages/silver/Silver1.png';
+import gold2 from '@/assert/Packages/silver/Silver2.png';
+import gold3 from '@/assert/Packages/silver/Silver3.jpg';
+import gold4 from '@/assert/Packages/silver/Silver4.jpg';
+import gold5 from '@/assert/Packages/silver/Silver5.jpg';
 
 
 
@@ -97,6 +98,14 @@ const CommercialPackage = () => {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
+      <Helmet>
+        <title> Commercial Construction Package | Terrene Engineering </title> 
+        <meta 
+          name="description" 
+          content="Maximize ROI with Terrene Engineering’s Commercial Construction Package – sustainable, efficient, and fully managed from concept to completion." 
+        />
+    </Helmet>
+
       {/* Header with hide/show animation */}
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${

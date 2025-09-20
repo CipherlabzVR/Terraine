@@ -7,50 +7,50 @@ export const fireSafetyConsultancyPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Fire & Safety</span> Material Consultancy',
     tagline: 'Ensuring fire safe and compliant material selection',
     description:
-      'Our fire and safety material consultancy guides selection of compliant, durable, and reliable materials, enhancing building safety, minimizing risks, and ensuring long-lasting protection for every project.',
+      'Our fire and safety material consultancy guides selection of compliant, durable, and reliable materials, enhancing building safety, minimizing risks, and ensuring long-lasting protection for every project',
     backgroundImage: '/con-hero.jpg',
     uspItems: [
-      { icon: 'BadgeCheck',      title: 'Regulatory Compliance', description: 'Materials meet safety standards consistently.' },
-      { icon: 'ShieldCheck',     title: 'Durable Solutions',     description: 'Reliable fire-resistant materials effectively.' },
-      { icon: 'Lightbulb',       title: 'Expert Guidance',       description: 'Professional advice for safety material selection reliably.' },
-      { icon: 'AlertTriangle',   title: 'Risk Reduction',        description: 'Minimizes hazards and ensures protection consistently.' }
+      { icon: 'BadgeCheck',      title: 'Regulatory Compliance', description: 'Materials meet safety standards consistently' },
+      { icon: 'ShieldCheck',     title: 'Durable Solutions',     description: 'Reliable fire-resistant materials effectively' },
+      { icon: 'Lightbulb',       title: 'Expert Guidance',       description: 'Professional advice for safety material selection reliably' },
+      { icon: 'AlertTriangle',   title: 'Risk Reduction',        description: 'Minimizes hazards and ensures protection consistently' }
     ]
   },
 
   scope: {
     title: 'Comprehensive Project Scope',
     description:
-      'Our fire and safety material consultancy ensures selection, testing, and compliance of materials to protect life and property effectively.',
+      'Our fire and safety material consultancy ensures selection, testing, and compliance of materials to protect life and property effectively',
     scopeItems: [
       {
         icon: 'Layers',
         title: 'Material Selection',
-        description: 'Identify appropriate fire resistant and safety compliant materials for construction and interior applications accurately.'
+        description: 'Identify appropriate fire resistant and safety compliant materials for construction and interior applications accurately'
       },
       {
         icon: 'FlaskConical',
         title: 'Testing and Certification',
-        description: 'Conduct tests to verify fire ratings, performance, and compliance with relevant standards reliably.'
+        description: 'Conduct tests to verify fire ratings, performance, and compliance with relevant standards reliably'
       },
       {
         icon: 'Users',
         title: 'Supplier Verification',
-        description: 'Recommend certified suppliers providing high-quality fire and safety materials consistently.'
+        description: 'Recommend certified suppliers providing high-quality fire and safety materials consistently'
       },
       {
         icon: 'Gavel',
         title: 'Regulatory Compliance',
-        description: 'Ensure materials meet local and international fire safety codes and regulations effectively.'
+        description: 'Ensure materials meet local and international fire safety codes and regulations effectively'
       },
       {
         icon: 'Wrench',
         title: 'Application Guidance',
-        description: 'Advise on proper installation and integration of materials to enhance safety performance accurately.'
+        description: 'Advise on proper installation and integration of materials to enhance safety performance accurately'
       },
       {
         icon: 'FileText',
         title: 'Documentation and Reporting',
-        description: 'Maintain detailed records of materials, test results, and compliance certifications for project reference efficiently.'
+        description: 'Maintain detailed records of materials, test results, and compliance certifications for project reference efficiently'
       }
     ],
     imageKey: 'scopeImage'
@@ -63,22 +63,22 @@ export const fireSafetyConsultancyPageData: PageData = {
       {
         icon: 'ClipboardList',
         title: 'Requirement Assessment & Risk Analysis',
-        description: 'Evaluate project safety requirements, regulations, and potential fire hazards to determine material needs.'
+        description: 'Evaluate project safety requirements, regulations, and potential fire hazards to determine material needs'
       },
       {
         icon: 'Layers',
         title: 'Material Selection & Specification',
-        description: 'Recommend fire-resistant, safety-compliant materials for construction, interiors, and specialized applications.'
+        description: 'Recommend fire-resistant, safety-compliant materials for construction, interiors, and specialized applications'
       },
       {
         icon: 'Beaker',
         title: 'Testing & Compliance Verification',
-        description: 'Conduct fire and safety performance tests to ensure materials meet industry standards and codes.'
+        description: 'Conduct fire and safety performance tests to ensure materials meet industry standards and codes'
       },
       {
         icon: 'CheckCircle',
         title: 'Implementation Support & Reporting',
-        description: 'Provide guidance, documentation, and recommendations for proper usage to enhance safety and compliance.'
+        description: 'Provide guidance, documentation, and recommendations for proper usage to enhance safety and compliance'
       }
     ],
     backgroundImage: '/blueprint-bg.png'
@@ -100,7 +100,7 @@ export const fireSafetyConsultancyPageData: PageData = {
 
   cta: {
     title: 'Build Safer with Certified Materials',
-    description: 'Get compliant, durable, and verified fire & safety materials specified for your project.'
+    description: 'Get compliant, durable, and verified fire & safety materials specified for your project'
   },
 
   testimonials: {
@@ -108,7 +108,7 @@ export const fireSafetyConsultancyPageData: PageData = {
     testimonialList: [
       {
         quote:
-          'They aligned our specifications with local fire codes and helped us select tested systems—zero compliance issues at inspection.',
+          'They aligned our specifications with local fire codes and helped us select tested systems—zero compliance issues at inspection',
         name: 'Nirmala Gunasekara',
         role: 'Project Manager',
         rating: 5,
@@ -116,7 +116,7 @@ export const fireSafetyConsultancyPageData: PageData = {
       },
       {
         quote:
-          'Clear guidance on firestop details and product substitutions saved both time and risk.',
+          'Clear guidance on firestop details and product substitutions saved both time and risk',
         name: 'Dulaj Senanayake',
         role: 'Site Engineer',
         rating: 5,
@@ -130,7 +130,7 @@ export const fireSafetyConsultancyPageData: PageData = {
 
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for Fire & Safety Material Consultancy.',
+    description: 'Contact us for Fire & Safety Material Consultancy',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

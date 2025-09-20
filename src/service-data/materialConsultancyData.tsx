@@ -1,6 +1,10 @@
 import { PageData } from '../pages/GenericPageLayout'; 
 
 export const materialConsultancyPageData: PageData = {
+  meta: {
+    title: "Material Consultancy | Terrene Engineering ", // [cite: 1]
+    description: "Get professional material consultancy from Terrene Engineering. We provide testing, cost analysis & advanced sustainable solutions for your projects" // [cite: 1]
+  },
   hero: {
     title: "Material Consultancy",
     subtitle: "“Providing expert advice on premium construction materials to ensure quality, durability, and project efficiency”",

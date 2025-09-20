@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
 import silver from '@/assert/Packages/3d-visualization.jpeg';
+import { Helmet } from 'react-helmet-async';
 
 import Silver1 from '@/assert/Packages/silver/Silver1.png';
 import Silver2 from '@/assert/Packages/silver/Silver2.png';
@@ -77,6 +78,14 @@ const SoftwareTrainingPackage = () => {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
+      <Helmet>
+        <title>Software Training & Skills Training Package | Terrene Engineering</title> 
+        <meta 
+          name="description" 
+          content="Terrene Engineering offers professional software & skills training to enhance expertise, boost efficiency, and advance careers in engineering projects" 
+        />
+    </Helmet>
+
       {/* Header with hide/show animation */}
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${

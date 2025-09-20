@@ -10,6 +10,7 @@ import aboutVideo from '/about.mp4';
 import proVideo from '/pro.mp4';
 import packVideo from '/pack.mp4';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 // Image imports
 import whyWorkWithUsImage from '../assert/why-work-with-us.jpg';
@@ -1849,6 +1850,13 @@ const Career = () => {
 
   return (
     <>
+    <Helmet>
+    <title>Careers | Terrene Engineering</title> 
+    <meta 
+      name="description" 
+      content="Explore career opportunities at Terrene Engineering. Join a global team delivering innovative, sustainable solutions with excellence" 
+    />
+</Helmet>
       <div className="bg-[#0b2741]">
         <div
           className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${

@@ -3,8 +3,8 @@ import { PageData } from '../../pages/SubServicePageLayout';
 export const aluminumFabricationPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Aluminum</span> Fabrication',
-    tagline: 'Custom aluminum solutions for modern constructions.',
-    description: 'Our aluminum fabrication services provide precise, durable, and visually appealing components, enhancing building aesthetics, functionality, and structural efficiency with expert craftsmanship and innovative designs.',
+    tagline: 'Custom aluminum solutions for modern constructions',
+    description: 'Our aluminum fabrication services provide precise, durable, and visually appealing components, enhancing building aesthetics, functionality, and structural efficiency with expert craftsmanship and innovative designs',
     backgroundImage: '/hero - construction (1).jpg', // Standardized background image
     uspItems: [
       { icon: 'Scaling', title: 'Precision Fabrication', description: 'Accurately crafted aluminum components for seamless integration consistently' },
@@ -52,13 +52,13 @@ export const aluminumFabricationPageData: PageData = {
   },
   cta: {
     title: 'Ready for a Modern Finish?',
-    description: 'Enhance your project with our high-quality, custom aluminum fabrication. Contact us for a quote.'
+    description: 'Enhance your project with our high-quality, custom aluminum fabrication Contact us for a quote'
   },
   testimonials: {
     title: 'What Our Clients Say',
     testimonialList: [
-        { quote: "The precision of the aluminum fabrication was outstanding. The components fit perfectly on-site, which made the installation process incredibly fast and smooth.", name: "David Ong", role: "Construction Manager", rating: 5, image: "https://randomuser.me/api/portraits/men/7.jpg" },
-        { quote: "The aesthetic quality of the powder-coated aluminum panels has truly elevated our building's facade. A durable and beautiful solution delivered by a professional team.", name: "Samantha Clarke", role: "Project Manager", rating: 5, image: "https://randomuser.me/api/portraits/women/9.jpg" }
+        { quote: "The precision of the aluminum fabrication was outstanding The components fit perfectly on-site, which made the installation process incredibly fast and smooth", name: "David Ong", role: "Construction Manager", rating: 5, image: "https://randomuser.me/api/portraits/men/7.jpg" },
+        { quote: "The aesthetic quality of the powder-coated aluminum panels has truly elevated our building's facade A durable and beautiful solution delivered by a professional team", name: "Samantha Clarke", role: "Project Manager", rating: 5, image: "https://randomuser.me/api/portraits/women/9.jpg" }
     ],
     summary: { count: '100+', label: 'Fabrication Projects' },
     featuredImageKey: 'testimonialImage',
@@ -66,7 +66,7 @@ export const aluminumFabricationPageData: PageData = {
   },
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for more information about our Aluminum Fabrication services.',
+    description: 'Contact us for more information about our Aluminum Fabrication services',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

@@ -7,50 +7,50 @@ export const failureAnalysisTroubleshootingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Failure Analysis</span> & Material Troubleshooting',
     tagline: 'Identifying and resolving material performance issues effectively',
     description:
-      'Our failure analysis and material troubleshooting services diagnose defects, provide expert solutions, and ensure reliable, high quality, and long-lasting material performance for every construction project.',
+      'Our failure analysis and material troubleshooting services diagnose defects, provide expert solutions, and ensure reliable, high quality, and long-lasting material performance for every construction project',
     backgroundImage: '/con-hero.jpg',
     uspItems: [
-      { icon: 'Search',           title: 'Root Cause Detection', description: 'Identifies material failures accurately consistently.' },
-      { icon: 'Wrench',           title: 'Effective Solutions',  description: 'Provides corrective measures reliably.' },
-      { icon: 'ShieldCheck',      title: 'Expert Evaluation',    description: 'Skilled analysis for project safety effectively.' },
-      { icon: 'AlertTriangle',    title: 'Prevention Focused',   description: 'Avoids future material issues consistently.' }
+      { icon: 'Search',           title: 'Root Cause Detection', description: 'Identifies material failures accurately consistently' },
+      { icon: 'Wrench',           title: 'Effective Solutions',  description: 'Provides corrective measures reliably' },
+      { icon: 'ShieldCheck',      title: 'Expert Evaluation',    description: 'Skilled analysis for project safety effectively' },
+      { icon: 'AlertTriangle',    title: 'Prevention Focused',   description: 'Avoids future material issues consistently' }
     ]
   },
 
   scope: {
     title: 'Comprehensive Project Scope',
     description:
-      'Our failure analysis services identify material defects, determine causes, and provide solutions to prevent recurrence effectively.',
+      'Our failure analysis services identify material defects, determine causes, and provide solutions to prevent recurrence effectively',
     scopeItems: [
       {
         icon: 'Inspect',
         title: 'Material Inspection',
-        description: 'Examine failed materials using visual and instrumental methods to identify defects accurately.'
+        description: 'Examine failed materials using visual and instrumental methods to identify defects accurately'
       },
       {
         icon: 'GitBranch',
         title: 'Root Cause Analysis',
-        description: 'Determine underlying causes of material failures to implement corrective measures reliably.'
+        description: 'Determine underlying causes of material failures to implement corrective measures reliably'
       },
       {
         icon: 'FlaskConical',
         title: 'Testing and Verification',
-        description: 'Conduct laboratory tests to confirm material performance and identify weaknesses effectively.'
+        description: 'Conduct laboratory tests to confirm material performance and identify weaknesses effectively'
       },
       {
         icon: 'ClipboardCheck',
         title: 'Corrective Recommendations',
-        description: 'Provide solutions to prevent future failures and improve material selection and handling consistently.'
+        description: 'Provide solutions to prevent future failures and improve material selection and handling consistently'
       },
       {
         icon: 'MessageSquare',
         title: 'Supplier Feedback',
-        description: 'Communicate findings with suppliers to ensure quality control and prevent recurrence accurately.'
+        description: 'Communicate findings with suppliers to ensure quality control and prevent recurrence accurately'
       },
       {
         icon: 'FileText',
         title: 'Documentation and Reporting',
-        description: 'Maintain detailed reports of failures, tests, and corrective actions for project reference efficiently.'
+        description: 'Maintain detailed reports of failures, tests, and corrective actions for project reference efficiently'
       }
     ],
     imageKey: 'scopeImage'
@@ -63,22 +63,22 @@ export const failureAnalysisTroubleshootingPageData: PageData = {
       {
         icon: 'ClipboardList',
         title: 'Inspection & Data Collection',
-        description: 'Examine failed materials, structures, or components to identify defects, wear, or damage patterns.'
+        description: 'Examine failed materials, structures, or components to identify defects, wear, or damage patterns'
       },
       {
         icon: 'Beaker',
         title: 'Root Cause Analysis',
-        description: 'Use laboratory tests, simulations, and engineering methods to determine the cause of material failure.'
+        description: 'Use laboratory tests, simulations, and engineering methods to determine the cause of material failure'
       },
       {
         icon: 'Wrench',
         title: 'Corrective Recommendations',
-        description: 'Provide solutions, material alternatives, or design adjustments to prevent future failures.'
+        description: 'Provide solutions, material alternatives, or design adjustments to prevent future failures'
       },
       {
         icon: 'CheckCircle',
         title: 'Reporting & Implementation Support',
-        description: 'Prepare detailed analysis reports and guide clients on implementing corrective measures effectively.'
+        description: 'Prepare detailed analysis reports and guide clients on implementing corrective measures effectively'
       }
     ],
     backgroundImage: '/blueprint-bg.png'
@@ -100,7 +100,7 @@ export const failureAnalysisTroubleshootingPageData: PageData = {
 
   cta: {
     title: 'Need Answers on a Material Failure?',
-    description: 'Get fast, evidence-based diagnostics and corrective actions to keep your project safe and on track.'
+    description: 'Get fast, evidence-based diagnostics and corrective actions to keep your project safe and on track'
   },
 
   testimonials: {
@@ -108,7 +108,7 @@ export const failureAnalysisTroubleshootingPageData: PageData = {
     testimonialList: [
       {
         quote:
-          'They pinpointed a weld procedure issue in days and helped us implement a fix that prevented costly rework.',
+          'They pinpointed a weld procedure issue in days and helped us implement a fix that prevented costly rework',
         name: 'Nadeesha Perera',
         role: 'Construction Director',
         rating: 5,
@@ -116,7 +116,7 @@ export const failureAnalysisTroubleshootingPageData: PageData = {
       },
       {
         quote:
-          'The report was thorough and actionable. Their recommendations eliminated recurring defects on site.',
+          'The report was thorough and actionable Their recommendations eliminated recurring defects on site',
         name: 'Kasun Ranatunga',
         role: 'QA/QC Lead',
         rating: 5,
@@ -130,7 +130,7 @@ export const failureAnalysisTroubleshootingPageData: PageData = {
 
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for Failure Analysis & Material Troubleshooting services.',
+    description: 'Contact us for Failure Analysis & Material Troubleshooting services',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

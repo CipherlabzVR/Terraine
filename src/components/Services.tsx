@@ -10,75 +10,80 @@ import { Card } from "@/components/ui/card";
 import Header from '../components/Header'; // Assuming Header is in this path
 import Footer from '../components/Footer'; // Assuming Footer is in this path
 
-// --- SERVICE CATEGORIES ---
+// --- SERVICE CATEGORIES WITH EDITABLE SLUGS ---
 const serviceCategories = [
 	{
 		title: 'Consultancy Services',
+		slug: 'consultancy-services', // <-- EDIT THIS SLUG
 		icon: <Ruler className="w-8 h-8" />,
 		description: 'Comprehensive architectural solutions from concept to completion',
 		backgroundImage: '/architectural.webp',
 		subServices: [
-			{ title: 'Smart Project Management', description: 'Expert advice on design and implementation strategies' },
-			{ title: 'Cost & Value Engineering Solutions', description: 'Functional and aesthetic interior space planning' },
-			{ title: 'BIM & Digital Twin Consultancy', description: 'Custom furniture solutions tailored to your needs' },
-			{ title: 'Geotechnical & Soil Investigation', description: 'Optimized sound and lighting environments' },
-			{ title: 'Structural Engineering', description: 'Strategic urban and site development planning' },
-			{ title: 'More Services' },
+			{ title: 'Smart Project Management', slug: 'smart-management', description: 'Expert advice on design and implementation strategies' },
+			{ title: 'Cost & Value Engineering Solutions', slug: 'cost-value', description: 'Functional and aesthetic interior space planning' },
+			{ title: 'BIM & Digital Twin Consultancy', slug: 'BIM', description: 'Custom furniture solutions tailored to your needs' },
+			{ title: 'Geotechnical & Soil Investigation', slug: 'Geotechnical', description: 'Optimized sound and lighting environments' },
+			{ title: 'Structural Engineering', slug: 'structural-engineering', description: 'Strategic urban and site development planning' },
+			{ title: 'More Services' }, // This links to the main category page
 		],
 	},
 	{
 		title: 'Construction',
+		slug: 'constructions', // <-- EDIT THIS SLUG
 		icon: <Building2 className="w-8 h-8" />,
 		description: 'Structural and technical engineering expertise for all project types',
 		backgroundImage: '/engineering.webp',
 		subServices: [
-			{ title: 'Residential Construction ', description: 'Comprehensive structural analysis and design' },
-			{ title: 'Commercial Construction', description: 'Mechanical, electrical and plumbing solutions' },
-			{ title: 'Industrial Construction', description: 'Climate control systems for optimal comfort' },
-			{ title: 'infastructure Construction', description: 'Extra-low voltage systems for modern buildings' },
-			{ title: 'Road Construction', description: 'Guidance on optimal material selection' },
+			{ title: 'Residential Construction', slug: 'residential', description: 'Comprehensive structural analysis and design' },
+			{ title: 'Commercial Construction', slug: 'commercial', description: 'Mechanical, electrical and plumbing solutions' },
+			{ title: 'Industrial Construction', slug: 'industrial', description: 'Climate control systems for optimal comfort' },
+			{ title: 'Infrastructure Construction', slug: 'infrastructure', description: 'Extra-low voltage systems for modern buildings' },
+			{ title: 'Road Construction', slug: 'road', description: 'Guidance on optimal material selection' },
 			{ title: 'More Services' },
 		],
 	},
 	{
 		title: 'Interior Design',
+		slug: 'interior-design', // <-- EDIT THIS SLUG
 		icon: <Cog className="w-8 h-8" />,
 		description: 'Advanced technical services using cutting-edge technology',
 		backgroundImage: '/technical.webp',
 		subServices: [
-			{ title: 'Concept Development & Design', description: 'Rigorous material and structural testing' },
-			{ title: 'Project Management & Procurement', description: 'Precise mapping and geographical data analysis' },
-			{ title: 'Detailed Interior Drawings', description: 'Building Information Modeling for better project coordination' },
-			{ title: 'Turnkey Interior Solutions', description: 'Professional training on industry-standard software' },
-			{ title: 'Material & Color Consultancy', description: 'Material procurement and logistics solutions' },
+			{ title: 'Concept Development & Design', slug: 'concept-development', description: 'Rigorous material and structural testing' },
+			{ title: 'Project Management & Procurement', slug: 'project-management', description: 'Precise mapping and geographical data analysis' },
+			{ title: 'Detailed Interior Drawings', slug: 'detailed-drawings', description: 'Building Information Modeling for better project coordination' },
+			{ title: 'Turnkey Interior Solutions', slug: 'turnkey-solutions', description: 'Professional training on industry-standard software' },
+			{ title: 'Material & Color Consultancy', slug: 'material-color', description: 'Material procurement and logistics solutions' },
 			{ title: 'More Services' },
 		],
 	},
 	{
 		title: 'BIM',
+		slug: 'bim', // <-- EDIT THIS SLUG
 		icon: <Shield className="w-8 h-8" />,
 		description: 'End-to-end project management for seamless execution',
 		backgroundImage: '/project-management.webp',
 		subServices: [
-			{ title: '3D BIM - Digital Design & Modeling', description: 'Supervision and execution of construction projects' },
-			{ title: '4D BIM - Time', description: 'Strategic sourcing and contractor selection' },
-			{ title: '5D BIM – Cost', description: 'Estimation and budget management' },
-			{ title: '6D BIM – Sustainability & Energy', description: 'Energy efficiency and sustainability' },
-			{ title: '7D BIM – Facility Management', description: 'Lifecycle and asset management' },
+			{ title: '3D BIM - Digital Design & Modeling', slug: '3d-bim', description: 'Supervision and execution of construction projects' },
+			{ title: '4D BIM - Time', slug: '4d-bim', description: 'Strategic sourcing and contractor selection' },
+			{ title: '5D BIM – Cost', slug: '5d-bim', description: 'Estimation and budget management' },
+			{ title: '6D BIM – Sustainability & Energy', slug: '6d-bim', description: 'Energy efficiency and sustainability' },
+			{ title: '7D BIM – Facility Management', slug: '7d-bim', description: 'Lifecycle and asset management' },
 			{ title: 'More Services' },
 		],
 	},
 	{
 		title: 'Digital Twin',
+		slug: 'digital-twin', // <-- EDIT THIS SLUG
 		icon: <Activity className="w-8 h-8" />,
 		description: 'Specialized solutions for unique project requirements',
 		backgroundImage: '/specialized.webp',
 		subServices: [
-			{ title: 'Real-Time Monitoring & Performance Tracking', description: 'Eco-friendly design solutions for modern buildings' },
-			{ title: 'Predictive & Preventive Maintenance', description: 'Careful restoration of historical structures' },
-			{ title: 'Energy & Resource Optimization', description: 'Comprehensive analysis of project viability' },
-			{ title: 'Facility Management & Space Utilization', description: 'Identification and mitigation of project risks' },
-			{ title: 'Remote Operations & Virtual Control Centers', description: 'Immersive visualization of architectural concepts' },
+			{ title: 'Real-Time Monitoring & Performance Tracking', slug: 'asset-monitoring', description: 'Eco-friendly design solutions for modern buildings' },
+			{ title: 'Predictive & Preventive Maintenance', slug: 'predictive-maintenance', description: 'Careful restoration of historical structures' },
+			{ title: 'Energy & Resource Optimization', slug: 'energy-optimization', description: 'Comprehensive analysis of project viability' },
+			{ title: 'Facility Management & Space Utilization', slug: 'facility-management', description: 'Identification and mitigation of project risks' },
+			{ title: 'Remote Operations & Virtual Control Centers', slug: 'remote-operations', description: 'Immersive visualization of architectural concepts' },
 			{ title: 'More Services' },
 		],
 	},
@@ -280,38 +285,42 @@ const Services = () => {
 							<div className="relative z-10">
 								<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 									{serviceCategories[activeService]?.subServices.map((service, index) => {
+										const activeCategory = serviceCategories[activeService];
 										const isMoreServices = service.title === 'More Services';
 
-										const cardContent = isMoreServices ? (
-											<div
-												className="bg-white/10 border border-white/20 rounded-lg p-4 hover:bg-white/20 transition-all duration-300 group backdrop-blur-sm h-full flex items-center justify-center"
-												style={{ transitionDelay: `${index * 50}ms` }}
-											>
-												<div className="flex items-center gap-3">
-													<h4 className="text-lg font-semibold text-white group-hover:text-primary transition-colors">
-														{service.title}
-													</h4>
-													<ArrowRight className="h-5 w-5 text-white group-hover:text-primary group-hover:translate-x-1 transition-transform duration-300" />
-												</div>
-											</div>
-										) : (
-											<div
-												className="bg-white/10 border border-white/20 rounded-lg p-4 hover:bg-white/20 transition-all duration-300 group backdrop-blur-sm"
-												style={{ transitionDelay: `${index * 50}ms` }}
-											>
-												<h4 className="text-lg font-semibold text-white mb-3 group-hover:text-primary transition-colors">
-													{service.title}
-												</h4>
-												<p className="text-white/80 text-sm leading-relaxed">
-													{service.description}
-												</p>
-											</div>
-										);
+										// Create link path using the new 'slug' properties
+										const linkPath = isMoreServices
+											? `/services/${activeCategory.slug}`
+											: `/services/${activeCategory.slug}/${(service as any).slug}`;
 
 										return (
-											<div key={index}>
-												{isMoreServices ? <Link to="/services-main">{cardContent}</Link> : cardContent}
-											</div>
+											<Link to={linkPath} key={index} className="flex">
+												{isMoreServices ? (
+													<div
+														className="bg-white/10 border border-white/20 rounded-lg p-4 hover:bg-white/20 transition-all duration-300 group backdrop-blur-sm h-full w-full flex items-center justify-center"
+														style={{ transitionDelay: `${index * 50}ms` }}
+													>
+														<div className="flex items-center gap-3">
+															<h4 className="text-lg font-semibold text-white group-hover:text-primary transition-colors">
+																{service.title}
+															</h4>
+															<ArrowRight className="h-5 w-5 text-white group-hover:text-primary group-hover:translate-x-1 transition-transform duration-300" />
+														</div>
+													</div>
+												) : (
+													<div
+														className="bg-white/10 border border-white/20 rounded-lg p-4 hover:bg-white/20 transition-all duration-300 group backdrop-blur-sm h-full w-full"
+														style={{ transitionDelay: `${index * 50}ms` }}
+													>
+														<h4 className="text-lg font-semibold text-white mb-3 group-hover:text-primary transition-colors">
+															{service.title}
+														</h4>
+														<p className="text-white/80 text-sm leading-relaxed">
+															{service.description}
+														</p>
+													</div>
+												)}
+											</Link>
 										);
 									})}
 								</div>

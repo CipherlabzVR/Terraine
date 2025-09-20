@@ -1,6 +1,10 @@
 import { PageData } from '../pages/GenericPageLayout'; 
 
 export const importExportPageData: PageData = {
+  meta: {
+    title: "Construction Material Export and Import | Terrene Engineering ", // [cite: 1]
+    description: "Reliable import & export services for construction, engineering & interior materials. Terrene Engineering delivers global reach with smart logistics" // [cite: 1]
+  },
   hero: {
     title: "Import & Export",
     subtitle: "“Seamlessly connecting global markets by importing and exporting quality materials with efficiency and reliability”",

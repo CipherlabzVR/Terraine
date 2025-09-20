@@ -153,7 +153,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                     <p className="mt-4 text-lg md:text-xl text-white mx-auto lg:mx-0">{pageData.hero.description}</p>
                     <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                         <a href="#contact-section"><Button size="lg" className="bg-[#0050A0] w-full sm:w-auto text-white hover:bg-cyan-500 px-8 py-3 text-lg rounded-md transition-transform hover:scale-105">BOOK THIS SERVICE <Icons.ArrowRight className="w-5 h-5 ml-2" /></Button></a>
-                        <a href="#project-scope"><Button size="lg" className="text-white bg-cyan-500 hover:bg-white/40 w-full sm:w-auto px-8 py-3 text-lg rounded-md">MORE DETAILS <Icons.ChevronsDown className="w-10 h-10 ml-1"/></Button></a>
+                        <a href="#project-scope"><Button size="lg" className="text-white bg-cyan-500 hover:bg-white/40 w-[38vh] px-8 py-3 text-lg rounded-md">MORE DETAILS <Icons.ChevronsDown className="w-10 h-10 ml-1"/></Button></a>
                     </div>
                 </div>
                 <div className="p-8 md:p-10 rounded-lg border border-white/20 w-full shadow-2xl bg-slate-900/50 backdrop-blur-md mt-8 lg:mt-[15vh]">
@@ -318,8 +318,15 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                             <div><h4 className="font-bold">Call Us</h4>{pageData.contact.phoneNumbers.map(p => <p key={p} className="text-white/70">{p}</p>)}</div>
                         </div>
                         <div className="flex items-start gap-4">
-                            <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10"><Icons.Mail className="w-6 h-6 text-cyan-400" /></div>
-                            <div><h4 className="font-bold">Email Us</h4>{pageData.contact.emails.map(e => <p key={e} className="text-white/70">{e}</p>)}</div>
+                            <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10">
+  <Icons.Mail className="w-6 h-6 text-cyan-400" />
+</div>
+<div>
+  <h4 className="font-bold">Email Us</h4>
+  <p className="text-white/70">info@terreneengineering.com</p>
+  <p className="text-white/70">payments@terreneengineering.com</p>
+</div>
+
                         </div>
                         <div className="flex items-start gap-4">
                                                       <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10"><Icons.Clock className="w-6 h-6 text-cyan-400" /></div>
@@ -351,7 +358,8 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                                <div className="sm:col-span-2"><label htmlFor="service" className="block text-sm font-medium text-white/80 mb-1">Service of Interest</label><input type="text" id="service" value={pageData.hero.serviceName.replace(/<[^>]*>?/gm, '')} readOnly className="w-full p-3 bg-slate-700 border border-white/20 rounded-md cursor-not-allowed text-white/80" /></div>
                               <div className="sm:col-span-2"><label htmlFor="message" className="block text-sm font-medium text-white/80 mb-1">Your Message</label><textarea id="message" rows={5} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400"></textarea></div>
                           </div>
-                          <Button type="submit" size="lg" className="w-full mt-6 bg-[#0050A0] text-white font-bold hover:bg-cyan-500 transition-colors">SEND MESSAGE</Button>
+                          <Button type="submit" size="lg" className="w-full mt-6 bg-[#0050A0] text-white font-bold hover:bg-cyan-500 transition-colors">SEND MESSAGE <Icons.Send className="w-5 h-5 ml-2" /></Button>
+                          
                        </form>
                   </div>
               </div>

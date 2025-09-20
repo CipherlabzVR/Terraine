@@ -2,8 +2,9 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import * as Icons from 'lucide-react';
-import Header from '../components/Header'; // Assuming Header is in the same folder
-import Footer from '../components/Footer'; // Assuming Footer is in the same folder
+import Header from '../components/Header'; 
+import Footer from '../components/Footer'; 
+import { Helmet } from 'react-helmet-async';
 
 // --- HELPER COMPONENT FOR DYNAMIC ICONS ---
 type IconName = keyof typeof Icons;
@@ -24,7 +25,11 @@ export interface PageData {
   projects: { superTitle: string; title: string; list: { image: string; name: string }[]; videoBackground: string; };
   cta: { title: string; description: string; buttons: { text: string; link: string; variant: 'primary' | 'secondary' }[] };
   testimonials: { superTitle: string; title: string; list: { quote: string; name: string; role: string; country: string; rating: number; image: string }[]; summary: { count: string; label: string }; featuredImage: string; videoBackground: string; };
+  meta: { title: string; description: string; };
 }
+
+
+
 
 interface GenericPageLayoutProps {
   pageData: PageData;
@@ -259,7 +264,7 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const { hero, about, services, workingSteps, projects, cta, testimonials } = pageData;
+  const { hero, about, services, workingSteps, projects, cta, testimonials, meta } = pageData;
 
   // Resolve image URLs
   const aboutMainUrl = imageAssets[about.images.main] || about.images.main;
@@ -274,6 +279,10 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
 
   return (
     <div className="min-h-screen bg-[#0b2741]">
+        <Helmet>
+        <title>{meta.title}</title>
+        <meta name="description" content={meta.description} />
+      </Helmet>
       <div className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${showHeader ? 'translate-y-0' : '-translate-y-full'}`}>
         <Header />
       </div>
@@ -290,24 +299,24 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
             <p className="mt-6 text-xl text-white max-w-4xl">{hero.description}</p>
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
                 {hero.buttons.map((button, index) => {
-        // Use a standard <a> tag for same-page anchor links
-        if (button.link.startsWith('#')) {
-            return (
-                <a href={button.link} key={index}>
-                    <Button className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-400 w-[35vh]' : 'text-white bg-cyan-500 hover:bg-white/30 w-[30vh]'} font-semibold px-8 py-3 rounded-md`}>
-                        {button.text} {button.variant === 'secondary' && <Icons.ChevronsDown size={16} className="ml-2" />}
-                    </Button>
-                </a>
-            );
-        }
-        // Use React Router's <Link> for navigating to other pages
-        return (
-            <Link to={button.link} key={index}>
-                <Button className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-400' : 'text-white bg-cyan-500 hover:bg-white/30'} font-semibold px-8 py-3 rounded-md`}>
-                    {button.text} {button.variant === 'secondary' && <Icons.ChevronsDown size={16} className="ml-2" />}
-                </Button>
-                    </Link>
-                );
+                    // Use a standard <a> tag for same-page anchor links
+                    if (button.link.startsWith('#')) {
+                        return (
+                            <a href={button.link} key={index}>
+                                <Button className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-400' : 'text-white bg-cyan-500 hover:bg-white/30'} w-[35vh] text-lg font-semibold px-8 py-3 rounded-md`}>
+                                    {button.text} {button.variant === 'secondary' && <Icons.ChevronsDown size={16} className="ml-2" />}
+                                </Button>
+                            </a>
+                        );
+                    }
+                    // Use React Router's <Link> for navigating to other pages
+                    return (
+                        <Link to={button.link} key={index}>
+                            <Button className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-400' : 'text-white bg-cyan-500 hover:bg-white/30'} w-[35vh] text-lg font-semibold px-8 py-3 rounded-md`}>
+                                {button.text} {button.variant === 'secondary' && <Icons.ChevronsDown size={16} className="ml-2" />}
+                            </Button>
+                        </Link>
+                    );
                 })}
             </div>
         </div>
@@ -394,7 +403,7 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
              <div className="flex justify-center items-center gap-4 flex-wrap">
                 {cta.buttons.map((button, index) => (
                     <Link to={button.link} key={index}>
-                        <Button size="lg" className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-500' : 'bg-cyan-500 text-white hover:bg-white/10 w-[35vh]'} font-bold transition-colors px-6`}>
+                        <Button size="lg" className={`${button.variant === 'primary' ? 'bg-[#0050A0] text-white hover:bg-cyan-500 w-[35vh]' : 'bg-cyan-500 text-white hover:bg-white/10 w-[35vh]'} font-bold transition-colors px-6`}>
                             {button.text}
                         </Button>
                     </Link>

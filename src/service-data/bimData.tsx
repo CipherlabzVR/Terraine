@@ -1,6 +1,10 @@
 import { PageData } from '../pages/GenericPageLayout'; // Updated import path for PageData
 
 export const bimPageData: PageData = {
+  meta: {
+    title: " Building Information Modelling | Terrene Engineering ", 
+    description: "We provide cutting-edge BIM solutions, ensuring precision, efficiency, and sustainability in every engineering and construction project" // [cite: 1]
+  },
   hero: {
     title: "Building Information Modelling (BIM)",
     subtitle: "“Harnessing advanced BIM technology to plan, visualize, and manage your projects with precision”",

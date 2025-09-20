@@ -3,26 +3,26 @@ import { PageData } from '../../pages/SubServicePageLayout';
 export const conceptDesignPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Concept</span> Development & Design',
-    tagline: 'Transforming ideas into inspiring functional spaces.',
-    description: 'Our concept development and design services create innovative, practical, and visually stunning interiors, reflecting client vision while enhancing space functionality and overall aesthetic appeal.',
+    tagline: 'Transforming ideas into inspiring functional spaces',
+    description: 'Our concept development and design services create innovative, practical, and visually stunning interiors, reflecting client vision while enhancing space functionality and overall aesthetic appeal',
     backgroundImage: '/Interior-testimonials-2.jpg', // Standardized background image
     uspItems: [
-      { icon: 'Sparkles', title: 'Innovative Concepts', description: 'Creative designs transforming ideas into functional spaces consistently.' },
-      { icon: 'Settings2', title: 'Tailored Solutions', description: 'Personalized layouts matching client vision effectively.' },
-      { icon: 'Scaling', title: 'Efficient Planning', description: 'Streamlined design process saving time reliably.' },
-      { icon: 'Paintbrush', title: 'Aesthetic Excellence', description: 'Visually appealing interiors enhancing space value.' }
+      { icon: 'Sparkles', title: 'Innovative Concepts', description: 'Creative designs transforming ideas into functional spaces consistently' },
+      { icon: 'Settings2', title: 'Tailored Solutions', description: 'Personalized layouts matching client vision effectively' },
+      { icon: 'Scaling', title: 'Efficient Planning', description: 'Streamlined design process saving time reliably' },
+      { icon: 'Paintbrush', title: 'Aesthetic Excellence', description: 'Visually appealing interiors enhancing space value' }
     ]
   },
   scope: {
     title: 'Comprehensive Project Scope',
-    description: 'Our concept development and design services create innovative interior solutions blending functionality aesthetics and client vision seamlessly.',
+    description: 'Our concept development and design services create innovative interior solutions blending functionality aesthetics and client vision seamlessly',
     scopeItems: [
-      { icon: 'Users', title: 'Client Consultation', description: 'Understand client preferences requirements and lifestyle to develop tailored interior design concepts accurately and effectively.' },
-      { icon: 'Pen', title: 'Concept Sketching', description: 'Create initial sketches and visual concepts representing design intent layout and style clearly and professionally.' },
-      { icon: 'Palette', title: 'Material and Color Planning', description: 'Recommend materials finishes and color schemes aligning with concept and client vision consistently and effectively.' },
-      { icon: 'LayoutGrid', title: 'Space Planning', description: 'Optimize furniture layout circulation and functional zones ensuring practical efficient and appealing interior spaces reliably.' },
-      { icon: 'Layers3', title: '3D Visualization', description: 'Develop 3D renderings to showcase proposed design concepts enhancing client understanding and approval process accurately.' },
-      { icon: 'ClipboardCheck', title: 'Design Refinement', description: 'Revise concepts based on feedback iterations and technical considerations ensuring optimal final interior design solution.' }
+      { icon: 'Users', title: 'Client Consultation', description: 'Understand client preferences requirements and lifestyle to develop tailored interior design concepts accurately and effectively' },
+      { icon: 'Pen', title: 'Concept Sketching', description: 'Create initial sketches and visual concepts representing design intent layout and style clearly and professionally' },
+      { icon: 'Palette', title: 'Material and Color Planning', description: 'Recommend materials finishes and color schemes aligning with concept and client vision consistently and effectively' },
+      { icon: 'LayoutGrid', title: 'Space Planning', description: 'Optimize furniture layout circulation and functional zones ensuring practical efficient and appealing interior spaces reliably' },
+      { icon: 'Layers3', title: '3D Visualization', description: 'Develop 3D renderings to showcase proposed design concepts enhancing client understanding and approval process accurately' },
+      { icon: 'ClipboardCheck', title: 'Design Refinement', description: 'Revise concepts based on feedback iterations and technical considerations ensuring optimal final interior design solution' }
     ],
     imageKey: 'scopeImage'
   },
@@ -30,10 +30,10 @@ export const conceptDesignPageData: PageData = {
     superTitle: 'HOW IT WORKS',
     title: 'Our Easy Working Steps',
     steps: [
-      { icon: 'Users', title: 'Client Consultation', description: 'Understand client vision, lifestyle, and functional requirements to create a personalized design concept.' },
-      { icon: 'Search', title: 'Research & Inspiration', description: 'Explore trends, materials, and spatial solutions to develop innovative, practical, and aesthetic design ideas.' },
-      { icon: 'Pen', title: 'Concept Creation', description: 'Translate ideas into sketches, mood boards, and preliminary layouts to visualize the design direction clearly.' },
-      { icon: 'CheckCircle', title: 'Review & Refinement', description: 'Collaborate with clients to refine concepts, ensuring alignment with preferences, budget, and project objectives.' }
+      { icon: 'Users', title: 'Client Consultation', description: 'Understand client vision, lifestyle, and functional requirements to create a personalized design concept' },
+      { icon: 'Search', title: 'Research & Inspiration', description: 'Explore trends, materials, and spatial solutions to develop innovative, practical, and aesthetic design ideas' },
+      { icon: 'Pen', title: 'Concept Creation', description: 'Translate ideas into sketches, mood boards, and preliminary layouts to visualize the design direction clearly' },
+      { icon: 'CheckCircle', title: 'Review & Refinement', description: 'Collaborate with clients to refine concepts, ensuring alignment with preferences, budget, and project objectives' }
     ],
     backgroundImage: '/blueprint-bg.png'
   },
@@ -52,13 +52,13 @@ export const conceptDesignPageData: PageData = {
   },
   cta: {
     title: 'Ready to Visualize Your Space?',
-    description: 'Transform your ideas into reality. Contact us for a design consultation today.'
+    description: 'Transform your ideas into reality Contact us for a design consultation today'
   },
   testimonials: {
     title: 'What Our Clients Say',
     testimonialList: [
-        { quote: "They took our vague ideas and turned them into a stunning, functional design that exceeded all our expectations. The 3D visualizations were a game-changer!", name: "Jessica Chen", role: "Homeowner", rating: 5, image: "https://randomuser.me/api/portraits/women/8.jpg" },
-        { quote: "The team's creativity and attention to detail were exceptional. They managed to create a beautiful and efficient workspace that our employees love.", name: "Mark Robinson", role: "Business Owner", rating: 5, image: "https://randomuser.me/api/portraits/men/12.jpg" }
+        { quote: "They took our vague ideas and turned them into a stunning, functional design that exceeded all our expectations The 3D visualizations were a game-changer!", name: "Jessica Chen", role: "Homeowner", rating: 5, image: "https://randomuser.me/api/portraits/women/8.jpg" },
+        { quote: "The team's creativity and attention to detail were exceptional They managed to create a beautiful and efficient workspace that our employees love", name: "Mark Robinson", role: "Business Owner", rating: 5, image: "https://randomuser.me/api/portraits/men/12.jpg" }
     ],
     summary: { count: '150+', label: 'Design Concepts Delivered' },
     featuredImageKey: 'testimonialImage',
@@ -66,7 +66,7 @@ export const conceptDesignPageData: PageData = {
   },
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for more information about our Concept Development & Design services.',
+    description: 'Contact us for more information about our Concept Development & Design services',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

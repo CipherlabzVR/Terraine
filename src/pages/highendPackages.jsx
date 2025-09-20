@@ -3,7 +3,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import gold from '@/assert/Packages/pack (4).png'; // TODO: Replace with a relevant image for Infrastructure Package
+import gold from '@/assert/Packages/pack (4).png';
+import { Helmet } from 'react-helmet-async'; // TODO: Replace with a relevant image for Infrastructure Package
 
 import gold1 from '@/assert/Packages/gold/gold1.png'; // TODO: Replace with relevant images
 import gold2 from '@/assert/Packages/gold/gold2.png';
@@ -93,6 +94,13 @@ const InfrastructurePackage = () => {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
+      <Helmet>
+        <title>Infrastructure Project Construction Package | Terrene Engineering</title> 
+        <meta 
+          name="description" 
+          content="Terrene Engineering’s Infrastructure Package delivers sustainable, robust public & private projects with end-to-end services and lifetime support." 
+        />
+    </Helmet>
       {/* Header with hide/show animation */}
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${

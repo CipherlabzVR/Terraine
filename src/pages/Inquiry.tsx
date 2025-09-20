@@ -2,11 +2,13 @@ import React, { useState, useEffect, useRef } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
-import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from 'lucide-react';
+// Import Loader2 for the submitting state
+import { Phone, Mail, MapPin, Clock, Send, CheckCircle, Loader2 } from 'lucide-react'; 
 import contactus from '../assert/contactus.jpg';
 // Import the phone input component and its CSS
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import { Helmet } from 'react-helmet-async';
 
 
 const Inquiry = () => {
@@ -20,10 +22,12 @@ const Inquiry = () => {
   });
   
   const [formSubmitted, setFormSubmitted] = useState(false);
+  // NEW: Add a state to track submission status for loading indicator
+  const [isSubmitting, setIsSubmitting] = useState(false); 
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
 
-  // Custom styles for the PhoneInput component
+  // Custom styles for the PhoneInput component (no changes here)
   const phoneInputCustomStyles = `
     .custom-phone-input.react-tel-input .form-control {
         background-color: rgba(255, 255, 255, 0.1) !important;
@@ -64,10 +68,8 @@ const Inquiry = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > lastScrollY.current && window.scrollY > 100) {
-        // Scrolling down
         setShowHeader(false);
       } else {
-        // Scrolling up
         setShowHeader(true);
       }
       lastScrollY.current = window.scrollY;
@@ -77,36 +79,56 @@ const Inquiry = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    try {
-      const payload = {
-        fullName: formData.name.trim(),
-        email: formData.email.trim(),
-        phone: (formData.phone || '').trim(),
-        company: (formData.company || '').trim(),
-        serviceRequired: (formData.service || '').trim(),
-        projectDetails: formData.message.trim(),
-      };
+  // MODIFIED: Updated handleSubmit to send data to Google Sheets
+// Inquiry.tsx
 
-      const res = await fetch('/api/inquiry', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      });
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-      const json = await res.json().catch(() => ({ ok: false, error: 'Invalid server response' }));
-      if (json?.ok) {
-        setFormSubmitted(true);
-        setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' });
-        setTimeout(() => setFormSubmitted(false), 3000);
-      } else {
-        alert('Failed: ' + (json?.error || 'Unknown error'));
-      }
-    } catch (err: any) {
-      alert('Failed: ' + (err?.message || 'Network error'));
-    }
+  const payload = {
+    fullName: formData.name,
+    email: formData.email,
+    phoneNumber: formData.phone,
+    company: formData.company,
+    serviceRequired: formData.service,
+    projectDetails: formData.message,
   };
+
+  const GOOGLE_SCRIPT_URL =
+    "https://script.google.com/macros/s/AKfycbwmlgU6G28eoYIedEC5a6s2K2Ovb8ZDczVeStc2FMdhdv0e8WzUhgduAnUQ16--fUvX/exec";
+
+  try {
+    await fetch(GOOGLE_SCRIPT_URL, {
+      method: "POST",
+      mode: "no-cors", // 👈 bypass CORS
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+
+    // ✅ Don't check response.ok or status (always blocked in no-cors)
+    alert("Form submitted! Please check the Google Sheet.");
+
+    // Reset form
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      company: "",
+      service: "",
+      message: "",
+    });
+  } catch (error) {
+    console.error("Submission failed:", error);
+    alert("There was an error submitting your form.");
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
@@ -115,7 +137,6 @@ const Inquiry = () => {
     });
   };
 
-  // Handler for the PhoneInput component
   const handlePhoneChange = (phone: string) => {
     setFormData({
         ...formData,
@@ -125,6 +146,13 @@ const Inquiry = () => {
 
   return (
     <div className="min-h-screen bg-[#0b2741]">
+    <Helmet>
+        <title>Contact Us | Terrene Engineering </title> 
+        <meta 
+          name="description" 
+          content="Contact Terrene Engineering for trusted global consultancy & engineering solutions. Call +94 77 523 5572 or email info@terreneengineering.com" 
+        />
+    </Helmet>
       <style>{phoneInputCustomStyles}</style>
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${
@@ -134,7 +162,7 @@ const Inquiry = () => {
         <Header mode="transparent"/>
       </div>
       
-      {/* Restored "Top Part" Hero Section */}
+      {/* Hero Section */}
       <section className="relative pt-24 md:pt-32 pb-16">
         <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
             <img 
@@ -144,14 +172,14 @@ const Inquiry = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0b2741] via-[#0b2741]/80 to-transparent z-10"></div>
         </div>
-
         <div className="container mx-auto px-4 md:px-8 relative z-20">
             <div className="max-w-3xl text-center mx-auto">
                 <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-lg">
                     Get In Touch
                 </h1>
                 <p className="text-lg md:text-xl text-white/90 drop-shadow-md">
-                    We're ready to help with your engineering needs. Contact us today to discuss your project, and our team will get back to you promptly                 </p>
+                    We're ready to help with your engineering needs. Contact us today to discuss your project, and our team will get back to you promptly
+                </p>
             </div>
         </div>
       </section>
@@ -163,30 +191,32 @@ const Inquiry = () => {
             <div className="lg:order-2">
               <div className="bg-gradient-to-r from-cyan-600 to-[#0b2741] p-6 rounded-lg shadow-lg sticky top-24 h-full">
                 <h2 className="text-xl font-semibold mb-6 text-white border-b border-white/20 pb-2">Contact Details</h2>
-                
                 <div className="space-y-6">
+                  {/* MODIFIED ICONS BELOW */}
                   <div className="flex items-start space-x-3">
-                    <Phone className="w-5 h-5 text-white flex-shrink-0 mt-1" />
+                    <div className="bg-cyan-800/80 p-2 rounded-full flex-shrink-0">
+                      <Phone className="w-5 h-5 text-white" />
+                    </div>
                     <div>
                       <h3 className="font-semibold text-white">Phone</h3>
                       <p className="text-gray-200">+94 77 523 5572</p>
                       <p className="text-gray-200">+94 74 022 6660</p>
                     </div>
                   </div>
-
                   <div className="flex items-start space-x-3">
-                    <Mail className="w-5 h-5 text-white flex-shrink-0 mt-1" />
+                    <div className="bg-cyan-800/80 p-2 rounded-full flex-shrink-0">
+                      <Mail className="w-5 h-5 text-white" />
+                    </div>
                     <div>
                       <h3 className="font-semibold text-white">Email</h3>
                       <p className="text-gray-200">info@terreneengineering.com</p>
-                      <p className="text-gray-200">projects@terreneengineering.com</p>
+                      <p className="text-gray-200">careers@terreneengineering.com</p>
                     </div>
                   </div>
-
-                  
-
                   <div className="flex items-start space-x-3">
-                    <Clock className="w-5 h-5 text-white flex-shrink-0 mt-1" />
+                    <div className="bg-cyan-800/80 p-2 rounded-full flex-shrink-0">
+                        <Clock className="w-5 h-5 text-white" />
+                    </div>
                     <div>
                         <h3 className="font-semibold text-white text-justify">Business Hours</h3>
                         <div className="text-gray-200 text-justify leading-[1.8rem]">
@@ -222,7 +252,7 @@ const Inquiry = () => {
                     </div>
                     </div>
                 </div>
-                </div>
+              </div>
             </div>
 
             {/* Inquiry Form Section */}
@@ -231,85 +261,55 @@ const Inquiry = () => {
                 <div>
                     <h2 className="text-3xl font-bold mb-6 text-white">Send Us a Message</h2>
                     <div className="grid md:grid-cols-2 gap-4 mb-4">
+                      {/* Form inputs... (no changes here) */}
                       <div>
-                        <label className="block text-sm font-medium mb-1 text-white">Full Name *</label>
-                        <input
-                          type="text"
-                          name="name"
-                          value={formData.name}
-                          onChange={handleChange}
-                          className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300"
-                          required
-                        />
+                        <label className="block text-sm font-medium mb-1 text-white">Full Name*</label>
+                        <input type="text" name="name" value={formData.name} onChange={handleChange} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300" required />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium mb-1 text-white">Email Address *</label>
-                        <input
-                          type="email"
-                          name="email"
-                          value={formData.email}
-                          onChange={handleChange}
-                          className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300"
-                          required
-                        />
+                        <label className="block text-sm font-medium mb-1 text-white">Email Address*</label>
+                        <input type="email" name="email" value={formData.email} onChange={handleChange} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300" required />
                       </div>
                     </div>
-                    
                     <div className="grid md:grid-cols-2 gap-4 mb-4">
                       <div>
-                        <label className="block text-sm font-medium mb-1 text-white">Phone Number</label>
-                        <PhoneInput
-                          containerClass="custom-phone-input"
-                          country={'lk'}
-                          value={formData.phone}
-                          onChange={handlePhoneChange}
-                        />
+                        <label className="block text-sm font-medium mb-1 text-white">Phone Number*</label>
+                        <PhoneInput containerClass="custom-phone-input" country={'lk'} value={formData.phone} onChange={handlePhoneChange} />
                       </div>
                       <div>
                         <label className="block text-sm font-medium mb-1 text-white">Company</label>
-                        <input
-                          type="text"
-                          name="company"
-                          value={formData.company}
-                          onChange={handleChange}
-                          className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300"
-                        />
+                        <input type="text" name="company" value={formData.company} onChange={handleChange} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300" />
                       </div>
                     </div>
-    
                     <div className="mb-4">
-                      <label className="block text-sm font-medium mb-1 text-white">Service Required</label>
-                      <input
-                        type="text"
-                        name="service"
-                        value={formData.service}
-                        onChange={handleChange}
-                        className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300"
-                        placeholder="e.g., Structural Design, Project Management"
-                      />
+                      <label className="block text-sm font-medium mb-1 text-white">Service or Package</label>
+                      <input type="text" name="service" value={formData.service} onChange={handleChange} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300" placeholder="e.g., Structural Design, Project Management" />
                     </div>
-
                     <div className="mb-4">
-                      <label className="block text-sm font-medium mb-1 text-white">Project Details *</label>
-                      <textarea
-                        name="message"
-                        value={formData.message}
-                        onChange={handleChange}
-                        rows={5}
-                        className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300"
-                        placeholder="Please describe your project requirements..."
-                        required
-                      />
+                      <label className="block text-sm font-medium mb-1 text-white">Project Details</label>
+                      <textarea name="message" value={formData.message} onChange={handleChange} rows={5} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300" placeholder="Please describe your project requirements..." required />
                     </div>
                 </div>
 
                 <div className="mt-auto">
+                    {/* MODIFIED: Updated button to show loading state */}
                     <Button 
                       type="submit" 
                       size="lg"
                       className="w-full bg-white text-white bg-[#0050A0] hover:bg-cyan-500 font-bold"
+                      disabled={isSubmitting} // Disable button while submitting
                     >
-                      <Send className="w-4 h-4 mr-2" /> SEND INQUIRY
+                      {isSubmitting ? (
+                        <>
+                          <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                          SENDING...
+                        </>
+                      ) : (
+                        <>
+                          <Send className="w-4 h-4 mr-2" />
+                          SEND INQUIRY
+                        </>
+                      )}
                     </Button>
 
                     {formSubmitted && (

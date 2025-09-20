@@ -1,6 +1,10 @@
 import { PageData } from '../pages/GenericPageLayout'; 
 
 export const digitalTwinPageData: PageData = {
+  meta: {
+    title: "Digital Twin | Terrene Engineering ", // [cite: 1]
+    description: "Enhance project performance with Terrene Engineering’s Digital Twin solutions real-time monitoring, predictive insights, and sustainable efficiency" 
+  },
   hero: {
     title: "Digital Twin",
     subtitle: "“Creating real-time virtual replicas of your assets for smarter decisions and efficient management”",

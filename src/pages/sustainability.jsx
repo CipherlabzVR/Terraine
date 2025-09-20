@@ -8,6 +8,7 @@ import about2bg from '../assert/about2bg.jpg';
 import sustainability1 from '../assert/sustainability/sustainability1.png';
 import sustainability2 from '../assert/sustainability/sustainability2.png';
 import sustainability3 from '../assert/sustainability/sustainability3.png';
+import { Helmet } from 'react-helmet-async';
 
 
 const Sustainability = () => {
@@ -72,6 +73,12 @@ const Sustainability = () => {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
       {/* Header with hide/show animation */}
+      <Helmet>
+        <title>Sustainability | Terrene Engineering </title> 
+        <meta 
+        name="description"
+        content="At Terrene Engineering, sustainability drives every step, efficient design, smart tech & eco-friendly practices for lasting community & environmental value" />
+      </Helmet>
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${
           showHeader ? 'translate-y-0' : '-translate-y-full'

@@ -6,6 +6,7 @@ import aboutImage from '../assert/Faq/faq2.png';
 import faq1 from '../assert/Faq/faq1.png';
 import faq4 from '../assert/Faq/faq4.png';
 import faq5 from '../assert/Faq/faq5.png';
+import { Helmet } from 'react-helmet-async';
 
 const Faq = () => {
   const [openSections, setOpenSections] = useState<{ [key: string]: boolean }>({});
@@ -178,6 +179,12 @@ const handleToggle = (index: number) => {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
       {/* Header with hide/show animation */}
+      <Helmet>
+        <title>FAQ | Terrene Engineering </title> 
+        <meta
+        name="description"
+        content="Find answers to common questions about Terrene Engineering’s services, sustainability, quality policy & global consultancy expertise." />
+      </Helmet>
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${
           showHeader ? 'translate-y-0' : '-translate-y-full'

@@ -10,6 +10,7 @@ import Special from '@/assert/Packages/3d-visualization.jpeg';
 import Header from '../components/Header.tsx';
 import { Button } from '@/components/ui/button';
 import { ArrowDownWideNarrow } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const packageData = [
 	{
@@ -89,6 +90,13 @@ const Packages = () => {
 
     return (
         <div className="min-h-screen bg-[#0b2741]">
+	<Helmet>
+        <title>Our Packages | Terrene Engineering</title> 
+        <meta 
+          name="description" 
+          content="Discover Terrene Engineering packages, client-focused solutions combining innovation, sustainability, and proven global expertise" 
+        />
+    </Helmet>
 			<div
 				className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${
 					showHeader ? "translate-y-0" : "-translate-y-full"

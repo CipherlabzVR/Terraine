@@ -5,26 +5,26 @@ import { PageData } from '../../pages/SubServicePageLayout';
 export const turnkeySolutionsPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Turnkey</span> Interior Solutions',
-    tagline: 'From concept to completion, all under one roof.',
-    description: 'Our turnkey interior solutions offer a single, unified service for your entire project. We manage everything from initial design and procurement to final execution and handover, ensuring a seamless, hassle-free experience.',
+    tagline: 'From concept to completion, all under one roof',
+    description: 'Our turnkey interior solutions offer a single, unified service for your entire project We manage everything from initial design and procurement to final execution and handover, ensuring a seamless, hassle-free experience',
     backgroundImage: '/Interior-testimonials-13.jpg', // Standardized background image
     uspItems: [
-      { icon: 'User', title: 'Single Point of Contact', description: 'One dedicated team managing your entire project for clear communication.' },
-      { icon: 'ShieldCheck', title: 'Hassle-Free Process', description: 'We handle all coordination, logistics, and management for you effectively.' },
-      { icon: 'CircleDollarSign', title: 'Budget Adherence', description: 'Transparent pricing and strict budget control from start to finish reliably.' },
-      { icon: 'ThumbsUp', title: 'Guaranteed Quality', description: 'Ensuring the highest standards in materials and workmanship consistently.' }
+      { icon: 'User', title: 'Single Point of Contact', description: 'One dedicated team managing your entire project for clear communication' },
+      { icon: 'ShieldCheck', title: 'Hassle-Free Process', description: 'We handle all coordination, logistics, and management for you effectively' },
+      { icon: 'CircleDollarSign', title: 'Budget Adherence', description: 'Transparent pricing and strict budget control from start to finish reliably' },
+      { icon: 'ThumbsUp', title: 'Guaranteed Quality', description: 'Ensuring the highest standards in materials and workmanship consistently' }
     ]
   },
   scope: {
     title: 'Comprehensive Project Scope',
-    description: 'Our turnkey services cover every aspect of your interior project, ensuring a fully integrated and cohesive execution from start to finish.',
+    description: 'Our turnkey services cover every aspect of your interior project, ensuring a fully integrated and cohesive execution from start to finish',
     scopeItems: [
-      { icon: 'ClipboardList', title: 'Consultation & Planning', description: 'In-depth analysis of your needs to create a strategic project plan, timeline, and budget.' },
-      { icon: 'Palette', title: 'Design Development', description: 'Creating detailed designs, 3D visualizations, and selecting all materials, finishes, and furniture.' },
-      { icon: 'ShoppingCart', title: 'Procurement & Sourcing', description: 'Managing the purchase and delivery of all required materials and products from trusted vendors.' },
-      { icon: 'HardHat', title: 'Construction & Execution', description: 'Overseeing all civil, electrical, plumbing, and installation work with skilled on-site supervision.' },
-      { icon: 'Sofa', title: 'Furnishing & Decor', description: 'Placing furniture, installing fixtures, and adding final decor touches to bring the design to life.' },
-      { icon: 'Key', title: 'Handover & Support', description: 'Delivering the completed, move-in ready space and providing post-project assistance.' }
+      { icon: 'ClipboardList', title: 'Consultation & Planning', description: 'In-depth analysis of your needs to create a strategic project plan, timeline, and budget' },
+      { icon: 'Palette', title: 'Design Development', description: 'Creating detailed designs, 3D visualizations, and selecting all materials, finishes, and furniture' },
+      { icon: 'ShoppingCart', title: 'Procurement & Sourcing', description: 'Managing the purchase and delivery of all required materials and products from trusted vendors' },
+      { icon: 'HardHat', title: 'Construction & Execution', description: 'Overseeing all civil, electrical, plumbing, and installation work with skilled on-site supervision' },
+      { icon: 'Sofa', title: 'Furnishing & Decor', description: 'Placing furniture, installing fixtures, and adding final decor touches to bring the design to life' },
+      { icon: 'Key', title: 'Handover & Support', description: 'Delivering the completed, move-in ready space and providing post-project assistance' }
     ],
     imageKey: 'scopeImage'
   },
@@ -32,10 +32,10 @@ export const turnkeySolutionsPageData: PageData = {
     superTitle: 'HOW IT WORKS',
     title: 'Our Easy Working Steps',
     steps: [
-      { icon: 'ClipboardList', title: 'Comprehensive Planning', description: 'Assess client requirements, project scope, and budget to develop a complete turnkey interior strategy.' },
-      { icon: 'ShoppingCart', title: 'Design & Procurement', description: 'Finalize layouts, select materials, furniture, and Decor items, and manage all procurement processes efficiently.' },
-      { icon: 'HardHat', title: 'Execution & Supervision', description: 'Oversee construction, installation, and finishing works, ensuring quality, timeline adherence, and design fidelity.' },
-      { icon: 'CheckCircle', title: 'Handover & Support', description: 'Deliver fully completed interiors, provide client orientation, and ensure smooth post-completion support and maintenance.' }
+      { icon: 'ClipboardList', title: 'Comprehensive Planning', description: 'Assess client requirements, project scope, and budget to develop a complete turnkey interior strategy' },
+      { icon: 'ShoppingCart', title: 'Design & Procurement', description: 'Finalize layouts, select materials, furniture, and Decor items, and manage all procurement processes efficiently' },
+      { icon: 'HardHat', title: 'Execution & Supervision', description: 'Oversee construction, installation, and finishing works, ensuring quality, timeline adherence, and design fidelity' },
+      { icon: 'CheckCircle', title: 'Handover & Support', description: 'Deliver fully completed interiors, provide client orientation, and ensure smooth post-completion support and maintenance' }
     ],
     backgroundImage: '/blueprint-bg.png'
   },
@@ -54,13 +54,13 @@ export const turnkeySolutionsPageData: PageData = {
   },
   cta: {
     title: 'Ready for a Hassle-Free Interior?',
-    description: 'Let us handle everything from A to Z. Contact us for a complete turnkey solution.'
+    description: 'Let us handle everything from A to Z Contact us for a complete turnkey solution'
   },
   testimonials: {
     title: 'What Our Clients Say',
     testimonialList: [
-        { quote: "The turnkey service was a lifesaver. Having one team manage everything from design to the final nail made the entire process stress-free and enjoyable. The result is fantastic!", name: "Anusha Perera", role: "Homeowner", rating: 5, image: "https://randomuser.me/api/portraits/women/60.jpg" },
-        { quote: "They delivered our office fit-out on time and exactly on budget. The coordination was seamless, and we didn't have to worry about a thing. Highly professional and efficient.", name: "Rohan Jayasuriya", role: "CEO", rating: 5, image: "https://randomuser.me/api/portraits/men/60.jpg" }
+        { quote: "The turnkey service was a lifesaver Having one team manage everything from design to the final nail made the entire process stress-free and enjoyable The result is fantastic!", name: "Anusha Perera", role: "Homeowner", rating: 5, image: "https://randomuser.me/api/portraits/women/60.jpg" },
+        { quote: "They delivered our office fit-out on time and exactly on budget The coordination was seamless, and we didn't have to worry about a thing Highly professional and efficient", name: "Rohan Jayasuriya", role: "CEO", rating: 5, image: "https://randomuser.me/api/portraits/men/60.jpg" }
     ],
     summary: { count: '50+', label: 'Turnkey Projects Completed' },
     featuredImageKey: 'testimonialImage',
@@ -68,7 +68,7 @@ export const turnkeySolutionsPageData: PageData = {
   },
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for more information about our Turnkey Interior Solutions.',
+    description: 'Contact us for more information about our Turnkey Interior Solutions',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

@@ -40,6 +40,7 @@ import ProjectsPage from "./pages/CompletedProjects";
 import StickyButtons from "./components/StickyButtons";
 import OngoingProjects from "./pages/OngoingProjects";
 import CompletedProjects from "./pages/CompletedProjects";
+import ThankYou from './components/thankyou';
 import Services from "./pages/Services"; // Importing the Services page
 import SoftwareTraining from "./pages/SoftwareTraining";
 import ConsultancyServices from "./pages/ConsultancyServices";
@@ -236,6 +237,7 @@ const App = () => (
           <Route path="/packages/software" element={<TerreneSpecial />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/completed-projects" element={<CompletedProjects />} />
+          <Route path="/thank-you" element={<ThankYou />} />
 
           
           <Route path="/services/consultancy-services" element={<ConsultancyServices />} />
@@ -282,18 +284,18 @@ const App = () => (
 
 
           //Construction Pages
-          <Route path="/services/construction/residential" element={<ResidentialConstructionPage />} />
-          <Route path="/services/construction/commercial" element={<CommercialConstructionPage />} />
-          <Route path="/services/construction/industrial" element={<IndustrialConstructionPage />} />
-          <Route path="/services/construction/infrastructure" element={<InfrastructureConstructionPage />} />
-          <Route path="/services/construction/road" element={<RoadConstructionPage />} />
-          <Route path="/services/construction/timber" element={<TimberConstructionPage />} />
-          <Route path="/services/construction/precast" element={<PrecastConstructionPage />} />
-          <Route path="/services/construction/steel" element={<SteelConstructionPage />} />
-          <Route path="/services/construction/cladding-engineering" element={<CladdingEngineeringPage />} />
-          <Route path="/services/construction/aluminum-fabrication" element={<AluminumFabricationPage />} />
-          <Route path="/services/construction/subcontracting" element={<SubcontractingPage />} />
-          <Route path="/services/construction/construction-materials" element={<ConstructionMaterialsPage />} />
+          <Route path="/services/construction-main/residential" element={<ResidentialConstructionPage />} />
+          <Route path="/services/construction-main/commercial" element={<CommercialConstructionPage />} />
+          <Route path="/services/construction-main/industrial" element={<IndustrialConstructionPage />} />
+          <Route path="/services/construction-main/infrastructure" element={<InfrastructureConstructionPage />} />
+          <Route path="/services/construction-main/road" element={<RoadConstructionPage />} />
+          <Route path="/services/construction-main/timber" element={<TimberConstructionPage />} />
+          <Route path="/services/construction-main/precast" element={<PrecastConstructionPage />} />
+          <Route path="/services/construction-main/steel" element={<SteelConstructionPage />} />
+          <Route path="/services/construction-main/cladding-engineering" element={<CladdingEngineeringPage />} />
+          <Route path="/services/construction-main/aluminum-fabrication" element={<AluminumFabricationPage />} />
+          <Route path="/services/construction-main/subcontracting" element={<SubcontractingPage />} />
+          <Route path="/services/construction-main/construction-materials" element={<ConstructionMaterialsPage />} />
 
           //BIM Pages
           <Route path="/services/bim/3d-bim" element={<ThreeDBimPage />} />

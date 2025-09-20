@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
+import { Helmet } from 'react-helmet-async'; 
 
 // --- Data synchronized with Header.tsx ---
 
@@ -94,6 +95,12 @@ const Sitemap = () => {
 
   return (
     <>
+    <Helmet>
+        <title>Sitemap | Terrene Engineering </title> 
+        <meta 
+        name="description"
+        content="Navigate Terrene Engineering with ease. Our sitemap provides quick links to all pages, from services to sustainability & client testimonials" />
+      </Helmet>
       <Header mode="transparent" className="fixed top-0 left-0 w-full z-50" />
       
       <div className="bg-[#0b2741]">

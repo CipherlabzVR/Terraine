@@ -3,9 +3,10 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { CheckCircle, Award } from 'lucide-react';
-import itc from '@/assert/Packages/pack (1).png'; // TODO: Replace with a relevant image
+import itc from '@/assert/Packages/pack (3).png';
+import { Helmet } from 'react-helmet-async';
 
-import corporate1 from '@/assert/Packages/corporate/corporate1.png'; // TODO: Replace with relevant images
+import corporate1 from '@/assert/Packages/corporate/corporate1.png';
 import corporate2 from '@/assert/Packages/corporate/corporate2.png';
 import corporate3 from '@/assert/Packages/corporate/corporate3.png';
 import corporate4 from '@/assert/Packages/corporate/corporate4.jpg';
@@ -86,6 +87,14 @@ const BimAiPackage = () => {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
+      <Helmet>
+        <title> BIM & Digital Twin Integrated with AI Engineering Package | Terrene Engineering</title> 
+        <meta 
+          name="description" 
+          content="gineering Achieve smarter, faster, and sustainable project outcomes with Terrene Engineering’s integrated AI, BIM & Digital Twin engineering solutions." 
+        />
+    </Helmet>
+
       {/* Header with hide/show animation */}
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${

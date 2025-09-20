@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link, useSearchParams } from "react-router-dom";
 import { ArrowDown, X, Folder, ArrowRight, CheckCircle } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 // --- Single, consolidated import for all blog images ---
 import blogImages from "@/assert/blog";
@@ -4109,6 +4110,13 @@ const Blog = () => {
 
   return (
     <>
+    <Helmet>
+    <title>Blog | Terrene Engineering</title> 
+    <meta 
+      name="description" 
+      content="Read Terrene Engineering’s blog for insights on innovation, sustainability & global engineering solutions shaping a smarter, sustainable future" 
+    />
+</Helmet>
       <Header mode="transparent" className="fixed top-0 left-0 w-full z-40" />
 
       <div>

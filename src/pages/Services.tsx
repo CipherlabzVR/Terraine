@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { useInView } from 'react-intersection-observer';
 import { 
   Layers, Zap, PenTool, Building, CheckCircle, DollarSign, Clock, ChevronLeft, 
@@ -119,7 +120,7 @@ const newTestimonialsData = [
 const projectsData = [
   { title: 'Construction Factory Industry', category: 'Electrical, Building', image: '/pro1.png', link: '/completed-projects' },
   { title: 'High-Rise Residential Tower', category: 'Structural, BIM', image: '/pro5.png', link: '/completed-projects' },
-  { title: 'Modern Infrastructure Bridge', category: 'Civil, Infrastructure', image: '/pro.png', link: '/completed-projects' },
+  { title: 'Modern Infrastructure Bridge', category: 'Civil, Infrastructure', image: '/pro9.png', link: '/completed-projects' },
   { title: 'Commercial Office Complex', category: 'BIM, Interior Design', image: '/pro13.png', link: '/completed-projects' },
   { title: 'Luxury Villa Construction', category: 'Structural, Building', image: '/pro17.png', link: '/completed-projects' },
   { title: 'Urban Metro System', category: 'Civil, Infrastructure', image: '/pro21.png', link: '/completed-projects' },
@@ -408,17 +409,13 @@ const LatestNewsSection = () => {
                 <div className="absolute inset-0 bg-[#0b2741]/90"></div>
                 <div className="absolute inset-0 bg-black/30"></div>
             </div>
-            <div className="w-full px-4 md:px-8 relative z-10">
+            <div className="w-full px-4 md:px-8 relative z-20">
                 <div className="flex justify-between items-center mb-12">
                     <div>
                         
                         <h2 className="text-3xl md:text-5xl font-bold">Our Latest News</h2>
                     </div>
-                    <Link to="/blog">
-                        <Button variant="outline" className="text-white border-white/50 hover:bg-white/10 hover:text-white rounded-full">
-                            SEE ALL <ArrowRight className="w-4 h-4 ml-2" />
-                        </Button>
-                    </Link>
+                   
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {latestNewsData.map((post) => (
@@ -443,6 +440,13 @@ const LatestNewsSection = () => {
                             </div>
                         </div>
                     ))}
+                    <div className="mt-5 w-full flex justify-center ml-[70vh]">
+                    <Button asChild variant="outline" className="text-white border-white/50 hover:bg-white/10 hover:text-white rounded-full px-8 py-3 text-base">
+                      <Link to="/blog">
+                        SEE ALL <ArrowRight className="w-4 h-4 ml-2" />
+                      </Link>
+                    </Button>
+                </div>
                 </div>
             </div>
         </section>
@@ -607,6 +611,13 @@ const Services: React.FC = () => {
 
     return (
         <>
+        <Helmet>
+        <title>Our Main Services | Terrene Engineering </title> 
+        <meta 
+          name="description" 
+          content="Discover Terrene Engineering’s main services delivering innovative, sustainable, and globally trusted engineering solutions for every project" 
+        />
+    </Helmet>
             <Header mode="transparent" className="fixed top-0 left-0 w-full z-40" />
             <div className="bg-[#0b2741]">
                 <section className="relative min-h-screen flex items-center text-white">

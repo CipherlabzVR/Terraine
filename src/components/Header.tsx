@@ -61,18 +61,18 @@ const servicesWithSubServices = [
       service: "Construction",
       path: "/services/constructions",
       subServices: [
-        { label: "Residential Construction", to: "/services/construction/residential" },
-        { label: "Commercial Construction", to: "/services/construction/commercial" },
-        { label: "Industrial Construction", to: "/services/construction/industrial" },
-        { label: "Infrastructure Construction", to: "/services/construction/infrastructure" },
-        { label: "Road Construction", to: "/services/construction/road" },
-        { label: "Timber Construction", to: "/services/construction/timber" },
-        {label: "Precast Construction", to: "/services/construction/precast" },
-        { label: "Steel Construction", to: "/services/construction/steel" },
-        { label: "Cladding Engineering", to: "/services/construction/cladding-engineering" },
-        { label: "Aluminum Fabrication", to: "/services/construction/aluminum-fabrication" },
-        { label: "Subcontracting", to: "/services/construction/subcontracting" },
-        { label: "Construction Materials", to: "/services/construction/construction-materials" }
+        { label: "Residential Construction", to: "/services/construction-main/residential" },
+        { label: "Commercial Construction", to: "/services/construction-main/commercial" },
+        { label: "Industrial Construction", to: "/services/construction-main/industrial" },
+        { label: "Infrastructure Construction", to: "/services/construction-main/infrastructure" },
+        { label: "Road Construction", to: "/services/construction-main/road" },
+        { label: "Timber Construction", to: "/services/construction-main/timber" },
+        {label: "Precast Construction", to: "/services/construction-main/precast" },
+        { label: "Steel Construction", to: "/services/construction-main/steel" },
+        { label: "Cladding Engineering", to: "/services/construction-main/cladding-engineering" },
+        { label: "Aluminum Fabrication", to: "/services/construction-main/aluminum-fabrication" },
+        { label: "Subcontracting", to: "/services/construction-main/subcontracting" },
+        { label: "Construction Materials", to: "/services/construction-main/construction-materials" }
       ]
     },
     {
@@ -86,8 +86,7 @@ const servicesWithSubServices = [
         { label: "Material & Color Consultancy", to: "/services/interior/material-color" },
         { label: "Renovation & Makeover Services", to: "/services/interior/renovation" },
         { label: "Furniture Selection", to: "/services/interior/furniture-selection" },
-        { label: "Styling & DÃ©cor", to: "/services/interior/styling-decor" },
-        { label: "Specialized Interior Services", to: "/services/interior/specialized" },
+        { label: "Styling & Decor", to: "/services/interior/styling-decor" },
         { label: "Residential Interiors", to: "/services/interior/residential" },
         { label: "Commercial Interiors", to: "/services/interior/commercial" },
         { label: "Hospitality Interiors", to: "/services/interior/hospitality" },
@@ -397,7 +396,14 @@ const Header = ({ mode = 'transparent', className = '' }: HeaderProps) => {
                         <ul className="w-1/3 space-y-1 border-r border-white/10 pr-4">
                           {servicesWithSubServices.map((service, idx) => (
                              <li className="group" key={idx} onMouseEnter={() => setHoveredService(service)}>
-                               <Link to={service.path} className="flex justify-between items-center p-2 text-sm text-white hover:bg-white/10 hover:text-cyan-500 rounded transition-colors cursor-pointer">
+                               <Link 
+                                 to={service.path} 
+                                 className={`flex justify-between items-center p-2 text-sm rounded transition-colors cursor-pointer ${
+                                     hoveredService && hoveredService.service === service.service 
+                                     ? 'bg-white/10 text-cyan-500' 
+                                     : 'text-white hover:bg-white/10 hover:text-cyan-500'
+                                 }`}
+                               >
                                  {service.service}
                                </Link>
                              </li>

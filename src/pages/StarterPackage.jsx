@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
+import { Helmet } from 'react-helmet-async';
 import { CheckCircle, Award } from 'lucide-react';
 import packageImage from '@/assert/Packages/pack (5).png'; // Replace with appropriate package image
 
@@ -104,6 +105,13 @@ const StarterPackage = () => {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
+      <Helmet>
+        <title> Residential Construction Package | Terrene Engineering</title> 
+        <meta 
+          name="description" 
+          content="Build your dream home with Terrene Engineering – complete residential package including design, construction, VR, BIM, Digital Twin & maintenance." 
+        />
+    </Helmet>
       {/* Header with hide/show animation */}
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${

@@ -3,6 +3,10 @@ import { PageData } from '../pages/GenericPageLayout';
 // NOTE: Update the placeholder data for the 'projects' and 'testimonials' sections below with relevant content.
 
 export const engineeringDrawingsPageData: PageData = {
+  meta: {
+    title: "Engineering Drawings | Terrene Engineering",
+    description: "Get accurate engineering drawings from Terrene Engineering architectural, structural, interior, MEP & HVAC designs with precision and clarity." 
+  },
   hero: {
     title: "Engineering Drawings",
     subtitle: "“Precision drawings that bring your architectural and engineering visions to life with clarity”",

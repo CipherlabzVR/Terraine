@@ -4,10 +4,14 @@ import { PageData } from '../pages/GenericPageLayout';
 // The actual videos will be imported in the page component.
 
 export const consultancyServicesPageData: PageData = {
+  meta: {
+    title: "Consultancy Services Terrene Engineering", // [cite: 1]
+    description: "Terrene Engineering delivers innovative, sustainable consultancy services across planning, design, QA/QC & project management for seamless results" // [cite: 1]
+  },
   hero: {
     title: "Consultancy Services",
     subtitle: "“Expert guidance and innovative solutions to transform your ideas into successful, sustainable projects”",
-    description: "Expert consultancy from Planning to Delivery with smart Project management, Engineering Design, MEP, sustainability and QA QC solutions ensuring seamless high Quality and innovative Sustainable projects",
+    description: "Expert consultancy from Planning to Delivery with smart Project management, Engineering Design, MEP, sustainability and QA/QC solutions ensuring seamless high Quality and innovative Sustainable projects",
     backgroundImage: "/consultancy.jpg", 
     buttons: [
       { text: "CONTACT US", link: "/inquiry", variant: "primary" },

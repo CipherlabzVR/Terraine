@@ -1,6 +1,10 @@
 import { PageData } from '../pages/GenericPageLayout'; 
 
 export const maintenancePageData: PageData = {
+  meta: {
+    title: " Maintainance | Terrene Engineering ", // [cite: 1]
+    description: "Keep your projects running smoothly with Terrene Engineering’s proactive maintenance solutions, focused on reliability, efficiency, and sustainability." // [cite: 1]
+  },
   hero: {
     title: "Maintenance",
     subtitle: "“Ensuring your assets perform optimally with reliable, timely, and proactive maintenance solutions every time”",

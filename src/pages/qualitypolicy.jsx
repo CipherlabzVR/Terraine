@@ -7,6 +7,7 @@ import qualitypolicy2 from '/quality (2).png';
 import qualitypolicy3 from '/quality (4).png';
 import aboutImage from '@/assert/qualitypolicy/qulitypolicy4.jpg';
 import about2bg from '@/assert/about2bg.jpg';
+import { Helmet } from 'react-helmet-async';
 
 const QualityPolicy = () => {
   const [openSections, setOpenSections] = useState({
@@ -72,6 +73,12 @@ const QualityPolicy = () => {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
       {/* Header with hide/show animation */}
+      <Helmet>
+        <title>Our Quality Policy | Terrene Engineering</title> 
+        <meta 
+        name="description"
+        content="Terrene Engineering’s Quality Policy ensures excellence, compliance & sustainability. Backed by lifetime warranty & commitment to long-term value." />
+      </Helmet>
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${
           showHeader ? 'translate-y-0' : '-translate-y-full'

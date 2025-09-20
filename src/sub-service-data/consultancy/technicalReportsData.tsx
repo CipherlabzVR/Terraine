@@ -3,26 +3,26 @@ import { PageData } from '../../pages/SubServicePageLayout';
 export const technicalReportsPageData: PageData = {
   hero: {
     serviceName: '<span class="text-cyan-400">Technical</span> Reports',
-    tagline: 'Clear detailed insights for informed project decisions.',
-    description: 'Our technical reports deliver precise, comprehensive, and actionable information, supporting informed decision making, ensuring project accuracy, compliance, and successful outcomes across every stage of construction.',
+    tagline: 'Clear detailed insights for informed project decisions',
+    description: 'Our technical reports deliver precise, comprehensive, and actionable information, supporting informed decision making, ensuring project accuracy, compliance, and successful outcomes across every stage of construction',
     backgroundImage: '/hero-consultancy-reports.jpg', // Updated hero background image
     uspItems: [
-      { icon: 'FileText', title: 'Clear Documentation', description: 'Detailed reports supporting informed project decisions always.' },
-      { icon: 'Database', title: 'Accurate Data', description: 'Reliable analysis ensuring correct conclusions consistently.' },
-      { icon: 'BrainCircuit', title: 'Professional Insights', description: 'Expert evaluations enhancing project understanding effectively.' },
-      { icon: 'ShieldCheck', title: 'Compliance Focused', description: 'Reports meeting regulatory and technical standards reliably.' }
+      { icon: 'FileText', title: 'Clear Documentation', description: 'Detailed reports supporting informed project decisions always' },
+      { icon: 'Database', title: 'Accurate Data', description: 'Reliable analysis ensuring correct conclusions consistently' },
+      { icon: 'BrainCircuit', title: 'Professional Insights', description: 'Expert evaluations enhancing project understanding effectively' },
+      { icon: 'ShieldCheck', title: 'Compliance Focused', description: 'Reports meeting regulatory and technical standards reliably' }
     ]
   },
   scope: {
     title: 'Comprehensive Project Scope',
-    description: 'Our technical report services provide accurate and detailed documentation to support informed decision making and project approvals.',
+    description: 'Our technical report services provide accurate and detailed documentation to support informed decision making and project approvals',
     scopeItems: [
-      { icon: 'DatabaseZap', title: 'Data Collection', description: 'Gather all relevant project information site measurements and test results accurately.' },
-      { icon: 'LineChart', title: 'Analysis and Interpretation', description: 'Evaluate collected data to generate meaningful insights for project planning effectively.' },
-      { icon: 'FilePenLine', title: 'Report Preparation', description: 'Develop clear structured technical reports summarizing findings observations and recommendations reliably.' },
-      { icon: 'FileCheck2', title: 'Regulatory Compliance', description: 'Ensure reports meet legal codes standards and client requirements consistently.' },
-      { icon: 'Presentation', title: 'Presentation Support', description: 'Prepare visual aids and presentations for stakeholders’ meetings and approvals effectively.' },
-      { icon: 'RefreshCw', title: 'Review and Updates', description: 'Revise reports periodically to reflect project progress changes and new information consistently.' }
+      { icon: 'DatabaseZap', title: 'Data Collection', description: 'Gather all relevant project information site measurements and test results accurately' },
+      { icon: 'LineChart', title: 'Analysis and Interpretation', description: 'Evaluate collected data to generate meaningful insights for project planning effectively' },
+      { icon: 'FilePenLine', title: 'Report Preparation', description: 'Develop clear structured technical reports summarizing findings observations and recommendations reliably' },
+      { icon: 'FileCheck2', title: 'Regulatory Compliance', description: 'Ensure reports meet legal codes standards and client requirements consistently' },
+      { icon: 'Presentation', title: 'Presentation Support', description: 'Prepare visual aids and presentations for stakeholders’ meetings and approvals effectively' },
+      { icon: 'RefreshCw', title: 'Review and Updates', description: 'Revise reports periodically to reflect project progress changes and new information consistently' }
     ],
     imageKey: 'scopeImage'
   },
@@ -30,10 +30,10 @@ export const technicalReportsPageData: PageData = {
     superTitle: 'HOW IT WORKS',
     title: 'Our Easy Working Steps',
     steps: [
-      { icon: 'Database', title: 'Data Collection', description: 'Gather comprehensive project information, measurements, and observations to form the foundation of accurate technical reporting.' },
-      { icon: 'BarChart3', title: 'Analysis & Evaluation', description: 'Examine collected data systematically to identify trends, risks, and areas requiring attention or improvement.' },
-      { icon: 'DraftingCompass', title: 'Report Drafting', description: 'Prepare clear, detailed, and structured technical reports including findings, conclusions, and actionable recommendations.' },
-      { icon: 'Send', title: 'Review & Submission', description: 'Validate report accuracy, incorporate feedback, and submit finalized documentation for stakeholder decision-making and project compliance.' }
+      { icon: 'Database', title: 'Data Collection', description: 'Gather comprehensive project information, measurements, and observations to form the foundation of accurate technical reporting' },
+      { icon: 'BarChart3', title: 'Analysis & Evaluation', description: 'Examine collected data systematically to identify trends, risks, and areas requiring attention or improvement' },
+      { icon: 'DraftingCompass', title: 'Report Drafting', description: 'Prepare clear, detailed, and structured technical reports including findings, conclusions, and actionable recommendations' },
+      { icon: 'Send', title: 'Review & Submission', description: 'Validate report accuracy, incorporate feedback, and submit finalized documentation for stakeholder decision-making and project compliance' }
     ],
     backgroundImage: '/blueprint-bg.png'
   },
@@ -52,13 +52,13 @@ export const technicalReportsPageData: PageData = {
   },
   cta: {
     title: 'Need Clarity for Your Project?',
-    description: 'Make confident, informed decisions with our clear and accurate technical reporting. Contact us to learn more.'
+    description: 'Make confident, informed decisions with our clear and accurate technical reporting Contact us to learn more'
   },
   testimonials: {
     title: 'What Our Clients Say',
     testimonialList: [
-        { quote: "The technical report was exceptionally clear and detailed. It was instrumental in securing stakeholder approval and guiding our construction phase.", name: "James Bennett", role: "Construction Director", rating: 5, image: "https://randomuser.me/api/portraits/men/14.jpg" },
-        { quote: "Their team's ability to analyze complex data and present it in an understandable format is outstanding. The reports are a crucial part of our decision-making process.", name: "Ahmad Faizal", role: "Construction Director", rating: 5, image: "https://randomuser.me/api/portraits/men/12.jpg" }
+        { quote: "The technical report was exceptionally clear and detailed It was instrumental in securing stakeholder approval and guiding our construction phase", name: "James Bennett", role: "Construction Director", rating: 5, image: "https://randomuser.me/api/portraits/men/14.jpg" },
+        { quote: "Their team's ability to analyze complex data and present it in an understandable format is outstanding The reports are a crucial part of our decision-making process", name: "Ahmad Faizal", role: "Construction Director", rating: 5, image: "https://randomuser.me/api/portraits/men/12.jpg" }
     ],
     summary: { count: '1000+', label: 'Reports Delivered' },
     featuredImageKey: 'testimonialImage',
@@ -66,7 +66,7 @@ export const technicalReportsPageData: PageData = {
   },
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for more information about our Technical Reports services.',
+    description: 'Contact us for more information about our Technical Reports services',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

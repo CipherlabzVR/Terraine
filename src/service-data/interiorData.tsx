@@ -1,6 +1,10 @@
 import { PageData } from '../pages/GenericPageLayout';
 
 export const interiorDesignPageData: PageData = {
+  meta: {
+    title: "Interior Designing Services | Terrene Engineering", // [cite: 1]
+    description: "Get expert interior designing solutions from Terrene Engineering – blending creativity, sustainability, and high-quality execution for every space" // [cite: 1]
+  },
   hero: {
     title: "Interior Design",
     subtitle: "“Transforming spaces into stylish, functional, and inspiring environments that reflect your unique vision”",

@@ -7,50 +7,50 @@ export const innovativeAdvancedMaterialsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Innovative</span> & Advanced Materials',
     tagline: 'Implementing cutting edge materials for superior projects',
     description:
-      'Our innovative and advanced material services introduce modern, high-performance solutions, enhancing durability, efficiency, and aesthetics while supporting sustainable and technically optimized construction outcomes.',
+      'Our innovative and advanced material services introduce modern, high-performance solutions, enhancing durability, efficiency, and aesthetics while supporting sustainable and technically optimized construction outcomes',
     backgroundImage: '/con-hero.jpg',
     uspItems: [
-      { icon: 'Cpu',              title: 'Cutting Edge Solutions', description: 'Modern materials enhancing project performance consistently.' },
-      { icon: 'Lightbulb',        title: 'Expert Recommendations', description: 'Professional guidance for material selection effectively.' },
-      { icon: 'ShieldCheck',      title: 'Durable Performance',    description: 'Ensures long-lasting structural reliability reliably.' },
-      { icon: 'Leaf',             title: 'Sustainable Options',    description: 'Eco-friendly choices supporting responsible construction consistently.' }
+      { icon: 'Cpu',              title: 'Cutting Edge Solutions', description: 'Modern materials enhancing project performance consistently' },
+      { icon: 'Lightbulb',        title: 'Expert Recommendations', description: 'Professional guidance for material selection effectively' },
+      { icon: 'ShieldCheck',      title: 'Durable Performance',    description: 'Ensures long-lasting structural reliability reliably' },
+      { icon: 'Leaf',             title: 'Sustainable Options',    description: 'Eco-friendly choices supporting responsible construction consistently' }
     ]
   },
 
   scope: {
     title: 'Comprehensive Project Scope',
     description:
-      'Our innovative material services explore advanced options to enhance construction performance, sustainability, and durability effectively.',
+      'Our innovative material services explore advanced options to enhance construction performance, sustainability, and durability effectively',
     scopeItems: [
       {
         icon: 'Search',
         title: 'Material Research',
-        description: 'Investigate cutting edge materials suitable for specific structural, architectural, or interior applications accurately.'
+        description: 'Investigate cutting edge materials suitable for specific structural, architectural, or interior applications accurately'
       },
       {
         icon: 'FlaskConical',
         title: 'Performance Testing',
-        description: 'Conduct rigorous tests to validate the properties and reliability of advanced materials consistently.'
+        description: 'Conduct rigorous tests to validate the properties and reliability of advanced materials consistently'
       },
       {
         icon: 'Users',
         title: 'Supplier Assessment',
-        description: 'Identify suppliers providing certified and high-quality innovative materials efficiently.'
+        description: 'Identify suppliers providing certified and high-quality innovative materials efficiently'
       },
       {
         icon: 'Wrench',
         title: 'Application Guidance',
-        description: 'Advise on proper usage and integration of advanced materials for optimal project results effectively.'
+        description: 'Advise on proper usage and integration of advanced materials for optimal project results effectively'
       },
       {
         icon: 'CircleDollarSign',
         title: 'Cost Benefit Analysis',
-        description: 'Evaluate financial implications of using innovative materials to balance budget and performance accurately.'
+        description: 'Evaluate financial implications of using innovative materials to balance budget and performance accurately'
       },
       {
         icon: 'FileText',
         title: 'Documentation and Reporting',
-        description: 'Maintain records of material research, testing results, and recommendations for project reference reliably.'
+        description: 'Maintain records of material research, testing results, and recommendations for project reference reliably'
       }
     ],
     imageKey: 'scopeImage'
@@ -63,22 +63,22 @@ export const innovativeAdvancedMaterialsPageData: PageData = {
       {
         icon: 'ClipboardList',
         title: 'Project Assessment & Innovation Goals',
-        description: 'Understand client requirements and objectives for using advanced or cutting-edge materials.'
+        description: 'Understand client requirements and objectives for using advanced or cutting-edge materials'
       },
       {
         icon: 'Sparkles',
         title: 'Research & Material Shortlisting',
-        description: 'Identify innovative materials, composites, or technologies suitable for project performance and sustainability.'
+        description: 'Identify innovative materials, composites, or technologies suitable for project performance and sustainability'
       },
       {
         icon: 'Beaker',
         title: 'Testing & Feasibility Evaluation',
-        description: 'Conduct lab tests and simulations to verify material performance, durability, and compatibility.'
+        description: 'Conduct lab tests and simulations to verify material performance, durability, and compatibility'
       },
       {
         icon: 'CheckCircle',
         title: 'Recommendation & Implementation Support',
-        description: 'Provide guidance for integration, application, and documentation to maximize benefits of advanced materials.'
+        description: 'Provide guidance for integration, application, and documentation to maximize benefits of advanced materials'
       }
     ],
     backgroundImage: '/blueprint-bg.png'
@@ -100,7 +100,7 @@ export const innovativeAdvancedMaterialsPageData: PageData = {
 
   cta: {
     title: 'Ready to Build with Advanced Materials?',
-    description: 'Unlock performance, durability, and sustainability with cutting-edge material solutions. Talk to us today.'
+    description: 'Unlock performance, durability, and sustainability with cutting-edge material solutions Talk to us today'
   },
 
   testimonials: {
@@ -108,7 +108,7 @@ export const innovativeAdvancedMaterialsPageData: PageData = {
     testimonialList: [
       {
         quote:
-          'Their shortlist and testing plan helped us pick an innovative facade system that boosted thermal performance and aesthetics.',
+          'Their shortlist and testing plan helped us pick an innovative facade system that boosted thermal performance and aesthetics',
         name: 'Ishanka Peris',
         role: 'Design Manager',
         rating: 5,
@@ -116,7 +116,7 @@ export const innovativeAdvancedMaterialsPageData: PageData = {
       },
       {
         quote:
-          'Clear feasibility analysis and implementation guidance—our team integrated new materials without delays.',
+          'Clear feasibility analysis and implementation guidance—our team integrated new materials without delays',
         name: 'Chaminda Fonseka',
         role: 'Project Director',
         rating: 5,
@@ -130,7 +130,7 @@ export const innovativeAdvancedMaterialsPageData: PageData = {
 
   contact: {
     title: 'SEND AN INQUIRY',
-    description: 'Contact us for Innovative & Advanced Material services.',
+    description: 'Contact us for Innovative & Advanced Material services',
     phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
     emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'

@@ -88,7 +88,7 @@ const About = () => {
       {/* Header with hide/show animation */}
       
       <Helmet>
-        <title>About Us Terrene Engineering.</title> 
+        <title>About Us | Terrene Engineering.</title> 
         <meta 
         name="description"
         content="With 20+ years of expertise. Terrene Engineering provides global consultancy & contracting, merging innovation, precision & sustainability" />

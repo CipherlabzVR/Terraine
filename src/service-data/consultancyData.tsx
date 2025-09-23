@@ -5,7 +5,7 @@ import { PageData } from '../pages/GenericPageLayout';
 
 export const consultancyServicesPageData: PageData = {
   meta: {
-    title: "Consultancy Services Terrene Engineering", // [cite: 1]
+    title: "Consultancy Services | Terrene Engineering", // [cite: 1]
     description: "Terrene Engineering delivers innovative, sustainable consultancy services across planning, design, QA/QC & project management for seamless results" // [cite: 1]
   },
   hero: {

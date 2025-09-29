@@ -9,6 +9,7 @@ import contactus from '../assert/contactus.jpg';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 import { Helmet } from 'react-helmet-async';
+import Base_URL from '@/Base/api';
 
 
 const Inquiry = () => {
@@ -87,28 +88,24 @@ const handleSubmit = async (e: React.FormEvent) => {
   setIsSubmitting(true);
 
   const payload = {
-    fullName: formData.name,
-    email: formData.email,
-    phoneNumber: formData.phone,
-    company: formData.company,
-    serviceRequired: formData.service,
-    projectDetails: formData.message,
+    Name: formData.name,
+    Email: formData.email,
+    PhoneNumber: formData.phone,
+    Company: formData.company,
+    Package: formData.service,
+    Description: formData.message,
+    IsResd: false
   };
 
-  const GOOGLE_SCRIPT_URL =
-    "https://script.google.com/macros/s/AKfycbwmlgU6G28eoYIedEC5a6s2K2Ovb8ZDczVeStc2FMdhdv0e8WzUhgduAnUQ16--fUvX/exec";
-
   try {
-    await fetch(GOOGLE_SCRIPT_URL, {
+    await fetch(`${Base_URL}/api/Contact/CreateContact`, {
       method: "POST",
-      mode: "no-cors", // 👈 bypass CORS
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(payload),
     });
-
-    // ✅ Don't check response.ok or status (always blocked in no-cors)
+    
     alert("Form submitted! Please check the Google Sheet.");
 
     // Reset form

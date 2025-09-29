@@ -7,6 +7,7 @@ import contactus from '../assert/contactus.jpg';
 // Import the phone input component and its CSS
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import Base_URL from '@/Base/api';
 
 
 const Inquiry = () => {
@@ -18,7 +19,7 @@ const Inquiry = () => {
     service: '',
     message: ''
   });
-  
+  const [isSubmitting, setIsSubmitting] = useState(false); 
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
@@ -88,15 +89,47 @@ const Inquiry = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
-    setFormSubmitted(true);
-    setTimeout(() => {
-      setFormSubmitted(false);
-      setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' });
-    }, 3000);
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+
+  const payload = {
+    Name: formData.name,
+    Email: formData.email,
+    PhoneNumber: formData.phone,
+    Company: formData.company,
+    Package: formData.service,
+    Description: formData.message,
+    IsResd: false
   };
+
+  try {
+    await fetch(`${Base_URL}/api/Contact/CreateContact`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    });
+    
+    alert("Form submitted! Please check the Google Sheet.");
+
+    // Reset form
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      company: "",
+      service: "",
+      message: "",
+    });
+  } catch (error) {
+    console.error("Submission failed:", error);
+    alert("There was an error submitting your form.");
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

@@ -2,14 +2,13 @@ import React, { useState, useEffect, useRef } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { Button } from '@/components/ui/button';
-// Import Loader2 for the submitting state
-import { Phone, Mail, MapPin, Clock, Send, CheckCircle, Loader2 } from 'lucide-react'; 
+import { Phone, Mail, Clock, Send, Loader2 } from 'lucide-react'; 
 import contactus from '../assert/contactus.jpg';
-// Import the phone input component and its CSS
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 import { Helmet } from 'react-helmet-async';
-
+import Base_URL from '@/Base/api';
+import { toast } from 'sonner'; 
 
 const Inquiry = () => {
   const [formData, setFormData] = useState({
@@ -21,13 +20,10 @@ const Inquiry = () => {
     message: ''
   });
   
-  const [formSubmitted, setFormSubmitted] = useState(false);
-  // NEW: Add a state to track submission status for loading indicator
   const [isSubmitting, setIsSubmitting] = useState(false); 
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
 
-  // Custom styles for the PhoneInput component (no changes here)
   const phoneInputCustomStyles = `
     .custom-phone-input.react-tel-input .form-control {
         background-color: rgba(255, 255, 255, 0.1) !important;
@@ -79,56 +75,51 @@ const Inquiry = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // MODIFIED: Updated handleSubmit to send data to Google Sheets
-// Inquiry.tsx
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
 
-const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
-  setIsSubmitting(true);
+    const payload = {
+      Name: formData.name,
+      Email: formData.email,
+      PhoneNumber: formData.phone,
+      Company: formData.company,
+      Package: formData.service,
+      Description: formData.message,
+      IsResd: false
+    };
 
-  const payload = {
-    fullName: formData.name,
-    email: formData.email,
-    phoneNumber: formData.phone,
-    company: formData.company,
-    serviceRequired: formData.service,
-    projectDetails: formData.message,
+    try {
+      const response = await fetch(`${Base_URL}/api/Contact/CreateContact`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      toast.success("Submission successful! Our team will contact you shortly.");
+
+      // Reset form
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        company: "",
+        service: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Submission failed:", error);
+      toast.error("There was an error submitting your form.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
-
-  const GOOGLE_SCRIPT_URL =
-    "https://script.google.com/macros/s/AKfycbwmlgU6G28eoYIedEC5a6s2K2Ovb8ZDczVeStc2FMdhdv0e8WzUhgduAnUQ16--fUvX/exec";
-
-  try {
-    await fetch(GOOGLE_SCRIPT_URL, {
-      method: "POST",
-      mode: "no-cors", // 👈 bypass CORS
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
-
-    // ✅ Don't check response.ok or status (always blocked in no-cors)
-    alert("Form submitted! Please check the Google Sheet.");
-
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      company: "",
-      service: "",
-      message: "",
-    });
-  } catch (error) {
-    console.error("Submission failed:", error);
-    alert("There was an error submitting your form.");
-  } finally {
-    setIsSubmitting(false);
-  }
-};
-
-
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({
@@ -192,7 +183,6 @@ const handleSubmit = async (e: React.FormEvent) => {
               <div className="bg-gradient-to-r from-cyan-600 to-[#0b2741] p-6 rounded-lg shadow-lg sticky top-24 h-full">
                 <h2 className="text-xl font-semibold mb-6 text-white border-b border-white/20 pb-2">Contact Details</h2>
                 <div className="space-y-6">
-                  {/* MODIFIED ICONS BELOW */}
                   <div className="flex items-start space-x-3">
                     <div className="bg-cyan-800/80 p-2 rounded-full flex-shrink-0">
                       <Phone className="w-5 h-5 text-white" />
@@ -261,7 +251,6 @@ const handleSubmit = async (e: React.FormEvent) => {
                 <div>
                     <h2 className="text-3xl font-bold mb-6 text-white">Send Us a Message</h2>
                     <div className="grid md:grid-cols-2 gap-4 mb-4">
-                      {/* Form inputs... (no changes here) */}
                       <div>
                         <label className="block text-sm font-medium mb-1 text-white">Full Name*</label>
                         <input type="text" name="name" value={formData.name} onChange={handleChange} className="w-full px-4 py-2 bg-white/10 text-white border border-white/30 rounded-md focus:outline-none focus:ring-1 focus:ring-white shadow-sm placeholder-gray-300" required />
@@ -292,12 +281,11 @@ const handleSubmit = async (e: React.FormEvent) => {
                 </div>
 
                 <div className="mt-auto">
-                    {/* MODIFIED: Updated button to show loading state */}
                     <Button 
                       type="submit" 
                       size="lg"
                       className="w-full bg-white text-white bg-[#0050A0] hover:bg-cyan-500 font-bold"
-                      disabled={isSubmitting} // Disable button while submitting
+                      disabled={isSubmitting}
                     >
                       {isSubmitting ? (
                         <>
@@ -311,15 +299,6 @@ const handleSubmit = async (e: React.FormEvent) => {
                         </>
                       )}
                     </Button>
-
-                    {formSubmitted && (
-                      <div className="mt-4 p-4 bg-green-500/90 text-white rounded-lg shadow-md">
-                        <div className="flex items-center">
-                          <CheckCircle className="w-5 h-5 mr-2" />
-                          <p className="text-sm font-medium">Thank you! Your inquiry has been submitted successfully.</p>
-                        </div>
-                      </div>
-                    )}
                 </div>
               </form>
             </div>

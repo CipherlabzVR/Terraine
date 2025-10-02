@@ -7,6 +7,8 @@ import contactus from '../assert/contactus.jpg';
 // Import the phone input component and its CSS
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import Base_URL from '@/Base/api';
+import { toast } from 'sonner';
 
 
 const Inquiry = () => {
@@ -18,7 +20,7 @@ const Inquiry = () => {
     service: '',
     message: ''
   });
-  
+  const [isSubmitting, setIsSubmitting] = useState(false); 
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [showHeader, setShowHeader] = useState(true);
   const lastScrollY = useRef(0);
@@ -88,14 +90,51 @@ const Inquiry = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleSubmit = (e: React.FormEvent) => {
+ const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    setFormSubmitted(true);
-    setTimeout(() => {
-      setFormSubmitted(false);
-      setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' });
-    }, 3000);
+    setIsSubmitting(true);
+
+    const payload = {
+      Name: formData.name,
+      Email: formData.email,
+      PhoneNumber: formData.phone,
+      Company: formData.company,
+      Package: formData.service,
+      Description: formData.message,
+      IsResd: false
+    };
+
+    try {
+      const response = await fetch(`${Base_URL}/api/Contact/CreateContact`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      
+      // UPDATED: New success toast message
+      toast.success("Submission successful! Our team will contact you shortly.");
+
+      // Reset form
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        company: "",
+        service: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Submission failed:", error);
+      toast.error("There was an error submitting your form. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -237,14 +276,7 @@ const Inquiry = () => {
                     <Button type="submit" size="lg" className="w-full bg-white text-white bg-[#0050A0] hover:bg-cyan-500 font-bold">
                       <Send className="w-4 h-4 mr-2" /> SEND INQUIRY
                     </Button>
-                    {formSubmitted && (
-                      <div className="mt-4 p-4 bg-green-500/90 text-white rounded-lg shadow-md">
-                        <div className="flex items-center">
-                          <CheckCircle className="w-5 h-5 mr-2" />
-                          <p className="text-sm font-medium">Thank you! Your inquiry has been submitted successfully.</p>
-                        </div>
-                      </div>
-                    )}
+                   
                 </div>
               </form>
             </div>

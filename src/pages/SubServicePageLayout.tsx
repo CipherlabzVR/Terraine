@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import * as Icons from 'lucide-react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import { toast } from 'sonner'; 
+import Base_URL from '@/Base/api'; 
 
 // --- HELPER COMPONENT FOR DYNAMIC ICONS ---
 type IconName = keyof typeof Icons;
@@ -14,7 +16,6 @@ const Icon = ({ name, ...props }: { name: IconName } & Icons.LucideProps) => {
   return LucideIcon ? <LucideIcon {...props} /> : <Icons.HelpCircle {...props} />;
 };
 
-// --- TYPE DEFINITIONS for the pageData prop ---
 export interface PageData {
   hero: {
     serviceName: string;
@@ -70,7 +71,15 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
   const [showHeader, setShowHeader] = useState(true);
   const [activeTestimonialIndex, setActiveTestimonialIndex] = useState(0);
   const lastScrollY = useRef(0);
-  const [phone, setPhone] = useState('');
+  
+ 
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    message: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemsToShow, setItemsToShow] = useState(4);
@@ -98,45 +107,95 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
     return () => clearInterval(testimonialInterval);
   }, [pageData.testimonials.testimonialList.length]);
   
-    useEffect(() => {
-        const handleResize = () => {
-            const newItemsToShow = window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 4;
-            setItemsToShow(newItemsToShow);
-        };
-        handleResize();
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
+  useEffect(() => {
+      const handleResize = () => {
+          const newItemsToShow = window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 4;
+          setItemsToShow(newItemsToShow);
+      };
+      handleResize();
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
-    const extendedProjects = [...pageData.projects.projectList, ...pageData.projects.projectList.slice(0, itemsToShow)];
+  const extendedProjects = [...pageData.projects.projectList, ...pageData.projects.projectList.slice(0, itemsToShow)];
 
-    const nextSlide = () => {
-        if (carouselRef.current && carouselRef.current.style.transition.includes('none')) return;
-        
-        const newIndex = currentIndex + 1;
-        setCurrentIndex(newIndex);
-        
-        if (newIndex >= pageData.projects.projectList.length) {
-            setTimeout(() => {
-                if (carouselRef.current) {
-                    carouselRef.current.style.transition = 'none';
-                    setCurrentIndex(0);
-                    setTimeout(() => {
-                        if (carouselRef.current) carouselRef.current.style.transition = `transform ${transitionTime}ms ease-in-out`;
-                    }, 50);
-                }
-            }, transitionTime);
-        }
+  const nextSlide = () => {
+      if (carouselRef.current && carouselRef.current.style.transition.includes('none')) return;
+      
+      const newIndex = currentIndex + 1;
+      setCurrentIndex(newIndex);
+      
+      if (newIndex >= pageData.projects.projectList.length) {
+          setTimeout(() => {
+              if (carouselRef.current) {
+                  carouselRef.current.style.transition = 'none';
+                  setCurrentIndex(0);
+                  setTimeout(() => {
+                      if (carouselRef.current) carouselRef.current.style.transition = `transform ${transitionTime}ms ease-in-out`;
+                  }, 50);
+              }
+          }, transitionTime);
+      }
+  };
+
+  useEffect(() => {
+      if (!isHovering) {
+          timerRef.current = setInterval(nextSlide, 3000);
+      }
+      return () => {
+          if (timerRef.current) clearInterval(timerRef.current);
+      };
+  }, [isHovering, currentIndex, itemsToShow]);
+
+ 
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { id, value } = e.target;
+    setFormData(prev => ({ ...prev, [id]: value }));
+  };
+
+  const handlePhoneChange = (phoneValue: string) => {
+    setFormData(prev => ({ ...prev, phone: phoneValue }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    
+
+    const serviceName = pageData.hero.serviceName.replace(/<[^>]*>?/gm, '');
+
+    const payload = {
+        Name: formData.name,
+        Email: formData.email,
+        PhoneNumber: formData.phone,
+        Company: '', 
+        Package: serviceName, 
+        Description: formData.message,
+        IsResd: false,
     };
+    
+    try {
+        const response = await fetch(`${Base_URL}/api/Contact/CreateContact`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload),
+        });
 
-    useEffect(() => {
-        if (!isHovering) {
-            timerRef.current = setInterval(nextSlide, 3000);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
-        return () => {
-            if (timerRef.current) clearInterval(timerRef.current);
-        };
-    }, [isHovering, currentIndex, itemsToShow]);
+
+        toast.success("Submission successful! Our team will contact you shortly.");
+        
+        setFormData({ name: '', email: '', phone: '', message: '' });
+
+    } catch (error) {
+        console.error("Submission failed:", error);
+        toast.error("There was an error submitting your message. Please try again.");
+    } finally {
+        setIsSubmitting(false);
+    }
+  };
 
   return (
     <div className="bg-[#0b2741]">
@@ -300,7 +359,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
             </div>
         </section>
 
-      {/* --- Contact Form Section --- */}
+      {/* --- Contact Form Section (ALL CHANGES ARE HERE) --- */}
       <section id="contact-section" className="relative py-12 lg:py-19 text-white">
           <div className="absolute inset-0 z-0"><video autoPlay loop muted playsInline className="w-full h-full object-cover" src={pageData.contact.videoBackground} /><div className="absolute inset-0 bg-[#0b2741]/95"></div></div>
           <div className="relative z-10 w-full max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -319,47 +378,72 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                         </div>
                         <div className="flex items-start gap-4">
                             <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10">
-  <Icons.Mail className="w-6 h-6 text-cyan-400" />
-</div>
-<div>
-  <h4 className="font-bold">Email Us</h4>
-  <p className="text-white/70">info@terreneengineering.com</p>
-  <p className="text-white/70">payments@terreneengineering.com</p>
-</div>
-
+                              <Icons.Mail className="w-6 h-6 text-cyan-400" />
+                            </div>
+                            <div>
+                              <h4 className="font-bold">Email Us</h4>
+                              <p className="text-white/70">info@terreneengineering.com</p>
+                              <p className="text-white/70">payments@terreneengineering.com</p>
+                            </div>
                         </div>
                         <div className="flex items-start gap-4">
-                                                      <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10"><Icons.Clock className="w-6 h-6 text-cyan-400" /></div>
-                                                      <div>
-                                                          <h4 className="font-bold">Opening Hours</h4>
-                                                          <p className="text-white/70">Monday - Friday: 7:00 AM - 10:00 PM</p>
-                                                          <p className="text-white/70">Saturday - Sunday: 7:00 AM - 10:00 PM</p>
-                                                      </div>
-                                                  </div>
-                                                  <div>
-                                                      <h4 className="font-bold mb-4">Follow Us</h4>
-                                                      <div className="flex items-center gap-4">
-                                                          <a href="https://www.facebook.com/share/1GRAMJHEas/" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/facebook.png" alt="Facebook"/></a>
-                                                          <a href="https://www.instagram.com/terreneengineering?igsh=amE5a2QwdjlmdDU1" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/instagram.png" alt="Instagram"/></a>
-                                                          <a href="https://www.linkedin.com/company/terrene-engineering-private-limited/" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/linkedin.png" alt="LinkedIn"/></a>
-                                                          <a href="https://youtube.com/@terreneengineering?si=3ifwOLd3PaIDIoly" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/youtube.png" alt="YouTube"/></a>
-                                                          <a href="https://www.tiktok.com/@terreneengineering?_t=ZS-8yEqPlsthkl&_r=1" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/tiktok.png" alt="TikTok"/></a>
-                                                      </div>
-                                                  </div>
+                            <div className="flex-shrink-0 w-12 h-12 bg-slate-800 rounded-full flex items-center justify-center border border-white/10"><Icons.Clock className="w-6 h-6 text-cyan-400" /></div>
+                            <div>
+                                <h4 className="font-bold">Opening Hours</h4>
+                                <p className="text-white/70">Monday - Friday: 7:00 AM - 10:00 PM</p>
+                                <p className="text-white/70">Saturday - Sunday: 7:00 AM - 10:00 PM</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 className="font-bold mb-4">Follow Us</h4>
+                            <div className="flex items-center gap-4">
+                                <a href="https://www.facebook.com/share/1GRAMJHEas/" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/facebook.png" alt="Facebook"/></a>
+                                <a href="https://www.instagram.com/terreneengineering?igsh=amE5a2QwdjlmdDU1" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/instagram.png" alt="Instagram"/></a>
+                                <a href="https://www.linkedin.com/company/terrene-engineering-private-limited/" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/linkedin.png" alt="LinkedIn"/></a>
+                                <a href="https://youtube.com/@terreneengineering?si=3ifwOLd3PaIDIoly" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/youtube.png" alt="YouTube"/></a>
+                                <a href="https://www.tiktok.com/@terreneengineering?_t=ZS-8yEqPlsthkl&_r=1" className="w-10 h-10 rounded-full bg-white/10 p-2 hover:bg-white/20 transition-colors"><img src="/tiktok.png" alt="TikTok"/></a>
+                            </div>
+                        </div>
                       </div>
                   </div>
                   <div className="lg:col-span-3 bg-slate-900 p-8 rounded-lg border border-white/10 shadow-2xl shadow-cyan-500/20">
                        <h3 className="text-3xl font-bold text-white mb-8">Send Us a Message</h3>
-                       <form onSubmit={(e) => e.preventDefault()}>
+                       <form onSubmit={handleSubmit}>
                           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                              <div><label htmlFor="name" className="block text-sm font-medium text-white/80 mb-1">Your Name*</label><input type="text" id="name" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" /></div>
-                              <div><label htmlFor="email" className="block text-sm font-medium text-white/80 mb-1">Email Address*</label><input type="email" id="email" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" /></div>
-                               <div className="sm:col-span-2"><label htmlFor="phone" className="block text-sm font-medium text-white/80 mb-1">Phone Number*</label><PhoneInput country={'lk'} value={phone} onChange={setPhone} containerClass="w-full custom-phone-input" /></div>
-                               <div className="sm:col-span-2"><label htmlFor="service" className="block text-sm font-medium text-white/80 mb-1">Service of Interest</label><input type="text" id="service" value={pageData.hero.serviceName.replace(/<[^>]*>?/gm, '')} readOnly className="w-full p-3 bg-slate-700 border border-white/20 rounded-md cursor-not-allowed text-white/80" /></div>
-                              <div className="sm:col-span-2"><label htmlFor="message" className="block text-sm font-medium text-white/80 mb-1">Your Message</label><textarea id="message" rows={5} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400"></textarea></div>
+                              <div>
+                                <label htmlFor="name" className="block text-sm font-medium text-white/80 mb-1">Your Name*</label>
+                                <input type="text" id="name" value={formData.name} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
+                              </div>
+                              <div>
+                                <label htmlFor="email" className="block text-sm font-medium text-white/80 mb-1">Email Address*</label>
+                                <input type="email" id="email" value={formData.email} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
+                              </div>
+                               <div className="sm:col-span-2">
+                                <label htmlFor="phone" className="block text-sm font-medium text-white/80 mb-1">Phone Number*</label>
+                                <PhoneInput country={'lk'} value={formData.phone} onChange={handlePhoneChange} containerClass="w-full custom-phone-input" />
+                               </div>
+                               <div className="sm:col-span-2">
+                                <label htmlFor="service" className="block text-sm font-medium text-white/80 mb-1">Service of Interest</label>
+                                <input type="text" id="service" value={pageData.hero.serviceName.replace(/<[^>]*>?/gm, '')} readOnly className="w-full p-3 bg-slate-700 border border-white/20 rounded-md cursor-not-allowed text-white/80" />
+                               </div>
+                              <div className="sm:col-span-2">
+                                <label htmlFor="message" className="block text-sm font-medium text-white/80 mb-1">Your Message</label>
+                                <textarea id="message" rows={5} value={formData.message} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400"></textarea>
+                              </div>
                           </div>
-                          <Button type="submit" size="lg" className="w-full mt-6 bg-[#0050A0] text-white font-bold hover:bg-cyan-500 transition-colors">SEND MESSAGE <Icons.Send className="w-5 h-5 ml-2" /></Button>
-                          
+                          <Button type="submit" size="lg" className="w-full mt-6 bg-[#0050A0] text-white font-bold hover:bg-cyan-500 transition-colors" disabled={isSubmitting}>
+                            {isSubmitting ? (
+                              <>
+                                <Icons.Loader2 className="mr-2 h-5 w-5 animate-spin" />
+                                SENDING...
+                              </>
+                            ) : (
+                              <>
+                                SEND MESSAGE
+                                <Icons.Send className="w-5 h-5 ml-2" />
+                              </>
+                            )}
+                          </Button>
                        </form>
                   </div>
               </div>

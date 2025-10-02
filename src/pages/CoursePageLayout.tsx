@@ -8,14 +8,17 @@ import {
     ArrowRight, Award, CheckCircle, Plus, Phone, 
     Clock, Library, Mail, ChevronsDown, Send, 
     Shapes, Code2, Laptop, Download,
-    Briefcase, Users, Target, CircleChevronLeft, CircleChevronRight 
+    Briefcase, Users, Target, CircleChevronLeft, 
+    CircleChevronRight, Loader2
 } from 'lucide-react';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 import { Helmet } from 'react-helmet-async';
+import { toast } from 'sonner';
+import Base_URL from '@/Base/api';
 
 const allCoursesData = [
-  {
+    {
     title: 'Master Diploma in BIM (3D - 9D)',
     slug: 'bim',
     image: '/bim.jpg',
@@ -105,7 +108,6 @@ const allCoursesData = [
     feeDescription: 'Contact us for a custom quote and curriculum',
     gradient: 'from-gray-500/70 to-slate-600/70'
   },
-  
 ];
 
 const AllCoursesCarousel = ({ courses }) => {
@@ -269,11 +271,61 @@ const AllCoursesCarousel = ({ courses }) => {
 
 const ContactFormSection = ({ subtitle }) => {
     const uniqueCourses = [...new Set(allCoursesData.map(c => c.title))];
-    const [phone, setPhone] = useState('');
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        course: uniqueCourses[0] || '',
+        message: ''
+    });
+    const [isSubmitting, setIsSubmitting] = useState(false);
 
-    const handleFormSubmit = (e) => {
+    const handleChange = (e) => {
+        const { id, value } = e.target;
+        setFormData(prev => ({ ...prev, [id]: value }));
+    };
+
+    const handlePhoneChange = (phone) => {
+        setFormData(prev => ({ ...prev, phone }));
+    };
+
+    const handleFormSubmit = async (e) => {
         e.preventDefault();
-        alert("Message Sent!");
+        setIsSubmitting(true);
+
+        const payload = {
+            Name: formData.name,
+            Email: formData.email,
+            PhoneNumber: formData.phone,
+            Company: '', 
+            Package: formData.course, 
+            Description: formData.message,
+            IsResd: false, 
+        };
+        
+        try {
+            const response = await fetch(`${Base_URL}/api/Contact/CreateContact`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload),
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            toast.success("Submission successful! Our team will contact you shortly.");
+            
+            setFormData({
+                name: '', email: '', phone: '', course: uniqueCourses[0] || '', message: ''
+            });
+
+        } catch (error) {
+            console.error("Submission failed:", error);
+            toast.error("There was an error submitting your message. Please try again.");
+        } finally {
+            setIsSubmitting(false);
+        }
     };
     
     return (
@@ -336,35 +388,44 @@ const ContactFormSection = ({ subtitle }) => {
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <div>
                                     <label htmlFor="name" className="block text-sm font-medium text-white/80 mb-1">Your Name*</label>
-                                    <input type="text" id="name" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
+                                    <input type="text" id="name" value={formData.name} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
                                 </div>
                                 <div>
                                     <label htmlFor="email" className="block text-sm font-medium text-white/80 mb-1">Email Address*</label>
-                                    <input type="email" id="email" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
+                                    <input type="email" id="email" value={formData.email} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
                                 </div>
                                 <div className="sm:col-span-2">
                                     <label className="block text-sm font-medium text-white/80 mb-1">Phone Number*</label>
                                     <PhoneInput
                                         country={'lk'}
-                                        value={phone}
-                                        onChange={setPhone}
+                                        value={formData.phone}
+                                        onChange={handlePhoneChange}
                                         containerClass="w-full custom-phone-input"
                                     />
                                 </div>
                                 <div className="sm:col-span-2">
                                     <label htmlFor="course" className="block text-sm font-medium text-white/80 mb-1">Course Interested In</label>
-                                    <select id="course" required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400">
+                                    <select id="course" value={formData.course} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400">
                                         {uniqueCourses.map(course => <option key={course} value={course} className="bg-[#0b2741] text-white">{course}</option>)}
                                     </select>
                                 </div>
                                 <div className="sm:col-span-2">
                                     <label htmlFor="message" className="block text-sm font-medium text-white/80 mb-1">Your Message</label>
-                                    <textarea id="message" rows={5} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400"></textarea>
+                                    <textarea id="message" rows={5} value={formData.message} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400"></textarea>
                                 </div>
                             </div>
-                            <Button type="submit" size="lg" className="w-full mt-6 bg-[#0050A0] text-white font-bold hover:bg-cyan-500 transition-colors">
-                                SEND MESSAGE
-                                <Send className="w-5 h-5 ml-2" />
+                            <Button type="submit" size="lg" className="w-full mt-6 bg-[#0050A0] text-white font-bold hover:bg-cyan-500 transition-colors" disabled={isSubmitting}>
+                                {isSubmitting ? (
+                                  <>
+                                    <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+                                    SENDING...
+                                  </>
+                                ) : (
+                                  <>
+                                    SEND MESSAGE
+                                    <Send className="w-5 h-5 ml-2" />
+                                  </>
+                                )}
                             </Button>
                          </form>
                     </div>
@@ -465,9 +526,9 @@ const CoursePageLayout = ({ courseData }) => {
     return (
         <div className="bg-[#0b2741]">
             <Helmet>
-        <title>{courseData.meta.title}</title>
-        <meta name="description" content={courseData.meta.description} />
-      </Helmet>
+                <title>{courseData.meta.title}</title>
+                <meta name="description" content={courseData.meta.description} />
+            </Helmet>
             <div className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${showHeader ? 'translate-y-0' : '-translate-y-full'}`}>
                 <Header />
             </div>

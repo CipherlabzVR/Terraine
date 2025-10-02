@@ -1,3 +1,3 @@
-const Base_URL = "https://localhost:44352";
+const Base_URL = "https://terrene.openskylabz.com";
 
 export default Base_URL;

@@ -88,10 +88,16 @@ const About = () => {
       {/* Header with hide/show animation */}
       
       <Helmet>
-        <title>About Us | Terrene Engineering.</title> 
+        <title>About Us | Terrene Engineering</title>
         <meta 
         name="description"
-        content="With 20+ years of expertise. Terrene Engineering provides global consultancy & contracting, merging innovation, precision & sustainability" />
+        content="With 20+ years of expertise, Terrene Engineering provides global consultancy & contracting, merging innovation, precision & sustainability." />
+        <link rel="canonical" href="https://terreneengineering.com/about" />
+        <meta property="og:title" content="About Us | Terrene Engineering" />
+        <meta property="og:description" content="With 20+ years of expertise, Terrene Engineering provides global consultancy & contracting, merging innovation, precision & sustainability." />
+        <meta property="og:url" content="https://terreneengineering.com/about" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       {/*seo meta tag */}
       <div

@@ -11,6 +11,7 @@ import GlobalPresence from '../components/GlobalPresence';
 import Testimonials from '../components/Testimonials'; // Import Testimonials component
 import TrustedByLogos from '../components/TrustedByLogos'; // <-- Add this import at the top
 import ServiceOfferings from '@/components/ServiceOfferings'; 
+import { Helmet } from 'react-helmet-async';
 
 const Index = () => {
   const aboutRef = useRef(null);
@@ -25,6 +26,19 @@ const Index = () => {
     <div
       className="min-h-screen w-full bg-[#0b2741]/90 space-y-0"
     >
+      <Helmet>
+        <title>Trusted Engineering Consultants | Terrene Engineering</title>
+        <meta 
+          name="description" 
+          content="Trusted consultants delivering innovative, sustainable engineering solutions with excellence in design, build & maintenance." 
+        />
+        <link rel="canonical" href="https://terreneengineering.com/" />
+        <meta property="og:title" content="Trusted Engineering Consultants | Terrene Engineering" />
+        <meta property="og:description" content="Trusted consultants delivering innovative, sustainable engineering solutions with excellence in design, build & maintenance." />
+        <meta property="og:url" content="https://terreneengineering.com/" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       {/* Header is now always visible and fixed to the top */}
       <Header mode="transparent" className="fixed top-0 left-0 right-0 w-full z-50" />
 

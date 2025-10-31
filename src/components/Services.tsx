@@ -8,13 +8,13 @@ import service2 from '../assert/service2.jpg';
 import service3 from '../assert/service3.jpg';
 import { Card } from "@/components/ui/card";
 import Header from '../components/Header'; // Assuming Header is in this path
-import Footer from '../components/Footer'; // Assuming Footer is in this path
+import Footer from '../components/Footer'; 
 
 // --- SERVICE CATEGORIES WITH EDITABLE SLUGS ---
 const serviceCategories = [
 	{
 		title: 'Consultancy Services',
-		slug: 'consultancy-services', // <-- EDIT THIS SLUG
+		slug: 'consultancy-services', 
 		icon: <Ruler className="w-8 h-8" />,
 		description: 'Comprehensive architectural solutions from concept to completion',
 		backgroundImage: '/architectural.webp',
@@ -24,12 +24,12 @@ const serviceCategories = [
 			{ title: 'BIM & Digital Twin Consultancy', slug: 'BIM', description: 'Custom furniture solutions tailored to your needs' },
 			{ title: 'Geotechnical & Soil Investigation', slug: 'Geotechnical', description: 'Optimized sound and lighting environments' },
 			{ title: 'Structural Engineering', slug: 'structural-engineering', description: 'Strategic urban and site development planning' },
-			{ title: 'More Services' }, // This links to the main category page
+			{ title: 'More Services' }, 
 		],
 	},
 	{
 		title: 'Construction',
-		slug: 'constructions', // <-- EDIT THIS SLUG
+		slug: 'construction-main', 
 		icon: <Building2 className="w-8 h-8" />,
 		description: 'Structural and technical engineering expertise for all project types',
 		backgroundImage: '/engineering.webp',
@@ -44,10 +44,10 @@ const serviceCategories = [
 	},
 	{
 		title: 'Interior Design',
-		slug: 'interior-design', // <-- EDIT THIS SLUG
+		slug: 'interior', 
 		icon: <Cog className="w-8 h-8" />,
 		description: 'Advanced technical services using cutting-edge technology',
-		backgroundImage: '/technical.webp',
+		backgroundImage: '/interior.png',
 		subServices: [
 			{ title: 'Concept Development & Design', slug: 'concept-development', description: 'Rigorous material and structural testing' },
 			{ title: 'Project Management & Procurement', slug: 'project-management', description: 'Precise mapping and geographical data analysis' },
@@ -59,10 +59,10 @@ const serviceCategories = [
 	},
 	{
 		title: 'BIM',
-		slug: 'bim', // <-- EDIT THIS SLUG
+		slug: 'bim',
 		icon: <Shield className="w-8 h-8" />,
 		description: 'End-to-end project management for seamless execution',
-		backgroundImage: '/project-management.webp',
+		backgroundImage: '/bimhome.png',
 		subServices: [
 			{ title: '3D BIM - Digital Design & Modeling', slug: '3d-bim', description: 'Supervision and execution of construction projects' },
 			{ title: '4D BIM - Time', slug: '4d-bim', description: 'Strategic sourcing and contractor selection' },

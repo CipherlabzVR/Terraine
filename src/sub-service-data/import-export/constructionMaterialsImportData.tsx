@@ -5,7 +5,7 @@ export const constructionMaterialsImportPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Import of Construction</span> Materials & Equipment',
     tagline: 'Delivering high-quality construction materials globally efficiently',
     description: 'Our import services provide reliable access to premium construction materials and equipment, ensuring timely delivery, quality assurance, and seamless integration into every building project worldwide',
-    backgroundImage: '/import-hero.webp',
+    backgroundImage: '/impex (9).jpeg',
     uspItems: [
       { icon: 'ShieldCheck', title: 'Reliable Sourcing', description: 'High-quality materials delivered consistently' },
       { icon: 'DollarSign', title: 'Cost-effective', description: 'Competitive pricing for project savings effectively' },

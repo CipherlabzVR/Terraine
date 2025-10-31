@@ -6,7 +6,7 @@ import { energyResourceOptimizationPageData } from '../../../sub-service-data/di
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'digitaltwin' folder
-import scopeImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-4.jpg'; 
+import scopeImage from '/Energy & Resource Optimization.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-9.jpg';
 
 // Importing the specific project images you requested.

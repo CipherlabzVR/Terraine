@@ -6,7 +6,7 @@ import { mepEngineeringPageData } from '../../../sub-service-data/consultancy/me
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-23.jpg'; 
+import scopeImage from '/MEP Engineering.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-27.jpg';
 
 // Importing the specific project images you requested.

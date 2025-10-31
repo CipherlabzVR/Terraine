@@ -8,7 +8,7 @@ export const innovativeAdvancedMaterialsPageData: PageData = {
     tagline: 'Implementing cutting edge materials for superior projects',
     description:
       'Our innovative and advanced material services introduce modern, high-performance solutions, enhancing durability, efficiency, and aesthetics while supporting sustainable and technically optimized construction outcomes',
-    backgroundImage: '/con-hero.jpg',
+    backgroundImage: '/mat (8).jpg',
     uspItems: [
       { icon: 'Cpu',              title: 'Cutting Edge Solutions', description: 'Modern materials enhancing project performance consistently' },
       { icon: 'Lightbulb',        title: 'Expert Recommendations', description: 'Professional guidance for material selection effectively' },

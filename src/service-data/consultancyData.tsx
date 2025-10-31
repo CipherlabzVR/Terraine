@@ -5,8 +5,8 @@ import { PageData } from '../pages/GenericPageLayout';
 
 export const consultancyServicesPageData: PageData = {
   meta: {
-    title: "Consultancy Services | Terrene Engineering", // [cite: 1]
-    description: "Terrene Engineering delivers innovative, sustainable consultancy services across planning, design, QA/QC & project management for seamless results" // [cite: 1]
+    title: "Consultancy Services | Terrene Engineering", //
+    description: "Terrene Engineering delivers innovative, sustainable consultancy services across planning, design, QA/QC & project management for seamless results" //
   },
   hero: {
     title: "Consultancy Services",
@@ -36,22 +36,22 @@ export const consultancyServicesPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "We Provide Consultancy Services",
     list: [
-      { icon: "Briefcase", title: "Smart Project Management", description: "Optimizing project delivery with real-time monitoring, efficient resource allocation, and innovative strategies that ensure timely, cost-effective, and successful outcomes" },
-      { icon: "SlidersHorizontal", title: "Cost & Value Engineering", description: "Maximizing project value and minimizing costs through expert analysis, innovative alternatives, and efficient resource management without compromising quality" },
-      { icon: "Layers", title: "BIM & Digital Twin", description: "Transforming project planning and execution with intelligent 3D models and real-time digital replicas for precision and collaboration" },
-      { icon: "Search", title: "Geotechnical Investigation", description: "Providing reliable soil and site analysis to ensure safe, durable, and optimized foundation and structural designs" },
-      { icon: "Building", title: "Structural Engineering", description: "Designing robust, safe, and innovative structures with advanced analysis, ensuring efficiency, compliance, and long-term performance" },
-      { icon: "PenTool", title: "Architectural Design", description: "Delivering creative, functional, and aesthetically compelling designs that harmonize with client vision and project goals" },
-      { icon: "Palette", title: "Interior Design", description: "Transforming spaces with stylish, functional, and personalized interior solutions that enhance comfort and visual appeal" },
-      { icon: "Package", title: "Material Consultancy", description: "Offering expert guidance on material selection and usage, ensuring quality, cost-effectiveness, and sustainability" },
-      { icon: "Zap", title: "MEP Engineering", description: "Designing efficient mechanical, electrical, and plumbing systems that optimize performance, safety, and energy efficiency" },
-      { icon: "Zap", title: "MEP & HVAC System Design", description: "Creating innovative, energy-efficient HVAC and MEP solutions that enhance comfort, performance, and operational reliability" },
-      { icon: "Globe", title: "Environmental Consulting", description: "Promoting eco-friendly, sustainable practices to minimize impact while maximizing efficiency and regulatory compliance" },
-      { icon: "ShieldCheck", title: "Regulatory & Compliance", description: "Ensuring projects meet all legal, safety, and industry standards with precise guidance and expert oversight" },
-      { icon: "Map", title: "Surveying & Digital Mapping", description: "Delivering accurate land and site data using advanced surveying and digital mapping technologies for precise planning" },
-      { icon: "UserCheck", title: "Construction Supervision", description: "Monitoring construction with rigorous quality assurance, timely inspections, and proactive problem-solving for flawless project execution" },
-      { icon: "Beaker", title: "Field & Laboratory Testing", description: "Providing precise material and structural testing to ensure safety, compliance, and long-term performance" },
-      { icon: "FileText", title: "Technical Reports", description: "Producing clear, accurate, and actionable reports that inform decisions and optimize project outcomes" }
+      { icon: "Briefcase", title: "Smart Project Management", description: "Optimizing project delivery with real-time monitoring, efficient resource allocation, and innovative strategies that ensure timely, cost-effective, and successful outcomes", link: "/services/consultancy-services/smart-management" },
+      { icon: "SlidersHorizontal", title: "Cost & Value Engineering", description: "Maximizing project value and minimizing costs through expert analysis, innovative alternatives, and efficient resource management without compromising quality", link: "/services/consultancy-services/cost-value" },
+      { icon: "Layers", title: "BIM & Digital Twin", description: "Transforming project planning and execution with intelligent 3D models and real-time digital replicas for precision and collaboration", link: "/services/consultancy-services/BIM" },
+      { icon: "Search", title: "Geotechnical Investigation", description: "Providing reliable soil and site analysis to ensure safe, durable, and optimized foundation and structural designs", link: "/services/consultancy-services/Geotechnical" },
+      { icon: "Building", title: "Structural Engineering", description: "Designing robust, safe, and innovative structures with advanced analysis, ensuring efficiency, compliance, and long-term performance", link: "/services/consultancy-services/structural-engineering" },
+      { icon: "PenTool", title: "Architectural Design", description: "Delivering creative, functional, and aesthetically compelling designs that harmonize with client vision and project goals", link: "/services/consultancy-services/architectural" },
+      { icon: "Palette", title: "Interior Design", description: "Transforming spaces with stylish, functional, and personalized interior solutions that enhance comfort and visual appeal", link: "/services/consultancy-services/interior-design" },
+      { icon: "Package", title: "Material Consultancy", description: "Offering expert guidance on material selection and usage, ensuring quality, cost-effectiveness, and sustainability", link: "/services/consultancy-services/material-consultancy" },
+      { icon: "Zap", title: "MEP Engineering", description: "Designing efficient mechanical, electrical, and plumbing systems that optimize performance, safety, and energy efficiency", link: "/services/consultancy-services/mep-engineering" },
+      { icon: "Zap", title: "MEP & HVAC System Design", description: "Creating innovative, energy-efficient HVAC and MEP solutions that enhance comfort, performance, and operational reliability", link: "/services/consultancy-services/mep-hvac" },
+      { icon: "Globe", title: "Environmental Consulting", description: "Promoting eco-friendly, sustainable practices to minimize impact while maximizing efficiency and regulatory compliance", link: "/services/consultancy-services/sustainability-consulting" },
+      { icon: "ShieldCheck", title: "Regulatory & Compliance", description: "Ensuring projects meet all legal, safety, and industry standards with precise guidance and expert oversight", link: "/services/consultancy-services/regulatory-advisory" },
+      { icon: "Map", title: "Surveying & Digital Mapping", description: "Delivering accurate land and site data using advanced surveying and digital mapping technologies for precise planning", link: "/services/consultancy-services/surveying-mapping" },
+      { icon: "UserCheck", title: "Construction Supervision", description: "Monitoring construction with rigorous quality assurance, timely inspections, and proactive problem-solving for flawless project execution", link: "/services/consultancy-services/construction-supervision" },
+      { icon: "Beaker", title: "Field & Laboratory Testing", description: "Providing precise material and structural testing to ensure safety, compliance, and long-term performance", link: "/services/consultancy-services/lab-testing" },
+      { icon: "FileText", title: "Technical Reports", description: "Producing clear, accurate, and actionable reports that inform decisions and optimize project outcomes", link: "/services/consultancy-services/technical-reports" }
     ],
     videoBackground: "aboutVideo" // Key for the video
   },

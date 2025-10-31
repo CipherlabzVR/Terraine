@@ -5,7 +5,7 @@ export const smartConstructionRoboticsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Smart Construction</span> & Robotics',
     tagline: 'Enhancing construction efficiency with intelligent robotics',
     description: 'Our smart construction and robotics services integrate AI driven automation, increasing productivity, reducing errors, and streamlining complex construction tasks for faster, safer, and more efficient project execution',
-    backgroundImage: '/Hero -ai (7).webp',
+    backgroundImage: '/Hero - ai (7).jpg',
     uspItems: [
       { icon: 'Bot', title: 'Automated Solutions', description: 'Robotics enhancing construction efficiency consistently' },
       { icon: 'Target', title: 'Precision Work', description: 'Accurate operations reducing human errors effectively' },

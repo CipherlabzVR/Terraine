@@ -35,12 +35,12 @@ export const engineeringDrawingsPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "Our Drawing Services",
     list: [
-          { icon: "FileCheck", title: "Approval Drawing", description: "Delivering precise approval drawings that meet regulatory requirements, ensuring smooth approvals and hassle-free project initiation with confidence" },
-    { icon: "DraftingCompass", title: "Architectural", description: "Crafting detailed architectural drawings that blend creativity with functionality, ensuring clarity, efficiency, and flawless execution of visionary designs" },
-    { icon: "Building", title: "Structural", description: "Providing accurate structural drawings that guarantee strength, safety, and durability while streamlining construction processes with precision" },
-    { icon: "Palette", title: "Interior Design", description: "Creating detailed interior drawings that transform ideas into functional, stylish layouts tailored to client needs and lifestyle" },
-    { icon: "Zap", title: "MEP", description: "Delivering comprehensive MEP drawings that integrate mechanical, electrical, and plumbing systems for efficient, coordinated, and flawless project execution" },
-    { icon: "Wind", title: "HVAC", description: "Designing precise HVAC drawings that ensure energy-efficient climate control, seamless installation, and reliable long-term performance" }
+          { icon: "FileCheck", title: "Approval Drawing", description: "Delivering precise approval drawings that meet regulatory requirements, ensuring smooth approvals and hassle-free project initiation with confidence", link: "/services/drawings/approval-drawing" },
+    { icon: "DraftingCompass", title: "Architectural", description: "Crafting detailed architectural drawings that blend creativity with functionality, ensuring clarity, efficiency, and flawless execution of visionary designs", link: "/services/drawings/architectural" },
+    { icon: "Building", title: "Structural", description: "Providing accurate structural drawings that guarantee strength, safety, and durability while streamlining construction processes with precision", link: "/services/drawings/structural" },
+    { icon: "Palette", title: "Interior Design", description: "Creating detailed interior drawings that transform ideas into functional, stylish layouts tailored to client needs and lifestyle", link: "/services/drawings/interior-design" },
+    { icon: "Zap", title: "MEP", description: "Delivering comprehensive MEP drawings that integrate mechanical, electrical, and plumbing systems for efficient, coordinated, and flawless project execution", link: "/services/drawings/mep" },
+    { icon: "Wind", title: "HVAC", description: "Designing precise HVAC drawings that ensure energy-efficient climate control, seamless installation, and reliable long-term performance", link: "/services/drawings/hvac" }
     ],
     videoBackground: "aboutVideo"
   },
@@ -50,7 +50,7 @@ export const engineeringDrawingsPageData: PageData = {
     steps: [
           { icon: "ClipboardList", title: "Conceptualization & Idea Gathering", description: "Capture your vision and turn ideas into clear design concepts" },
     { icon: "DraftingCompass", title: "Precise Drafting & Sustainable Design", description: "Create detailed, accurate drawings using advanced tools and expert skills" },
-    { icon: "FileSearch", title: "Review & Optimization", description: "Refine designs for efficiency, compliance, Sustainability and perfect project execution" },
+    { icon: "FileSearch", title: "Design Review & Optimization", description: "Refine designs for efficiency, compliance, Sustainability and perfect project execution" },
     { icon: "ShieldCheck", title: "Implementation & Lifetime Design Support", description: "Enjoy experts support and latest updates, ensuring your designs remain flawless forever" }
     ],
     backgroundImage: "/blueprint-bg.png" 

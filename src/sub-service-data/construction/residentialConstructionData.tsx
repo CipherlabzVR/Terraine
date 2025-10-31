@@ -5,7 +5,7 @@ export const residentialConstructionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Residential</span> Construction',
     tagline: 'Building dream homes with quality and precision',
     description: 'Our residential construction services deliver beautifully crafted, durable, and functional homes, ensuring exceptional quality, timely completion, and personalized solutions tailored to every client’s lifestyle and vision',
-    backgroundImage: '/hero - construction (8).jpg', // Standardized background image
+    backgroundImage: '/Residential.png', // Standardized background image
     uspItems: [
       { icon: 'Award', title: 'Quality Craftsmanship', description: 'Delivering durable and aesthetically appealing homes consistently' },
       { icon: 'Clock', title: 'Timely Completion', description: 'Projects finished on schedule without compromise effectively' },

@@ -5,7 +5,7 @@ export const smartCityDigitalTwinPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Smart City & Urban</span> Digital Twin Services',
     tagline: 'Transform Cities Digitally Ensure Smart Living',
     description: 'Implement smart city digital twin solutions to monitor, manage, and optimize urban infrastructure, enhance sustainability, improve services, and create connected, efficient, and resilient urban environments effectively',
-    backgroundImage: '/Digitaltwin-testimonials-4', // Standardized background image
+    backgroundImage: '/dt (10).png', // Standardized background image
     uspItems: [
       { icon: 'BarChart3', title: 'Urban Planning Insights', description: 'Enable data driven city planning decisions accurately' },
       { icon: 'Recycle', title: 'Resource Optimization', description: 'Efficiently manage energy water and transportation systems' },

@@ -5,7 +5,7 @@ export const hvacMechanicalMaintenancePageData: PageData = {
     serviceName: '<span class="text-cyan-400">HVAC & Mechanical</span> Maintenance',
     tagline: 'Optimizing HVAC and mechanical systems performance',
     description: 'Our HVAC and mechanical maintenance services ensure efficient operation, timely servicing, and long-lasting performance, enhancing comfort, energy efficiency, and reliability across all building systems',
-    backgroundImage: '/Maintenance-testimonials-7.jpg', // Standardized background image
+    backgroundImage: '/main (5).jpg', // Standardized background image
     uspItems: [
       { icon: 'Thermometer', title: 'Optimal Climate', description: 'Ensures HVAC systems perform efficiently consistently' },
       { icon: 'ShieldCheck', title: 'Preventive Care', description: 'Reduces mechanical breakdowns effectively' },

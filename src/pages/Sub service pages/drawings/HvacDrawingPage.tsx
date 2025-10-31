@@ -6,7 +6,7 @@ import { hvacDrawingPageData } from '../../../sub-service-data/drawings/hvacDraw
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'drawings' folder
-import scopeImage from '../../../assert/Sub Services/drawings/public - hero/Drawings-testimonials-4.jpg'; 
+import scopeImage from '/HVAC Drawing.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/drawings/hvac-drawing-testimonial.jpg';
 
 // Importing the specific project images you requested.

@@ -5,7 +5,7 @@ export const hvacDrawingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">HVAC</span> Drawing',
     tagline: 'Efficient HVAC drawings for optimal climate control',
     description: 'Our HVAC drawings deliver precise layouts and specifications, ensuring energy efficient, reliable, and comfortable heating, ventilation, and air conditioning systems for every building project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/draw (4).png', // Standardized background image
     uspItems: [
       { icon: 'Settings', title: 'Optimized Systems', description: 'Efficient HVAC layouts for superior climate control' },
       { icon: 'Scaling', title: 'Accurate Planning', description: 'Precise drawings minimizing installation errors consistently' },

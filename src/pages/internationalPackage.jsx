@@ -9,11 +9,11 @@ import { Helmet } from 'react-helmet-async';
 import white from '@/assert/Packages/white.png'; // TODO: Replace with a relevant image
 import silver from '@/assert/Packages/pack (1).png'; // TODO: Replace with a relevant image
 
-import diamond1 from '@/assert/Packages/Diamond/Diamond1.png'; // TODO: Replace with relevant images
-import diamond2 from '@/assert/Packages/Diamond/Diamond2.png';
-import diamond3 from '@/assert/Packages/Diamond/Diamond3.png';
-import diamond4 from '@/assert/Packages/Diamond/Diamond4.png';
-import diamond5 from '@/assert/Packages/Diamond/Diamond5.png';
+import diamond1 from '@/assert/Packages/Diamond/Diamond (1).png'; // TODO: Replace with relevant images
+import diamond2 from '@/assert/Packages/Diamond/Diamond (2).png';
+import diamond3 from '@/assert/Packages/Diamond/Diamond (3).png';
+import diamond4 from '@/assert/Packages/Diamond/Diamond (4).png';
+import diamond5 from '@/assert/Packages/Diamond/Diamond (5).png';
 
 const packageDetails = {
   name: 'Engineering Consulting Package',

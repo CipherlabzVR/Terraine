@@ -5,7 +5,7 @@ export const smartProjectManagementPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Smart</span> Project Management',
     tagline: 'Smart project delivery with precision and efficiency',
     description: 'Our smart project management ensures seamless planning, effective coordination, timely delivery, and cost efficiency while maximizing productivity and quality throughout every stage of your project',
-    backgroundImage: '/smartser.jpg',
+    backgroundImage: '/smartpro.png',
     uspItems: [
       { icon: 'Users', title: 'Efficient Project Management', description: 'Ensures seamless collaboration across all project teams' },
       { icon: 'Clock', title: 'On Time Delivery', description: 'Projects completed promptly without compromising quality standards' },

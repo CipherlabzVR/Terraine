@@ -5,7 +5,7 @@ export const technicalReportsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Technical</span> Reports',
     tagline: 'Clear detailed insights for informed project decisions',
     description: 'Our technical reports deliver precise, comprehensive, and actionable information, supporting informed decision making, ensuring project accuracy, compliance, and successful outcomes across every stage of construction',
-    backgroundImage: '/hero-consultancy-reports.jpg', // Updated hero background image
+    backgroundImage: '/techreport.png', // Updated hero background image
     uspItems: [
       { icon: 'FileText', title: 'Clear Documentation', description: 'Detailed reports supporting informed project decisions always' },
       { icon: 'Database', title: 'Accurate Data', description: 'Reliable analysis ensuring correct conclusions consistently' },

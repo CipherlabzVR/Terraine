@@ -2,8 +2,8 @@ import { PageData } from '../pages/GenericPageLayout';
 
 export const interiorDesignPageData: PageData = {
   meta: {
-    title: "Interior Designing Services | Terrene Engineering", // [cite: 1]
-    description: "Get expert interior designing solutions from Terrene Engineering – blending creativity, sustainability, and high-quality execution for every space" // [cite: 1]
+    title: "Interior Designing Services | Terrene Engineering", //
+    description: "Get expert interior designing solutions from Terrene Engineering – blending creativity, sustainability, and high-quality execution for every space" //
   },
   hero: {
     title: "Interior Design",
@@ -33,19 +33,19 @@ export const interiorDesignPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "Interior Design Services",
     list: [
-          { icon: "Lightbulb", title: "Concept Development & Design", description: "Transforming client visions into innovative design concepts that merge functionality, elegance, and creativity, shaping unique and inspiring spaces" },
-    { icon: "Briefcase", title: "Project Management & Procurement", description: "Ensuring seamless execution with expert project management and efficient procurement, delivering interiors on time, within budget, and beyond expectations" },
-    { icon: "DraftingCompass", title: "Detailed Interior Drawings", description: "Providing accurate drawings that guide flawless execution, ensuring precision, coordination, and efficiency from planning to project completion" },
-    { icon: "KeyRound", title: "Turnkey Interior Solutions", description: "Delivering complete interior transformations from concept to installation, offering clients a hassle-free, stylish, and fully managed solution" },
-    { icon: "Palette", title: "Material & Color Consultancy", description: "Offering expert guidance on material and color choices, creating harmonious, durable, and visually stunning interiors tailored to client preferences" },
-    { icon: "Paintbrush", title: "Renovation & Makeover Services", description: "Breathing new life into outdated spaces with modern and sustainable upgrades, functional improvements, and stylish makeovers for a refreshed look" },
-    { icon: "Sofa", title: "Furniture Selection", description: "Modern and smart furniture selections that balance comfort, quality, and aesthetics, complementing interiors with style and functionality" },
-    { icon: "Sparkles", title: "Styling & Decor", description: "Adding personality and elegance through refined styling and decor, creating interiors that leave a memorable impression" },
-    { icon: "Home", title: "Residential Interiors", description: "Designing elegant, comfortable, and personalized residential spaces that reflect lifestyle, maximize functionality, and elevate everyday living" },
-    { icon: "Building2", title: "Commercial Interiors", description: "Creating dynamic commercial interiors that enhance productivity, attract customers, and showcase brand identity through smart, functional design" },
-    { icon: "Hotel", title: "Hospitality Interiors", description: "Delivering captivating hospitality interiors that blend comfort, luxury, and functionality, creating unforgettable guest experiences" },
-    { icon: "Stethoscope", title: "Healthcare Interiors", description: "Designing safe, functional, and welcoming healthcare spaces that promote well-being, efficiency, and comfort for patients and staff" },
-    { icon: "Calendar", title: "Exhibition & Event Design", description: "Crafting impactful exhibition and event designs that captivate audiences, elevate brand presence, and deliver memorable experiences" },
+          { icon: "Lightbulb", title: "Concept Development & Design", description: "Transforming client visions into innovative design concepts that merge functionality, elegance, and creativity, shaping unique and inspiring spaces", link: "/services/interior/concept-development" },
+    { icon: "Briefcase", title: "Project Management & Procurement", description: "Ensuring seamless execution with expert project management and efficient procurement, delivering interiors on time, within budget, and beyond expectations", link: "/services/interior/project-management" },
+    { icon: "DraftingCompass", title: "Detailed Interior Drawings", description: "Providing accurate drawings that guide flawless execution, ensuring precision, coordination, and efficiency from planning to project completion", link: "/services/interior/detailed-drawings" },
+    { icon: "KeyRound", title: "Turnkey Interior Solutions", description: "Delivering complete interior transformations from concept to installation, offering clients a hassle-free, stylish, and fully managed solution", link: "/services/interior/turnkey-solutions" },
+    { icon: "Palette", title: "Material & Color Consultancy", description: "Offering expert guidance on material and color choices, creating harmonious, durable, and visually stunning interiors tailored to client preferences", link: "/services/interior/material-color" },
+    { icon: "Paintbrush", title: "Renovation & Makeover Services", description: "Breathing new life into outdated spaces with modern and sustainable upgrades, functional improvements, and stylish makeovers for a refreshed look", link: "/services/interior/renovation" },
+    { icon: "Sofa", title: "Furniture Selection", description: "Modern and smart furniture selections that balance comfort, quality, and aesthetics, complementing interiors with style and functionality", link: "/services/interior/furniture-selection" },
+    { icon: "Sparkles", title: "Styling & Decor", description: "Adding personality and elegance through refined styling and decor, creating interiors that leave a memorable impression", link: "/services/interior/styling-decor" },
+    { icon: "Home", title: "Residential Interiors", description: "Designing elegant, comfortable, and personalized residential spaces that reflect lifestyle, maximize functionality, and elevate everyday living", link: "/services/interior/residential" },
+    { icon: "Building2", title: "Commercial Interiors", description: "Creating dynamic commercial interiors that enhance productivity, attract customers, and showcase brand identity through smart, functional design", link: "/services/interior/commercial" },
+    { icon: "Hotel", title: "Hospitality Interiors", description: "Delivering captivating hospitality interiors that blend comfort, luxury, and functionality, creating unforgettable guest experiences", link: "/services/interior/hospitality" },
+    { icon: "Stethoscope", title: "Healthcare Interiors", description: "Designing safe, functional, and welcoming healthcare spaces that promote well-being, efficiency, and comfort for patients and staff", link: "/services/interior/healthcare" },
+    { icon: "Calendar", title: "Exhibition & Event Design", description: "Crafting impactful exhibition and event designs that captivate audiences, elevate brand presence, and deliver memorable experiences", link: "/services/interior/exhibition-event" },
     ],
     videoBackground: "interiorAboutVideo"
   },
@@ -54,7 +54,7 @@ export const interiorDesignPageData: PageData = {
     title: "Our Easy Working Steps",
     steps: [
           { icon: "MessageCircle", title: "Concept & Style Consultation", description: "Understand your taste and vision to craft personalized interior concepts" },
-    { icon: "PenTool", title: "Design Development & Planning", description: "Transform ideas into detailed, functional, and aesthetically pleasing interior designs" },
+    { icon:"PenTool", title: "Design Development & Planning", description: "Transform ideas into detailed, functional, and aesthetically pleasing interior designs" },
     { icon: "PaintRoller", title: "Implementation & Styling", description: "Execute interiors with precision, premium materials, and flawless finishing touches" },
     { icon: "ShieldCheck", title: "Lifetime Support & Assurance", description: "Benefit from Expert guidance and lifetime warranty for enduring style and satisfaction" }
     ],

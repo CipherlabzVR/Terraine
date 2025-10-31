@@ -5,7 +5,7 @@ export const costValueEngineeringPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Cost & Value</span> Engineering',
     tagline: 'Maximizing project value through smart cost optimization',
     description: 'Our cost and value engineering delivers innovative solutions, minimizing expenses while maximizing efficiency, quality, and sustainability to ensure long-lasting value for every client project',
-    backgroundImage: '/cost.jpeg', // TODO: Update image path
+    backgroundImage: '/cost.png', // TODO: Update image path
     uspItems: [
       { icon: 'TrendingUp', title: 'Maximized Project Value', description: 'Optimizing cost while enhancing overall project quality' },
       { icon: 'Lightbulb', title: 'Innovative Solutions', description: 'Creative approaches solving complex engineering challenges efficiently' },

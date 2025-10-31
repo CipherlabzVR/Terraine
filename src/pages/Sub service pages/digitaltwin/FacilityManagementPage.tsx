@@ -6,7 +6,7 @@ import { facilityManagementPageData } from '../../../sub-service-data/digitaltwi
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'digitaltwin' folder
-import scopeImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-5.jpg'; 
+import scopeImage from '/Facility Management & Space Utilization.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-7.jpg';
 
 // Importing the specific project images you requested.

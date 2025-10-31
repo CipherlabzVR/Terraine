@@ -5,7 +5,7 @@ export const architecturalPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Architectural</span> Drawing',
     tagline: 'Creative architectural drawings for flawless project execution',
     description: 'Our architectural drawings deliver precise, detailed, and visually clear plans, enabling seamless construction, effective coordination, and accurate realization of design intent for every project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/draw (2).png', // Standardized background image
     uspItems: [
       { icon: 'Brush', title: 'Creative Precision', description: 'Detailed drawings reflecting innovative architectural designs accurately' },
       { icon: 'Zap', title: 'Seamless Execution', description: 'Clear plans supporting smooth construction processes consistently' },

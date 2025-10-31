@@ -5,7 +5,7 @@ export const regulatoryCompliancePageData: PageData = {
     serviceName: '<span class="text-cyan-400">Regulatory & Compliance</span> Advisory',
     tagline: 'Ensuring projects meet regulations efficiently and effectively',
     description: 'Our regulatory and compliance advisory guides projects through complex legal standards, ensuring full compliance, minimizing risks, and supporting smooth, timely, and successful project execution',
-    backgroundImage: '/hero-consultancy-regulatory.jpg', // Updated hero background image
+    backgroundImage: '/reg.png', // Updated hero background image
     uspItems: [
       { icon: 'Gavel', title: 'Legal Expertise', description: 'Ensuring full compliance with regulations accurately' },
       { icon: 'ShieldCheck', title: 'Risk Minimization', description: 'Reducing potential project delays or penalties proactively' },

@@ -3,7 +3,7 @@ import { ClipboardCheck, Users, Briefcase } from 'lucide-react';
 
 export const constructionPmData = {
   meta: {
-    title: " Master Diploma in Construction Project Management | Terrene Engineering", // [cite: 1]
+    title: " Master Diploma in Construction Project Management | Terrene Engineering", 
     description: "ing Master construction project management with Terrene Engineering. Gain expertise in planning, execution & leadership for sustainable projects." // [cite: 1]
   },
   // --- Hero Section ---
@@ -43,7 +43,7 @@ export const constructionPmData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "The Master Diploma in Construction Project Management program equips professionals with the skills to plan, execute, and monitor construction projects efficiently. Participants gain hands-on experience with scheduling, budgeting, risk management, and quality control, preparing them to lead projects successfully while optimizing resources, timelines, and team performance",
+  programOverview: "The Master Diploma in Construction Project Management program equips professionals with the skills to plan, execute, and monitor construction projects efficiently. Participants gain hands-on experience with scheduling, budgeting, risk management, and quality control, preparing them to lead projects successfully while optimizing resources, timelines, and team performance.",
   whatYouWillLearn: [
     { title: "Project Integration & Initiation", description: "Develop project charters, define scope, and align objectives with organizational goals" },
     { title: "Project Planning & Scheduling", description: "Create efficient project timelines, work breakdown structures (WBS), and milestones using modern tools" },
@@ -73,27 +73,27 @@ export const constructionPmData = {
  faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This Construction Project Management course is suitable for civil engineers, architects, project managers, quantity surveyors’, construction professionals, under graduates and students who required to improve project planning, execution and leadership skills"
+      answer: "This Construction Project Management course is suitable for civil engineers, architects, project managers, quantity surveyors’, construction professionals, under graduates and students who required to improve project planning, execution and leadership skills."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth project management applications"
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth project management applications."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest construction project management software focused on scheduling, resource allocation and cost control"
+      answer: "You will learn latest construction project management software focused on scheduling, resource allocation and cost control."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which adds strong value to your professional qualifications"
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which adds strong value to your professional qualifications."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning resources so you can catch up anytime"
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning resources so you can catch up anytime."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career guidance, portfolio support and job placement assistance to help you advance into project management roles in the construction industry"
+      answer: "Yes, we provide career guidance, portfolio support and job placement assistance to help you advance into project management roles in the construction industry."
     }
   ],
   

@@ -5,7 +5,7 @@ export const timberConstructionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Timber</span> Construction',
     tagline: 'Crafting strong durable and elegant timber structures',
     description: 'Our timber construction services deliver high quality, sustainable, and precisely built wooden structures, combining strength, aesthetics, and functionality for residential, commercial, and specialized projects',
-    backgroundImage: '/hero - construction (12).jpg', // Standardized background image
+    backgroundImage: '/Timber Construction.png', // Standardized background image
     uspItems: [
       { icon: 'ShieldCheck', title: 'Durable Woodwork', description: 'High-quality timber ensuring long-lasting structures consistently' },
       { icon: 'Scaling', title: 'Precision Crafting', description: 'Expertly designed wooden elements for perfect fit effectively' },

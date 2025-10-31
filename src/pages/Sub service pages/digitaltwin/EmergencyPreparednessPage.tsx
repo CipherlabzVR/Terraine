@@ -6,7 +6,7 @@ import { emergencyPreparednessPageData } from '../../../sub-service-data/digital
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'digitaltwin' folder
-import scopeImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-3.jpg'; 
+import scopeImage from '/Emergency Preparedness & Disaster Simulation.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-6.jpg';
 
 // Importing the specific project images you requested.

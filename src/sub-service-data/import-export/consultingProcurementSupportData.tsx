@@ -6,7 +6,7 @@ export const consultingProcurementSupportPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Consulting & Procurement</span> Support',
     tagline: 'Expert guidance for efficient material sourcing globally',
     description: 'Our consulting and procurement support services provide strategic advice, market insights, and sourcing solutions, ensuring high quality, cost-effective materials and smooth procurement for every construction project',
-    backgroundImage: bgImage,
+    backgroundImage:'/impex (8).jpeg',
     uspItems: [
       { icon: 'Users', title: 'Expert Advice', description: 'Professional guidance for material and equipment selection consistently' },
       { icon: 'Zap', title: 'Efficient Procurement', description: 'Streamlined sourcing for project timelines effectively' },

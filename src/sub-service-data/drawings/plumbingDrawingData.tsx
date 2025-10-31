@@ -5,7 +5,7 @@ export const plumbingDrawingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Plumbing</span> Drawing',
     tagline: 'Precise plumbing drawings for flawless system setup',
     description: 'Our plumbing drawings provide accurate layouts and details, ensuring efficient installation, leak free performance, and reliable operation for every plumbing system in your project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/draw (8).png', // Standardized background image
     uspItems: [
       { icon: 'Scaling', title: 'Precise Layouts', description: 'Accurate plumbing plans ensuring leak free installations' },
       { icon: 'Combine', title: 'Efficient Coordination', description: 'Designs integrated with other building systems effectively' },

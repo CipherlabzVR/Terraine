@@ -6,7 +6,7 @@ import { specializedEngineeringProductsPageData } from '../../../sub-service-dat
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'import-export' folder
-import scopeImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-14.jpg'; 
+import scopeImage from '/Specialized Engineering Products.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-15.jpg';
 
 // Importing the specific project images you requested.

@@ -6,7 +6,7 @@ import { electricalDrawingPageData } from '../../../sub-service-data/drawings/el
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'drawings' folder
-import scopeImage from '../../../assert/Sub Services/drawings/public - hero/Drawings-testimonials-3.jpg'; 
+import scopeImage from '/Electrical Drawing.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/drawings/electrical-drawing-testimonial.jpg';
 
 // Importing the specific project images you requested.

@@ -7,7 +7,7 @@ export const materialSelectionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Material Selection</span> & Specification',
     tagline: 'Choosing quality materials for optimized project performance',
     description: 'Our material selection and specification services ensure the right choice of durable, high quality, and cost-effective materials, enhancing project efficiency, longevity, and overall construction success',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/mat (6).jpg', // Standardized background image
     uspItems: [
       { icon: 'CheckSquare', title: 'Optimal Choices', description: 'Selecting best materials for each project consistently' },
       { icon: 'ShieldCheck', title: 'Quality Assurance', description: 'Ensuring reliable and durable materials effectively' },

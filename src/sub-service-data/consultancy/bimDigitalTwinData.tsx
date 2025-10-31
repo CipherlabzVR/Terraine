@@ -5,7 +5,7 @@ export const bimDigitalTwinPageData: PageData = {
     serviceName: '<span class="text-cyan-400">BIM & Digital Twin</span> Consultancy',
     tagline: 'Driving smart designs through technology powered innovation',
     description: 'Our BIM and Digital Twin consultancy empowers precise planning, seamless collaboration, and predictive insights, ensuring improved efficiency, reduced risks, and enhanced performance across your project lifecycle',
-    backgroundImage: '/twin-hero.jpg', // TODO: Update image path
+    backgroundImage: '/bimdigi.png', // TODO: Update image path
     uspItems: [
       { icon: 'Users', title: 'Enhanced Collaboration', description: 'Streamlined teamwork through advanced digital modeling tools' },
       { icon: 'Eye', title: 'Accurate Visualization', description: 'Realistic models for better design understanding' },

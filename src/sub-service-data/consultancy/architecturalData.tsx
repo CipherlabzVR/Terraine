@@ -5,7 +5,7 @@ export const architecturalPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Architectural</span> Design',
     tagline: 'Creating inspiring functional spaces with timeless design',
     description: 'Our architectural services blend creativity and functionality, delivering visually stunning, practical, and sustainable designs that reflect client vision while enhancing the overall project experience',
-    backgroundImage: '/hero-consultancy-architectural.jpg', // Updated hero background image
+    backgroundImage: '/archi.png', // Updated hero background image
     uspItems: [
       { icon: 'Brush', title: 'Creative Designs', description: 'Innovative architectural solutions enhancing visual appeal' },
       { icon: 'Maximize', title: 'Functional Spaces', description: 'Practical layouts maximizing usability and comfort' },

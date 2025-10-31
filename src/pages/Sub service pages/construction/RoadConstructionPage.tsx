@@ -6,7 +6,7 @@ import { roadConstructionPageData } from '../../../sub-service-data/construction
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'construction' folder
-import scopeImage from '../../../assert/Sub Services/construction/Construction-testimonials-22.jpg'; 
+import scopeImage from '/Road Construction.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/construction/Construction-testimonials-15.jpg';
 
 // Importing the specific project images you requested.

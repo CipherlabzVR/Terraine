@@ -5,7 +5,7 @@ export const conceptDesignPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Concept</span> Development & Design',
     tagline: 'Transforming ideas into inspiring functional spaces',
     description: 'Our concept development and design services create innovative, practical, and visually stunning interiors, reflecting client vision while enhancing space functionality and overall aesthetic appeal',
-    backgroundImage: '/Interior-testimonials-2.jpg', // Standardized background image
+    backgroundImage: '/int (13).png', // Standardized background image
     uspItems: [
       { icon: 'Sparkles', title: 'Innovative Concepts', description: 'Creative designs transforming ideas into functional spaces consistently' },
       { icon: 'Settings2', title: 'Tailored Solutions', description: 'Personalized layouts matching client vision effectively' },

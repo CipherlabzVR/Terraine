@@ -8,7 +8,7 @@ import { furnitureSelectionPageData } from '../../../sub-service-data/interior/f
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'interior' folder
-import scopeImage from '../../../assert/Sub Services/interior/Interior-testimonials-9.jpg'; 
+import scopeImage from '/Furniture Selection.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/interior/Interior-testimonials-10.jpg';
 
 // Importing the specific project images for furniture selection services.

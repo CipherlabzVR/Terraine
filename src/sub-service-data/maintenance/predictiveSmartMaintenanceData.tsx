@@ -5,7 +5,7 @@ export const predictiveSmartMaintenanceData: PageData = {
     serviceName: '<span class="text-cyan-400">Predictive & Smart</span> Maintenance',
     tagline: 'Intelligent maintenance for optimized performance and efficiency',
     description: 'Our predictive and smart maintenance services use advanced monitoring and analytics to anticipate issues, reduce failures, and enhance system efficiency, reliability, and longevity across all building operations',
-    backgroundImage: '/Maintenance-testimonials-9.jpg', // Standardized background image
+    backgroundImage: '/main (3).jpg', // Standardized background image
     uspItems: [
       { icon: 'BrainCircuit', title: 'Data Driven', description: 'Uses analytics to predict system failures consistently' },
       { icon: 'ShieldCheck', title: 'Proactive Solutions', description: 'Prevents downtime before problems occur effectively' },

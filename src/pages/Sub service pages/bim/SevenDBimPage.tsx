@@ -6,7 +6,7 @@ import { sevenDBimPageData } from '../../../sub-service-data/bim/sevenDBimData';
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'bim' folder
-import scopeImage from '../../../assert/Sub Services/bim/BIM-testimonials-7.jpg'; 
+import scopeImage from '/7D BIM – Facility Management.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/bim/BIM-testimonials-11.jpg';
 
 // Importing the specific project images you requested.

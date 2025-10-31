@@ -6,7 +6,7 @@ export const rawMaterialSourcingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Raw Material</span> Sourcing',
     tagline: 'Efficient sourcing of quality raw construction materials',
     description: 'Our raw material sourcing services ensure reliable, cost effective, and high-quality materials, supporting timely procurement, optimized budgets, and successful execution of construction and engineering projects',
-    backgroundImage: bgImage,
+    backgroundImage:  '/impex (3).jpeg',
     uspItems: [
       { icon: 'ShieldCheck', title: 'Reliable Suppliers', description: 'Ensuring consistent high-quality materials' },
       { icon: 'DollarSign', title: 'Cost-effective', description: 'Competitive pricing for optimal project budgets' },

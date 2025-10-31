@@ -8,7 +8,7 @@ import { failureAnalysisTroubleshootingPageData } from '../../../sub-service-dat
 // (scopeImage, testimonialImage, projectImg1..projectImg7)
 
 // Reuse standard images or replace with failure-analysis-specific visuals when ready
-import scopeImage from '../../../assert/Sub Services/construction/smart.webp';
+import scopeImage from '/Failure Analysis & Troubleshooting.jpg';
 import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-7.jpg';
 
 import projectImg1 from '../../../assert/projects/pro (54).png';

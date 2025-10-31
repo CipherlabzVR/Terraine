@@ -43,7 +43,7 @@ export const aiInData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "The Master Diploma in AI in Engineering program trains professionals to leverage artificial intelligence for smart design, predictive analytics, and optimized project workflows. Participants gain hands-on experience applying AI tools in real engineering scenarios, enhancing efficiency, decision-making, and innovation across construction, infrastructure, and industrial projects",
+  programOverview: "The Master Diploma in AI in Engineering program trains professionals to leverage artificial intelligence for smart design, predictive analytics, and optimized project workflows. Participants gain hands-on experience applying AI tools in real engineering scenarios, enhancing efficiency, decision-making, and innovation across construction, infrastructure, and industrial projects.",
   whatYouWillLearn: [
     { title: "AI Fundamentals for Engineering", description: "Understand core AI concepts and algorithms applied in engineering contexts" },
     { title: "Predictive Analytics", description: "Learn to forecast project outcomes using AI driven data analysis" },
@@ -71,27 +71,27 @@ export const aiInData = {
  faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This AI in Engineering course is suitable for civil engineers, architects, MEP engineers, quantity surveyors, draughtsman, construction professionals, under graduates and students who required to apply artificial intelligence in design, planning and project execution"
+      answer: "This AI in Engineering course is suitable for civil engineers, architects, MEP engineers, quantity surveyors, draughtsman, construction professionals, under graduates and students who required to apply artificial intelligence in design, planning and project execution."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth AI based applications"
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth AI based applications."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest software enhanced with AI tools for automation, prediction and decision making"
+      answer: "You will learn latest software enhanced with AI tools for automation, prediction and decision making."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which highlights your expertise in AI applications for engineering"
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which highlights your expertise in AI applications for engineering."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning resources so you can review them anytime"
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning resources so you can review them anytime."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career support, project portfolio guidance and job placement assistance to help you move into AI driven engineering roles"
+      answer: "Yes, we provide career support, project portfolio guidance and job placement assistance to help you move into AI driven engineering roles."
     }
   ],
   

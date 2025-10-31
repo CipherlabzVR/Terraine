@@ -5,7 +5,7 @@ export const constructionSupervisionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Construction Supervision</span> & QA/QC',
     tagline: 'Ensuring quality excellence through expert project supervision',
     description: 'Our construction supervision and QA/QC services maintain strict quality standards, monitor progress, and ensure precise execution, delivering safe, durable, and high-quality projects every time',
-    backgroundImage: '/hero-consultancy-supervision.jpg', // Updated hero background image
+    backgroundImage: '/consuper.png', // Updated hero background image
     uspItems: [
       { icon: 'Award', title: 'Quality Assurance', description: 'Ensuring high standards in every construction project' },
       { icon: 'UserCheck', title: 'Expert Supervision', description: 'Skilled oversight minimizing errors and delays consistently' },

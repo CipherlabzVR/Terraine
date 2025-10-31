@@ -1709,8 +1709,8 @@ const JobDetailModal = ({ position, onClose }: { position: typeof positions[0], 
               <span className="flex items-center gap-1.5"><Briefcase className="w-4 h-4 text-cyan-400" />{position.remote}</span>
             </div>
           </div>
-          <Button onClick={onClose} variant="ghost" size="icon" className="text-gray-400 hover:text-white hover:bg-white/10 rounded-full">
-            <X className="h-6 w-6" />
+          <Button onClick={onClose} variant="ghost" size="icon" className="text-gray-400 hover:text-white hover:bg-white/10 rounded-full mb-[10vh] ml-[1vh]">
+            <X className="h-6 w-6 " />
           </Button>
         </div>
 
@@ -2172,7 +2172,7 @@ const Career = () => {
                                   <div className="text-center  bg-transparent backdrop-blur-md border border-white/20 rounded-2xl p-8 md:p-10">
                                       <Quote className="w-16 h-16 text-white/50 mx-auto mb-6" fill="currentColor"/>
                                       <p className="text-2xl md:text-3xl font-medium text-white max-w-3xl mx-auto">
-                                          {testimonial.quote}
+                                          " {testimonial.quote} "
                                       </p>
                                       <footer className="mt-8">
                                           <p className="text-lg font-semibold text-white">{testimonial.author}</p>

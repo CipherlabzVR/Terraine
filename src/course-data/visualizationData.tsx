@@ -9,7 +9,7 @@ export const visualizationData = {
   // --- Hero Section ---
   heroTitle: "Master Diploma in 3D Visualization with VR",
   heroSubtitle: "Master the creation of realistic 3D models, immersive VR experiences, and visual presentations to enhance architectural and engineering projects",
-  heroImage: "/3dnew.png", // Suggested image path, please replace if different
+  heroImage: "/Landing Page Pictures.png", // Suggested image path, please replace if different
 
   // --- Key Course Features in Hero ---
   keyCourseFeatures: [
@@ -43,7 +43,7 @@ export const visualizationData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "The Master Diploma in 3D Visualization program trains professionals to create realistic and detailed 3D models, renderings, and walkthroughs for engineering and construction projects. Participants gain hands-on experience with industry-standard software, improving design communication, project presentation, and stakeholder engagement across architectural, structural, and infrastructure projects",
+  programOverview: "The Master Diploma in 3D Visualization program trains professionals to create realistic and detailed 3D models, renderings, and walkthroughs for engineering and construction projects. Participants gain hands-on experience with industry-standard software, improving design communication, project presentation, and stakeholder engagement across architectural, structural, and infrastructure projects.",
   whatYouWillLearn: [
     { title: "3D Modeling Techniques", description: "Build precise architectural, structural, and MEP models" },
     { title: "Rendering & Lighting", description: "Create photorealistic renderings with advanced lighting and material settings" },
@@ -72,27 +72,27 @@ export const visualizationData = {
   faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This 3D Architectural Visualization course is suitable for architects, interior designers, civil engineers, draughtsman, construction professionals, under graduates and students who required to master realistic design presentation and visualization techniques"
+      answer: "This 3D Architectural Visualization course is suitable for architects, interior designers, civil engineers, draughtsman, construction professionals, under graduates and students who required to master realistic design presentation and visualization techniques."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth 3D visualization performance"
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth 3D visualization performance."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest 3D modeling and rendering software designed for architectural visualization, design presentation and walkthrough creation"
+      answer: "You will learn latest 3D modeling and rendering software designed for architectural visualization, design presentation and walkthrough creation."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which strengthens your design and visualization portfolio"
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which strengthens your design and visualization portfolio."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and course materials so you can continue learning without interruption"
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and course materials so you can continue learning without interruption."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career guidance, portfolio development support and job placement assistance to help you establish a successful path in architectural visualization"
+      answer: "Yes, we provide career guidance, portfolio development support and job placement assistance to help you establish a successful path in architectural visualization."
     }
   ],
   

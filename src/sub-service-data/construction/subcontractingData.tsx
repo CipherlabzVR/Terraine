@@ -5,7 +5,7 @@ export const subcontractingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Subcontracting</span> Services',
     tagline: 'Reliable expert support for seamless project execution',
     description: 'Our subcontracting services provide skilled labor, specialized expertise, and efficient execution, ensuring high quality, timely completion, and smooth collaboration on every construction project',
-    backgroundImage: '/hero - construction (11).jpg', // Standardized background image
+    backgroundImage: '/Subcontract.png', // Standardized background image
     uspItems: [
       { icon: 'Users', title: 'Skilled Workforce', description: 'Experienced teams delivering quality work consistently' },
       { icon: 'GitFork', title: 'Flexible Solutions', description: 'Adaptable services for diverse project needs effectively' },

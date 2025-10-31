@@ -6,7 +6,7 @@ import { annualMaintenanceContractsPageData } from '../../../sub-service-data/ma
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'maintenance' folder
-import scopeImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-9.jpg'; 
+import scopeImage from '/Annual Maintenance Contracts (AMC).jpg'; 
 import testimonialImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-1.webp';
 
 // Importing the specific project images you requested.

@@ -5,7 +5,7 @@ export const commercialConstructionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Commercial</span> Construction',
     tagline: 'Creating efficient innovative spaces for businesses',
     description: 'Our commercial construction services deliver functional, durable, and visually appealing spaces, combining modern design, quality materials, and precise execution to support business success and growth',
-    backgroundImage: '/hero - construction (3).jpg', // Standardized background image
+    backgroundImage: '/Commercial Construction.png', // Standardized background image
     uspItems: [
       { icon: 'LayoutGrid', title: 'Functional Spaces', description: 'Designing efficient layouts boosting business operations effectively' },
       { icon: 'Building2', title: 'Modern Aesthetics', description: 'Visually appealing designs enhancing brand image consistently' },

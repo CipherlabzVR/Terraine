@@ -5,7 +5,7 @@ export const sixDBimPageData: PageData = {
     serviceName: '<span class="text-cyan-400">6D BIM</span> – Sustainability & Energy',
     tagline: 'Driving sustainable solutions with intelligent 6D modeling',
     description: 'Our 6D BIM services analyze energy use, materials, and sustainability factors, enabling ecofriendly designs, reduced costs, and long term environmental responsibility in every project',
-    backgroundImage: '/BIM-testimonials-6.jpg', // Standardized background image
+    backgroundImage: '/6D.png', // Standardized background image
     uspItems: [
       { icon: 'GaugeCircle', title: 'Energy Efficiency', description: 'Models optimizing building energy consumption consistently' },
       { icon: 'Leaf', title: 'Sustainable Design', description: 'Supports environmentally responsible construction effectively' },

@@ -32,7 +32,7 @@ export const digitalTwinData = {
       icon: <Users className="w-10 h-10 text-cyan-400" />,
       title: "Expert Guidance",
       description: "Learn from experienced professionals specializing in AI, IoT, and digital twin technologies",
-      tag: "Industry Veterans",
+      tag: "Industry Experts",
     },
     {
       icon: <Briefcase className="w-10 h-10 text-cyan-400" />,
@@ -43,7 +43,7 @@ export const digitalTwinData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "This comprehensive Master Diploma in Digital Twin provides in-depth training in the creation and deployment of dynamic virtual models. Designed for aspiring engineers and tech professionals, the curriculum covers everything from fundamental concepts to advanced applications in IoT, AI, and predictive analytics, preparing you for leadership roles in the smart industry revolution",
+  programOverview: "This comprehensive Master Diploma in Digital Twin provides in-depth training in the creation and deployment of dynamic virtual models. Designed for aspiring engineers and tech professionals, the curriculum covers everything from fundamental concepts to advanced applications in IoT, AI, and predictive analytics, preparing you for leadership roles in the smart industry revolution.",
   whatYouWillLearn: [
     { title: "Digital Twin Fundamentals", description: "Understand concepts, architecture, and applications in engineering and infrastructure" },
     { title: "IoT Integration", description: "Connect sensors and devices to capture real-time operational data" },
@@ -71,27 +71,27 @@ export const digitalTwinData = {
   faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This Digital Twin course is suitable for civil engineers, architects, MEP engineers, quantity surveyors, draughtsman, construction professionals, under graduates and students who is willing enhance digital and latest construction industry skills"
+      answer: "This Digital Twin course is suitable for civil engineers, architects, MEP engineers, quantity surveyors, draughtsman, construction professionals, under graduates and students who is willing enhance digital and latest construction industry skills."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth digital twin applications"
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth digital twin applications."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest software designed for digital twin modeling, data integration and performance monitoring"
+      answer: "You will learn latest software designed for digital twin modeling, data integration and performance monitoring."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which can add strong value to your professional profile"
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which can add strong value to your professional profile."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning resources so you can catch up at your convenience"
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning resources so you can catch up at your convenience."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career development guidance, project portfolio support and job placement assistance to help you explore new opportunities in the digital engineering field"
+      answer: "Yes, we provide career development guidance, project portfolio support and job placement assistance to help you explore new opportunities in the digital engineering field."
     }
   ],
   

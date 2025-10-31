@@ -10,7 +10,6 @@ import about3 from '../assert/about/about3.jpg';
 import about4 from '../assert/about/about4.jpg';
 import about5 from '../assert/about/about5.jpg';
 import Mission from './Mission';
-import { Helmet } from 'react-helmet-async';
 
 
 const About = () => {
@@ -86,20 +85,7 @@ const About = () => {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#0b2741" }}>
       {/* Header with hide/show animation */}
-      
-      <Helmet>
-        <title>About Us | Terrene Engineering</title>
-        <meta 
-        name="description"
-        content="With 20+ years of expertise, Terrene Engineering provides global consultancy & contracting, merging innovation, precision & sustainability." />
-        <link rel="canonical" href="https://terreneengineering.com/about" />
-        <meta property="og:title" content="About Us | Terrene Engineering" />
-        <meta property="og:description" content="With 20+ years of expertise, Terrene Engineering provides global consultancy & contracting, merging innovation, precision & sustainability." />
-        <meta property="og:url" content="https://terreneengineering.com/about" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-      </Helmet>
-      {/*seo meta tag */}
+      {/*seo meta tag now provided via about.html for view-source correctness */}
       <div
         className={`transition-transform duration-300 fixed top-0 left-0 w-full z-50 ${
           showHeader ? 'translate-y-0' : '-translate-y-full'
@@ -198,7 +184,7 @@ const About = () => {
                     </h2>
                     <p className="text-white text-lg sm:text-xl mb-4 text-left max-w-4xl leading-relaxed">
                       Terrene Engineering (Pvt) Ltd is a globally trusted name in engineering consultancy and contracting. With over 20 years of proven expertise, we deliver end-to-end engineering solutions that merge innovation, precision, and sustainability. Our team of experienced professionals operates across Sri Lanka, Maldives, Oman, UAE, Qatar, KSA, Australia, Singapore, New Zealand, UK, Canada, Germany, and serves clients around the world<br /><br />
-From project inception to completion, Terrene Engineering integrates smart project management, digital transformation, sustainable practices, and cutting-edge technologies such as BIM, AI, and Digital Twin solutions. Our multidisciplinary services span design, construction, cost and value engineering, geotechnical investigations, interior and furniture solutions, smart maintenance systems, import and export services, and comprehensive engineering consultancy across all disciplines. We also provide the latest engineering software training globally, conducted by certified industry experts, ensuring professionals stay equipped with current tools and best practices <br /><br />Driven by excellence, we build with purpose and consult with insight, ensuring that every project not only meets today’s challenges but also contributes to a sustainable tomorrow 
+From project inception to completion, Terrene Engineering integrates smart project management, digital transformation, sustainable practices, and cutting-edge technologies such as BIM, AI, and Digital Twin solutions. Our multidisciplinary services span design, construction, cost and value engineering, geotechnical investigations, interior and furniture solutions, smart maintenance systems, import and export services, and comprehensive engineering consultancy across all disciplines. We also provide the latest engineering software training globally, conducted by certified industry experts, ensuring professionals stay equipped with current tools and best practices <br /><br />Driven by excellence, we build with purpose and consult with insight, ensuring that every project not only meets today’s challenges but also contributes to a sustainable tomorrow. 
                     </p>
                   </div>
 
@@ -267,7 +253,7 @@ From project inception to completion, Terrene Engineering integrates smart proje
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              To be the world’s most trusted and innovative engineering consulting and contracting firm, delivering sustainable solutions that shape a better future for communities and industries across the globe                             </p>
+                              To be the world’s most trusted and innovative engineering consulting and contracting firm, delivering sustainable solutions that shape a better future for communities and industries across the globe.                             </p>
 
                           </div>
                         </div>
@@ -299,7 +285,7 @@ From project inception to completion, Terrene Engineering integrates smart proje
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              We are driven by a deep commitment to inspiring, developing, and celebrating both individual and collective excellence. At the heart of our success is our people their expertise, passion, and collaboration define who we are. We believe that diverse, high-performing teams are essential to delivering world-class engineering solutions, and we actively foster an inclusive environment where every background, perspective, and skillset is valued. Our culture is built on engagement, continuous learning, and mutual growth. As we expand globally, we welcome motivated, talented individuals who are eager to grow with us and shape the future of engineering                             </p>
+                              We are driven by a deep commitment to inspiring, developing, and celebrating both individual and collective excellence. At the heart of our success is our people their expertise, passion, and collaboration define who we are. We believe that diverse, high-performing teams are essential to delivering world-class engineering solutions, and we actively foster an inclusive environment where every background, perspective, and skillset is valued. Our culture is built on engagement, continuous learning, and mutual growth. As we expand globally, we welcome motivated, talented individuals who are eager to grow with us and shape the future of engineering.                             </p>
 
                           </div>
                         </div>

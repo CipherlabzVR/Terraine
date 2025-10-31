@@ -5,7 +5,7 @@ export const infrastructureConstructionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Infrastructure</span> Construction',
     tagline: 'Developing reliable sustainable infrastructure for communities',
     description: 'Our infrastructure construction services deliver durable, efficient, and high-quality solutions, improving connectivity, functionality, and long-term community benefits with expert planning and execution',
-    backgroundImage: '/hero - construction (6).jpg', // Standardized background image
+    backgroundImage: '/Infrastructure Construction.png', // Standardized background image
     uspItems: [
       { icon: 'ShieldCheck', title: 'Durable Solutions', description: 'Long-lasting infrastructure built with superior materials consistently' },
       { icon: 'Settings', title: 'Optimized Planning', description: 'Efficient designs ensuring smooth project execution effectively' },

@@ -289,19 +289,32 @@ const ProjectModal = ({ project, onClose }: { project: typeof allProjects[0], on
     <div 
       className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50 p-2 sm:p-4"
     >
+      {/* --- THIS IS THE MOBILE-ONLY CLOSE BUTTON --- */}
       <Button 
         onClick={onClose} 
         variant="ghost" 
         size="icon" 
-        className="absolute top-4 right-4 text-white hover:text-cyan-300 z-[51] bg-black/50 rounded-full"
+        className="absolute top-4 right-4 text-white hover:text-cyan-300 z-[51] bg-black/50 rounded-full md:hidden"
       >
         <X className="h-6 w-6" />
       </Button>
 
+      {/* --- ADDED `relative` HERE --- */}
       <div 
-        className="bg-[#0b2741] border border-white/10 rounded-lg shadow-2xl w-full max-w-4xl max-h-[95vh] overflow-y-auto flex flex-col md:flex-row"
+        className="bg-[#0b2741] border border-white/10 rounded-lg shadow-2xl w-full max-w-4xl max-h-[95vh] overflow-y-auto flex flex-col md:flex-row relative"
         onClick={(e) => e.stopPropagation()}
       >
+        {/* --- THIS IS THE NEW DESKTOP-ONLY CLOSE BUTTON --- */}
+        <Button 
+          onClick={onClose} 
+          variant="ghost" 
+          size="icon" 
+          className="hidden md:block absolute top-3 right-3 text-white/70 hover:text-cyan-300 hover:bg-white/10 z-[51] rounded-full"
+        >
+          <X className="h-6 w-6 ml-[1.5vh]" />
+        </Button>
+        
+        {/* --- REST OF THE MODAL CONTENT --- */}
         <div className="w-full md:w-1/2 p-4 md:p-6 flex flex-col">
           <img src={project.images[0]} alt="Main project view" className="w-full h-auto object-cover rounded-lg mb-4"/>
         </div>

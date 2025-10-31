@@ -2,7 +2,7 @@ import { PageData } from '../pages/GenericPageLayout';
 
 export const digitalTwinPageData: PageData = {
   meta: {
-    title: "Digital Twin | Terrene Engineering ", // [cite: 1]
+    title: "Digital Twin | Terrene Engineering ", //
     description: "Enhance project performance with Terrene Engineering’s Digital Twin solutions real-time monitoring, predictive insights, and sustainable efficiency" 
   },
   hero: {
@@ -33,16 +33,17 @@ export const digitalTwinPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "Digital Twin Capabilities",
     list: [
-          { icon: "Activity", title: "Real-Time Asset Monitoring & Performance Tracking", description: "Providing live digital replicas that track asset performance, enabling proactive decisions, reducing downtime, and ensuring operational efficiency" },
-    { icon: "Wrench", title: "Predictive & Preventive Maintenance", description: "Utilizing digital insights to forecast failures, schedule preventive maintenance, and extend asset life with minimal operational disruption" },
-    { icon: "Activity", title: "Energy & Resource Optimization", description: "Enhancing sustainability by monitoring usage patterns, reducing waste, and optimizing energy efficiency through smart digital twin technologies" },
-    { icon: "Building", title: "Facility Management & Space Utilization", description: "Transforming facility management with intelligent digital twins that optimize space utilization, improve workflows, and reduce operational costs" },
-    { icon: "Wifi", title: "Remote Operations & Virtual Control Centers", description: "Enabling remote oversight with digital control centers that improve efficiency, safety, and decision-making from anywhere" },
+          { icon: "Activity", title: "Real-Time Asset Monitoring & Performance Tracking", description: "Providing live digital replicas that track asset performance, enabling proactive decisions, reducing downtime, and ensuring operational efficiency", link: "/services/digital-twin/asset-monitoring" },
+    { icon: "Wrench", title: "Predictive & Preventive Maintenance", description: "Utilizing digital insights to forecast failures, schedule preventive maintenance, and extend asset life with minimal operational disruption", link: "/services/digital-twin/predictive-maintenance" },
+    { icon: "Activity", title: "Energy & Resource Optimization", description: "Enhancing sustainability by monitoring usage patterns, reducing waste, and optimizing energy efficiency through smart digital twin technologies", link: "/services/digital-twin/energy-optimization" },
+    { icon: "Building", title: "Facility Management & Space Utilization", description: "Transforming facility management with intelligent digital twins that optimize space utilization, improve workflows, and reduce operational costs", link: "/services/digital-twin/facility-management" },
+    { icon: "Wifi", title: "Remote Operations & Virtual Control Centers", description: "Enabling remote oversight with digital control centers that improve efficiency, safety, and decision-making from anywhere", link: "/services/digital-twin/remote-operations" },
+    // TODO: The route for 'Infrastructure Monitoring' was missing from the provided list. The list had a duplicate path for 'predictive-maintenance'.
     { icon: "Tractor", title: "Infrastructure Monitoring", description: "Delivering advanced monitoring of bridges, roads, and utilities through digital twins, ensuring safety, longevity, and proactive maintenance" },
-    { icon: "Building", title: "Smart City & Urban Digital Twin Services", description: "Empowering cities with virtual replicas for planning, sustainability, mobility, and infrastructure, creating smarter and more resilient urban environments" },
-    { icon: "AlertTriangle", title: "Emergency Preparedness & Disaster Simulation", description: "Simulating disasters digitally to strengthen emergency response, reduce risks, and ensure rapid recovery strategies" },
-    { icon: "Activity", title: "AR/VR-based Operations & Training", description: "Enhancing workforce skills and safety with immersive AR/VR training integrated into digital twin platforms" },
-    { icon: "BarChart", title: "Operational Analytics & Decision-Making", description: "Transforming data into actionable insights through digital twins, enabling smarter strategies and faster, informed decision-making" }
+    { icon: "Building", title: "Smart City & Urban Digital Twin Services", description: "Empowering cities with virtual replicas for planning, sustainability, mobility, and infrastructure, creating smarter and more resilient urban environments", link: "/services/digital-twin/smart-city" },
+    { icon: "AlertTriangle", title: "Emergency Preparedness & Disaster Simulation", description: "Simulating disasters digitally to strengthen emergency response, reduce risks, and ensure rapid recovery strategies", link: "/services/digital-twin/disaster-simulation" },
+    { icon: "Activity", title: "AR/VR-based Operations & Training", description: "Enhancing workforce skills and safety with immersive AR/VR training integrated into digital twin platforms", link: "/services/digital-twin/ar-vr-training" },
+    { icon: "BarChart", title: "Operational Analytics & Decision-Making", description: "Transforming data into actionable insights through digital twins, enabling smarter strategies and faster, informed decision-making", link: "/services/digital-twin/operational-analytics" }
     ],
     videoBackground: "digitalTwinAboutVideo"
   },

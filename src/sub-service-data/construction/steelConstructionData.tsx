@@ -5,7 +5,7 @@ export const steelConstructionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Steel</span> Construction',
     tagline: 'Precision engineered strong durable steel structures',
     description: 'Our steel construction services provide robust, efficient, and high-quality steel frameworks, ensuring structural integrity, long term durability, and seamless integration for every building project',
-    backgroundImage: '/hero - construction (10).jpg', // Standardized background image
+    backgroundImage: '/Steel Construction.png', // Standardized background image
     uspItems: [
       { icon: 'Building', title: 'Strong Frameworks', description: 'Durable steel structures built for long-lasting performance consistently' },
       { icon: 'Scaling', title: 'Precision Engineering', description: 'Accurate designs ensuring structural stability effectively' },

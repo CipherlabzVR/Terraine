@@ -5,7 +5,7 @@ import { geotechnicalSoilPageData } from '../../../sub-service-data/consultancy/
 // --- IMPORTANT ---
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
-import scopeImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-7.jpg';
+import scopeImage from '/Geotechnical & Soil Investigation.jpg';
 import testimonialImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-4.jpg';
 
 // Importing the specific project images you requested.

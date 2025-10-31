@@ -6,11 +6,11 @@ import { CheckCircle, Award } from 'lucide-react';
 import gold from '@/assert/Packages/pack (4).png';
 import { Helmet } from 'react-helmet-async'; // TODO: Replace with a relevant image for Infrastructure Package
 
-import gold1 from '@/assert/Packages/gold/gold1.png'; // TODO: Replace with relevant images
-import gold2 from '@/assert/Packages/gold/gold2.png';
-import gold3 from '@/assert/Packages/gold/gold3.png';
-import gold4 from '@/assert/Packages/gold/gold4.png';
-import gold5 from '@/assert/Packages/gold/gold5.jpg';
+import gold1 from '@/assert/Packages/gold/gold (1).png'; 
+import gold2 from '@/assert/Packages/gold/gold (2).png';
+import gold3 from '@/assert/Packages/gold/gold (3).png';
+import gold4 from '@/assert/Packages/gold/gold (4).png';
+import gold5 from '@/assert/Packages/gold/gold (5).png';
 
 
 const packageDetails = {

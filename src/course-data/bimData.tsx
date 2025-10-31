@@ -32,7 +32,7 @@ export const bimData = {
       icon: <Users className="w-10 h-10 text-cyan-400" />,
       title: "Expert Guidance",
       description: "Learn directly from certified BIM professionals with extensive experience in global construction projects",
-      tag: "Industry Veterans",
+      tag: "Industry Exprets",
     },
     {
       icon: <Award className="w-10 h-10 text-cyan-400" />,
@@ -43,7 +43,7 @@ export const bimData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "The Master Diploma in BIM (3D – 9D) program provides comprehensive training in digital project modeling, collaborative workflows, and multi-dimensional building information management. Participants gain hands-on experience with real projects, learn industry best practices, and develop the skills needed to deliver efficient, accurate, and future-ready construction solutions",
+  programOverview: "The Master Diploma in BIM (3D – 9D) program provides comprehensive training in digital project modeling, collaborative workflows, and multi-dimensional building information management. Participants gain hands-on experience with real projects, learn industry best practices, and develop the skills needed to deliver efficient, accurate, and future-ready construction solutions.",
   whatYouWillLearn: [
     { title: "3D BIM Modeling", description: "Master architectural, structural, and MEP digital modeling for accurate designs" },
     { title: "Clash Detection & Coordination", description: "Identify and resolve design conflicts across disciplines effectively" },
@@ -73,27 +73,27 @@ export const bimData = {
   faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This BIM course is ideal for civil engineers, architects, MEP engineers, quantity surveyors, draughtsman, construction professionals, under graduates and students who is willing enhance digital and latest construction industry skills"
+      answer: "This BIM course is ideal for civil engineers, architects, MEP engineers, quantity surveyors, draughtsman, construction professionals, under graduates and students who is willing enhance digital and latest construction industry skills."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth construction software performance"
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth construction software performance."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest construction software for building information modeling, project coordination and digital workflow management"
+      answer: "You will learn latest construction software for building information modeling, project coordination and digital workflow management."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which can strengthen your professional portfolio"
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which can strengthen your professional portfolio."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning materials so you can catch up at your own pace"
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning materials so you can catch up at your own pace."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career guidance, portfolio development support and job placement assistance to help you advance in the construction and engineering industry"
+      answer: "Yes, we provide career guidance, portfolio development support and job placement assistance to help you advance in the construction and engineering industry."
     }
   ],
   

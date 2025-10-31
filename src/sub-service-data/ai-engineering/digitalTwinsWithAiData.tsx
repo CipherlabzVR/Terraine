@@ -5,7 +5,7 @@ export const digitalTwinsWithAiPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Digital Twins</span> with AI',
     tagline: 'Real time insights through AI powered digital twins',
     description: 'Our AI driven digital twin services provide virtual replicas of projects, enabling monitoring, predictive analysis, and optimized performance for smart, data driven construction and facility management decisions',
-    backgroundImage: '/Hero -ai (5).webp',
+    backgroundImage: '/Hero - ai (5).jpg',
     uspItems: [
       { icon: 'Monitor', title: 'Real Time Monitoring', description: 'Tracks assets and operations consistently' },
       { icon: 'Wrench', title: 'Predictive Maintenance', description: 'AI forecasts potential failures effectively' },

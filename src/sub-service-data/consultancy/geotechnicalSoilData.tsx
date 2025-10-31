@@ -5,7 +5,7 @@ export const geotechnicalSoilPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Geotechnical & Soil</span> Investigation',
     tagline: 'Strong foundations built on reliable ground studies',
     description: 'Our geotechnical and soil investigations provide accurate analysis, ensuring safety, stability, and reliability while supporting durable, sustainable, and cost-effective solutions for every construction project',
-    backgroundImage: '/land.jpeg', // TODO: Update image path
+    backgroundImage: '/geosoil.png', // TODO: Update image path
     uspItems: [
       { icon: 'Layers', title: 'Reliable Soil Analysis', description: 'Accurate testing ensures stable project foundations' },
       { icon: 'ShieldCheck', title: 'Risk Reduction', description: 'Identifies potential ground issues early effectively' },

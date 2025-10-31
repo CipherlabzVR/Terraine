@@ -6,7 +6,7 @@ import { environmentalSustainabilityPageData } from '../../../sub-service-data/c
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-5.jpg'; 
+import scopeImage from '/Environmental & Sustainability Consulting.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-19.jpg';
 
 // Importing the specific project images you requested.

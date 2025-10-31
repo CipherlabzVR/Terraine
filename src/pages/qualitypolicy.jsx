@@ -163,7 +163,7 @@ const QualityPolicy = () => {
                       Quality Policy at <span className="text-primary-300">Terrene Engineering</span>
                     </h2>
                     <p className="text-white text-lg sm:text-xl mb-4 text-left max-w-4xl leading-relaxed">
-                      At Terrene Engineering, we are committed to delivering high-quality, sustainable engineering solutions that exceed client expectations, comply with all relevant standards, and create long-term value. We embed quality at every stage; from planning to execution ensuring safety, reliability, and engineering excellence. Our offerings are backed by a lifetime warranty, reflecting our confidence in the durability and performance of our work
+                      At Terrene Engineering, we are committed to delivering high-quality, sustainable engineering solutions that exceed client expectations, comply with all relevant standards, and create long-term value. We embed quality at every stage; from planning to execution ensuring safety, reliability, and engineering excellence. Our offerings are backed by a lifetime warranty, reflecting our confidence in the durability and performance of our work.
                     </p>
                   </div>
                   <div className="w-full">
@@ -195,7 +195,7 @@ const QualityPolicy = () => {
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              We maintain a rigorous focus on precision, accountability, and technical proficiency to consistently achieve superior outcomes
+                              We maintain a rigorous focus on precision, accountability, and technical proficiency to consistently achieve superior outcomes.
                             </p>
                             
                           </div>
@@ -227,7 +227,7 @@ const QualityPolicy = () => {
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                             Our operations strictly comply with applicable codes, regulatory requirements, and quality frameworks, ensuring uniformity, compliance, and risk mitigation
+                             Our operations strictly comply with applicable codes, regulatory requirements, and quality frameworks, ensuring uniformity, compliance, and risk mitigation.
                             </p>
                             
                           </div>
@@ -259,7 +259,7 @@ const QualityPolicy = () => {
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              We promote a systematic approach to process enhancement, integrating sustainable methodologies and advancing technical capabilities to ensure long-term value and operational efficiency
+                              We promote a systematic approach to process enhancement, integrating sustainable methodologies and advancing technical capabilities to ensure long-term value and operational efficiency.
                             </p>
                          
                           </div>

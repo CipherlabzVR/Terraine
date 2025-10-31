@@ -6,7 +6,7 @@ import { surveyingDigitalMappingPageData } from '../../../sub-service-data/consu
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-15.jpg'; 
+import scopeImage from '/Surveying & Digital Mapping.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-13.jpg';
 
 // Importing the specific project images you requested.

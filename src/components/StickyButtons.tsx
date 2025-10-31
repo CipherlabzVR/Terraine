@@ -48,13 +48,16 @@ const StickyButtons = () => {
 
     return (
         <div 
-            // --- CHANGE: Added padding (p-4) to enlarge the hover area and prevent accidental closing ---
             // --- onMouseLeave remains here to close the menu ---
             className="fixed bottom-4 right-4 z-[9999] flex flex-col items-center gap-6 p-4"
             onMouseLeave={isMobile ? undefined : () => setIsOpen(false)}
         >
             {/* Expanded Social Buttons */}
-            <div className={`flex flex-col items-center gap-6 transition-all duration-500 ease-in-out ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8 pointer-events-none'}`}>
+            {/* FIX: Added max-h-0 when closed and max-h-[500px] (or any large value) when open.
+              This collapses the div's height to 0 when closed, preventing it from
+              overlapping other page elements, while still allowing CSS transitions.
+            */}
+            <div className={`flex flex-col items-center gap-6 transition-all duration-500 ease-in-out ${isOpen ? 'opacity-100 translate-y-0 max-h-[500px]' : 'opacity-0 translate-y-8 max-h-0 pointer-events-none'}`}>
                 {socialButtons.map((button) => (
                     <a
                         key={button.name}
@@ -71,7 +74,7 @@ const StickyButtons = () => {
 
             {/* Main Toggle Button */}
             <button
-                // --- CHANGE: onMouseEnter is now on the button to trigger the menu ---
+                // --- onMouseEnter is now on the button to trigger the menu ---
                 onMouseEnter={isMobile ? undefined : () => setIsOpen(true)}
                 onClick={isMobile ? () => setIsOpen(!isOpen) : undefined}
                 className={`${mainButtonClasses} text-white transition-transform duration-300 ease-in-out ${!isOpen ? 'animate-throb' : ''}`}

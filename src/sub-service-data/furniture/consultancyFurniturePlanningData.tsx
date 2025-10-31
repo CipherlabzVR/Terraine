@@ -5,7 +5,7 @@ export const consultancyFurniturePlanningPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Consultancy & Furniture</span> Planning',
     tagline: 'Expert guidance for furniture solutions that transform every space beautifully',
     description: 'Our consultancy and furniture planning service provides comprehensive expert advice, strategic planning, and innovative solutions for residential, commercial, and institutional projects, ensuring functional, aesthetic, and cost-effective furniture arrangements that perfectly suit client needs and enhance space usability',
-    backgroundImage: '/furniture-hero.jpg',
+    backgroundImage: '/fur (6).jpg',
     uspItems: [
       { icon: 'Users', title: 'Professional Guidance', description: 'Expert consultants deliver tailored advice for optimal furniture planning and space utilization' },
       { icon: 'Lightbulb', title: 'Strategic Solutions', description: 'Innovative strategies ensure functional, aesthetic, and cost-effective furniture arrangements throughout projects' },

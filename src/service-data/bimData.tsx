@@ -3,7 +3,7 @@ import { PageData } from '../pages/GenericPageLayout'; // Updated import path fo
 export const bimPageData: PageData = {
   meta: {
     title: " Building Information Modelling | Terrene Engineering ", 
-    description: "We provide cutting-edge BIM solutions, ensuring precision, efficiency, and sustainability in every engineering and construction project" // [cite: 1]
+    description: "We provide cutting-edge BIM solutions, ensuring precision, efficiency, and sustainability in every engineering and construction project" //
   },
   hero: {
     title: "Building Information Modelling (BIM)",
@@ -33,13 +33,13 @@ export const bimPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "Our BIM Dimensions",
     list: [
-          { icon: "Box", title: "3D BIM – Digital Design & Modeling", description: "Delivering intelligent 3D models that enhance visualization, accuracy, and coordination, turning design concepts into efficient, buildable digital realities" },
-    { icon: "Clock", title: "4D BIM – Time (Project Scheduling & Management)", description: "Integrating scheduling with 3D models to optimize timelines, streamline workflows, and ensure on-time, efficient project delivery" },
-    { icon: "DollarSign", title: "5D BIM – Cost (Estimation and Budget Management)", description: "Linking costs with design for accurate estimation, enabling smarter budgeting, cost control, and value-driven decisions throughout projects" },
-    { icon: "Leaf", title: "6D BIM – Sustainability & Energy", description: "Driving eco-friendly design with energy analysis, ensuring sustainable, efficient, and environmentally responsible construction outcomes" },
-    { icon: "Building", title: "7D BIM – Facility Management", description: "Enhancing operations with digital models that streamline maintenance, asset management, and lifecycle performance of facilities" },
-    { icon: "Shield", title: "8D BIM – Safety & Risk Management", description: "Integrating safety analysis into models to identify hazards early, reducing risks and ensuring secure project execution" },
-    { icon: "Recycle", title: "9D BIM – Lean Construction & Productivity", description: "Maximizing efficiency with lean BIM workflows that minimize waste, improve collaboration, and boost overall construction productivity" }
+          { icon: "Box", title: "3D BIM – Digital Design & Modeling", description: "Delivering intelligent 3D models that enhance visualization, accuracy, and coordination, turning design concepts into efficient, buildable digital realities", link: "/services/bim/3d-bim" },
+    { icon: "Clock", title: "4D BIM – Time (Project Scheduling & Management)", description: "Integrating scheduling with 3D models to optimize timelines, streamline workflows, and ensure on-time, efficient project delivery", link: "/services/bim/4d-bim" },
+    { icon: "DollarSign", title: "5D BIM – Cost (Estimation and Budget Management)", description: "Linking costs with design for accurate estimation, enabling smarter budgeting, cost control, and value-driven decisions throughout projects", link: "/services/bim/5d-bim" },
+    { icon: "Leaf", title: "6D BIM – Sustainability & Energy", description: "Driving eco-friendly design with energy analysis, ensuring sustainable, efficient, and environmentally responsible construction outcomes", link: "/services/bim/6d-bim" },
+    { icon: "Building", title: "7D BIM – Facility Management", description: "Enhancing operations with digital models that streamline maintenance, asset management, and lifecycle performance of facilities", link: "/services/bim/7d-bim" },
+    { icon: "Shield", title: "8D BIM – Safety & Risk Management", description: "Integrating safety analysis into models to identify hazards early, reducing risks and ensuring secure project execution", link: "/services/bim/8d-bim" },
+    { icon: "Recycle", title: "9D BIM – Lean Construction & Productivity", description: "Maximizing efficiency with lean BIM workflows that minimize waste, improve collaboration, and boost overall construction productivity", link: "/services/bim/9d-bim" }
     ],
     videoBackground: "bimAboutVideo"
   },

@@ -5,7 +5,7 @@ export const environmentalSustainabilityPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Environmental & Sustainability</span> Consulting',
     tagline: 'Promoting sustainable solutions for responsible project development',
     description: 'Our environmental and sustainability consulting provides innovative strategies to minimize impact, optimize resources, and ensure ecofriendly, compliant, and long-lasting solutions for every project',
-    backgroundImage: '/hero-consultancy-sustainability.jpg', // Updated hero background image
+    backgroundImage: '/envsus.png', // Updated hero background image
     uspItems: [
       { icon: 'Leaf', title: 'Eco-friendly Solutions', description: 'Minimizing environmental impact through sustainable practices' },
       { icon: 'FileCheck2', title: 'Regulatory Compliance', description: 'Ensuring projects meet environmental standards effectively' },

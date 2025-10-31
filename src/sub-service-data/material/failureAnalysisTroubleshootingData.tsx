@@ -8,7 +8,7 @@ export const failureAnalysisTroubleshootingPageData: PageData = {
     tagline: 'Identifying and resolving material performance issues effectively',
     description:
       'Our failure analysis and material troubleshooting services diagnose defects, provide expert solutions, and ensure reliable, high quality, and long-lasting material performance for every construction project',
-    backgroundImage: '/con-hero.jpg',
+    backgroundImage: '/mat (10).jpg',
     uspItems: [
       { icon: 'Search',           title: 'Root Cause Detection', description: 'Identifies material failures accurately consistently' },
       { icon: 'Wrench',           title: 'Effective Solutions',  description: 'Provides corrective measures reliably' },

@@ -5,7 +5,7 @@ export const customAiSolutionsConsultingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Custom AI Solutions</span> & Consulting',
     tagline: 'Tailored AI solutions for unique project challenges',
     description: 'Our custom AI solutions and consulting provide personalized strategies, innovative tools, and expert guidance, empowering projects with intelligent automation, data driven decisions, and optimized construction performance',
-    backgroundImage: '/Hero -ai (3).png',
+    backgroundImage: '/Hero - ai (3).jpg',
     uspItems: [
       { icon: 'Settings', title: 'Tailored Strategies', description: 'AI solutions customized for project needs consistently' },
       { icon: 'Users', title: 'Expert Guidance', description: 'Professional consulting for optimal results effectively' },

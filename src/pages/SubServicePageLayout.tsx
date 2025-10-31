@@ -203,7 +203,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
       
       {/* --- Hero Section --- */}
       <main className="relative min-h-screen flex items-center text-white" style={{ backgroundImage: `url('${pageData.hero.backgroundImage}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-        <div className="absolute inset-0 bg-black/80 z-10"></div>
+        <div className="absolute inset-0 bg-black/60 z-10"></div>
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-8 pt-24 lg:pt-0">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                 <div className="text-center lg:text-left">
@@ -221,7 +221,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                         {pageData.hero.uspItems.map((item, index) => (
                             <div key={index} className="flex flex-col items-center">
                                 <Icon name={item.icon} size={32} className="text-cyan-400" />
-                                <h4 className="font-bold text-xl text-white mt-3">{item.title}</h4>
+                                <h4 className="font-bold text-md text-white mt-3">{item.title}</h4>
                                 <p className="text-sm text-white/70 mt-1">{item.description}</p>
                             </div>
                         ))}
@@ -281,7 +281,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                                         <span className="absolute -top-1 -right-1 bg-cyan-400 text-black w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm border-2 border-[#0b2741]">0{index + 1}</span>
                                     </div>
                                 </div>
-                                <h3 className="text-2xl font-bold mt-6 mb-2">{step.title}</h3>
+                                <h3 className="text-xl font-bold mt-6 mb-2">{step.title}</h3>
                                 <p className="text-white/70 max-w-xs flex-grow">{step.description}</p>
                             </div>
                         </div>
@@ -320,7 +320,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
       <section className="py-16 w-full px-4 md:px-8">
             <div className="bg-gradient-to-r from-cyan-700 to-[#0b2741] rounded-2xl shadow-2xl p-12 text-center text-white">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">{pageData.cta.title}</h2>
-                <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">{pageData.cta.description}</p>
+                <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">{pageData.cta.description}.</p>
                 <div className="flex justify-center items-center gap-4 flex-wrap">
                     <a href="#contact-section"><Button size="lg" className="bg-[#0050A0] text-white font-bold hover:bg-cyan-500 transition-colors px-6">SCHEDULE A CONSULTATION</Button></a>
                     <Link to="/completed-projects"><Button size="lg"  className="bg-cyan-500 text-white hover:bg-white/10 transition-colors px-6 w-[35vh]">VIEW PORTFOLIO</Button></Link>
@@ -419,7 +419,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                                 <input type="email" id="email" value={formData.email} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
                               </div>
                                <div className="sm:col-span-2">
-                                <label htmlFor="phone" className="block text-sm font-medium text-white/80 mb-1">Phone Number*</label>
+                                <label htmlFor="phone" className="block text-sm font-medium text-white/80 mb-1">Contact Number*</label>
                                 <PhoneInput country={'lk'} value={formData.phone} onChange={handlePhoneChange} containerClass="w-full custom-phone-input" />
                                </div>
                                <div className="sm:col-span-2">

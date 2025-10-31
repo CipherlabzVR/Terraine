@@ -43,7 +43,7 @@ export const mepHvacData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "The Master Diploma in MEP and HVAC Systems program trains professionals to design, model, and optimize mechanical, electrical, plumbing, and HVAC systems. Participants gain hands-on experience with industry-standard software, apply best practices, and develop skills to deliver energy-efficient, safe, and high-performance building services solutions",
+  programOverview: "The Master Diploma in MEP and HVAC Systems program trains professionals to design, model, and optimize mechanical, electrical, plumbing, and HVAC systems. Participants gain hands-on experience with industry-standard software, apply best practices, and develop skills to deliver energy-efficient, safe, and high-performance building services solutions.",
   whatYouWillLearn: [
     { title: "Mechanical System Design", description: "Design HVAC systems with accurate load calculations, duct layouts, and equipment selection for optimal indoor comfort and energy performance" },
     { title: "Electrical System Modeling", description: "Develop electrical system layouts including lighting, power distribution, panel schedules, and load balancing" },
@@ -72,27 +72,27 @@ export const mepHvacData = {
  faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This MEP and HVAC Systems course is suitable for mechanical engineers, electrical engineers, civil engineers, project managers, construction professionals, under graduates and students who required to gain practical knowledge in building services design and coordination"
+      answer: "This MEP and HVAC Systems course is suitable for mechanical engineers, electrical engineers, civil engineers, project managers, construction professionals, under graduates and students who required to gain practical knowledge in building services design and coordination."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth MEP and HVAC software performance"
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth MEP and HVAC software performance."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest MEP and HVAC design software for system modeling, analysis and project coordination"
+      answer: "You will learn latest MEP and HVAC design software for system modeling, analysis and project coordination."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which strengthens your professional profile in building services engineering"
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which strengthens your professional profile in building services engineering."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning materials so you can catch up at your own pace"
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning materials so you can catch up at your own pace."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career guidance, portfolio support and job placement assistance to help you pursue opportunities in MEP and HVAC design and management"
+      answer: "Yes, we provide career guidance, portfolio support and job placement assistance to help you pursue opportunities in MEP and HVAC design and management."
     }
   ],
   

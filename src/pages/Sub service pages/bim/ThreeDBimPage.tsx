@@ -6,7 +6,7 @@ import { threeDBimPageData } from '../../../sub-service-data/bim/threeDBimData';
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the new 'bim' folder
-import scopeImage from '../../../assert/Sub Services/bim/BIM-testimonials-14.jpg'; 
+import scopeImage from '/3D BIM – Digital Design & Modeling.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/bim/BIM-testimonials-3.jpg';
 
 // Importing the specific project images you requested.

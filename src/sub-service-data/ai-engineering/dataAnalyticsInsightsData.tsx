@@ -5,7 +5,7 @@ export const dataAnalyticsInsightsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Data Analytics</span> & Insights',
     tagline: 'Transforming construction data into actionable insights',
     description: 'Our data analytics and insights services analyze project data to optimize performance, improve decision making, and enhance efficiency, ensuring smart, more informed construction and engineering solutions',
-    backgroundImage: '/Hero -ai (4).png',
+    backgroundImage: '/Hero - ai (4).jpg',
     uspItems: [
       { icon: 'BarChart', title: 'Informed Decisions', description: 'Data driven insights guide projects consistently' },
       { icon: 'TrendingUp', title: 'Performance Optimization', description: 'Identifies areas for improvement effectively' },

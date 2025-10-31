@@ -3,7 +3,7 @@ import SubServicePageLayout from '../../SubServicePageLayout';
 import { customFurnitureDesignPageData } from '../../../sub-service-data/furniture/customFurnitureDesignData';
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/furniture/furniture1.jpg'; 
+import scopeImage from '/Custom Furniture Design.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/furniture/Furniture-testimonials-3.jpg';
 
 // Importing the specific project images you requested.

@@ -5,7 +5,7 @@ export const turnkeyFurnitureFitOutsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Turnkey Interior</span> & Furniture Fit-Outs',
     tagline: 'Complete furniture solutions, delivered ready to use',
     description: 'Our turnkey interior and furniture fit-out services provide end-to-end solutions, managing design, fabrication, supply, and installation to deliver fully functional, stylish, and ready-to-use spaces effortlessly',
-    backgroundImage: '/furniture-hero.jpg',
+    backgroundImage: '/fur (4).jpg',
     uspItems: [
       { icon: 'Key', title: 'One-Stop Solution', description: 'Complete project management from design to delivery ensures convenience' },
       { icon: 'Clock', title: 'Time Efficiency', description: 'Streamlined processes guarantee faster completion without compromising quality' },

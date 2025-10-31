@@ -8,7 +8,7 @@ import { exhibitionEventPageData } from '../../../sub-service-data/interior/exhi
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'interior' folder
-import scopeImage from '../../../assert/Sub Services/interior/Interior-testimonials-8.jpg'; 
+import scopeImage from '/Exhibition & Event Design.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/interior/Interior-testimonials-4.jpg';
 
 // Importing the specific project images for exhibition & event design.

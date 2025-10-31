@@ -5,7 +5,7 @@ export const modularFurniturePageData: PageData = {
     serviceName: '<span class="text-cyan-400">Modular Furniture</span> Solutions',
     tagline: 'Flexible furniture designed to adapt and transform',
     description: 'Our modular furniture solutions bring versatility, functionality, and style together, offering customizable layouts that seamlessly adapt to evolving spaces, modern lifestyles, and diverse design requirements with enduring quality',
-    backgroundImage: '/furniture-hero.jpg',
+    backgroundImage: '/fur (10).jpg',
     uspItems: [
       { icon: 'Puzzle', title: 'Adaptable Designs', description: 'Flexible layouts easily adjust to different spaces and functional needs' },
       { icon: 'DollarSign', title: 'Cost Efficiency', description: 'Modular solutions reduce waste, optimize space, and minimize long-term costs' },

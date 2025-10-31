@@ -5,7 +5,7 @@ export const preventiveMaintenancePageData: PageData = {
     serviceName: '<span class="text-cyan-400">Preventive & Scheduled</span> Maintenance',
     tagline: 'Proactive maintenance for reliable long-lasting performance',
     description: 'Our preventive and scheduled maintenance services ensure timely inspections, repairs, and upkeep, minimizing downtime, extending equipment life, and maintaining optimal performance across all building systems',
-    backgroundImage: '/Maintenance-testimonials-10.jpg', // Standardized background image
+    backgroundImage: '/main (2).jpg', // Standardized background image
     uspItems: [
       { icon: 'ShieldCheck', title: 'Proactive Care', description: 'Prevents equipment failures before they occur consistently' },
       { icon: 'CalendarClock', title: 'Optimized Scheduling', description: 'Timely maintenance without disrupting operations effectively' },

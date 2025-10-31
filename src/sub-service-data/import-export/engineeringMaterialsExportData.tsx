@@ -6,7 +6,7 @@ export const engineeringMaterialsExportPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Export of Engineering</span> & Construction Materials',
     tagline: 'Reliable export solutions for global construction needs',
     description: 'Our export services ensure efficient, safe, and timely delivery of engineering and construction materials, meeting international standards and supporting successful projects across global markets',
-    backgroundImage: bgImage,
+    backgroundImage: '/impex (7).jpeg',
     uspItems: [
       { icon: 'Globe', title: 'Global Reach', description: 'Delivering materials to international clients consistently' },
       { icon: 'ShieldCheck', title: 'Quality Assurance', description: 'Ensuring high standard products effectively' },

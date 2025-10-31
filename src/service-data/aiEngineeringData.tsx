@@ -2,8 +2,8 @@ import { PageData } from '../pages/GenericPageLayout';
 
 export const aiEngineeringPageData: PageData = {
   meta: {
-    title: "Ai Enginnering | Terrene Engineering ", // [cite: 1]
-    description: "Leverage Terrene Engineering’s AI Engineering services for smart, data-driven, and innovative solutions that optimize project performance and sustainability" // [cite: 1]
+    title: "Ai Enginnering | Terrene Engineering ", //
+    description: "Leverage Terrene Engineering’s AI Engineering services for smart, data-driven, and innovative solutions that optimize project performance and sustainability" //
   },
   hero: {
     title: "AI Engineering",
@@ -33,13 +33,13 @@ export const aiEngineeringPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "AI-Powered Capabilities",
     list: [
-          { icon: "Cpu", title: "AI-Powered Design & Planning", description: "Accelerate projects with intelligent designs, optimized planning, and flawless execution powered by advanced AI technology" },
-    { icon: "LineChart", title: "Predictive Analytics & Forecasting", description: "Anticipate trends, reduce risks, and make data-driven decisions for smarter construction outcomes" },
-    { icon: "Bot", title: "Smart Construction & Robotics", description: "Enhance efficiency and precision with AI-driven robotics and automated construction solutions" },
-    { icon: "Layers", title: "Digital Twins with AI", description: "Real-time virtual replicas for monitoring, simulation, and optimized asset performance" },
-    { icon: "FolderCog", title: "AI for BIM & Construction Management", description: "Integrate AI with BIM to streamline project management and improve decision-making" },
-    { icon: "DatabaseZap", title: "Data Analytics & Insights", description: "Transform complex data into actionable insights for better planning, performance, and profitability" },
-    { icon: "Lightbulb", title: "Custom AI Solutions & Consulting", description: "Tailored AI strategies and solutions to maximize efficiency, reduce costs, and innovate construction processes" }
+          { icon: "Cpu", title: "AI-Powered Design & Planning", description: "Accelerate projects with intelligent designs, optimized planning, and flawless execution powered by advanced AI technology", link: "/services/ai/design-planning" },
+    { icon: "LineChart", title: "Predictive Analytics & Forecasting", description: "Anticipate trends, reduce risks, and make data-driven decisions for smarter construction outcomes", link: "/services/ai/predictive-analytics" },
+    { icon: "Bot", title: "Smart Construction & Robotics", description: "Enhance efficiency and precision with AI-driven robotics and automated construction solutions", link: "/services/ai/smart-construction" },
+    { icon: "Layers", title: "Digital Twins with AI", description: "Real-time virtual replicas for monitoring, simulation, and optimized asset performance", link: "/services/ai/digital-twins-ai" },
+    { icon: "FolderCog", title: "AI for BIM & Construction Management", description: "Integrate AI with BIM to streamline project management and improve decision-making", link: "/services/ai/bim-construction" },
+    { icon: "DatabaseZap", title: "Data Analytics & Insights", description: "Transform complex data into actionable insights for better planning, performance, and profitability", link: "/services/ai/data-analytics" },
+    { icon: "Lightbulb", title: "Custom AI Solutions & Consulting", description: "Tailored AI strategies and solutions to maximize efficiency, reduce costs, and innovate construction processes", link: "/services/ai/custom-solutions" }
     ],
     videoBackground: "aiAboutVideo"
   },
@@ -104,7 +104,7 @@ export const aiEngineeringPageData: PageData = {
         { quote: "In Vancouver’s waterfront redevelopment they handled structural modeling and 4D sequencing Their clear deliverables and coordination workflows made execution smooth Their detailed planning kept the project on schedule Their team was very dependable.", name: "Michael Thompson", role: "Senior Engineer", country: "Vancouver, Canada", rating: 5, image: "https://randomuser.me/api/portraits/men/13.jpg" },
         { quote: "Terrene Engineers supported design and planning of a commercial tower in London Their BIM services ensured excellent coordination with MEP contractors Their efforts saved multiple design revisions and delays Their responsiveness was greatly appreciated.", name: "Sarah Williams", role: "Project Manager", country: "London, UK", rating: 5, image: "https://randomuser.me/api/portraits/women/10.jpg" },
         { quote: "For a Manchester residential development, they managed facade and structural integration Their detailed 3D plans and responsiveness avoided delays and controlled costs Their thorough coordination improved project delivery Their professionalism was outstanding.", name: "James Bennett", role: "Construction Director", country: "Manchester, UK", rating: 5, image: "https://randomuser.me/api/portraits/men/14.jpg" },
-        { quote: "Terrene Engineers helped me build my luxury villa in Nuwara Eliya with detailed BIM design and MEP planning Their precise coordination saved me time and reduced material waste by over 10 percent The 3D visualization gave me full clarity before construction started I highly recommend their professional and efficient approach.", name: "Dr. Chamari Gunasekara", role: "Medical Practitioner", country: "Nuwara Eliya, Sri Lanka", rating: 5, image: "https://randomuser.me/api/portraits/women/11.jpg" },
+        { quote: "Terrene Engineers helped me build my luxury villa in Nuwara Eliya with detailed BIM design and MEP planning Their precise coordination saved me time and reduced material waste by over 10 percent The 3D visualization gave me full clarity before construction started I highly recommend their professional and efficient approach.", name: "Dr. Chamari Gunasekara", role:"Medical Practitioner", country: "Nuwara Eliya, Sri Lanka", rating: 5, image: "https://randomuser.me/api/portraits/women/11.jpg" },
         { quote: "For my commercial and residential building in Galle Terrene Engineers provided architectural and structural design with BIM coordination Their efficient planning kept the project on budget and ensured smooth execution They helped optimize materials and reduce wastage significantly The whole process was seamless from start to finish.", name: "Mr. Dinusha Fernando", role: "Entrepreneur", country: "Galle, Sri Lanka", rating: 5, image: "https://randomuser.me/api/portraits/men/15.jpg" },
         { quote: "We built our luxury home in Hyderabad with Terrene Engineers handling architectural design MEP services and BIM modeling Their thorough planning helped avoid rework and saved us both time and money Their clash detection ensured smooth construction without delays Their professionalism made the entire experience hassle free.", name: "Dr. Anjali Verma", role: "Specialist Consultant", country: "Hyderabad, India", rating: 5, image: "https://randomuser.me/api/portraits/women/12.jpg" },
         { quote: "Terrene Engineers designed my dental clinic in Coimbatore including HVAC and electrical layouts Their BIM-based approach improved space use and ensured timely project delivery with great quality They helped reduce changes during construction and kept costs under control I am very satisfied with their work and service.", name: "Dr. Ravi Sankar", role: "Clinic Owner", country: "Coimbatore, India", rating: 5, image: "https://randomuser.me/api/portraits/men/16.jpg" }

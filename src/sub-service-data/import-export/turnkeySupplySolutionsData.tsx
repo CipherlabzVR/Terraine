@@ -6,7 +6,7 @@ export const turnkeySupplySolutionsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Turnkey Supply</span> Solutions',
     tagline: 'Complete supply solutions from sourcing to delivery',
     description: 'Our turnkey supply solutions handle every step of material procurement, ensuring timely delivery, quality assurance, and seamless integration of resources for efficient and successful project execution',
-    backgroundImage: bgImage,
+    backgroundImage: '/impex (1).jpeg',
     uspItems: [
       { icon: 'CheckCircle', title: 'Complete Services', description: 'Handling sourcing, delivery, and setup consistently' },
       { icon: 'Zap', title: 'Seamless Execution', description: 'Ensuring smooth project material supply effectively' },

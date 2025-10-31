@@ -32,6 +32,7 @@ const Inquiry = () => {
       border: 1px solid rgba(255, 255, 255, 0.3) !important;
       color: white !important;
       width: 100% !important;
+      height: 2.6rem !important;
       height: 42px !important; /* Match other fields' height */
       box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important; /* shadow-sm */
     }
@@ -195,7 +196,7 @@ const Inquiry = () => {
                     <div>
                       <h3 className="font-semibold text-white">Email</h3>
                       <p className="text-gray-200">info@terreneengineering.com</p>
-                      <p className="text-gray-200">payments@terreneengineering.com</p>
+                      <p className="text-gray-200">careers@terreneengineering.com</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -237,7 +238,7 @@ const Inquiry = () => {
                     
                     <div className="grid md:grid-cols-2 gap-4 mb-6">
                       <div>
-                        <label className="block text-sm font-medium mb-1 text-white ">Phone Number*</label>
+                        <label className="block text-sm font-medium mb-1 text-white ">Contact Number*</label>
                         <PhoneInput
                           containerClass="custom-phone-input "
                           country={'lk'}

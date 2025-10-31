@@ -5,7 +5,7 @@ export const materialConsultancyPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Material</span> Consultancy',
     tagline: 'Selecting quality materials for efficient project success',
     description: 'Our material consultancy ensures the right choice of durable, cost effective, and high-quality materials, optimizing project performance, longevity, and overall construction value for every client',
-    backgroundImage: '/hero-consultancy-material.jpg', // Updated hero background image
+    backgroundImage: '/mat.png', // Updated hero background image
     uspItems: [
       { icon: 'Award', title: 'Quality Assurance', description: 'Ensuring durable and reliable construction materials always' },
       { icon: 'CircleDollarSign', title: 'Cost Optimization', description: 'Selecting materials providing best value efficiently' },

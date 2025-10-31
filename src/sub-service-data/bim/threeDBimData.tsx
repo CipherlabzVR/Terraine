@@ -5,7 +5,7 @@ export const threeDBimPageData: PageData = {
     serviceName: '<span class="text-cyan-400">3D BIM</span> Modeling',
     tagline: 'Visualize your project with precision and clarity',
     description: 'Our 3D BIM modeling service delivers accurate, detailed, and interactive digital representations, enhancing design coordination, clash detection, and project visualization for architects, engineers, and contractors',
-    backgroundImage: '/BIM-testimonials-7.jpg', // Standardized background image
+    backgroundImage: '/3D.png', // Standardized background image
     uspItems: [
       { icon: 'Box', title: 'Accurate Visualization', description: 'Detailed 3D models improving project understanding and communication' },
       { icon: 'Eye', title: 'Clash Detection', description: 'Identify and resolve design conflicts early for smooth construction' },

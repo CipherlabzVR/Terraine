@@ -6,11 +6,11 @@ import { CheckCircle, Award } from 'lucide-react';
 import itc from '@/assert/Packages/pack (3).png';
 import { Helmet } from 'react-helmet-async';
 
-import corporate1 from '@/assert/Packages/corporate/corporate1.png';
-import corporate2 from '@/assert/Packages/corporate/corporate2.png';
-import corporate3 from '@/assert/Packages/corporate/corporate3.png';
-import corporate4 from '@/assert/Packages/corporate/corporate4.jpg';
-import corporate5 from '@/assert/Packages/corporate/corporate5.jpg';
+import corporate1 from '@/assert/Packages/corporate/corporate (1).png';
+import corporate2 from '@/assert/Packages/corporate/corporate (2).png';
+import corporate3 from '@/assert/Packages/corporate/corporate (3).png';
+import corporate4 from '@/assert/Packages/corporate/corporate (4).png';
+import corporate5 from '@/assert/Packages/corporate/corporate (5).png';
 
 const packageDetails = {
   name: 'BIM & Digital Twin Integrated with AI Engineering Package',

@@ -5,7 +5,7 @@ export const electricalDrawingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Electrical</span> Drawing',
     tagline: 'Accurate electrical drawings for safe reliable installations',
     description: 'Our electrical drawings deliver precise layouts and specifications, ensuring safe, efficient, and fully coordinated electrical systems for seamless operation and project success',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/draw (3).png', // Standardized background image
     uspItems: [
       { icon: 'Scaling', title: 'Accurate Layouts', description: 'Ensuring precise electrical planning for safe installations' },
       { icon: 'Unplug', title: 'Conflict Free', description: 'Coordinated designs reducing system clashes effectively' },

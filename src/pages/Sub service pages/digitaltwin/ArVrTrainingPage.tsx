@@ -6,7 +6,7 @@ import { arVrTrainingPageData } from '../../../sub-service-data/digitaltwin/arVr
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'digitaltwin' folder
-import scopeImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-2.jpg'; 
+import scopeImage from '/AR,VR-Based Operations & Training.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/digitaltwin/Digitaltwin-testimonials-1.jpg';
 
 // Importing the specific project images you requested.

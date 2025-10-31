@@ -5,7 +5,7 @@ export const sevenDBimPageData: PageData = {
     serviceName: '<span class="text-cyan-400">7D BIM</span> – Facility Management',
     tagline: 'Streamlining facility management with advanced 7D modeling',
     description: 'Our 7D BIM services integrate facility data with project models, enabling efficient operations, maintenance, and lifecycle management for long-lasting building performance and value',
-    backgroundImage: '/BIM-testimonials-5.jpg', // Standardized background image
+    backgroundImage: '/7D.png', // Standardized background image
     uspItems: [
       { icon: 'TrendingUp', title: 'Asset Optimization', description: 'Efficiently manages building resources consistently' },
       { icon: 'CalendarCheck', title: 'Maintenance Planning', description: 'Schedules proactive inspections effectively' },

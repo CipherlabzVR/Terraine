@@ -6,7 +6,7 @@ import { fiveDBimPageData } from '../../../sub-service-data/bim/fiveDBimData';
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'bim' folder
-import scopeImage from '../../../assert/Sub Services/bim/BIM-testimonials-4.jpg'; 
+import scopeImage from '/5D BIM – Cost (Estimation).jpg'; 
 import testimonialImage from '../../../assert/Sub Services/bim/BIM-testimonials-3.jpg';
 
 // Importing the specific project images you requested.

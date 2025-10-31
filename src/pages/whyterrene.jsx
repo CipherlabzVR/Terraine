@@ -174,7 +174,7 @@ const Whyterrene = () => {
                       Why <span className="text-primary-300">Terrene Engineering</span>
                     </h2>
                     <p className="text-white text-lg sm:text-xl mb-4 text-left max-w-4xl leading-relaxed">
-                      Terrene Engineering, we combine over two decades of industry expertise with cutting-edge technology to deliver engineering solutions that are innovative, sustainable, and built to last. Our multidisciplinary approach ensures seamless integration across every stage; from concept and design to execution, maintenance, and lifetime support. With a presence in multiple countries and a deep understanding of international codes and standards, we offer globally competitive services tailored to local needs. What sets us apart is our unwavering commitment to quality, timely delivery, environmental responsibility, and client satisfaction. Whether you're building infrastructure, developing smart systems, or upskilling your team, Terrene Engineering is your trusted partner for results that endure
+                      Terrene Engineering, we combine over two decades of industry expertise with cutting-edge technology to deliver engineering solutions that are innovative, sustainable, and built to last. Our multidisciplinary approach ensures seamless integration across every stage; from concept and design to execution, maintenance, and lifetime support. With a presence in multiple countries and a deep understanding of international codes and standards, we offer globally competitive services tailored to local needs. What sets us apart is our unwavering commitment to quality, timely delivery, environmental responsibility, and client satisfaction. Whether you're building infrastructure, developing smart systems, or upskilling your team, Terrene Engineering is your trusted partner for results that endure.
                     </p>
                   </div>
 
@@ -208,7 +208,7 @@ const Whyterrene = () => {
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              With over 20 years of industry experience, our team brings deep technical knowledge across multiple engineering disciplines. We stay at the forefront of innovation by integrating advanced tools like BIM, AI, and Digital Twins to ensure precision, efficiency, and future-ready solutions in every project
+                              With over 20 years of industry experience, our team brings deep technical knowledge across multiple engineering disciplines. We stay at the forefront of innovation by integrating advanced tools like BIM, AI, and Digital Twins to ensure precision, efficiency, and future-ready solutions in every project.
                             </p>
                            
                           </div>
@@ -241,7 +241,7 @@ const Whyterrene = () => {
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              We place our clients at the core of everything we do. By understanding your specific goals, challenges, and budget, we tailor our services to deliver practical, high-value outcomes built on transparency, responsiveness, and long-term collaboration
+                              We place our clients at the core of everything we do. By understanding your specific goals, challenges, and budget, we tailor our services to deliver practical, high-value outcomes built on transparency, responsiveness, and long-term collaboration.
                             </p>
                            
                           </div>
@@ -274,7 +274,7 @@ const Whyterrene = () => {
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              Sustainability is embedded in our design and delivery processes. We prioritize eco-friendly materials, energy-efficient systems, and smart technologies to create infrastructure that not only meets today’s demands but preserves resources for future generations
+                              Sustainability is embedded in our design and delivery processes. We prioritize eco-friendly materials, energy-efficient systems, and smart technologies to create infrastructure that not only meets today’s demands but preserves resources for future generations.
                             </p>
                            
                           </div>

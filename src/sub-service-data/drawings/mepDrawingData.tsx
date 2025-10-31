@@ -5,7 +5,7 @@ export const mepDrawingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">MEP</span> Drawings',
     tagline: 'Coordinated MEP drawings for efficient system installation',
     description: 'Our MEP drawings deliver precise mechanical, electrical, and plumbing layouts, ensuring seamless installation, reduced conflicts, and optimal system performance throughout every construction project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/draw (7).png', // Standardized background image
     uspItems: [
       { icon: 'GitMerge', title: 'Integrated Systems', description: 'Coordinated MEP layouts reducing conflicts and errors' },
       { icon: 'Scaling', title: 'Precision Detailing', description: 'Accurate drawings ensuring correct installation consistently' },

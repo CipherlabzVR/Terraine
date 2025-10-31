@@ -5,7 +5,7 @@ export const mepEngineeringPageData: PageData = {
     serviceName: '<span class="text-cyan-400">MEP</span> Engineering',
     tagline: 'Integrating mechanical electrical and plumbing systems seamlessly',
     description: 'Our MEP engineering services deliver fully coordinated mechanical, electrical, and plumbing solutions, ensuring efficiency, reliability, and optimal performance throughout every phase of your construction project',
-    backgroundImage: '/hero-consultancy-mep.jpg', // Updated hero background image
+    backgroundImage: '/mepdraw.png', // Updated hero background image
     uspItems: [
       { icon: 'GitMerge', title: 'Integrated Systems', description: 'Coordinated mechanical electrical and plumbing solutions seamlessly' },
       { icon: 'GaugeCircle', title: 'Efficiency Optimization', description: 'Ensuring energy efficient system performance consistently' },

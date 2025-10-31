@@ -8,7 +8,7 @@ import { bestMaterialPricePageData } from '../../../sub-service-data/material/be
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'construction' folder
-import scopeImage from '../../../assert/Sub Services/construction/smart.webp'; 
+import scopeImage from '/Best Material Price.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-2.jpg';
 
 // Importing the specific project images for material pricing services.

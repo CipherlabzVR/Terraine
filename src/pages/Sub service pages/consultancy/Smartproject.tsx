@@ -6,7 +6,7 @@ import { smartProjectManagementPageData } from '../../../sub-service-data/consul
 // 1. Import the specific images for THIS page from your assert folder.
 // 2. The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
-import scopeImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-13.jpg';
+import scopeImage from '/Smart Project Management.jpg';
 import testimonialImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-1.jpg';
 
 // Assuming you have an easy way to import project images. 

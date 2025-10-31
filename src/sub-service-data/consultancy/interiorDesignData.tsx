@@ -5,7 +5,7 @@ export const interiorDesignPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Interior</span> Design',
     tagline: 'Transforming spaces with style comfort and elegance',
     description: 'Our interior design services craft visually appealing, functional, and personalized spaces, combining creativity, comfort, and practicality to enhance the lifestyle and experience of every client',
-    backgroundImage: '/hero-consultancy.jpg', // Updated hero background image
+    backgroundImage: '/interiordes.png', // Updated hero background image
     uspItems: [
       { icon: 'UserCog', title: 'Personalized Interiors', description: 'Custom designs reflecting client style perfectly' },
       { icon: 'Sparkles', title: 'Aesthetic Excellence', description: 'Beautiful spaces combining style and functionality' },

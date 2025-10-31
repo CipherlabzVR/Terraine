@@ -48,7 +48,7 @@ const allCoursesData = [
   {
     title: 'Master Diploma in 3D Visualization with VR',
     slug: '3d-visualization',
-    image: '/3dnew.png',
+    image: '/Landing Page Pictures.png',
     duration: 'Flexible Schedule',
     description: 'Create stunning, photorealistic architectural renders with industry-standard software',
     feeDescription: 'Includes all learning materials and certification',
@@ -84,7 +84,7 @@ const allCoursesData = [
   {
     title: 'Master Diploma in Interior Design',
     slug: 'interior',
-    image: '/showcase-4.jpeg',
+    image: '/Landing Page.png',
     duration: 'Flexible Schedule',
     description: 'Master the art of creating functional and aesthetic interior spaces from concept to completion',
     feeDescription: 'Includes all learning materials and certification',
@@ -93,7 +93,7 @@ const allCoursesData = [
   {
     title: 'Master Diploma in Landscape Architecture',
     slug: 'landscape',
-    image: '/land.jpeg',
+    image: '/Landing Pagess.png',
     duration: 'Flexible Schedule',
     description: 'Learn to design and manage outdoor spaces, blending nature with modern environments',
     feeDescription: 'Includes all learning materials and certification',
@@ -394,15 +394,21 @@ const ContactFormSection = ({ subtitle }) => {
                                     <label htmlFor="email" className="block text-sm font-medium text-white/80 mb-1">Email Address*</label>
                                     <input type="email" id="email" value={formData.email} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400" />
                                 </div>
-                                <div className="sm:col-span-2">
-                                    <label className="block text-sm font-medium text-white/80 mb-1">Phone Number*</label>
-                                    <PhoneInput
-                                        country={'lk'}
-                                        value={formData.phone}
-                                        onChange={handlePhoneChange}
-                                        containerClass="w-full custom-phone-input"
-                                    />
-                                </div>
+                               <div className="sm:col-span-2">
+  <label className="block text-sm font-medium text-white/80 mb-1">Contact Number*</label>
+  <div
+    className="w-full rounded-md border border-white/20 bg-slate-800 focus-within:ring-1 focus-within:ring-white focus-within:border-white transition duration-200"
+  >
+    <PhoneInput
+      country={'lk'}
+      value={formData.phone}
+      onChange={handlePhoneChange}
+      containerClass="w-full"
+      inputClass="!bg-slate-800 !text-white !w-full !h-full !p-3 !border-none !outline-none !rounded-md"
+      buttonClass="!bg-slate-700 !border-none hover:!bg-slate-600"
+    />
+  </div>
+</div>
                                 <div className="sm:col-span-2">
                                     <label htmlFor="course" className="block text-sm font-medium text-white/80 mb-1">Course Interested In</label>
                                     <select id="course" value={formData.course} onChange={handleChange} required className="w-full p-3 bg-slate-800 border border-white/20 rounded-md focus:ring-cyan-500 focus:border-cyan-400">
@@ -542,9 +548,21 @@ const CoursePageLayout = ({ courseData }) => {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div className="text-center lg:text-left">
                             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mt-24 lg:mt-[15vh]">
-                                <span className="text-cyan-400">{courseData.heroTitle.split(' in ')[0]} in</span>
-                                <br />
-                                {courseData.heroTitle.split(' in ')[1]}
+                                {courseData.heroTitle.includes(' in ') ? (
+                                    <>
+                                        <span className="text-cyan-400">{courseData.heroTitle.split(' in ')[0]} in</span>
+                                        <br />
+                                        {courseData.heroTitle.split(' in ')[1]}
+                                    </>
+                                ) : (
+                                    <>
+                                        <span className="text-cyan-400">
+                                            {courseData.heroTitle.substring(0, courseData.heroTitle.trim().lastIndexOf(' '))}
+                                        </span>
+                                        <br />
+                                        {courseData.heroTitle.substring(courseData.heroTitle.trim().lastIndexOf(' ') + 1)}
+                                    </>
+                                )}
                             </h1>
                             <p className="mt-4 text-lg md:text-xl text-white max-w-xl mx-auto lg:mx-0">
                                 {courseData.heroSubtitle}

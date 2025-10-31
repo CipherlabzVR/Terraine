@@ -7,7 +7,7 @@ export const healthcareInteriorsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Healthcare</span> Interiors',
     tagline: 'Functional interiors promoting healing and wellbeing',
     description: 'Our healthcare interiors are designed for safety, efficiency, and comfort, creating environments that support patient care, staff productivity, and a positive, therapeutic experience',
-    backgroundImage: '/Interior-testimonials-6.jpg', // Standardized background image
+    backgroundImage: '/int (9).png', // Standardized background image
     uspItems: [
       { icon: 'HeartPulse', title: 'Healing Environments', description: 'Interiors designed to support patient recovery consistently' },
       { icon: 'LayoutGrid', title: 'Functional Layouts', description: 'Efficient space planning for staff and patients effectively' },

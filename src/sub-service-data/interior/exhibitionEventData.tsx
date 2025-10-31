@@ -7,7 +7,7 @@ export const exhibitionEventPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Exhibition</span> & Event Design',
     tagline: 'Engaging designs creating memorable event experiences',
     description: 'Our exhibition and event design services deliver visually striking, functional, and immersive spaces, enhancing audience engagement and leaving lasting impressions through creative, well executed designs',
-    backgroundImage: '/Interior-testimonials-4.jpg', // Standardized background image
+    backgroundImage: '/int (11).png', // Standardized background image
     uspItems: [
       { icon: 'Users', title: 'Engaging Spaces', description: 'Designs creating memorable event experiences consistently' },
       { icon: 'Lightbulb', title: 'Creative Concepts', description: 'Unique ideas enhancing audience interaction effectively' },

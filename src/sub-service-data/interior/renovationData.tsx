@@ -7,7 +7,7 @@ export const renovationPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Renovation</span> & Makeover Services',
     tagline: 'Transforming spaces with creative renovation solutions',
     description: 'Our renovation and makeover services revitalize interiors, combining innovative design, efficient execution, and high-quality finishes to create refreshed, functional, and aesthetically appealing spaces',
-    backgroundImage: '/Interior-testimonials-10.jpg', // Standardized background image
+    backgroundImage: '/int (5).png', // Standardized background image
     uspItems: [
       { icon: 'Sparkles', title: 'Transformative Solutions', description: 'Revitalizing spaces with innovative designs consistently' },
       { icon: 'Clock', title: 'Efficient Execution', description: 'Timely completion with minimal disruption effectively' },

@@ -5,7 +5,7 @@ export const structuralDrawingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Structural</span> Drawing',
     tagline: 'Accurate structural drawings for safe strong buildings',
     description: 'Our structural drawings provide precise calculations, clear detailing, and comprehensive plans, ensuring structural integrity, safety, and efficient construction for every building project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/draw (9).png', // Standardized background image
     uspItems: [
       { icon: 'Calculator', title: 'Accurate Calculations', description: 'Precise structural details ensuring safe construction consistently' },
       { icon: 'FileCheck2', title: 'Reliable Designs', description: 'Clear drawings reducing errors and conflicts effectively' },

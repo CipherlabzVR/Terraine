@@ -43,7 +43,7 @@ export const structuralDesignData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "The Master Diploma in Structural Design and Modelling program equips professionals to analyze, design, and model structural systems efficiently. Participants gain hands-on experience with industry-standard software, learn best practices in structural engineering, and develop skills to deliver safe, cost-effective, and high-performance structures across building and infrastructure projects",
+  programOverview: "The Master Diploma in Structural Design and Modelling program equips professionals to analyze, design, and model structural systems efficiently. Participants gain hands-on experience with industry-standard software, learn best practices in structural engineering, and develop skills to deliver safe, cost-effective, and high-performance structures across building and infrastructure projects.",
   whatYouWillLearn: [
     { title: "Structural Analysis", description: "Perform accurate analysis of beams, columns, slabs, frames, and complex structural systems using methods such as static, dynamic, and FEM-based approaches" },
     { title: "Design Optimization", description: "Create efficient and cost-effective structural designs that balance safety, serviceability, sustainability, and material efficiency in line with international standards" },
@@ -72,27 +72,27 @@ export const structuralDesignData = {
   faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This Structural Design and Modelling course is suitable for civil engineers, structural engineers, draughtsman, construction professionals, under graduates and students who required to gain expertise in analyzing and modeling structural systems"
+      answer: "This Structural Design and Modelling course is suitable for civil engineers, structural engineers, draughtsman, construction professionals, under graduates and students who required to gain expertise in analyzing and modeling structural systems."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth structural design performance"
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth structural design performance."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest structural design and modeling software applied for analysis, detailing and project documentation"
+      answer: "You will learn latest structural design and modeling software applied for analysis, detailing and project documentation."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which enhances your professional engineering portfolio"
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which enhances your professional engineering portfolio."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and course materials so you can review them at your convenience"
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and course materials so you can review them at your convenience."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career guidance, project portfolio support and job placement assistance to help you pursue opportunities in structural engineering and design"
+      answer: "Yes, we provide career guidance, project portfolio support and job placement assistance to help you pursue opportunities in structural engineering and design."
     }
   ],
   

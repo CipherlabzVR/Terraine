@@ -6,11 +6,11 @@ import { CheckCircle, Award } from 'lucide-react';
 import silver from '@/assert/Packages/3d-visualization.jpeg';
 import { Helmet } from 'react-helmet-async';
 
-import Silver1 from '@/assert/Packages/silver/Silver1.png';
-import Silver2 from '@/assert/Packages/silver/Silver2.png';
-import Silver3 from '@/assert/Packages/silver/Silver3.jpg';
-import Silver4 from '@/assert/Packages/silver/Silver4.jpg';
-import Silver5 from '@/assert/Packages/silver/Silver5.jpg';
+import Silver1 from '/soft land.jpg';
+import Silver2 from '/AI.jpg';
+import Silver3 from '/Software.jpg';
+import Silver4 from '/BIM soft.jpg';
+import Silver5 from '/soft interior.jpg';
 
 
 

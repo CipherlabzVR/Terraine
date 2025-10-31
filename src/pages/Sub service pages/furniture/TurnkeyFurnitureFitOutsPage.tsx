@@ -3,7 +3,7 @@ import SubServicePageLayout from '../../SubServicePageLayout';
 import { turnkeyFurnitureFitOutsPageData } from '../../../sub-service-data/furniture/turnkeyFurnitureFitOutsData';
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/furniture/furniture1.jpg'; 
+import scopeImage from '/Turnkey Interior & Furniture Fit-Outs.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/furniture/Furniture-testimonials-1.jpg';
 
 // Importing the specific project images you requested.

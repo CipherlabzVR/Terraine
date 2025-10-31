@@ -5,7 +5,7 @@ export const approvalDrawingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Approval</span> Drawing',
     tagline: 'Precise drawings ensuring swift project approvals',
     description: 'Our approval drawings provide accurate, detailed, and fully compliant plans, streamlining submission, reducing delays, and ensuring smooth regulatory approvals for every construction project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/draw (1).png', // Standardized background image
     uspItems: [
       { icon: 'FileCheck2', title: 'Regulatory Compliance', description: 'Ensuring drawings meet all approval requirements accurately' },
       { icon: 'Pen', title: 'Precise Detailing', description: 'Clear plans reducing approval delays effectively' },

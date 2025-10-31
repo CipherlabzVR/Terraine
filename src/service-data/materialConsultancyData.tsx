@@ -2,8 +2,8 @@ import { PageData } from '../pages/GenericPageLayout';
 
 export const materialConsultancyPageData: PageData = {
   meta: {
-    title: "Material Consultancy | Terrene Engineering ", // [cite: 1]
-    description: "Get professional material consultancy from Terrene Engineering. We provide testing, cost analysis & advanced sustainable solutions for your projects" // [cite: 1]
+    title: "Material Consultancy | Terrene Engineering ", //
+    description: "Get professional material consultancy from Terrene Engineering. We provide testing, cost analysis & advanced sustainable solutions for your projects" //
   },
   hero: {
     title: "Material Consultancy",
@@ -33,17 +33,17 @@ export const materialConsultancyPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "Material Consultancy Services",
     list: [
-          { icon: "ClipboardCheck", title: "Material Selection & Specification", description: "Expert guidance to choose the right materials for durability, performance, and cost-efficiency" },
-    { icon: "Beaker", title: "Material Testing & Certification", description: "Ensure quality, compliance, and safety with precise testing and certification services" },
-    { icon: "BadgePercent", title: "Best Material Price", description: "Access top-quality materials at the most competitive prices for smart, cost-effective projects" },
-    { icon: "Leaf", title: "Sustainable & Green Material Consultancy", description: "Promote eco-friendly, sustainable materials for greener, responsible construction" },
-    { icon: "Cuboid", title: "Concrete & Cementitious Material Consultancy", description: "Optimize concrete performance and longevity with expert material insights" },
-    { icon: "TowerControl", title: "Steel & Metal Material Consultancy", description: "Ensure structural strength and reliability through precise steel and metal selection" },
-    { icon: "Layers", title: "Polymer, Plastic & Composite Material Services", description: "Innovative solutions with advanced polymers, plastics, and composites for modern construction needs" },
-    { icon: "DollarSign", title: "Material Cost Analysis & Procurement Support", description: "Reduce expenses and streamline procurement with expert material cost insights" },
-    { icon: "SearchX", title: "Failure Analysis & Material Troubleshooting", description: "Identify, analyze, and resolve material failures to prevent project setbacks" },
-    { icon: "FlaskConical", title: "Innovative & Advanced Materials", description: "Integrate cutting-edge materials for performance, aesthetics, and innovation" },
-    { icon: "Flame", title: "Fire & Safety Material Consultancy", description: "Ensure safety compliance with expert selection of fire-resistant and protective materials" }
+          { icon: "ClipboardCheck", title: "Material Selection & Specification", description: "Expert guidance to choose the right materials for durability, performance, and cost-efficiency", link: "/services/material/selection" },
+    { icon: "Beaker", title: "Material Testing & Certification", description: "Ensure quality, compliance, and safety with precise testing and certification services", link: "/services/material/testing" },
+    { icon: "BadgePercent", title: "Best Material Price", description: "Access top-quality materials at the most competitive prices for smart, cost-effective projects", link: "/services/material/pricing" },
+    { icon: "Leaf", title: "Sustainable & Green Material Consultancy", description: "Promote eco-friendly, sustainable materials for greener, responsible construction", link: "/services/material/sustainable" },
+    { icon: "Cuboid", title: "Concrete & Cementitious Material Consultancy", description: "Optimize concrete performance and longevity with expert material insights", link: "/services/material/concrete" },
+    { icon: "TowerControl", title: "Steel & Metal Material Consultancy", description: "Ensure structural strength and reliability through precise steel and metal selection", link: "/services/material/steel" },
+    { icon: "Layers", title: "Polymer, Plastic & Composite Material Services", description: "Innovative solutions with advanced polymers, plastics, and composites for modern construction needs", link: "/services/material/polymer" },
+    { icon: "DollarSign", title: "Material Cost Analysis & Procurement Support", description: "Reduce expenses and streamline procurement with expert material cost insights", link: "/services/material/cost-analysis" },
+    { icon: "SearchX", title: "Failure Analysis & Material Troubleshooting", description: "Identify, analyze, and resolve material failures to prevent project setbacks", link: "/services/material/failure-analysis" },
+    { icon: "FlaskConical", title: "Innovative & Advanced Materials", description: "Integrate cutting-edge materials for performance, aesthetics, and innovation", link: "/services/material/innovative" },
+    { icon: "Flame", title: "Fire & Safety Material Consultancy", description: "Ensure safety compliance with expert selection of fire-resistant and protective materials", link: "/services/material/fire-safety" }
     ],
     videoBackground: "materialAboutVideo"
   },

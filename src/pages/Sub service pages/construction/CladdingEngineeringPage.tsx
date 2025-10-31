@@ -6,7 +6,7 @@ import { claddingEngineeringPageData } from '../../../sub-service-data/construct
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'construction' folder
-import scopeImage from '../../../assert/Sub Services/construction/Construction-testimonials-11.jpg'; 
+import scopeImage from '/Cladding Engineering.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/construction/Construction-testimonials-10.jpg';
 
 // Importing the specific project images you requested.

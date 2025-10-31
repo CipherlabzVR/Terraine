@@ -3,7 +3,7 @@ import SubServicePageLayout from '../../SubServicePageLayout';
 import { aiPoweredDesignPlanningPageData } from '../../../sub-service-data/ai-engineering/aiPoweredDesignPlanningData';
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-2.jpg';
+import scopeImage from '/AI-Powered Design & Planning.jpg';
 import testimonialImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-3.jpg';
 
 // Importing the specific project images you requested.

@@ -6,7 +6,7 @@ export const specializedEngineeringProductsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Specialized Engineering</span> Products',
     tagline: 'Supplying advanced products for specialized engineering solutions',
     description: 'Our specialized engineering product services provide high quality, innovative materials and components, ensuring precision, reliability, and optimal performance for complex construction and engineering projects',
-    backgroundImage: bgImage,
+    backgroundImage:  '/impex (2).jpeg',
     uspItems: [
       { icon: 'ShieldCheck', title: 'High-quality', description: 'Durable and reliable engineering products consistently' },
       { icon: 'Zap', title: 'Innovative Solutions', description: 'Advanced products for modern construction effectively' },

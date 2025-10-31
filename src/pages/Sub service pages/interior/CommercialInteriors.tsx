@@ -8,7 +8,7 @@ import { commercialInteriorsPageData } from '../../../sub-service-data/interior/
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'interior' folder
-import scopeImage from '../../../assert/Sub Services/interior/Interior-testimonials-5.jpg'; 
+import scopeImage from '/Commercial Interiors.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/interior/Interior-testimonials-2.jpg';
 
 // Importing the specific project images for commercial interiors.

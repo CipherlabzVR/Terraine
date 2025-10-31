@@ -7,7 +7,7 @@ export const bestMaterialPricePageData: PageData = {
     serviceName: '<span class="text-cyan-400">Best Material</span> Price',
     tagline: 'Securing high-quality materials at competitive rates',
     description: 'Our best material price services identify cost-effective sourcing options, ensuring high quality, reliable materials while optimizing budget, reducing expenses, and maximizing project value for every construction requirement',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/mat (1).jpg', // Standardized background image
     uspItems: [
       { icon: 'CircleDollarSign', title: 'Competitive Pricing', description: 'Sourcing materials at optimal cost consistently' },
       { icon: 'BadgeCheck', title: 'Value Optimization', description: 'Ensures best quality for budget effectively' },

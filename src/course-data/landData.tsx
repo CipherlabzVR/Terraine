@@ -9,7 +9,7 @@ export const landscapeArchitectureData = {
   // --- Hero Section ---
   heroTitle: "Master Diploma in Landscape Architecture",
   heroSubtitle: "Master the art of designing sustainable outdoor spaces with creativity, innovation, and advanced architectural expertise",
-  heroImage: "/land.jpeg", // Suggested image path
+  heroImage: "/Landing Pagess.png", // Suggested image path
 
   // --- Key Course Features in Hero ---
  keyCourseFeatures: [
@@ -43,7 +43,7 @@ export const landscapeArchitectureData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "The Master Diploma in Landscape Architecture equips learners with the ability to design sustainable, functional, and visually inspiring outdoor spaces. Participants explore advanced site planning, ecological design, and urban landscape strategies, supported by practical case studies and real-world project applications. With training in digital tools and sustainable practices, this program prepares professionals to shape resilient, people-centric environments for the future",
+  programOverview: "The Master Diploma in Landscape Architecture equips learners with the ability to design sustainable, functional, and visually inspiring outdoor spaces. Participants explore advanced site planning, ecological design, and urban landscape strategies, supported by practical case studies and real-world project applications. With training in digital tools and sustainable practices, this program prepares professionals to shape resilient, people-centric environments for the future.",
   whatYouWillLearn: [
     { title: "Site Analysis & Planning", description: "Assess topography, soil, climate, and context to create functional and sustainable landscape designs" },
     { title: "Ecological Design Principles", description: "Integrate green infrastructure and biodiversity strategies to achieve ecological balance" },
@@ -72,27 +72,27 @@ export const landscapeArchitectureData = {
   faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This Landscape Architecture course is suitable for landscape architects, architects, civil engineers, planners, design professionals, under graduates and students who required to develop skills in outdoor space planning, site design and sustainable landscaping"
+      answer: "This Landscape Architecture course is suitable for landscape architects, architects, civil engineers, planners, design professionals, under graduates and students who required to develop skills in outdoor space planning, site design and sustainable landscaping."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth design software performance"
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth design software performance."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest landscape architecture software for site planning, 3D modeling, visualization and sustainable design"
+      answer: "You will learn latest landscape architecture software for site planning, 3D modeling, visualization and sustainable design."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which strengthens your professional portfolio in landscape architecture"
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which strengthens your professional portfolio in landscape architecture."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning materials so you can catch up at your own pace"
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning materials so you can catch up at your own pace."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career guidance, portfolio development support and job placement assistance to help you build a successful career in landscape architecture"
+      answer: "Yes, we provide career guidance, portfolio development support and job placement assistance to help you build a successful career in landscape architecture."
     }
   ],
   

@@ -3,7 +3,7 @@ import SubServicePageLayout from '../../SubServicePageLayout';
 import { predictiveAnalyticsForecastingPageData } from '../../../sub-service-data/ai-engineering/predictiveAnalyticsForecastingData';
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-11.jpg';
+import scopeImage from '/Predictive Analytics & Forecasting.jpg';
 import testimonialImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-13.jpg';
 
 // Importing the specific project images you requested.

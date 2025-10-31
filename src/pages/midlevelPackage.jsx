@@ -7,11 +7,11 @@ import { Helmet } from 'react-helmet-async';
 
 import gold from '@/assert/Packages/pack (2).png';
 
-import gold1 from '@/assert/Packages/silver/Silver1.png';
-import gold2 from '@/assert/Packages/silver/Silver2.png';
-import gold3 from '@/assert/Packages/silver/Silver3.jpg';
-import gold4 from '@/assert/Packages/silver/Silver4.jpg';
-import gold5 from '@/assert/Packages/silver/Silver5.jpg';
+import gold1 from '@/assert/Packages/silver/Silver (1).png';
+import gold2 from '@/assert/Packages/silver/Silver (2).png';
+import gold3 from '@/assert/Packages/silver/Silver (3).png';
+import gold4 from '@/assert/Packages/silver/Silver (4).png';
+import gold5 from '@/assert/Packages/silver/Silver (5).png';
 
 
 

@@ -294,7 +294,7 @@ const Projects = () => {
               <div className="flex items-center justify-between">
                 <span className="text-xs text-white/80 truncate mr-2">{project.location}</span>
                 <span className="text-xs font-medium text-primary bg-primary/20 px-2 py-1 rounded">
-                  {project.year}
+                  
                 </span>
               </div>
             </div>

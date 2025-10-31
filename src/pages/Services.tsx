@@ -28,7 +28,7 @@ const allServicesData = [
     icon: <MessageSquare className="w-8 h-8 text-cyan-400" />
   },
   {
-    title: "Drawings",
+    title: "Engineering Drawings",
     description: "Precision-drafted architectural, structural, and MEP drawings that form the backbone of your project.",
     image: "/services/architectural.webp",
     slug: "drawings",
@@ -691,9 +691,9 @@ const Services: React.FC = () => {
                             <div className="space-y-8">
                                 <div>
                                     
-                                    <h2 className="text-3xl md:text-4xl font-bold text-white leading-tight mb-6">Experienced & Sustainable Engineering Providers </h2>
+                                    <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-10">Experienced & Sustainable Engineering Providers </h2>
                                     <p className="text-gray-100 leading-relaxed mb-8">
-                                        At the forefront of engineering excellence, Terrene Engineering blends trusted craftsmanship with cutting-edge technology. From BIM and digital twin solutions to             AI-powered smart engineering and sustainable construction practices, we deliver       future-ready projects that exceed expectations and stand the test of time. <br /> Our commitment to quality, innovation, and lifetime reliability ensures lasting value and strong partnerships with every client
+                                        At the forefront of engineering excellence, Terrene Engineering blends trusted craftsmanship with cutting-edge technology. From BIM and digital twin solutions to             AI-powered smart engineering and sustainable construction practices, we deliver       future-ready projects that exceed expectations and stand the test of time. <br /> Our commitment to quality, innovation, and lifetime reliability ensures lasting value and strong partnerships with every client.
                                     </p>
                                 </div>
                                 <div className="space-y-6">

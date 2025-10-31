@@ -5,7 +5,7 @@ export const facilityManagementPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Facility Management</span> & Space Utilization',
     tagline: 'Optimize Spaces Maximize Facility Efficiency Consistently',
     description: 'Efficiently manage facilities and space utilization to improve workflow, reduce costs, enhance comfort, and increase overall operational productivity across projects',
-    backgroundImage: '/Digitaltwin-testimonials-4.jpg', // Standardized background image
+    backgroundImage: '/dt (4).png', // Standardized background image
     uspItems: [
       { icon: 'LayoutGrid', title: 'Space Planning', description: 'Design layouts to maximize utilization and efficiency' },
       { icon: 'GaugeCircle', title: 'Operational Efficiency', description: 'Streamline facility operations for better performance' },

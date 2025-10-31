@@ -3,7 +3,7 @@ import SubServicePageLayout from '../../SubServicePageLayout';
 import { smartConstructionRoboticsPageData } from '../../../sub-service-data/ai-engineering/smartConstructionRoboticsData';
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-12.jpg';
+import scopeImage from '/Smart Construction & Robotics.jpg';
 import testimonialImage from '../../../assert/Sub Services/ai-engineering/AI-testimonials-14.jpg';
 
 // Importing the specific project images you requested.

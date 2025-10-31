@@ -7,7 +7,7 @@ export const materialTestingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Material Testing</span> & Certification',
     tagline: 'Reliable testing ensuring certified material quality standards',
     description: 'Our material testing and certification services verify quality, durability, and compliance, providing accurate results to ensure materials meet standards and deliver safe, reliable, and long-lasting performance',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/mat (5).jpg', // Standardized background image
     uspItems: [
       { icon: 'ClipboardCheck', title: 'Reliable Results', description: 'Accurate testing ensuring material quality consistently' },
       { icon: 'ShieldCheck', title: 'Compliance Assurance', description: 'Meets industry standards and regulations effectively' },

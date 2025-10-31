@@ -6,7 +6,7 @@ import { buildingFabricMaintenanceData } from '../../../sub-service-data/mainten
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'maintenance' folder
-import scopeImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-18.jpg'; 
+import scopeImage from '/Building Fabric & Structural Maintenance.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-3.jpg';
 
 // Importing the specific project images you requested.

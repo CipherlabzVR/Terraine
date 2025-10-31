@@ -3,7 +3,7 @@ import SubServicePageLayout from '../../SubServicePageLayout';
 import { costValueEngineeringPageData } from '../../../sub-service-data/consultancy/costValueData';
 
 // Import the other specific images for this page.
-import scopeImage from '../../../assert/Sub Services/consultancy/cost.jpg';
+import scopeImage from '/Cost & Value Engineering Solutions.jpg';
 import testimonialImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-20.jpg';
 
 // Manually import the specific project photos you want to display.

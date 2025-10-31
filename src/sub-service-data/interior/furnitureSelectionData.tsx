@@ -7,7 +7,7 @@ export const furnitureSelectionPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Furniture</span> Selection & Procurement',
     tagline: 'Curating the perfect pieces for your space',
     description: 'Our furniture selection services provide curated options that enhance comfort, aesthetics, and functionality in interior spaces',
-    backgroundImage: '/Interior-testimonials-5.jpg', // Standardized background image
+    backgroundImage: '/int (10).png', // Standardized background image
     uspItems: [
       { icon: 'Sofa', title: 'Curated Choices', description: 'Expertly selected furniture that perfectly matches your style and needs' },
       { icon: 'LayoutGrid', title: 'Functional Layouts', description: 'Strategic furniture placement to optimize space and flow effectively' },

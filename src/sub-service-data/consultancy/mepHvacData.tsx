@@ -5,7 +5,7 @@ export const mepHvacPageData: PageData = {
     serviceName: '<span class="text-cyan-400">MEP & HVAC</span> System Design',
     tagline: 'Designing efficient reliable and comfortable building systems',
     description: 'Our MEP and HVAC designs ensure energy efficient, reliable, and comfortable systems, optimizing performance, reducing costs, and enhancing overall building functionality for every project',
-    backgroundImage: '/hero-consultancy-hvac.jpg', // Updated hero background image
+    backgroundImage: '/hvac.jpg', // Updated hero background image
     uspItems: [
       { icon: 'Thermometer', title: 'Comfort Oriented', description: 'Efficient HVAC systems ensuring optimal indoor climate' },
       { icon: 'Leaf', title: 'Energy Efficient', description: 'Reducing operational costs through smart designs' },

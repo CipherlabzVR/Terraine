@@ -2,8 +2,8 @@ import { PageData } from '../pages/GenericPageLayout';
 
 export const furnitureDesignPageData: PageData = {
   meta: {
-    title: "Furniture Designing | Terrene Engineering ", // [cite: 1]
-    description: "Get custom furniture design with Terrene Engineering precise, functional, and stylish solutions that enhance residential and commercial spaces." // [cite: 1]
+    title: "Furniture Designing | Terrene Engineering ", //
+    description: "Get custom furniture design with Terrene Engineering precise, functional, and stylish solutions that enhance residential and commercial spaces." //
   },
   hero: {
     title: "Furniture Design & Supply",
@@ -33,16 +33,16 @@ export const furnitureDesignPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "Furniture Design & Supply",
     list: [
-          { icon: "Activity", title: "Custom Furniture Design", description: "Unique, tailored furniture crafted to match your style, space, and functionality perfectly" },
-    { icon: "Puzzle", title: "Modular Furniture Solutions", description: "Flexible, space-saving modular designs for modern, adaptable interiors" },
-    { icon: "Factory", title: "Furniture Manufacturing & Fabrication", description: "Precision-crafted furniture with premium quality, durability, and style" },
-    { icon: "Key", title: "Turnkey Interior & Furniture Fit-Outs", description: "Complete furniture and interior solutions delivered seamlessly from concept to installation" },
-    { icon: "Building2", title: "Commercial & Institutional Furniture", description: "Functional, durable, and stylish furniture designed for offices, schools, and institutions" },
-    { icon: "Sun", title: "Outdoor & Specialty Furniture", description: "Weather-resistant and innovative furniture enhancing outdoor and unique spaces" },
-    { icon: "Truck", title: "Furniture Supply & Sourcing", description: "Reliable sourcing and supply of premium furniture for any project or budget" },
-    { icon: "Wrench", title: "Restoration & Maintenance Services", description: "Revive and maintain furniture with expert restoration and care services" },
-    { icon: "Cpu", title: "Smart & Innovative Furniture", description: "Modern, tech-integrated furniture enhancing convenience, comfort, and aesthetics" },
-    { icon: "ClipboardList", title: "Consultancy & Furniture Planning", description: "Expert guidance in furniture selection, layout, and design for optimal spaces" }
+          { icon: "Activity", title: "Custom Furniture Design", description: "Unique, tailored furniture crafted to match your style, space, and functionality perfectly", link: "/services/furniture/custom-design" },
+    { icon: "Puzzle", title: "Modular Furniture Solutions", description: "Flexible, space-saving modular designs for modern, adaptable interiors", link: "/services/furniture/modular" },
+    { icon: "Factory", title: "Furniture Manufacturing & Fabrication", description: "Precision-crafted furniture with premium quality, durability, and style", link: "/services/furniture/manufacturing" },
+    { icon: "Key", title: "Turnkey Interior & Furniture Fit-Outs", description: "Complete furniture and interior solutions delivered seamlessly from concept to installation", link: "/services/furniture/turnkey-fit-outs" },
+    { icon: "Building2", title: "Commercial & Institutional Furniture", description: "Functional, durable, and stylish furniture designed for offices, schools, and institutions", link: "/services/furniture/commercial" },
+    { icon: "Sun", title: "Outdoor & Specialty Furniture", description: "Weather-resistant and innovative furniture enhancing outdoor and unique spaces", link: "/services/furniture/outdoor" },
+    { icon: "Truck", title: "Furniture Supply & Sourcing", description: "Reliable sourcing and supply of premium furniture for any project or budget", link: "/services/furniture/sourcing" },
+    { icon: "Wrench", title: "Restoration & Maintenance Services", description: "Revive and maintain furniture with expert restoration and care services", link: "/services/furniture/restoration" },
+    { icon: "Cpu", title: "Smart & Innovative Furniture", description: "Modern, tech-integrated furniture enhancing convenience, comfort, and aesthetics", link: "/services/furniture/smart" },
+    { icon: "ClipboardList", title: "Consultancy & Furniture Planning", description: "Expert guidance in furniture selection, layout, and design for optimal spaces", link: "/services/furniture/planning" }
     ],
     videoBackground: "furnitureAboutVideo"
   },

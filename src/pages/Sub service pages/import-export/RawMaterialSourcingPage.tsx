@@ -6,7 +6,7 @@ import { rawMaterialSourcingPageData } from '../../../sub-service-data/import-ex
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'import-export' folder
-import scopeImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-3.jpg'; 
+import scopeImage from '/Raw Material Sourcing.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/import-export/Import-export-testimonials-18.jpg';
 
 // Importing the specific project images you requested.

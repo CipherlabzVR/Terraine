@@ -2,8 +2,8 @@ import { PageData } from '../pages/GenericPageLayout';
 
 export const importExportPageData: PageData = {
   meta: {
-    title: "Construction Material Export and Import | Terrene Engineering ", // [cite: 1]
-    description: "Reliable import & export services for construction, engineering & interior materials. Terrene Engineering delivers global reach with smart logistics" // [cite: 1]
+    title: "Construction Material Export and Import | Terrene Engineering ", //
+    description: "Reliable import & export services for construction, engineering & interior materials. Terrene Engineering delivers global reach with smart logistics" //
   },
   hero: {
     title: "Import & Export",
@@ -33,16 +33,16 @@ export const importExportPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "Import & Export Services",
     list: [
-      { icon: "Truck", title: "Import of Construction Materials & Equipment", description: "Supply top-quality construction materials and equipment, ensuring timely delivery and project efficiency." },
-      { icon: "Ship", title: "Export of Engineering & Construction Materials", description: "Deliver premium engineering and construction materials globally with reliability and speed." },
-      { icon: "Cpu", title: "Import of Advanced Technology & Tools", description: "Cutting-edge technology and tools to enhance project precision and performance." },
-      { icon: "Wrench", title: "Machinery & Spare Parts Supply", description: "Reliable sourcing and supply of machinery and spare parts for uninterrupted operations." },
-      { icon: "Sofa", title: "Interior & Furniture Imports", description: "Access stylish, high-quality imported furniture and interior materials for premium spaces." },
-      { icon: "Factory", title: "Raw Material Sourcing", description: "Secure best-quality raw materials with expert procurement and sourcing solutions." },
-      { icon: "Cable", title: "Logistics & Supply Chain Services", description: "Streamline supply chains with efficient logistics for smooth, timely project execution." },
-      { icon: "Cog", title: "Specialized Engineering Products", description: "Provide niche and advanced engineering products tailored for unique project requirements." },
-      { icon: "Briefcase", title: "Consulting & Procurement Support", description: "Expert guidance for sourcing, negotiating, and procuring the right materials efficiently." },
-      { icon: "Key", title: "Turnkey Supply Solutions", description: "Complete supply solutions from sourcing to delivery, ensuring hassle-free project execution." }
+      { icon: "Truck", title: "Import of Construction Materials & Equipment", description: "Supply top-quality construction materials and equipment, ensuring timely delivery and project efficiency.", link: "/services/import-export/construction-materials-import" },
+      { icon: "Ship", title: "Export of Engineering & Construction Materials", description: "Deliver premium engineering and construction materials globally with reliability and speed.", link: "/services/import-export/engineering-materials-export" },
+      { icon: "Cpu", title: "Import of Advanced Technology & Tools", description: "Cutting-edge technology and tools to enhance project precision and performance.", link: "/services/import-export/advanced-technology-import" },
+      { icon: "Wrench", title: "Machinery & Spare Parts Supply", description: "Reliable sourcing and supply of machinery and spare parts for uninterrupted operations.", link: "/services/import-export/machinery-spare-parts" },
+      { icon: "Sofa", title: "Interior & Furniture Imports", description: "Access stylish, high-quality imported furniture and interior materials for premium spaces.", link: "/services/import-export/interior-furniture-import" },
+      { icon: "Factory", title: "Raw Material Sourcing", description: "Secure best-quality raw materials with expert procurement and sourcing solutions.", link: "/services/import-export/raw-material-sourcing" },
+      { icon: "Cable", title: "Logistics & Supply Chain Services", description: "Streamline supply chains with efficient logistics for smooth, timely project execution.", link: "/services/import-export/logistics-supply-chain" },
+      { icon: "Cog", title: "Specialized Engineering Products", description: "Provide niche and advanced engineering products tailored for unique project requirements.", link: "/services/import-export/specialized-engineering-products" },
+      { icon: "Briefcase", title: "Consulting & Procurement Support", description: "Expert guidance for sourcing, negotiating, and procuring the right materials efficiently.", link: "/services/import-export/consulting-procurement-support" },
+      { icon: "Key", title: "Turnkey Supply Solutions", description: "Complete supply solutions from sourcing to delivery, ensuring hassle-free project execution.", link: "/services/import-export/turnkey-supply-solutions" }
     ],
     videoBackground: "importExportAboutVideo"
   },
@@ -107,7 +107,7 @@ export const importExportPageData: PageData = {
         { quote: "In Vancouver’s waterfront redevelopment, they handled structural modeling and 4D sequencing. Their clear deliverables and coordination workflows made execution smooth. Their detailed planning kept the project on schedule.", name: "Michael Thompson", role: "Senior Engineer", country: "Vancouver, Canada", rating: 5, image: "https://randomuser.me/api/portraits/men/13.jpg" },
         { quote: "Terrene Engineers supported design and planning of a commercial tower in London. Their BIM services ensured excellent coordination with MEP contractors. Their efforts saved multiple design revisions and delays. Their responsiveness was greatly appreciated.", name: "Sarah Williams", role: "Project Manager", country: "London, UK", rating: 5, image: "https://randomuser.me/api/portraits/women/10.jpg" },
         { quote: "For a Manchester residential development, they managed facade and structural integration. Their detailed 3D plans and responsiveness avoided delays and controlled costs. Their thorough coordination improved project delivery.", name: "James Bennett", role: "Construction Director", country: "Manchester, UK", rating: 5, image: "https://randomuser.me/api/portraits/men/14.jpg" },
-        { quote: "Terrene Engineers helped me build my luxury villa in Nuwara Eliya with detailed BIM design and MEP planning. Their precise coordination saved me time and reduced material waste by over 10 percent. The 3D visualization gave me full clarity.", name: "Dr. Chamari Gunasekara", role: "Medical Practitioner", country: "Nuwara Eliya, Sri Lanka", rating: 5, image: "https://randomuser.me/api/portraits/women/11.jpg" },
+        { quote: "Terrene Engineers helped me build my luxury villa in Nuwara Eliya with detailed BIM design and MEP planning. Their precise coordination saved me time and reduced material waste by over 10 percent. The 3D visualization gave me full clarity.", name: "Dr.Chamari Gunasekara", role: "Medical Practitioner", country: "Nuwara Eliya, Sri Lanka", rating: 5, image: "https://randomuser.me/api/portraits/women/11.jpg" },
         { quote: "For my commercial and residential building in Galle, Terrene Engineers provided architectural and structural design with BIM coordination. Their efficient planning kept the project on budget and ensured smooth execution. The whole process was seamless.", name: "Mr. Dinusha Fernando", role: "Entrepreneur", country: "Galle, Sri Lanka", rating: 5, image: "https://randomuser.me/api/portraits/men/15.jpg" },
         { quote: "We built our luxury home in Hyderabad with Terrene Engineers handling architectural design, MEP services, and BIM modeling. Their thorough planning helped avoid rework and saved us both time and money. Their professionalism made the entire experience hassle-free.", name: "Dr. Anjali Verma", role: "Specialist Consultant", country: "Hyderabad, India", rating: 5, image: "https://randomuser.me/api/portraits/women/12.jpg" },
         { quote: "Terrene Engineers designed my dental clinic in Coimbatore, including HVAC and electrical layouts. Their BIM-based approach improved space use and ensured timely project delivery with great quality. I am very satisfied with their work and service.", name: "Dr. Ravi Sankar", role: "Clinic Owner", country: "Coimbatore, India", rating: 5, image: "https://randomuser.me/api/portraits/men/16.jpg" }

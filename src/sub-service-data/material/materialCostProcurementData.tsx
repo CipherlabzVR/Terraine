@@ -8,7 +8,7 @@ export const materialCostProcurementPageData: PageData = {
     tagline: 'Optimizing costs with strategic material procurement solutions',
     description:
       'Our material cost analysis and procurement support services ensure efficient sourcing, budget optimization, and high-quality material selection, delivering cost-effective and successful project execution',
-    backgroundImage: '/con-hero.jpg',
+    backgroundImage: '/mat (7).jpg',
     uspItems: [
       { icon: 'CircleDollarSign', title: 'Budget Optimization', description: 'Reduces material expenses consistently' },
       { icon: 'ShoppingCart',     title: 'Strategic Procurement', description: 'Ensures timely material sourcing effectively' },

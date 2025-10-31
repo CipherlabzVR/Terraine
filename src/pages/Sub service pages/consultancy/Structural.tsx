@@ -6,7 +6,7 @@ import { structuralEngineeringPageData } from '../../../sub-service-data/consult
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-14.jpg'; 
+import scopeImage from '/Structural Engineering.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-17.jpg';
 
 // Importing the specific project images you requested.

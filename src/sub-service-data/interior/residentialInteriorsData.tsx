@@ -7,7 +7,7 @@ export const residentialInteriorsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Residential</span> Interiors',
     tagline: 'Designing homes that reflect comfort and style',
     description: 'Our residential interiors create personalized, functional, and visually stunning living spaces, combining innovative design, quality finishes, and thoughtful layouts to enhance comfort and lifestyle',
-    backgroundImage: '/Interior-testimonials-11.jpg', // Standardized background image
+    backgroundImage: '/int (4).png', // Standardized background image
     uspItems: [
       { icon: 'Home', title: 'Personalized Homes', description: 'Interiors designed to match client lifestyle consistently' },
       { icon: 'LayoutGrid', title: 'Functional Layouts', description: 'Efficient use of space enhancing comfort effectively' },

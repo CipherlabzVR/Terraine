@@ -7,7 +7,7 @@ export const hospitalityInteriorsPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Hospitality</span> Interiors',
     tagline: 'Creating memorable experiences with stunning interiors',
     description: 'Our hospitality interiors combine aesthetics, functionality, and comfort to craft welcoming, luxurious, and engaging spaces that leave lasting impressions on guests and elevate brand value',
-    backgroundImage: '/Interior-testimonials-7.jpg', // Standardized background image
+    backgroundImage: '/int (8).png',// Standardized background image
     uspItems: [
       { icon: 'Star', title: 'Memorable Experiences', description: 'Designs creating lasting impressions for guests consistently' },
       { icon: 'Heart', title: 'Comfort Focused', description: 'Enhancing guest satisfaction through thoughtful interiors effectively' },

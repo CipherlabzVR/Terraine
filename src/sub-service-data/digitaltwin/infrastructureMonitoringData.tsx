@@ -5,7 +5,7 @@ export const infrastructureMonitoringPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Infrastructure</span> Monitoring',
     tagline: 'Track Infrastructure Performance Ensure Reliable Operations',
     description: 'Monitor critical infrastructure continuously to detect issues early, optimize performance, and maintain safety and reliability across all projects efficiently',
-    backgroundImage: '/Digitaltwin-testimonials-5', // Standardized background image
+    backgroundImage: '/dt (5).png', // Standardized background image
     uspItems: [
       { icon: 'Activity', title: 'Real Time Monitoring', description: 'Continuously track infrastructure performance metrics accurately' },
       { icon: 'LineChart', title: 'Predictive Insights', description: 'Identify potential failures before they occur' },

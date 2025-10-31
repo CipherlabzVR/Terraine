@@ -4,8 +4,8 @@ import { PageData } from '../pages/GenericPageLayout'; // Updated import path fo
 
 export const constructionPageData: PageData = {
   meta: {
-    title: "Construction Services | Terrene Engineering", // [cite: 1]
-    description: "Building excellence from foundation to completion.Terrene Engineering ensures durable, high-quality construction across all project types" // [cite: 1]
+    title: "Construction Services | Terrene Engineering", //
+    description: "Building excellence from foundation to completion.Terrene Engineering ensures durable, high-quality construction across all project types" //
   },
   
   hero: {
@@ -36,18 +36,18 @@ export const constructionPageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "Construction Services",
     list: [
-          { icon: "Home", title: "Residential Construction", description: "Building stylish, durable residence with modern designs and quality craftsmanship, creating comfortable living spaces tailored to family needs and lifestyles" },
-    { icon: "Building2", title: "Commercial Construction", description: "Delivering efficient, innovative commercial spaces designed for functionality, branding, and long-term business success" },
-    { icon: "Factory", title: "Industrial Construction", description: "Constructing robust industrial facilities with precision, ensuring safety, efficiency, and adaptability for modern production and operations" },
-    { icon: "Tractor", title: "Infrastructure Construction", description: "Developing reliable infrastructure projects that enhance connectivity, support growth, and deliver lasting community and economic benefits" },
-    { icon: "Car", title: "Road Construction", description: "Creating smooth, durable, and safe roadways with advanced techniques, ensuring long-lasting performance and seamless transportation" },
-    { icon: "TreePine", title: "Timber Construction", description: "Designing sustainable timber structures that blend natural aesthetics with strength, efficiency, and eco-friendly solutions" },
-    { icon: "TowerControl", title: "Steel Construction", description: "Delivering modern steel structures with unmatched strength, flexibility, and durability to support complex architectural and engineering needs" },
-    { icon: "Blocks", title: "Precast Construction", description: "Delivering high-quality precast solutions that ensure speed, precision, and durability, while enhancing efficiency and sustainability across diverse construction projects" },
-    { icon: "Layers", title: "Cladding Engineering", description: "Providing innovative cladding solutions that enhance building aesthetics, improve energy efficiency, and ensure long-lasting protection" },
-    { icon: "PanelTop", title: "Aluminum Fabrication", description: "Crafting precision aluminum works that combine durability, lightweight performance, and sleek modern finishes for versatile construction needs" },
-    { icon: "Users", title: "Subcontracting", description: "Offering reliable subcontracting services with skilled teams, timely delivery, and high-quality standards to support successful project completion" },
-    { icon: "Blocks", title: "Construction Materials", description: "Supplying high-quality sustainable construction materials that ensure durability, cost-efficiency, and consistent performance for every project scale" },
+          { icon: "Home", title: "Residential Construction", description: "Building stylish, durable residence with modern designs and quality craftsmanship, creating comfortable living spaces tailored to family needs and lifestyles", link: "/services/construction-main/residential" },
+    { icon: "Building2", title: "Commercial Construction", description: "Delivering efficient, innovative commercial spaces designed for functionality, branding, and long-term business success", link: "/services/construction-main/commercial" },
+    { icon: "Factory", title: "Industrial Construction", description: "Constructing robust industrial facilities with precision, ensuring safety, efficiency, and adaptability for modern production and operations", link: "/services/construction-main/industrial" },
+    { icon: "Tractor", title: "Infrastructure Construction", description: "Developing reliable infrastructure projects that enhance connectivity, support growth, and deliver lasting community and economic benefits", link: "/services/construction-main/infrastructure" },
+    { icon: "Car", title: "Road Construction", description: "Creating smooth, durable, and safe roadways with advanced techniques, ensuring long-lasting performance and seamless transportation", link: "/services/construction-main/road" },
+    { icon: "TreePine", title: "Timber Construction", description: "Designing sustainable timber structures that blend natural aesthetics with strength, efficiency, and eco-friendly solutions", link: "/services/construction-main/timber" },
+    { icon: "TowerControl", title: "Steel Construction", description: "Delivering modern steel structures with unmatched strength, flexibility, and durability to support complex architectural and engineering needs", link: "/services/construction-main/steel" },
+    { icon: "Blocks", title: "Precast Construction", description: "Delivering high-quality precast solutions that ensure speed, precision, and durability, while enhancing efficiency and sustainability across diverse construction projects", link: "/services/construction-main/precast" },
+    { icon: "Layers", title: "Cladding Engineering", description: "Providing innovative cladding solutions that enhance building aesthetics, improve energy efficiency, and ensure long-lasting protection", link: "/services/construction-main/cladding-engineering" },
+    { icon: "PanelTop", title: "Aluminum Fabrication", description: "Crafting precision aluminum works that combine durability, lightweight performance, and sleek modern finishes for versatile construction needs", link: "/services/construction-main/aluminum-fabrication" },
+    { icon: "Users", title: "Subcontracting", description: "Offering reliable subcontracting services with skilled teams, timely delivery, and high-quality standards to support successful project completion", link: "/services/construction-main/subcontracting" },
+    { icon: "Blocks", title: "Construction Materials", description: "Supplying high-quality sustainable construction materials that ensure durability, cost-efficiency, and consistent performance for every project scale", link: "/services/construction-main/construction-materials" },
     ],
     videoBackground: "constructionAboutVideo"
   },
@@ -58,7 +58,7 @@ export const constructionPageData: PageData = {
       { icon: "Map", title: "Site Assessment & Planning", description: "Evaluate your site to create a precise, efficient construction roadmap" },
       { icon: "HardHat", title: "Execution & Quality Building", description: "Construct with skilled teams, premium materials, and attention to every detail" },
       { icon: "ClipboardCheck", title: "Inspection & Finishing Touches", description: "Ensure perfect completion with quality checks and flawless sustainable finishes" },
-      { icon: "ShieldCheck", title: "Lifetime Warranty & Support", description: "Enjoy peace of mind with our lifetime warranty and continuous expert’s support." }
+      { icon: "ShieldCheck", title: "Lifetime Warranty & Support", description: "Enjoy peace of mind with our lifetime warranty and continuous expert’s support" }
     ],
     backgroundImage: "/blueprint-bg.png"
   },
@@ -116,7 +116,7 @@ export const constructionPageData: PageData = {
         { quote: "Terrene Engineers supported design and planning of a commercial tower in London Their BIM services ensured excellent coordination with MEP contractors Their efforts saved multiple design revisions and delays Their responsiveness was greatly appreciated.", name: "Sarah Williams", role: "Project Manager", country: "London, UK", rating: 5, image: "https://randomuser.me/api/portraits/women/10.jpg" },
         { quote: "For a Manchester residential development, they managed facade and structural integration Their detailed 3D plans and responsiveness avoided delays and controlled costs Their thorough coordination improved project delivery Their professionalism was outstanding.", name: "James Bennett", role: "Construction Director", country: "Manchester, UK", rating: 5, image: "https://randomuser.me/api/portraits/men/14.jpg" },
         { quote: "Terrene Engineers helped me build my luxury villa in Nuwara Eliya with detailed BIM design and MEP planning Their precise coordination saved me time and reduced material waste by over 10 percent The 3D visualization gave me full clarity before construction started I highly recommend their professional and efficient approach.", name: "Dr. Chamari Gunasekara", role: "Medical Practitioner", country: "Nuwara Eliya, Sri Lanka", rating: 5, image: "https://randomuser.me/api/portraits/women/11.jpg" },
-        { quote: "For my commercial and residential building in Galle Terrene Engineers provided architectural and structural design with BIM coordination Their efficient planning kept the project on budget and ensured smooth execution They helped optimize materials and reduce wastage significantly The whole process was seamless from start to finish.", name: "Mr. Dinusha Fernando", role: "Entrepreneur", country: "Galle, Sri Lanka", rating: 5, image: "https://randomuser.me/api/portraits/men/15.jpg" },
+        { quote: "For my commercial and residential building in Galle Terrene Engineers provided architectural and structural design with BIM coordination Their efficient planning kept the project on budget and ensured smooth execution They helped optimize materials and reduce wastage significantly The whole process was seamless from start to finish.", name: "Mr. Dinusha Fernando", role: "Entrepreneur", country: "Galle, Sri Lanka", rating:5, image: "https://randomuser.me/api/portraits/men/15.jpg" },
         { quote: "We built our luxury home in Hyderabad with Terrene Engineers handling architectural design MEP services and BIM modeling Their thorough planning helped avoid rework and saved us both time and money Their clash detection ensured smooth construction without delays Their professionalism made the entire experience hassle free.", name: "Dr. Anjali Verma", role: "Specialist Consultant", country: "Hyderabad, India", rating: 5, image: "https://randomuser.me/api/portraits/women/12.jpg" },
         { quote: "Terrene Engineers designed my dental clinic in Coimbatore including HVAC and electrical layouts Their BIM-based approach improved space use and ensured timely project delivery with great quality They helped reduce changes during construction and kept costs under control I am very satisfied with their work and service.", name: "Dr. Ravi Sankar", role: "Clinic Owner", country: "Coimbatore, India", rating: 5, image: "https://randomuser.me/api/portraits/men/16.jpg" }
     ],

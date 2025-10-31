@@ -9,7 +9,7 @@ export const interiorDesignData = {
   // --- Hero Section ---
   heroTitle: "Master Diploma in Interior Design",
   heroSubtitle: "Master the art and science of interior design, creating functional, aesthetic, and innovative spaces",
-  heroImage: "/showcase-4.jpeg", // Suggested image path
+  heroImage: "/Landing Page.png", // Suggested image path
 
   // --- Key Course Features in Hero ---
   keyCourseFeatures: [
@@ -43,7 +43,7 @@ export const interiorDesignData = {
   ],
 
   // --- "Course Details" Section ---
-  programOverview: "The Master Diploma in Interior Design equips learners with the knowledge and skills to conceptualize, plan, and execute innovative spaces. Participants gain practical experience in space planning, material selection, lighting, and design visualization using advanced software. The program balances design creativity with technical execution, preparing professionals for residential, commercial, and hospitality projects",
+  programOverview: "The Master Diploma in Interior Design equips learners with the knowledge and skills to conceptualize, plan, and execute innovative spaces. Participants gain practical experience in space planning, material selection, lighting, and design visualization using advanced software. The program balances design creativity with technical execution, preparing professionals for residential, commercial, and hospitality projects.",
   whatYouWillLearn: [
     { title: "Concept Development", description: "Develop creative design concepts that align with client needs, project goals, and brand identity" },
     { title: "Space Planning", description: "Optimize layouts for comfort, circulation, functionality, and aesthetics" },
@@ -73,27 +73,27 @@ export const interiorDesignData = {
  faqs: [
     {
       question: "Who is this course suitable for?",
-      answer: "This Interior Design course is suitable for interior designers, architects, civil engineers, draughtsman construction professionals, under graduates and students who required to develop skills in space planning, design concepts and visualization"
+      answer: "This Interior Design course is suitable for interior designers, architects, civil engineers, draughtsman construction professionals, under graduates and students who required to develop skills in space planning, design concepts and visualization."
     },
     {
       question: "What are the system requirements?",
-      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth design software performance"
+      answer: "A computer with at least 8GB RAM (16GB recommended), Intel i5 or i7 processor, dedicated graphics card with 2GB or more and Windows 10 or 11 operating system is recommended for smooth design software performance."
     },
     {
       question: "What specific software will we learn?",
-      answer: "You will learn latest interior design software for 3D modeling, rendering, space planning and visualization"
+      answer: "You will learn latest interior design software for 3D modeling, rendering, space planning and visualization."
     },
     {
       question: "Will I receive a certificate?",
-      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which enhances your professional portfolio in interior design"
+      answer: "Yes, upon successful completion of the course you will receive a recognized certificate which enhances your professional portfolio in interior design."
     },
     {
       question: "What if I miss a class?",
-      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning materials so you can review them at your convenience"
+      answer: "Do not worry, all sessions are recorded and you will receive access to the recordings and learning materials so you can review them at your convenience."
     },
     {
       question: "Is there career support after the course?",
-      answer: "Yes, we provide career guidance, portfolio development support and job placement assistance to help you establish a successful career in interior design"
+      answer: "Yes, we provide career guidance, portfolio development support and job placement assistance to help you establish a successful career in interior design."
     }
   ],
   

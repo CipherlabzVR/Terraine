@@ -6,7 +6,7 @@ import { architecturalPageData } from '../../../sub-service-data/drawings/archit
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the new 'drawings' folder
-import scopeImage from '../../../assert/Sub Services/drawings/public - hero/Drawings-testimonials-2.jpg'; 
+import scopeImage from '/Architectural Drawing.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/drawings/architectural-drawing-testimonial.jpg';
 
 // Importing the specific project images you requested.

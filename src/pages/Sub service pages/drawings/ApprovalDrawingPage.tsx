@@ -6,7 +6,7 @@ import { approvalDrawingPageData } from '../../../sub-service-data/drawings/appr
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/drawings/public - hero/Drawings-testimonials-1.jpg'; 
+import scopeImage from '/Approval Drawing.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/drawings/approval-drawing-testimonial.jpg';
 
 // Importing the specific project images you requested.

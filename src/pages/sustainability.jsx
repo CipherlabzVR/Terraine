@@ -172,7 +172,7 @@ const Sustainability = () => {
                       Sustainability at <span className="text-primary-300">Terrene</span>
                     </h2>
                     <p className="text-white text-lg sm:text-xl mb-4 text-left max-w-4xl leading-relaxed">
-                     Terrene Engineering, sustainability is not an option, it’s a responsibility woven into every stage of our work. From material selection to energy-efficient design and lifecycle-focused construction, we integrate sustainable practices that reduce environmental impact while maximizing long-term value. By leveraging digital technologies like BIM and Digital Twins, we optimize resource use, minimize waste, and enable smarter decision-making throughout the project lifecycle. Our commitment extends beyond compliance; we strive to build infrastructure that supports communities, respects ecosystems, and stands resilient for generations to come
+                     Terrene Engineering, sustainability is not an option, it’s a responsibility woven into every stage of our work. From material selection to energy-efficient design and lifecycle-focused construction, we integrate sustainable practices that reduce environmental impact while maximizing long-term value. By leveraging digital technologies like BIM and Digital Twins, we optimize resource use, minimize waste, and enable smarter decision-making throughout the project lifecycle. Our commitment extends beyond compliance; we strive to build infrastructure that supports communities, respects ecosystems, and stands resilient for generations to come.
                     </p>
                   </div>
                   <div className="w-full">
@@ -204,7 +204,7 @@ const Sustainability = () => {
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              We believe true sustainability goes beyond compliance; it's about creating long-term value for people, communities, and the planet. Our philosophy is rooted in thoughtful design, responsible construction, and a commitment to environmental stewardship across every project phase. Sustainability, for us, is a mindset that guides every decision we make
+                              We believe true sustainability goes beyond compliance; it's about creating long-term value for people, communities, and the planet. Our philosophy is rooted in thoughtful design, responsible construction, and a commitment to environmental stewardship across every project phase. Sustainability, for us, is a mindset that guides every decision we make.
                             </p>
                             
                           </div>
@@ -236,7 +236,7 @@ const Sustainability = () => {
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              We actively implement sustainable practices across our operations, including energy-efficient design, responsible material sourcing, waste reduction, and smart technology integration. By leveraging tools like BIM and Digital Twins, we make data-driven decisions that improve efficiency, minimize impact, and align with global sustainability benchmarks
+                              We actively implement sustainable practices across our operations, including energy-efficient design, responsible material sourcing, waste reduction, and smart technology integration. By leveraging tools like BIM and Digital Twins, we make data-driven decisions that improve efficiency, minimize impact, and align with global sustainability benchmarks.
                             </p>
                             
                           </div>
@@ -268,7 +268,7 @@ const Sustainability = () => {
                         >
                           <div className="p-4 sm:p-6 bg-black/20 text-white">
                             <p className="mb-4 text-base sm:text-lg">
-                              Through our sustainability-focused approach, we contribute to building greener, more resilient infrastructure that serves both present and future generations. Our work not only reduces environmental footprints but also empowers clients to achieve their sustainability goals and driving positive change across industries and communities worldwide
+                              Through our sustainability-focused approach, we contribute to building greener, more resilient infrastructure that serves both present and future generations. Our work not only reduces environmental footprints but also empowers clients to achieve their sustainability goals and driving positive change across industries and communities worldwide.
                             </p>
                             
                           </div>

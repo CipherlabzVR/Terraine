@@ -5,7 +5,7 @@ export const buildingFabricMaintenanceData: PageData = {
     serviceName: '<span class="text-cyan-400">Building Fabric & Structural</span> Maintenance',
     tagline: 'Preserving structural integrity with expert maintenance solutions',
     description: 'Our building fabric and structural maintenance services ensure durability, safety, and long-lasting performance through timely inspections, repairs, and preventive care for every type of structure',
-    backgroundImage: '/Maintenance-testimonials-2.jpg', // Standardized background image
+    backgroundImage: '/main (10).jpg', // Standardized background image
     uspItems: [
       { icon: 'Building', title: 'Durable Structures', description: 'Maintains building integrity and performance consistently' },
       { icon: 'ShieldCheck', title: 'Preventive Care', description: 'Detects and fixes issues early effectively' },

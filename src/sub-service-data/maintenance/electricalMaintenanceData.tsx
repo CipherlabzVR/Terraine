@@ -5,7 +5,7 @@ export const electricalMaintenancePageData: PageData = {
     serviceName: '<span class="text-cyan-400">Electrical</span> Maintenance',
     tagline: 'Ensuring safe reliable and efficient electrical systems',
     description: 'Our electrical maintenance services provide inspections, repairs, and upgrades, maintaining safe, efficient, and uninterrupted power systems for residential, commercial, and industrial buildings',
-    backgroundImage: '/Maintenance-testimonials-4.jpg', // Standardized background image
+    backgroundImage: '/main (8).jpg', // Standardized background image
     uspItems: [
       { icon: 'ShieldCheck', title: 'Reliable Systems', description: 'Ensures consistent electrical performance across all installations' },
       { icon: 'Activity', title: 'Preventive Checks', description: 'Reduces risk of outages effectively' },

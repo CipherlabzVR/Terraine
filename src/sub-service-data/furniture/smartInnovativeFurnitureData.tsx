@@ -5,7 +5,7 @@ export const smartInnovativeFurniturePageData: PageData = {
     serviceName: '<span class="text-cyan-400">Smart & Innovative</span> Furniture',
     tagline: 'Intelligent, stylish furniture designed to enhance modern living and workspaces beautifully',
     description: 'Our smart and innovative furniture solutions integrate advanced technology, ergonomic design, and modern aesthetics, offering interactive, space-saving, and multifunctional pieces that improve convenience, comfort, and efficiency for homes, offices, and commercial environments',
-    backgroundImage: '/furniture-hero.jpg',
+    backgroundImage: '/fur (3).jpg',
     uspItems: [
       { icon: 'Cpu', title: 'Integrated Technology', description: 'Furniture incorporates advanced smart features for seamless automation, comfort, and modern lifestyle convenience' },
       { icon: 'Maximize', title: 'Space Optimization', description: 'Innovative, modular, and multifunctional designs maximize space efficiency while enhancing usability in every environment' },

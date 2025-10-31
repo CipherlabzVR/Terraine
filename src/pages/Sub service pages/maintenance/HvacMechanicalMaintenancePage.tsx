@@ -6,7 +6,7 @@ import { hvacMechanicalMaintenancePageData } from '../../../sub-service-data/mai
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'maintenance' folder
-import scopeImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-17.jpg'; 
+import scopeImage from '/HVAC & Mechanical Maintenance.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-13.jpg';
 
 // Importing the specific project images you requested.

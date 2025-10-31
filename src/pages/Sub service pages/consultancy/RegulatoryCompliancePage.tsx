@@ -6,7 +6,7 @@ import { regulatoryCompliancePageData } from '../../../sub-service-data/consulta
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-12.jpg'; 
+import scopeImage from '/Regulatory & Compliance Advisory.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-22.jpg';
 
 // Importing the specific project images you requested.

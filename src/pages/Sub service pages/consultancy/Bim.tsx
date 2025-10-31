@@ -6,7 +6,7 @@ import { bimDigitalTwinPageData } from '../../../sub-service-data/consultancy/bi
 // 1. You will need to add these specific image files to your assert folder.
 // 2. The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
-import scopeImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-2.jpg';
+import scopeImage from '/BIM & Digital Twin Consultancy.jpg';
 import testimonialImage from '../../../assert/Sub Services/consultancy/consultancy-testimonial-3.jpg';
 
 // Import the specific project images for this page's carousel.

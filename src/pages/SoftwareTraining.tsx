@@ -38,7 +38,7 @@ const coursesData = [
   {
     title: 'Master Diploma in 3D Visualization with VR',
     slug: '3d-visualization',
-    image: '/3dnew.png',
+    image: '/Landing Page Pictures.png',
     duration: 'Flexible Schedule',
     description: 'Create stunning, photorealistic architectural renders with industry-standard software.',
     feeDescription: 'Includes all learning materials and certification.',
@@ -74,7 +74,7 @@ const coursesData = [
   {
     title: 'Master Diploma in Interior Design',
     slug: 'interior',
-    image: '/showcase-4.jpeg',
+    image: '/Landing Page.png',
     duration: 'Flexible Schedule',
     description: 'Master the art of creating functional and aesthetic interior spaces from concept to completion.',
     feeDescription: 'Includes all learning materials and certification.',
@@ -83,7 +83,7 @@ const coursesData = [
   {
     title: 'Master Diploma in Landscape Architecture',
     slug: 'landscape',
-    image: '/land.jpeg',
+    image: '/Landing Pagess.png',
     duration: 'Flexible Schedule',
     description: 'Learn to design and manage outdoor spaces, blending nature with modern environments.',
     feeDescription: 'Includes all learning materials and certification.',
@@ -404,7 +404,6 @@ const SoftwareTraining: React.FC = () => {
       <Header mode="transparent" className="fixed top-0 left-0 w-full z-40" />
 
       <div className="bg-[#0b2741]">
-        {/* --- Hero Section (unchanged) --- */}
         <section className="relative min-h-screen flex items-center text-white">
           <div className="absolute inset-0 z-0 overflow-hidden">
             <video
@@ -512,8 +511,7 @@ const SoftwareTraining: React.FC = () => {
           <div className="w-full px-4 md:px-8 relative z-10">
             <div className="text-left mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">LEARN THE MOST IN-DEMAND SKILLS</h2>
-              <p className="max-w-2xl text-white/80 leading-relaxed">
-                Gain future-ready expertise with our specialized courses designed to equip engineers, architects, and professionals with practical knowledge, digital innovation, and industry-focused tools to excel in today’s competitive engineering landscape </p>
+              
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

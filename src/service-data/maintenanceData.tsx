@@ -2,8 +2,8 @@ import { PageData } from '../pages/GenericPageLayout';
 
 export const maintenancePageData: PageData = {
   meta: {
-    title: " Maintainance | Terrene Engineering ", // [cite: 1]
-    description: "Keep your projects running smoothly with Terrene Engineering’s proactive maintenance solutions, focused on reliability, efficiency, and sustainability." // [cite: 1]
+    title: " Maintainance | Terrene Engineering ", //
+    description: "Keep your projects running smoothly with Terrene Engineering’s proactive maintenance solutions, focused on reliability, efficiency, and sustainability." //
   },
   hero: {
     title: "Maintenance",
@@ -33,16 +33,16 @@ export const maintenancePageData: PageData = {
     superTitle: "OUR SERVICES",
     title: "Maintenance Solutions",
     list: [
-          { icon: "Building", title: "Facility Management Services", description: "Streamline operations, optimize spaces, and enhance efficiency for smooth, hassle-free facility management" },
-    { icon: "CalendarClock", title: "Preventive & Scheduled Maintenance", description: "Avoid downtime with timely inspections and maintenance, keeping systems reliable and efficient" },
-    { icon: "Wrench", title: "Corrective & Breakdown Maintenance", description: "Fast, expert repairs restore functionality, minimizing disruptions and maximizing uptime" },
-    { icon: "Zap", title: "Electrical Maintenance", description: "Ensure safe, uninterrupted power supply with expert electrical system care" },
-    { icon: "Wind", title: "HVAC & Mechanical Maintenance", description: "Maintain optimal climate control and mechanical performance with precision servicing" },
-    { icon: "Droplets", title: "Plumbing & Water Systems Maintenance", description: "Reliable water supply and leak-free plumbing solutions for smooth operations" },
-    { icon: "Flame", title: "Fire Safety & Security Systems", description: "Protect life and property with expert fire and security system maintenance" },
-    { icon: "PanelTop", title: "Building Fabric & Structural Maintenance", description: "Preserve building integrity through proactive structural and fabric care" },
-    { icon: "FileText", title: "Annual Maintenance Contracts (AMC)", description: "Hassle-free, comprehensive yearly maintenance ensuring uninterrupted performance and peace of mind" },
-    { icon: "BrainCircuit", title: "Predictive & Smart Maintenance", description: "Leverage smart tech to anticipate issues, optimize performance, and prevent costly failures" }
+          { icon: "Building", title: "Facility Management Services", description: "Streamline operations, optimize spaces, and enhance efficiency for smooth, hassle-free facility management", link: "/services/maintenance/facility-management" },
+    { icon: "CalendarClock", title: "Preventive & Scheduled Maintenance", description: "Avoid downtime with timely inspections and maintenance, keeping systems reliable and efficient", link: "/services/maintenance/preventive-maintenance" },
+    { icon: "Wrench", title: "Corrective & Breakdown Maintenance", description: "Fast, expert repairs restore functionality, minimizing disruptions and maximizing uptime", link: "/services/maintenance/corrective-maintenance" },
+    { icon: "Zap", title: "Electrical Maintenance", description: "Ensure safe, uninterrupted power supply with expert electrical system care", link: "/services/maintenance/electrical-maintenance" },
+    { icon: "Wind", title: "HVAC & Mechanical Maintenance", description: "Maintain optimal climate control and mechanical performance with precision servicing", link: "/services/maintenance/hvac-mechanical-maintenance" },
+    { icon: "Droplets", title: "Plumbing & Water Systems Maintenance", description: "Reliable water supply and leak-free plumbing solutions for smooth operations", link: "/services/maintenance/plumbing-maintenance" },
+    { icon: "Flame", title: "Fire Safety & Security Systems", description: "Protect life and property with expert fire and security system maintenance", link: "/services/maintenance/fire-safety-security" },
+    { icon: "PanelTop", title: "Building Fabric & Structural Maintenance", description: "Preserve building integrity through proactive structural and fabric care", link: "/services/maintenance/building-fabric-maintenance" },
+    { icon:"FileText", title: "Annual Maintenance Contracts (AMC)", description: "Hassle-free, comprehensive yearly maintenance ensuring uninterrupted performance and peace of mind", link: "/services/maintenance/annual-maintenance-contracts" },
+    { icon: "BrainCircuit", title: "Predictive & Smart Maintenance", description: "Leverage smart tech to anticipate issues, optimize performance, and prevent costly failures", link: "/services/maintenance/predictive-smart-maintenance" }
     ],
     videoBackground: "maintenanceAboutVideo"
   },

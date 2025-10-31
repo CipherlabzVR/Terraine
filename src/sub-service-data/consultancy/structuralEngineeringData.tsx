@@ -5,7 +5,7 @@ export const structuralEngineeringPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Structural</span> Engineering',
     tagline: 'Innovative designs delivering strength safety and reliability',
     description: 'Our structural engineering services create safe, durable, and efficient structures through innovative designs, precise calculations, and expert execution, ensuring long-lasting performance for every project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/Structural Drawing.png', // Standardized background image
     uspItems: [
       { icon: 'ShieldCheck', title: 'Safe Structural Designs', description: 'Ensuring durability and building reliability always' },
       { icon: 'Lightbulb', title: 'Innovative Solutions', description: 'Creative engineering approaches for challenging projects' },

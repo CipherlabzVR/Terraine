@@ -5,7 +5,7 @@ export const predictiveAnalyticsForecastingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Predictive Analytics</span> & Forecasting',
     tagline: 'Anticipating outcomes through intelligent predictive analytics',
     description: 'Our predictive analytics and forecasting services analyze data to identify trends, mitigate risks, and enable informed decision making for optimized construction and engineering project performance',
-    backgroundImage: '/Hero -ai (6).webp',
+    backgroundImage: '/Hero - ai (6).jpg',
     uspItems: [
       { icon: 'Database', title: 'Data Driven', description: 'Insights guiding informed project decisions consistently' },
       { icon: 'Shield', title: 'Risk Anticipation', description: 'Predicts potential issues effectively' },

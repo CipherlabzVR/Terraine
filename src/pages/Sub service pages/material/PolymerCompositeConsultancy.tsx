@@ -8,7 +8,7 @@ import { polymerCompositeConsultancyPageData } from '../../../sub-service-data/m
 // (scopeImage, testimonialImage, projectImg1..projectImg7)
 
 // Shared/standard images – swap with polymer/composite visuals when ready
-import scopeImage from '../../../assert/Sub Services/construction/smart.webp';
+import scopeImage from '/Polymer, Plastic & Composite Material.jpg';
 import testimonialImage from '../../../assert/Sub Services/material/Material-testimonials-8.jpg';
 
 import projectImg1 from '../../../assert/projects/pro (13).png';

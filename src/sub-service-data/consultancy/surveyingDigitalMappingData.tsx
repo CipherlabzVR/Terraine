@@ -5,7 +5,7 @@ export const surveyingDigitalMappingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Surveying & Digital</span> Mapping',
     tagline: 'Accurate surveying and mapping for precise planning',
     description: 'Our surveying and digital mapping services deliver precise measurements, detailed layouts, and reliable data, ensuring informed decisions, efficient planning, and flawless execution for every construction project',
-    backgroundImage: '/hero-consultancy-surveying.jpg', // Updated hero background image
+    backgroundImage: '/surveying.png', // Updated hero background image
     uspItems: [
       { icon: 'Scaling', title: 'Accurate Measurements', description: 'Precise data for flawless project planning consistently' },
       { icon: 'Globe2', title: 'Advanced Technology', description: 'Utilizing modern tools for superior mapping results' },

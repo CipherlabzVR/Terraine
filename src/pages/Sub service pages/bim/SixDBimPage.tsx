@@ -6,7 +6,7 @@ import { sixDBimPageData } from '../../../sub-service-data/bim/sixDBimData';
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'bim' folder
-import scopeImage from '../../../assert/Sub Services/bim/BIM-testimonials-9.jpg'; 
+import scopeImage from '/6D BIM – Sustainability & Energy.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/bim/BIM-testimonials-13.jpg';
 
 // Importing the specific project images you requested.

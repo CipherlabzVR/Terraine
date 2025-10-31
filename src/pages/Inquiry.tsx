@@ -25,11 +25,15 @@ const Inquiry = () => {
   const lastScrollY = useRef(0);
 
   const phoneInputCustomStyles = `
+  .custom-phone-input.react-tel-input {
+      width: 100% !important;
+  }
     .custom-phone-input.react-tel-input .form-control {
         background-color: rgba(255, 255, 255, 0.1) !important;
         border: 1px solid rgba(255, 255, 255, 0.3) !important;
         color: white !important;
         width: 100% !important;
+        height: 2.6rem !important;
         padding-top: 0.5rem !important;
         padding-bottom: 0.5rem !important;
     }
@@ -262,7 +266,7 @@ const Inquiry = () => {
                     </div>
                     <div className="grid md:grid-cols-2 gap-4 mb-4">
                       <div>
-                        <label className="block text-sm font-medium mb-1 text-white">Phone Number*</label>
+                        <label className="block text-sm font-medium mb-1 text-white">Contact Number*</label>
                         <PhoneInput containerClass="custom-phone-input" country={'lk'} value={formData.phone} onChange={handlePhoneChange} />
                       </div>
                       <div>

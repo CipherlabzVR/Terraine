@@ -5,7 +5,7 @@ export const advancedTechnologyImportPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Import of Advanced</span> Technology & Tools',
     tagline: 'Bringing innovative tools and technology worldwide efficiently',
     description: 'Our import services deliver cutting edge construction technology and tools, ensuring advanced capabilities, enhanced project efficiency, and seamless integration into modern engineering and construction processes',
-    backgroundImage: '/tech-hero.webp',
+    backgroundImage: '/impex (10).jpeg',
     uspItems: [
       { icon: 'Zap', title: 'Cutting Edge Equipment', description: 'Access to latest construction tools consistently' },
       { icon: 'ShieldCheck', title: 'Reliable Suppliers', description: 'Trusted sources ensuring quality effectively' },

@@ -5,7 +5,7 @@ export const facilityManagementServicesPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Facility Management</span> Services',
     tagline: 'Efficient facility management ensuring smooth building operations',
     description: 'Our facility management services streamline daily operations, enhance building performance, optimize resources, and ensure comfort, safety, and functionality for all residential, commercial, and industrial spaces',
-    backgroundImage: '/Maintenance-testimonials-5.jpg', // Standardized background image
+    backgroundImage: '/main (7).jpg', // Standardized background image
     uspItems: [
       { icon: 'Settings', title: 'Optimized Operations', description: 'Ensures smooth functioning of all building systems consistently' },
       { icon: 'ShieldCheck', title: 'Proactive Maintenance', description: 'Anticipates issues before they become problems effectively' },

@@ -5,7 +5,7 @@ export const predictivePreventiveMaintenancePageData: PageData = {
     serviceName: '<span class="text-cyan-400">Predictive & Preventive</span> Maintenance',
     tagline: 'Prevent Failures Maximize Efficiency Through Predictive Maintenance',
     description: 'Implement predictive and preventive maintenance strategies to minimize downtime, extend asset life, and optimize operational performance efficiently and reliably',
-    backgroundImage: '/Digitaltwin-testimonials-1', // Standardized background image
+    backgroundImage: '/dt (7).png', // Standardized background image
     uspItems: [
       { icon: 'LineChart', title: 'Predictive Analytics', description: 'Detect potential issues before they affect operations' },
       { icon: 'CalendarCheck', title: 'Scheduled Maintenance', description: 'Regular checks to ensure consistent asset performance' },

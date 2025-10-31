@@ -6,7 +6,7 @@ import { predictiveSmartMaintenanceData } from '../../../sub-service-data/mainte
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'maintenance' folder
-import scopeImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-9.jpg'; 
+import scopeImage from '/Predictive & Smart Maintenance.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-14.jpg';
 
 // Importing the specific project images you requested.

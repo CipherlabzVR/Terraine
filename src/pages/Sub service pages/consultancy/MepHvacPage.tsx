@@ -6,7 +6,7 @@ import { mepHvacPageData } from '../../../sub-service-data/consultancy/mepHvacDa
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope image as requested
-import scopeImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-25.jpg'; 
+import scopeImage from '/MEP & HVAC System Design.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/consultancy/Consultancy-testimonials-28.jpg';
 
 // Importing the specific project images you requested.

@@ -6,7 +6,7 @@ import { plumbingWaterSystemsMaintenancePageData } from '../../../sub-service-da
 // The keys used here (e.g., 'scopeImage') MUST match the keys in your data file.
 
 // Standardized scope and testimonial images from the 'maintenance' folder
-import scopeImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-18.jpg'; 
+import scopeImage from '/Plumbing & Water Systems Maintenance.jpg'; 
 import testimonialImage from '../../../assert/Sub Services/maintenance/Maintenance-testimonials-12.jpg';
 
 // Importing the specific project images you requested.

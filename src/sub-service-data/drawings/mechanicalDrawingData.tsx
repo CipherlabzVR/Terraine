@@ -5,7 +5,7 @@ export const mechanicalDrawingPageData: PageData = {
     serviceName: '<span class="text-cyan-400">Mechanical</span> Drawing',
     tagline: 'Detailed mechanical drawings for precise system implementation',
     description: 'Our mechanical drawings provide accurate layouts and specifications, ensuring efficient installation, smooth operation, and reliable performance of all mechanical systems within your project',
-    backgroundImage: '/con-hero.jpg', // Standardized background image
+    backgroundImage: '/draw (6).png', // Standardized background image
     uspItems: [
       { icon: 'DraftingCompass', title: 'Detailed Schematics', description: 'Precise mechanical layouts supporting smooth installation always' },
       { icon: 'CheckCircle', title: 'Error Minimization', description: 'Reducing mistakes through clear and accurate drawings consistently' },

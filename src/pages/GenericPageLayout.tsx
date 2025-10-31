@@ -20,7 +20,7 @@ const Icon = ({ name, ...props }: { name: IconName } & Icons.LucideProps) => {
 export interface PageData {
   hero: { title: string; subtitle: string; description: string; backgroundImage: string; buttons: { text: string; link: string; variant: 'primary' | 'secondary' }[]; };
   about: { title: string; description: string; button: { text: string; link: string }; images: { main: string; secondary: string }; stat: { value: string; label: string; }; videoBackground: string; };
-  services: { superTitle: string; title: string; list: { icon: IconName; title: string; description: string }[]; videoBackground: string; };
+  services: { superTitle: string; title: string; list: { icon: IconName; title: string; description: string; link?: string }[]; videoBackground: string; }; // <-- MODIFIED
   workingSteps: { superTitle: string; title: string; steps: { icon: IconName; title: string; description: string }[]; backgroundImage: string; };
   projects: { superTitle: string; title: string; list: { image: string; name: string }[]; videoBackground: string; };
   cta: { title: string; description: string; buttons: { text: string; link: string; variant: 'primary' | 'secondary' }[] };
@@ -61,7 +61,7 @@ const WorkingStepsSection = ({ data }: { data: PageData['workingSteps'] }) => {
                                         </span>
                                     </div>
                                 </div>
-                                <h3 className="text-[2.7vh] font-bold mt-6 mb-2">{step.title}</h3>
+                                <h3 className="text-2xl font-bold mt-6 mb-2">{step.title}</h3>
                                 <p className="text-white/70 max-w-xs flex-grow">{step.description}</p>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ const TestimonialsSection = ({ data, featuredImage, videoUrl }: { data: PageData
                                 <div key={index} className={`absolute w-full transition-opacity duration-1000 ease-in-out ${index === activeIndex ? 'opacity-100' : 'opacity-0'}`}>
                                     <div className="bg-slate-900/50 backdrop-blur-sm border border-white/10 rounded-lg p-6">
                                         <StarRating rating={testimonial.rating} />
-                                        <p className="text-white/80 italic my-4 h-28 overflow-y-auto">{testimonial.quote}</p>
+                                        <p className="text-white/80 italic my-4 h-28 overflow-y-auto">"{testimonial.quote}"</p>
                                         <div>
                                             <p className="font-bold text-white">{testimonial.name}</p>
                                             <p className="text-sm text-white/60">{testimonial.role}</p>
@@ -159,7 +159,7 @@ const ProjectsCarouselSection = ({ data, videoUrl }: { data: PageData['projects'
     const maxIndex = data.list.length > itemsToShow ? data.list.length - itemsToShow : 0;
 
     const handleNext = () => setCurrentIndex(prev => (prev >= maxIndex ? 0 : prev + 1));
-    const handlePrev = () => setCurrentIndex(prev => (prev <= 0 ? maxIndex : prev - 1));
+    const handlePrev = () => setCurrentIndex(prev => (prev <= 0 ? maxIndex : prev + 1));
 
     useEffect(() => {
         if (!isHovering) {
@@ -295,8 +295,8 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
         </div>
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 md:px-8 text-center flex flex-col items-center">
             <h1 className="text-5xl md:text-8xl font-bold leading-tight mt-56 md:mt-[10vh]">{hero.title}</h1>
-            <p className="mt-6 text-xl text-cyan-300 max-w-5xl">{hero.subtitle}</p>
-            <p className="mt-6 text-xl text-white max-w-4xl">{hero.description}</p>
+            <p className="mt-6 text-xl text-cyan-300 max-w-4xl">{hero.subtitle}</p>
+            <p className="mt-6 text-2xl text-white max-w-4xl text-center">{hero.description}</p>
             <div className="mt-8 flex flex-col sm:flex-row items-center gap-4">
                 {hero.buttons.map((button, index) => {
                     // Use a standard <a> tag for same-page anchor links
@@ -334,7 +334,7 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
               <h2 className="text-4xl md:text-[6vh] max-w-6xl font-bold text-white leading-tight mb-8">
                 We Provide <span className="italic text-cyan-500">Unique</span> {about.title}
               </h2>
-              <p className="text-gray-300 text-xl leading-relaxed mb-[7vh] mt-10 max-w-xl">{about.description}</p>
+              <p className="text-gray-300 text-xl leading-relaxed mb-[7vh] mt-10 max-w-xl">{about.description}.</p>
               <div className="inline-block">
                 <Link to={about.button.link}>
                   <button className="bg-[#0050A0] text-white font-semibold px-8 py-3 hover:bg-cyan-500 hover:text-white transition-colors duration-300">{about.button.text}</button>
@@ -377,17 +377,30 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
             <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">{services.title}</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {services.list.map((service, index) => (
-                  <div key={index}>
+              {/* --- MODIFIED LOGIC --- */}
+              {services.list.map((service, index) => {
+                  
+                  const serviceCard = (
                       <div className="bg-slate-900/80 backdrop-blur-sm border border-white/10 rounded-xl p-6 h-full flex flex-col group hover:border-cyan-400/50 transition-colors duration-300">
                           <div className="flex justify-between items-start mb-4">
                               <div className="text-cyan-400"><Icon name={service.icon} size={40} /></div>
                           </div>
-                          <h3 className="text-xl font-bold text-white mb-5">{service.title}</h3>
+                          <h3 className="text-xl font-bold text-white mb-5 min-h-14">{service.title}</h3>
                           <p className="text-gray-300 text-md leading-relaxed mb-4 flex-grow">{service.description}</p>
                       </div>
-                  </div>
-              ))}
+                  );
+
+                  return service.link ? (
+                    <Link to={service.link} key={index} className="block h-full">
+                        {serviceCard}
+                    </Link>
+                  ) : (
+                    <div key={index}>
+                        {serviceCard}
+                    </div>
+                  );
+              })}
+              {/* --- END MODIFIED LOGIC --- */}
           </div>
         </div>
       </section>
@@ -399,7 +412,7 @@ const GenericPageLayout: React.FC<GenericPageLayoutProps> = ({ pageData, imageAs
       <section className="py-16 w-full px-4 md:px-8">
          <div className="bg-gradient-to-r from-cyan-700 to-[#0b2741] rounded-2xl shadow-2xl p-12 text-center text-white">
              <h2 className="text-3xl md:text-4xl font-bold mb-4">{cta.title}</h2>
-             <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">{cta.description}</p>
+             <p className="text-lg text-white/80 max-w-3xl mx-auto mb-8">{cta.description}.</p>
              <div className="flex justify-center items-center gap-4 flex-wrap">
                 {cta.buttons.map((button, index) => (
                     <Link to={button.link} key={index}>

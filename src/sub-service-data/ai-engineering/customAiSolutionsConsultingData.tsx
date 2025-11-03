@@ -68,8 +68,8 @@ export const customAiSolutionsConsultingPageData: PageData = {
   contact: {
     title: 'SEND AN INQUIRY',
     description: 'Contact us to learn how our custom AI solutions and consulting can address your unique project challenges',
-    phoneNumbers: ['+1 (555) 123-4567'],
-    emails: ['custom-ai@terrene.com'],
+    phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
+    emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'
   }
 };

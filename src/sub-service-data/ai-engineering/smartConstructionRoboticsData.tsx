@@ -68,8 +68,8 @@ export const smartConstructionRoboticsPageData: PageData = {
   contact: {
     title: 'SEND AN INQUIRY',
     description: 'Contact us to learn how our robotics and automation can transform your construction processes',
-    phoneNumbers: ['+1 (555) 123-4567'],
-    emails: ['robotics@terrene.com'],
+    phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
+    emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'
   }
 };

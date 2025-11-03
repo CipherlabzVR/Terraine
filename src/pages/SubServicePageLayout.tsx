@@ -383,7 +383,7 @@ const SubServicePageLayout: React.FC<SubServicePageLayoutProps> = ({ pageData, i
                             <div>
                               <h4 className="font-bold">Email Us</h4>
                               <p className="text-white/70">info@terreneengineering.com</p>
-                              <p className="text-white/70">payments@terreneengineering.com</p>
+                              <p className="text-white/70">careers@terreneengineering.com</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-4">

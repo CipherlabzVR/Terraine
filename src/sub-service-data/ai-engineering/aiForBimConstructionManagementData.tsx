@@ -68,8 +68,8 @@ export const aiForBimConstructionManagementPageData: PageData = {
   contact: {
     title: 'SEND AN INQUIRY',
     description: 'Contact us to learn how our AI-integrated BIM services can transform your construction project management',
-    phoneNumbers: ['+1 (555) 123-4567'],
-    emails: ['ai-bim@terrene.com'],
+    phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
+    emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'
   }
 };

@@ -68,8 +68,8 @@ export const predictiveAnalyticsForecastingPageData: PageData = {
   contact: {
     title: 'SEND AN INQUIRY',
     description: 'Contact us to learn how our predictive analytics can transform your project planning and risk management',
-    phoneNumbers: ['+1 (555) 123-4567'],
-    emails: ['predictive@terrene.com'],
+    phoneNumbers: ['+94 77 523 5572', '+94 74 022 6660'],
+    emails: ['info@terreneengineering.com', 'careers@terreneengineering.com'],
     videoBackground: '/about.mp4'
   }
 };

@@ -9,7 +9,7 @@ export const furnitureDesignPageData: PageData = {
     title: "Furniture Design & Supply",
     subtitle: "“Crafting and delivering modern furniture that blends style, comfort, and functionality for every space”",
     description: "Crafting and delivering custom, modular, smart, and commercial furniture solutions that blend style, functionality, and innovation for every space and environment",
-    backgroundImage: "/furniture-hero.jpg", // TODO: Update with your actual image path.
+    backgroundImage: "/furniture-hero.webp", // TODO: Update with your actual image path.
     buttons: [
       { text: "CONTACT US", link: "/inquiry", variant: "primary" },
       { text: "GET A QUOTE", link: "#about-us-section", variant: "secondary" }

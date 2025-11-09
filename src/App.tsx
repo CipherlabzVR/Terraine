@@ -142,6 +142,7 @@ import MaterialCostProcurementPage from "./pages/Sub service pages/material/Mate
 import FailureAnalysisTroubleshootingPage from "./pages/Sub service pages/material/FailureAnalysisTroubleshooting";
 import InnovativeAdvancedMaterialsPage from "./pages/Sub service pages/material/InnovativeAdvancedMaterials";
 import FireSafetyConsultancyPage from "./pages/Sub service pages/material/FireSafetyConsultancy";
+import InfrastructureMonitoringPage from "./pages/Sub service pages/digitaltwin/InfrastructureMonitoringPage";
 //furniture
 import CustomFurnitureDesignPage from "./pages/Sub service pages/furniture/CustomFurnitureDesignPage";
 import ModularFurniturePage from "./pages/Sub service pages/furniture/ModularFurniturePage";
@@ -335,6 +336,7 @@ const App = () => (
           <Route path="/services/digital-twin/disaster-simulation" element={<EmergencyPreparednessPage />} />
           <Route path="/services/digital-twin/ar-vr-training" element={<ArVrTrainingPage />} />
           <Route path="/services/digital-twin/operational-analytics" element={<OperationalAnalyticsPage />} />
+          <Route path="/services/digital-twin/infrastructure-monitoring" element={<InfrastructureMonitoringPage />} />
 
 
 

@@ -120,7 +120,8 @@ const servicesWithSubServices = [
         { label: "Smart City & Urban Digital Twin Services", to: "/services/digital-twin/smart-city" },
         { label: "Emergency Preparedness & Disaster Simulation", to: "/services/digital-twin/disaster-simulation" },
         { label: "AR/VR-based Operations & Training", to: "/services/digital-twin/ar-vr-training" },
-        { label: "Operational Analytics & Decision-Making", to: "/services/digital-twin/operational-analytics" }
+        { label: "Operational Analytics & Decision-Making", to: "/services/digital-twin/operational-analytics" },
+        { label: "Digital Twin Consulting & Strategy", to: "/services/digital-twin/infrastructure-monitoring" }
       ]
     },
     {

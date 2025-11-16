@@ -17,14 +17,14 @@ const companyLinks = [
     { name: 'Sitemap', path: '/sitemap' },
     { name: 'Quality Policy', path: '/qualitypolicy' },
     { name: 'FAQ', path: '/faq' },
-    { name: 'Career', path: '/career' },
+    { name: 'Careers', path: '/career' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contact Us', path: '/inquiry' },
 ];
 
 const allServices = [
     { name: "Consultancy Services", path: "/services/consultancy-services" },
-    { name: "Drawings", path: "/services/drawings" },
+    { name: "Engineering Drawings", path: "/services/drawings" },
     { name: "Construction", path: "/services/constructions" },
     { name: "Interior Design", path: "/services/interior-design" },
     { name: "BIM", path: "/services/bim" },
@@ -85,7 +85,7 @@ const Sitemap = () => {
       {links.map((link) => (
         <li key={link.path}>
           <Link to={link.path} className="flex items-center text-white/80 hover:text-cyan-400 transition-colors group">
-            <ChevronRight className="w-5 h-5 mr-2 text-cyan-500 transition-transform group-hover:translate-x-1" />
+            <ChevronRight className="w-5 h-5 min-w-[1.25rem] min-h-[1.25rem] flex-shrink-0 mr-2 text-cyan-500 transition-transform group-hover:translate-x-1" />
             <span>{link.name}</span>
           </Link>
         </li>

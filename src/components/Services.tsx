@@ -213,7 +213,7 @@ const Services = () => {
 									<div className="w-8 h-1 bg-gradient-to-r from-primary/60 to-transparent rounded-full"></div>
 								</div>
 								<p className="text-white/80 text-lg leading-relaxed max-w-lg mb-6">
-									From concept to completion, we deliver integrated engineering, construction, digital, and support services tailored to meet the demands of modern development. Our multidisciplinary expertise enables us to handle complex projects with precision, innovation, and sustainability at the core. Whether it's building environments, managing assets, or empowering professionals through training, we provide end-to-end solutions that drive results locally and worldwide 								</p>
+									From concept to completion, we deliver integrated engineering, construction, digital, and support services tailored to meet the demands of modern development. Our multidisciplinary expertise enables us to handle complex projects with precision, innovation, and sustainability at the core. Whether it's building environments, managing assets, or empowering professionals through training, we provide end-to-end solutions that drive results locally and worldwide. 								</p>
 								<div className="flex flex-wrap gap-4 mb-8">
 								</div>
 								<Button asChild className="group bg-[#0050A0] backdrop-blur-sm  text-white hover:bg-[#00A5E7]/90 hover:border-white/50 px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 shadow-lg">

@@ -229,7 +229,7 @@ const companyLinks: LinkItem[] = [
     { label: "Sitemap", to: "/sitemap" },
     { label: "Quality Policy", to: "/qualitypolicy" },
     { label: "FAQ", to: "/faq" },
-    { label: "Career", to: "/career" },
+    { label: "Careers", to: "/career" },
     { label: "Blog", to: "/blog" },
     { label: "Contact Us", to: "/inquiry" },
 ];

@@ -99,7 +99,7 @@ const About = () => {
 
 								{/* RESPONSIVE FONT: Added xl:text-xl for large screens */}
 								<p className="text-white/90 text-lg xl:text-xl leading-relaxed max-w-lg mb-4">
-									Terrene Engineering (Pvt) Ltd is a globally trusted name in engineering consultancy and contracting With over 20 years of proven expertise, we deliver end-to-end engineering solutions that merge innovation, precision, and sustainability Our team of experienced professionals operates across Sri Lanka, Maldives, Oman, UAE, Qatar, KSA, Australia, Singapore, New Zealand, UK, Canada, Germany, and serves clients around the world
+									Terrene Engineering (Pvt) Ltd is a globally trusted name in engineering consultancy and contracting With over 20 years of proven expertise, we deliver end-to-end engineering solutions that merge innovation, precision, and sustainability Our team of experienced professionals operates across Sri Lanka, Maldives, Oman, UAE, Qatar, KSA, Australia, Singapore, New Zealand, UK, Canada, Germany, and serves clients around the world.
 								</p>
 
 								<div className="flex flex-wrap gap-4 mb-6">

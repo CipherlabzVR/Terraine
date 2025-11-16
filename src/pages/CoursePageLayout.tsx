@@ -586,10 +586,10 @@ const CoursePageLayout = ({ courseData }) => {
                                 {courseData.keyCourseFeatures.map((feature, index) => (
                                     <div key={index} className="relative">
                                         <div className="absolute -inset-0.5 bg-gradient-to-r from-cyan-400 to-blue-600 rounded-xl blur-sm opacity-50"></div>
-                                        <div className="relative h-full bg-slate-900/70 p-6 rounded-xl flex flex-col justify-center items-center">
+                                        <div className="relative h-full bg-slate-900/70 p-6 rounded-xl flex flex-col justify-center items-center mb-4">
                                             {renderFeatureIcon(feature.title)}
-                                            <h4 className="font-bold text-2xl text-white">{feature.title}</h4>
-                                            <p className="text-sm text-white mt-1">{feature.description}</p>
+                                            <h4 className="font-bold text-2xl text-white min-h-10">{feature.title}</h4>
+                                            <p className="text-sm text-white mt-3 min-h-16 ">{feature.description}</p>
                                         </div>
                                     </div>
                                 ))}

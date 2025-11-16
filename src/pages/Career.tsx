@@ -1633,13 +1633,202 @@ const positions = [
             "Exposure to multidisciplinary projects",
             "Bonus for accuracy and timely delivery"
         ]
+    },
+    {
+        id: 51,
+        title: "QA/QC ENGINEER",
+        department: "Engineering",
+        location: "On-site / Hybrid",
+        type: "Full-Time (Project Basis)/ Part-Time",
+        remote: "Hybrid",
+        postedAgo: "2 days ago",
+        tags: ["QA/QC", "ISO 9001", "ASTM"],
+        description: "Lead quality assurance and quality control processes across diverse construction and engineering projects.",
+        overview: "Terrene Engineering (Pvt) Ltd is a multidisciplinary engineering consultancy and contracting firm committed to delivering high-quality infrastructure and building projects. We are seeking a QA/QC Engineer to lead quality assurance and quality control processes across diverse construction and engineering projects.",
+        responsibilities: [
+            "Develop and implement QA/QC procedures, inspection plans, and checklists.",
+            "Monitor quality control activities on-site and in materials laboratories.",
+            "Ensure compliance with international standards (ASTM, BS, ISO).",
+            "Coordinate with site engineers, subcontractors, and consultants.",
+            "Conduct internal audits and prepare quality reports.",
+            "Verify materials and workmanship meet project specifications."
+        ],
+        requirements: [
+            "Bachelor's Honours Degree in Civil Engineering or a related discipline.",
+            "4+ years of QA/QC experience in construction or infrastructure projects.",
+            "Familiarity with ISO 9001 and QA/QC documentation.",
+            "Strong attention to detail and technical reporting skills.",
+            "Experience with laboratory testing and site inspections."
+        ],
+        benefits: [
+            "Competitive salary and project-based incentives.",
+            "Training in international QA standards.",
+            "Travel and site allowances.",
+            "Opportunities for professional certification support."
+        ]
+    },
+    {
+        id: 52,
+        title: "SAFETY ENGINEER",
+        department: "Engineering",
+        location: "Project Sites – Sri Lanka and International Projects",
+        type: "Full-Time (Project Basis)/ Part-Time",
+        remote: "On-site",
+        postedAgo: "2 days ago",
+        tags: ["Safety", "NEBOSH", "ISO 45001"],
+        description: "Enhance on-site safety culture and ensure adherence to all statutory safety regulations and standards.",
+        overview: "Terrene Engineering (Pvt) Ltd is committed to creating safe and compliant workplaces across all our engineering and construction projects. We are seeking a proactive Safety Engineer to enhance our on-site safety culture and ensure adherence to all statutory safety regulations and standards.",
+        responsibilities: [
+            "Conduct risk assessments and site safety audits.",
+            "Develop and implement safety protocols and plans.",
+            "Lead incident investigations and root cause analyses.",
+            "Liaise with authorities on compliance matters.",
+            "Deliver safety training to site staff and subcontractors."
+        ],
+        requirements: [
+            "Degree in Engineering, Occupational Safety, or related field.",
+            "3+ years' experience in construction safety.",
+            "NEBOSH/IOSH certification is a must.",
+            "Knowledge of local safety regulations and ISO 45001.",
+            "Strong communication and reporting skills."
+        ],
+        benefits: [
+            "Competitive industry-aligned salary.",
+            "Safety training and professional development.",
+            "Medical insurance and field allowances.",
+            "Growth pathway to HSE Management roles."
+        ]
+    },
+    {
+        id: 53,
+        title: "SAFETY OFFICER",
+        department: "Engineering",
+        location: "Various Site Locations – Sri Lanka and International Projects",
+        type: "Full-Time",
+        remote: "On-site",
+        postedAgo: "2 days ago",
+        tags: ["Safety", "HSE", "ISO 45001"],
+        description: "Support on-site safety enforcement and assist with audits and training programs.",
+        overview: "Terrene Engineering (Pvt) Ltd prioritizes worker safety and site compliance. We are looking for a diligent Safety Officer to support on-site safety enforcement and assist with audits and training programs.",
+        responsibilities: [
+            "Enforce daily HSE compliance on-site.",
+            "Maintain site safety logs and incident records.",
+            "Report violations and hazards to safety leadership.",
+            "Conduct toolbox talks and safety briefings.",
+            "Ensure use of PPE and safety signage."
+        ],
+        requirements: [
+            "NVQ Level 4/5, Diploma in Occupational Health & Safety.",
+            "Minimum 2 years' experience in safety-related roles.",
+            "Familiarity with ISO 45001 and HSE regulations.",
+            "Observant, proactive, and safety-driven mindset."
+        ],
+        benefits: [
+            "Competitive monthly salary.",
+            "Field-level HSE training.",
+            "Medical cover and PPE support.",
+            "Career pathway to Safety Engineer role."
+        ]
+    },
+    {
+        id: 54,
+        title: "SAFETY MANAGER",
+        department: "Engineering",
+        location: "Head Office & Regional Sites – Sri Lanka and International Projects",
+        type: "Full-Time (Project Basis)/ Part-Time",
+        remote: "Hybrid",
+        postedAgo: "2 days ago",
+        tags: ["Safety", "HSE Management", "NEBOSH"],
+        description: "Lead safety strategy across diverse engineering and construction projects.",
+        overview: "Terrene Engineering (Pvt) Ltd is enhancing its HSE leadership team and invites experienced professionals to lead our safety strategy across diverse engineering and construction projects.",
+        responsibilities: [
+            "Lead the development and execution of HSE systems.",
+            "Conduct regular audits and review safety performance.",
+            "Mentor and manage safety officers and engineers.",
+            "Coordinate emergency response procedures.",
+            "Drive continuous improvement in safety KPIs."
+        ],
+        requirements: [
+            "Bachelor's degree in Engineering or Safety Management.",
+            "7+ years of HSE experience, including leadership roles.",
+            "Certified NEBOSH/OSHA safety professional.",
+            "Strong understanding of ISO 45001 and risk frameworks."
+        ],
+        benefits: [
+            "Industry-leading compensation package.",
+            "Company vehicle and managerial perks.",
+            "HSE conference sponsorships and CPD opportunities.",
+            "Leadership development and career progression."
+        ]
+    },
+    {
+        id: 55,
+        title: "BIM TRAINER",
+        department: "BIM & Digital Twin",
+        location: "Training Division – Sri Lanka and International / Online",
+        type: "Full-Time / Part-Time",
+        remote: "Hybrid",
+        postedAgo: "1 day ago",
+        tags: ["BIM", "Training", "Revit"],
+        description: "Deliver high-quality instruction on Autodesk Revit, Navisworks, and BIM workflows for students and professionals.",
+        overview: "Terrene Engineering (Pvt) Ltd is expanding its digital skills development unit and is looking for BIM Trainers to deliver high-quality instruction on Autodesk Revit, Navisworks, and BIM workflows for students and professionals.",
+        responsibilities: [
+            "Develop and deliver BIM training modules.",
+            "Conduct live sessions and hands-on workshops.",
+            "Evaluate learners and provide constructive feedback.",
+            "Stay updated with latest BIM tools and industry standards.",
+            "Support trainees preparing for BIM certifications."
+        ],
+        requirements: [
+            "Degree/Diploma in Architecture or Engineering.",
+            "3+ years of BIM experience; training experience preferred.",
+            "Proficient in Autodesk Revit, Navisworks, BIM 360.",
+            "Passion for teaching and curriculum development."
+        ],
+        benefits: [
+            "Attractive hourly/full-time trainer remuneration.",
+            "Flexible teaching schedules.",
+            "Access to BIM software and resources.",
+            "Trainer certification sponsorship."
+        ]
+    },
+    {
+        id: 56,
+        title: "DIGITAL TWIN INSTRUCTOR",
+        department: "BIM & Digital Twin",
+        location: "Training Division – Sri Lanka and International / Online",
+        type: "Full-Time / Part-Time",
+        remote: "Hybrid",
+        postedAgo: "1 day ago",
+        tags: ["Digital Twin", "IoT", "Simulation"],
+        description: "Lead learning on digital twin applications, simulation tools, and IoT integration for real-time asset management.",
+        overview: "Terrene Engineering (Pvt) Ltd pioneers innovation in construction technology. We are looking for passionate Digital Twin Instructors to lead learning on digital twin applications, simulation tools, and IoT integration for real-time asset management.",
+        responsibilities: [
+            "Create and deliver Digital Twin learning content.",
+            "Demonstrate real-world applications using simulation software.",
+            "Guide learners in smart infrastructure and asset lifecycle concepts.",
+            "Integrate BIM, IoT, and cloud-based platforms in training.",
+            "Mentor trainees on case-based projects."
+        ],
+        requirements: [
+            "Degree in Engineering, IT, or related field.",
+            "Strong knowledge of Digital Twin tools (e.g., Siemens, Azure, Autodesk Tandem).",
+            "Experience with BIM and IoT integration.",
+            "Prior teaching/training experience is an advantage."
+        ],
+        benefits: [
+            "Competitive session-based pay.",
+            "Access to Digital Twin labs and platforms.",
+            "Involvement in real-time R&D projects.",
+            "Certificates for training delivery."
+        ]
     }
 ];
 
 // --- Job Categories Data ---
 const jobCategories = [
     { title: "Architecture", jobsAvailable: 6, icon: <LucideNewspaper className="w-8 h-8 text-cyan-400" /> },
-    { title: "Engineering", jobsAvailable: 21, icon: <HardHat className="w-8 h-8 text-cyan-400" /> },
+    { title: "Engineering", jobsAvailable: 22, icon: <HardHat className="w-8 h-8 text-cyan-400" /> },
     { title: "Project Management", jobsAvailable: 7, icon: <Presentation className="w-8 h-8 text-cyan-400" /> },
     { title: "BIM & Digital Twin", jobsAvailable: 6, icon: <Layers className="w-8 h-8 text-cyan-400" /> },
     { title: "IT", jobsAvailable: 4, icon: <Laptop className="w-8 h-8 text-cyan-400" /> },
@@ -1786,12 +1975,12 @@ const Career = () => {
 
   const testimonials = [
     {
-      quote: "The best thing about my job at Terrene is the opportunity to work with talented people all over the world who all lean in and drive one goal",
+      quote: "The best thing about my job at Terrene is the opportunity to work with talented people all over the world who all lean in and drive one goal.",
       author: "Zoe Leach-Leeson",
       title: "Communications Officer, United Kingdom"
     },
     {
-      quote: "I've grown more here in two years than I did in five years at my previous company. The mentorship and hands-on project experience are unparalleled",
+      quote: "I've grown more here in two years than I did in five years at my previous company. The mentorship and hands-on project experience are unparalleled.",
       author: "Aarav Sharma",
       title: "Senior Structural Engineer, Colombo"
     },
@@ -1801,7 +1990,7 @@ const Career = () => {
       title: "Environmental Consultant, India"
     },
     {
-      quote: "The collaborative environment and the freedom to innovate make every day exciting. We are truly building the future, together",
+      quote: "The collaborative environment and the freedom to innovate make every day exciting. We are truly building the future, together.",
       author: "Johnathan Chen",
       title: "Lead MEP Engineer, Singapore"
     }
@@ -1938,7 +2127,7 @@ const Career = () => {
                     to Get Your New Job
                   </h2>
                   <p className="text-xl text-gray-300 leading-relaxed max-w-4xl mb-8">
-                    At Terrene, we are a dynamic, growing company where innovation thrives, and collaboration drives success. We empower you to take on challenges your way, with a strong, supportive community behind you. Here, every voice matters, and you have the freedom to shape your role and make a real impact                   </p>
+                    At Terrene, we are a dynamic, growing company where innovation thrives, and collaboration drives success. We empower you to take on challenges your way, with a strong, supportive community behind you. Here, every voice matters, and you have the freedom to shape your role and make a real impact.                   </p>
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="bg-[#0050A0] hover:bg-cyan-400/80 text-white px-8 py-3 rounded-lg font-semibold text-lg transition-all hover:scale-105">
                       <a href="#open-positions">BROWSE OPENINGS</a>
@@ -2091,7 +2280,7 @@ const Career = () => {
                                 <div className="flex items-center text-xs text-gray-400 gap-4 mb-4">
                                     <span>{position.type}</span>
                                     <span>•</span>
-                                    <span>{position.postedAgo}</span>
+                                    <span></span>
                                 </div>
     
                                 <p className="text-gray-300 text-sm mb-4 flex-grow line-clamp-3">
@@ -2145,10 +2334,12 @@ const Career = () => {
                             Don't see the perfect role?
                         </h3>
                         <p className="text-gray-200 text-lg mb-8 max-w-2xl mx-auto">
-                            We're always looking for talented individuals to join our team. Send us your resume and tell us how you'd like to contribute to Terrene Engineering (Pvt) Ltd                         </p>
-                        <Button className="bg-[#0050A0] backdrop-blur-sm hover:bg-cyan-500/80 text-white  hover:border-white/50 px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-                            SEND GENERAL APPLICATION
-                        </Button>
+                            We're always looking for talented individuals to join our team. Send us your resume and tell us how you'd like to contribute to Terrene Engineering (Pvt) Ltd.                         </p>
+                        <a href="https://forms.gle/ZPcdmBef2HJ4ShXW7" target="_blank" rel="noopener noreferrer">
+                            <Button className="bg-[#0050A0] backdrop-blur-sm hover:bg-cyan-500/80 text-white  hover:border-white/50 px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                                SEND GENERAL APPLICATION
+                            </Button>
+                        </a>
                     </div>
                 </div>
             </div>

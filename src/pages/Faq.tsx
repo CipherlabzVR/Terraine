@@ -282,7 +282,7 @@ const handleToggle = (index: number) => {
                           Frequently Asked Questions
                       </h2>
                       <p className="text-white text-lg sm:text-xl text-left max-w-4xl leading-relaxed">
-                          This section addresses common inquiries about our services, capabilities, and global operations. Whether you're exploring our engineering solutions, quality commitments, or sustainability practices, these answers are designed to help you better understand how Terrene Engineering delivers value across every project                       </p>
+                          This section addresses common inquiries about our services, capabilities, and global operations. Whether you're exploring our engineering solutions, quality commitments, or sustainability practices, these answers are designed to help you better understand how Terrene Engineering delivers value across every project.                       </p>
                   </div>
 
                   <div className="w-full">
